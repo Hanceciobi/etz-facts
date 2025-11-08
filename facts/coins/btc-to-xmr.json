@@ -1,0 +1,37 @@
+{
+  "pairId": "btc-to-xmr",
+  "from": {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "coinPage": "https://etz-swap.com/en/coins/btc"
+  },
+  "to": {
+    "symbol": "XMR",
+    "name": "Monero",
+    "coinPage": "https://etz-swap.com/en/coins/xmr"
+  },
+  "pageUrl": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-swap-privacy-first-guide-cover.webp",
+  "quickSteps": [
+    "Open the pair BTC→XMR on ETZ Swap and review the quote.",
+    "Update BTC/XMR wallets, back up seeds, and generate a fresh XMR receiving address.",
+    "Choose rate type: Fixed (exact amount) or Floating (tighter spreads).",
+    "Send a small BTC test transaction; confirm XMR arrival and payout behavior.",
+    "Send the main BTC amount within the time window; verify incoming XMR."
+  ],
+  "friendLinks": [
+    {
+      "title": "BTC coin page",
+      "url": "https://etz-swap.com/en/coins/btc"
+    },
+    {
+      "title": "XMR coin page",
+      "url": "https://etz-swap.com/en/coins/xmr"
+    }
+  ],
+  "seo": {
+    "title": "BTC to XMR Swap: Private, Secure, Efficient",
+    "description": "Practical BTC→XMR guide: privacy, fungibility, execution steps, costs, and pitfalls to avoid."
+  },
+  "updatedAt": "2025-11-07T22:48:59Z"
+}
