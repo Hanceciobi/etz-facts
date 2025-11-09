@@ -1,0 +1,31 @@
+{
+  "pairId": "eth-to-xmr",
+  "from": {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "coinPage": "https://etz-swap.com/en/coins/eth"
+  },
+  "to": {
+    "symbol": "XMR",
+    "name": "Monero",
+    "coinPage": "https://etz-swap.com/en/coins/xmr"
+  },
+  "pageUrl": "https://etz-swap.com/en/exchange-pair/eth-eth-xmr-xmr-0.125",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/eth-to-xmr-private-value-transfer-cover.webp",
+  "quickSteps": [
+    "Open the pair ETH→XMR on ETZ Swap and review the quote.",
+    "Update ETH/XMR wallets, back up seeds, and generate a fresh XMR receiving address.",
+    "Choose rate type: Fixed (exact amount) or Floating (tighter spreads).",
+    "Send a small ETH test transaction; confirm XMR arrival and payout behavior.",
+    "Send the main ETH amount within the time window; verify incoming XMR."
+  ],
+  "friendLinks": [
+    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"},
+    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"}
+  ],
+  "seo": {
+    "title": "Swap ETH to XMR: Private, Fungible Payments",
+    "description": "Practical ETH→XMR guide: privacy, fungibility, execution tips, costs, and pitfalls to avoid."
+  },
+  "updatedAt": "2025-11-09T00:00:00Z"
+}
