@@ -1,0 +1,31 @@
+{
+  "pairId": "btc-to-eth",
+  "from": {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "coinPage": "https://etz-swap.com/en/coins/btc"
+  },
+  "to": {
+    "symbol": "ETH",
+    "name": "Ether",
+    "coinPage": "https://etz-swap.com/en/coins/eth"
+  },
+  "pageUrl": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-eth-swap-simple-guide-cover.webp",
+  "quickSteps": [
+    "Open the pair BTC→ETH on ETZ Swap and confirm the live quote for your target amount.",
+    "Update BTC/ETH wallets, back up seeds, and create a fresh ETH receiving address.",
+    "Pick quote logic: Fixed (exact amount) or Floating (tighter pricing).",
+    "Send a small BTC test; verify ETH arrival and payout behavior.",
+    "Send the main BTC amount in 1–2 parts; check your ETH balance after each."
+  ],
+  "friendLinks": [
+    {"title": "BTC coin page", "url": "https://etz-swap.com/en/coins/btc"},
+    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"}
+  ],
+  "seo": {
+    "title": "BTC to ETH: Simple Reasons and a Calm, Repeatable Swap",
+    "description": "Clear reasons to rotate from Bitcoin to Ether and a safe, step-by-step process you can reuse."
+  },
+  "updatedAt": "2025-11-09T00:00:00Z"
+}
