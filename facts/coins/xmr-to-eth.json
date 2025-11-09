@@ -1,0 +1,31 @@
+{
+  "pairId": "xmr-to-eth",
+  "from": {
+    "symbol": "XMR",
+    "name": "Monero",
+    "coinPage": "https://etz-swap.com/en/coins/xmr"
+  },
+  "to": {
+    "symbol": "ETH",
+    "name": "Ether",
+    "coinPage": "https://etz-swap.com/en/coins/eth"
+  },
+  "pageUrl": "https://etz-swap.com/en/exchange-pair/xmr-xmr-eth-eth-1",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xmr-to-eth-how-and-why-cover.webp",
+  "quickSteps": [
+    "Open the XMR→ETH pair and choose the ETH network (e.g., mainnet); see friendly coin pages at /en/coins/xmr and /en/coins/eth.",
+    "Load a quote: Fixed for an exact ETH out-amount; Floating for live pricing with small variance.",
+    "Prepare a fresh ETH receiving address and verify the first/last characters.",
+    "Sanity-check address, ETH network, and the quote timer; for larger amounts consider 2–3 parts.",
+    "Send XMR within the quote window and verify the expected ETH amount after wallet sync."
+  ],
+  "friendLinks": [
+    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"},
+    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"}
+  ],
+  "seo": {
+    "title": "XMR to ETH: Simple Reasons and a Calm, Repeatable Swap",
+    "description": "A practical XMR→ETH guide with clear reasons, unique 5-step swap checklist, and absolute URLs for crawlers."
+  },
+  "updatedAt": "2025-11-09T00:00:00Z"
+}
