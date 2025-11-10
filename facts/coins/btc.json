@@ -1,0 +1,29 @@
+{
+  "coin": {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "slug": "btc",
+    "coinPage": "https://etz-swap.com/en/coins/btc",
+    "cover": "https://etz-swap.com/blog/bitcoin-explained-cover.webp"
+  },
+  "summary": "Bitcoin (BTC) is decentralized digital money secured by Proof-of-Work with fixed, predictable issuance and a hard cap of 21M coins.",
+  "highlights": [
+    "Fixed supply trajectory with ~4-year halvings",
+    "PoW security; full-node validation and neutrality",
+    "Taproot upgrade: privacy/efficiency for complex spends",
+    "Lightning Network: fast, low-fee BTC payments"
+  ],
+  "relatedPairs": [
+    {"title": "BTC→XMR", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125"},
+    {"title": "BTC→ETH", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125"}
+  ],
+  "friendLinks": [
+    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"},
+    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"}
+  ],
+  "seo": {
+    "title": "Bitcoin (BTC) Explained: Origins, Design, Upgrades, and Real-World Use",
+    "description": "BTC in plain terms with cross-links to real exchange pairs and absolute URLs for crawlers."
+  },
+  "updatedAt": "2025-11-10T00:00:00Z"
+}
