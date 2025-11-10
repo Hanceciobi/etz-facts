@@ -1,0 +1,21 @@
+{
+  "coinId": "xrp",
+  "symbol": "XRP",
+  "name": "Ripple (XRP)",
+  "pageUrl": "https://etz-swap.com/en/coins/xrp",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xrp-payments-ledger-cover.webp",
+  "quickSteps": [
+    "Confirm you’re on the canonical XRP coin page.",
+    "Choose your working rail for XRP that fits fee/latency/tooling needs.",
+    "Harden wallet ops: update, offline seed backup, labeled XRP account.",
+    "Handle destination tags/memos when required by custodians.",
+    "Test with a small transfer, then scale routine settlements."
+  ],
+  "friendLinks": [],
+  "relatedSwaps": {},
+  "seo": {
+    "title": "XRP (Ripple) — Payments Rail, Ledger Design & Utility",
+    "description": "XRPL’s payments-first architecture, consensus via UNLs, built-in DEX/IOUs, fee burn, security model, and real-world utility."
+  },
+  "updatedAt": "2025-11-10T09:00:00Z"
+}
