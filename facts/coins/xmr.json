@@ -1,0 +1,34 @@
+{
+  "coin": {
+    "symbol": "XMR",
+    "name": "Monero",
+    "slug": "xmr",
+    "coinPage": "https://etz-swap.com/en/coins/xmr",
+    "cover": "https://etz-swap.com/blog/monero-private-cash-cover.webp"
+  },
+  "summary": "Monero (XMR) is private digital cash: stealth addresses, ring signatures, RingCT; practical confidentiality and cash-like fungibility.",
+  "highlights": [
+    "Default privacy for senders, recipients, and amounts",
+    "Cash-like fungibility (reduced taint concerns)",
+    "Selective transparency via payment proofs or view keys",
+    "CPU-friendly PoW for broader participation"
+  ],
+  "relatedPairs": [
+    {"title": "BTC→XMR", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125"},
+    {"title": "ETH→XMR", "url": "https://etz-swap.com/en/exchange-pair/eth-eth-xmr-xmr-0.125"},
+    {"title": "USDT→XMR", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-xmr-xmr-100"},
+    {"title": "XMR→ETH", "url": "https://etz-swap.com/en/exchange-pair/xmr-xmr-eth-eth-1"},
+    {"title": "TRX→XMR", "url": "https://etz-swap.com/en/exchange-pair/trx-trx-xmr-xmr-300"}
+  ],
+  "friendLinks": [
+    {"title": "TRX coin page", "url": "https://etz-swap.com/en/coins/trx"},
+    {"title": "BTC coin page", "url": "https://etz-swap.com/en/coins/btc"},
+    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"},
+    {"title": "USDT coin page", "url": "https://etz-swap.com/en/coins/usdt"}
+  ],
+  "seo": {
+    "title": "Monero (XMR) Explained — Private Digital Cash",
+    "description": "Monero in plain terms with cross-links to real exchange pairs and absolute URLs for crawlers."
+  },
+  "updatedAt": "2025-11-10T00:00:00Z"
+}
