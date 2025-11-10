@@ -4,7 +4,7 @@
     "name": "Tether",
     "slug": "usdt",
     "coinPage": "https://etz-swap.com/en/coins/usdt",
-    "cover": "https://etz-swap.com/blog/usdt-explained-cover.webp"
+    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-explained-cover.webp"
   },
   "summary": "USDT is a fiat-referenced stablecoin targeting $1. It circulates on multiple chains and is widely used for settlement, liquidity, and treasury operations.",
   "highlights": [
