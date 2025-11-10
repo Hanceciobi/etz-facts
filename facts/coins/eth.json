@@ -1,0 +1,31 @@
+{
+  "coin": {
+    "symbol": "ETH",
+    "name": "Ether",
+    "slug": "eth",
+    "coinPage": "https://etz-swap.com/en/coins/eth",
+    "cover": "https://etz-swap.com/blog/ethereum-explained-cover.webp"
+  },
+  "summary": "Ethereum (ETH) is a programmable blockchain for apps and digital agreements. ETH pays for gas and secures consensus via Proof-of-Stake.",
+  "highlights": [
+    "Programmable EVM with ERC standards and composability",
+    "Proof-of-Stake security; rewards and slashing",
+    "EIP-1559 base fee burn linking usage to supply pressure",
+    "Rollup-centric scaling: L2s inherit L1 security"
+  ],
+  "relatedPairs": [
+    {"title": "BTC→ETH", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125"},
+    {"title": "ETH→XMR", "url": "https://etz-swap.com/en/exchange-pair/eth-eth-xmr-xmr-0.125"},
+    {"title": "XMR→ETH", "url": "https://etz-swap.com/en/exchange-pair/xmr-xmr-eth-eth-1"}
+  ],
+  "friendLinks": [
+    {"title": "BTC coin page", "url": "https://etz-swap.com/en/coins/btc"},
+    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"},
+    {"title": "USDT coin page", "url": "https://etz-swap.com/en/coins/usdt"}
+  ],
+  "seo": {
+    "title": "Ethereum (ETH) Explained — Programmable Blockchain & Staking",
+    "description": "ETH in plain terms with cross-links to real exchange pairs and absolute URLs for crawlers."
+  },
+  "updatedAt": "2025-11-10T00:00:00Z"
+}
