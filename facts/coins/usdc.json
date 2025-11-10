@@ -1,0 +1,37 @@
+{
+  "coinId": "usdc",
+  "symbol": "USDC",
+  "name": "USD Coin",
+  "pageUrl": "https://etz-swap.com/en/coins/usdc",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdc-explained-cover.webp",
+  "quickSteps": [
+    "Open the canonical USDC coin page.",
+    "Pick your working rails (Ethereum, Tron, Solana) matching fee and tooling needs.",
+    "Set wallet hygiene: update, back up seed offline, label a dedicated USDC account.",
+    "Fund and test basic flows (optional for large amounts) to confirm fees and latency.",
+    "Plan exits and conversions (fiat ramps or USDC→XMR for private settlement)."
+  ],
+  "friendLinks": [],
+  "relatedSwaps": {
+    "Privacy & settlement (to XMR)": [
+      { "title": "BTC → XMR", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125" },
+      { "title": "ETH → XMR", "url": "https://etz-swap.com/en/exchange-pair/eth-eth-xmr-xmr-0.125" },
+      { "title": "USDT → XMR", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-xmr-xmr-100" },
+      { "title": "TRX → XMR", "url": "https://etz-swap.com/en/exchange-pair/trx-trx-xmr-xmr-300" }
+    ],
+    "Move between majors": [
+      { "title": "BTC → ETH", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125" }
+    ],
+    "Back from private rail (XMR → public)": [
+      { "title": "XMR → ETH", "url": "https://etz-swap.com/en/exchange-pair/xmr-xmr-eth-eth-1" }
+    ],
+    "Stable → smart-contract ecosystems": [
+      { "title": "USDT → SOL", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-sol-sol-100" }
+    ]
+  },
+  "seo": {
+    "title": "USDC (USD Coin) — Design, Reserves, Risks & Uses",
+    "description": "How USDC works across networks, reserves and attestations, key risks, security model, and everyday uses."
+  },
+  "updatedAt": "2025-11-10T09:30:00Z"
+}
