@@ -4,7 +4,7 @@
     "name": "Bitcoin",
     "slug": "btc",
     "coinPage": "https://etz-swap.com/en/coins/btc",
-    "cover": "https://etz-swap.com/blog/bitcoin-explained-cover.webp"
+    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/bitcoin-explained-cover.webp"
   },
   "summary": "Bitcoin (BTC) is decentralized digital money secured by Proof-of-Work with fixed, predictable issuance and a hard cap of 21M coins.",
   "highlights": [
