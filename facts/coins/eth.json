@@ -4,7 +4,7 @@
     "name": "Ether",
     "slug": "eth",
     "coinPage": "https://etz-swap.com/en/coins/eth",
-    "cover": "https://etz-swap.com/blog/ethereum-explained-cover.webp"
+    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ethereum-explained-cover.webp"
   },
   "summary": "Ethereum (ETH) is a programmable blockchain for apps and digital agreements. ETH pays for gas and secures consensus via Proof-of-Stake.",
   "highlights": [
