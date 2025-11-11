@@ -1,0 +1,25 @@
+{
+  "coinId": "trx",
+  "symbol": "TRX",
+  "name": "TRON (TRX)",
+  "pageUrl": "https://etz-swap.com/en/coins/trx",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/trx-explained-cover.webp",
+  "quickSteps": [
+    "Choose direction on this page: TRX → XMR in the widget.",
+    "Check the quote: live rate, fees, limits, and lock window.",
+    "Enter your XMR address from a self-custody wallet and verify it.",
+    "Send the exact TRX amount and wait for confirmations.",
+    "Receive XMR; rotate addresses if you want extra discretion."
+  ],
+  "friendLinks": [],
+  "relatedSwaps": {
+    "Privacy & settlement (to XMR)": [
+      { "title": "TRX → XMR", "url": "https://etz-swap.com/en/exchange-pair/trx-trx-xmr-xmr-300" }
+    ]
+  },
+  "seo": {
+    "title": "TRON (TRX) — Low-Fee Transfers, Liquidity & Private Settlement",
+    "description": "TRX utility, liquidity, predictable fees, risk habits, and a pragmatic TRX → XMR path for confidential payouts."
+  },
+  "updatedAt": "2025-11-11T08:00:00Z"
+}
