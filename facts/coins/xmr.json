@@ -4,7 +4,7 @@
     "name": "Monero",
     "slug": "xmr",
     "coinPage": "https://etz-swap.com/en/coins/xmr",
-    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-private-cash-cover.webp"
+    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-private-cash-xmr-cover.webp"
   },
   "summary": "Monero (XMR) is private digital cash: stealth addresses, ring signatures, RingCT; practical confidentiality and cash-like fungibility.",
   "highlights": [
