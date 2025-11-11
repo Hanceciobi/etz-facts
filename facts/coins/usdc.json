@@ -3,7 +3,7 @@
   "symbol": "USDC",
   "name": "USD Coin",
   "pageUrl": "https://etz-swap.com/en/coins/usdc",
-  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdc-explained-cover.webp",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdc-explained-usdc-cover.webp",
   "quickSteps": [
     "Open the canonical USDC coin page.",
     "Pick your working rails (Ethereum, Tron, Solana) matching fee and tooling needs.",
