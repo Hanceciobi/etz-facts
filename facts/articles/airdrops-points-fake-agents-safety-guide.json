@@ -1,7 +1,7 @@
 {
   "title": "Airdrops, Points, and Fake Agents: A Practical Safety Guide",
-  "pageUrl": "https://etz-swap.com/en/blog/airdrops-points-and-fake-agents-safety-guide",
-  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/airdrops-points-and-fake-agents-safety-guide-cover.webp",
+  "pageUrl": "https://etz-swap.com/en/blog/airdrops-points-fake-agents-safety-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/airdrops-points-fake-agents-safety-guide-cover.webp",
   "quickSteps": [
     "Start only from the official source.",
     "Do a one-minute page & wallet check.",
@@ -10,7 +10,7 @@
     "If something went wrong, contain it now."
   ],
   "seo": {
-    "keywords": "crypto airdrop checklist,verify claim domain,wallet drainer approve unlimited,permit signature risk,points farming safety",
+    "keywords": "crypto airdrop checklist,verify claim domain,wallet drainer approve unlimited,permit signature risk,points farming safety,web3 security",
     "description": "A calm, practical guide to avoid airdrop/points scams and shrink blast radius."
   },
   "updatedAt": "2025-11-12T00:00:00Z"
