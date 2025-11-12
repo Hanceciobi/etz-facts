@@ -1,0 +1,31 @@
+{
+  "title": "Solana & TON Meme Coins: Trend Signals and Selection Guide",
+  "pageUrl": "https://etz-swap.com/en/blog/solana-ton-meme-coins-viral-traffic-magnets-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/solana-ton-meme-coins-viral-traffic-magnets-guide-cover.webp",
+  "quickSteps": [
+    "Start from the primary source and write your one-line reason: why this meme coin and why now. Map the first two expected hops—this could be a Telegram bot/channel on TON or an aggregator/feed on Solana.",
+    "Do a one-minute express check: ownership clarity, mint authority burned, LP lock in place, and pool depth that keeps slippage within 1–2% for a larger buy. If a hidden tax exists or LP is still unlocked—skip.",
+    "Verify real momentum: new holders per hour rising, distribution across independent channels (not the same three chats), and no spread blow-outs during sharp candles. If LP is not locked and you see the first pump, wait it out.",
+    "Enter without illusions and with full responsibility: size small relative to pool depth so you do not move the market yourself. Set exit rules in advance—if two of three deteriorate (new users, pool depth, normal conversion), exit regardless of emotions. Take profits in parts and enforce a cooldown after vertical moves.",
+    "Trader hygiene after execution: revoke any spending approvals you granted, move profits to long-term storage, jot down what worked and what failed, and update next week’s watchlist with your Solana vs TON bias."
+  ],
+  "seo": {
+    "keywords": "Solana meme coins, TON meme coins, viral coin trends, LP lock, holders per hour, slippage bands, governance safety, black mold rule, scorecard, crypto swap xmr",
+    "description": "Viral ‘traffic magnets’ on Solana/TON—how to separate signal from noise, act with discipline, and avoid red flags."
+  },
+  "friendLinks": [
+    {
+      "title": "TON: Telegram-native community blockchain",
+      "url": "https://etz-swap.com/en/blog/ton-telegram-community-blockchain"
+    },
+    {
+      "title": "USDT→SOL swap pair",
+      "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-sol-sol-100"
+    },
+    {
+      "title": "Monero (XMR) coin page",
+      "url": "https://etz-swap.com/en/coins/xmr"
+    }
+  ],
+  "updatedAt": "2025-11-12T19:20:00Z"
+}
