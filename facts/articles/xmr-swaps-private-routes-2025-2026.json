@@ -1,0 +1,17 @@
+{
+  "title": "XMR Swaps and Private Routes: 2025–2026 Guide",
+  "pageUrl": "https://etz-swap.com/en/blog/xmr-swaps-private-routes-2025-2026",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xmr-swaps-private-routes-2025-2026-cover.webp",
+  "quickSteps": [
+    "Map the full route before you move anything: where the funds start, where the XMR segment sits, which asset you exit into, and who sees each leg of the path.",
+    "Separate roles, devices, and timing: keep KYC accounts, private wallets, and test amounts on distinct profiles and avoid running every swap as an instant mirror.",
+    "Shape amounts and networks so they blend in: prefer liquid pairs, avoid highly unique sums, and rehearse any new route with a small swap first.",
+    "Use non-custodial tools with transparent behaviour: clear timers, understandable fees, predictable payouts, and human support you can actually reach.",
+    "After the swap, contain and clean up: move long-term XMR into safer storage, revoke unneeded approvals, rotate addresses if needed, and keep only minimal private notes for yourself."
+  ],
+  "seo": {
+    "keywords": "XMR swaps,Monero private routes,anonymous crypto exchange,no KYC XMR,USDT to XMR,private crypto paths,crypto swap xmr",
+    "description": "A clear, narrative guide to XMR swaps and private routes in 2025–2026: how Monero fits into full paths, what can still leak, and five habits that actually help."
+  },
+  "updatedAt": "2025-11-14T19:00:00+03:00"
+}
