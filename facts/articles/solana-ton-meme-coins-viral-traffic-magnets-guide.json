@@ -1,6 +1,6 @@
 {
   "title": "Solana & TON Meme Coins: Trend Signals and Selection Guide",
-  "pageUrl": "https://etz-swap.com/en/blog/solana-ton-meme-coins-viral-traffic-magnets-guide",
+  "pageUrl": "https://etz-swap.com/blog/solana-ton-meme-coins-viral-traffic-magnets-guide",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/solana-ton-meme-coins-viral-traffic-magnets-guide-cover.webp",
   "quickSteps": [
     "Start from the primary source and write your one-line reason: why this meme coin and why now. Map the first two expected hops—this could be a Telegram bot/channel on TON or an aggregator/feed on Solana.",
@@ -16,15 +16,15 @@
   "friendLinks": [
     {
       "title": "TON: Telegram-native community blockchain",
-      "url": "https://etz-swap.com/en/blog/ton-telegram-community-blockchain"
+      "url": "https://etz-swap.com/blog/ton-telegram-community-blockchain"
     },
     {
       "title": "USDT→SOL swap pair",
-      "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-sol-sol-100"
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100"
     },
     {
       "title": "Monero (XMR) coin page",
-      "url": "https://etz-swap.com/en/coins/xmr"
+      "url": "https://etz-swap.com/coins/xmr"
     }
   ],
   "updatedAt": "2025-11-12T19:20:00Z"
