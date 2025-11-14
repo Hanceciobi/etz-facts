@@ -3,7 +3,7 @@
     "symbol": "BTC",
     "name": "Bitcoin",
     "slug": "btc",
-    "coinPage": "https://etz-swap.com/en/coins/btc",
+    "coinPage": "https://etz-swap.com/coins/btc",
     "cover": "https://api.etz-swap.com/api/v1/content?path=blog/bitcoin-explained-btc-cover.webp"
   },
   "summary": "Bitcoin (BTC) is decentralized digital money secured by Proof-of-Work with fixed, predictable issuance and a hard cap of 21M coins.",
@@ -14,12 +14,12 @@
     "Lightning Network: fast, low-fee BTC payments"
   ],
   "relatedPairs": [
-    {"title": "BTC→XMR", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125"},
-    {"title": "BTC→ETH", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125"}
+    {"title": "BTC→XMR", "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125"},
+    {"title": "BTC→ETH", "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125"}
   ],
   "friendLinks": [
-    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"},
-    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"}
+    {"title": "XMR coin page", "url": "https://etz-swap.com/coins/xmr"},
+    {"title": "ETH coin page", "url": "https://etz-swap.com/coins/eth"}
   ],
   "seo": {
     "title": "Bitcoin (BTC) Explained: Origins, Design, Upgrades, and Real-World Use",
