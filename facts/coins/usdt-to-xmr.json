@@ -3,14 +3,14 @@
   "from": {
     "symbol": "USDT",
     "name": "Tether USD",
-    "coinPage": "https://etz-swap.com/en/coins/usdt"
+    "coinPage": "https://etz-swap.com/coins/usdt"
   },
   "to": {
     "symbol": "XMR",
     "name": "Monero",
-    "coinPage": "https://etz-swap.com/en/coins/xmr"
+    "coinPage": "https://etz-swap.com/coins/xmr"
   },
-  "pageUrl": "https://etz-swap.com/en/exchange-pair/usdt-eth-xmr-xmr-100",
+  "pageUrl": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-to-xmr-reasons-and-incentives-guide-cover.webp",
   "quickSteps": [
     "Choose the USDT→XMR pair and select the USDT network (ERC20/TRC20/etc.).",
@@ -20,8 +20,8 @@
     "Send USDT within the quote window and, after wallet sync, confirm that the expected XMR amount is present."
   ],
   "friendLinks": [
-    {"title": "USDT coin page", "url": "https://etz-swap.com/en/coins/usdt"},
-    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"}
+    {"title": "USDT coin page", "url": "https://etz-swap.com/coins/usdt"},
+    {"title": "XMR coin page", "url": "https://etz-swap.com/coins/xmr"}
   ],
   "seo": {
     "title": "USDT→XMR: Privacy, Reasons, and Real-World Incentives",
