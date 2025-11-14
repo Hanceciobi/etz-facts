@@ -2,7 +2,7 @@
   "coinId": "trx",
   "symbol": "TRX",
   "name": "TRON (TRX)",
-  "pageUrl": "https://etz-swap.com/en/coins/trx",
+  "pageUrl": "https://etz-swap.com/coins/trx",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/trx-explained-cover.webp",
   "quickSteps": [
     "Choose direction on this page: TRX → XMR in the widget.",
@@ -14,7 +14,7 @@
   "friendLinks": [],
   "relatedSwaps": {
     "Privacy & settlement (to XMR)": [
-      { "title": "TRX → XMR", "url": "https://etz-swap.com/en/exchange-pair/trx-trx-xmr-xmr-300" }
+      { "title": "TRX → XMR", "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300" }
     ]
   },
   "seo": {
