@@ -2,7 +2,7 @@
   "coinId": "xrp",
   "symbol": "XRP",
   "name": "Ripple (XRP)",
-  "pageUrl": "https://etz-swap.com/en/coins/xrp",
+  "pageUrl": "https://etz-swap.com/coins/xrp",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xrp-payments-ledger-cover.webp",
   "quickSteps": [
     "Confirm you’re on the canonical XRP coin page.",
