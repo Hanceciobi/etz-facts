@@ -2,7 +2,7 @@
   "coinId": "usdc",
   "symbol": "USDC",
   "name": "USD Coin",
-  "pageUrl": "https://etz-swap.com/en/coins/usdc",
+  "pageUrl": "https://etz-swap.com/coins/usdc",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdc-explained-usdc-cover.webp",
   "quickSteps": [
     "Open the canonical USDC coin page.",
@@ -14,19 +14,19 @@
   "friendLinks": [],
   "relatedSwaps": {
     "Privacy & settlement (to XMR)": [
-      { "title": "BTC → XMR", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125" },
-      { "title": "ETH → XMR", "url": "https://etz-swap.com/en/exchange-pair/eth-eth-xmr-xmr-0.125" },
-      { "title": "USDT → XMR", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-xmr-xmr-100" },
-      { "title": "TRX → XMR", "url": "https://etz-swap.com/en/exchange-pair/trx-trx-xmr-xmr-300" }
+      { "title": "BTC → XMR", "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125" },
+      { "title": "ETH → XMR", "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125" },
+      { "title": "USDT → XMR", "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100" },
+      { "title": "TRX → XMR", "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300" }
     ],
     "Move between majors": [
-      { "title": "BTC → ETH", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125" }
+      { "title": "BTC → ETH", "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125" }
     ],
     "Back from private rail (XMR → public)": [
-      { "title": "XMR → ETH", "url": "https://etz-swap.com/en/exchange-pair/xmr-xmr-eth-eth-1" }
+      { "title": "XMR → ETH", "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1" }
     ],
     "Stable → smart-contract ecosystems": [
-      { "title": "USDT → SOL", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-sol-sol-100" }
+      { "title": "USDT → SOL", "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100" }
     ]
   },
   "seo": {
