@@ -3,7 +3,7 @@
     "symbol": "USDT",
     "name": "Tether",
     "slug": "usdt",
-    "coinPage": "https://etz-swap.com/en/coins/usdt",
+    "coinPage": "https://etz-swap.com/coins/usdt",
     "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-explained-cover.webp"
   },
   "summary": "USDT is a fiat-referenced stablecoin targeting $1. It circulates on multiple chains and is widely used for settlement, liquidity, and treasury operations.",
@@ -14,12 +14,12 @@
     "Operational considerations: custody, network selection, compliance"
   ],
   "relatedPairs": [
-    {"title": "USDT→XMR", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-xmr-xmr-100"},
-    {"title": "USDT→SOL", "url": "https://etz-swap.com/en/exchange-pair/usdt-eth-sol-sol-100"}
+    {"title": "USDT→XMR", "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100"},
+    {"title": "USDT→SOL", "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100"}
   ],
   "friendLinks": [
-    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"},
-    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"}
+    {"title": "ETH coin page", "url": "https://etz-swap.com/coins/eth"},
+    {"title": "XMR coin page", "url": "https://etz-swap.com/coins/xmr"}
   ],
   "seo": {
     "title": "USDT (Tether): Stability, Risks & Everyday Uses",
