@@ -3,14 +3,14 @@
   "from": {
     "symbol": "TRX",
     "name": "Tron",
-    "coinPage": "https://etz-swap.com/en/coins/trx"
+    "coinPage": "https://etz-swap.com/coins/trx"
   },
   "to": {
     "symbol": "XMR",
     "name": "Monero",
-    "coinPage": "https://etz-swap.com/en/coins/xmr"
+    "coinPage": "https://etz-swap.com/coins/xmr"
   },
-  "pageUrl": "https://etz-swap.com/en/exchange-pair/trx-trx-xmr-xmr-300",
+  "pageUrl": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/trx-to-xmr-smart-swap-for-privacy-cover.webp",
   "quickSteps": [
     "Open the TRX→XMR pair and choose the TRX network; see friendly pages at /en/coins/trx and /en/coins/xmr.",
@@ -20,8 +20,8 @@
     "Send TRX within the quote window and verify the expected XMR amount after wallet sync."
   ],
   "friendLinks": [
-    { "title": "TRX coin page", "url": "https://etz-swap.com/en/coins/trx" },
-    { "title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr" }
+    { "title": "TRX coin page", "url": "https://etz-swap.com/coins/trx" },
+    { "title": "XMR coin page", "url": "https://etz-swap.com/coins/xmr" }
   ],
   "seo": {
     "title": "TRX→XMR: Smart, Private Swaps Made Simple",
