@@ -3,14 +3,14 @@
   "from": {
     "symbol": "BTC",
     "name": "Bitcoin",
-    "coinPage": "https://etz-swap.com/en/coins/btc"
+    "coinPage": "https://etz-swap.com/coins/btc"
   },
   "to": {
     "symbol": "XMR",
     "name": "Monero",
-    "coinPage": "https://etz-swap.com/en/coins/xmr"
+    "coinPage": "https://etz-swap.com/coins/xmr"
   },
-  "pageUrl": "https://etz-swap.com/en/exchange-pair/btc-btc-xmr-xmr-0.125",
+  "pageUrl": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-swap-privacy-first-guide-cover.webp",
   "quickSteps": [
     "Open the pair BTC→XMR on ETZ Swap and review the quote.",
@@ -22,11 +22,11 @@
   "friendLinks": [
     {
       "title": "BTC coin page",
-      "url": "https://etz-swap.com/en/coins/btc"
+      "url": "https://etz-swap.com/coins/btc"
     },
     {
       "title": "XMR coin page",
-      "url": "https://etz-swap.com/en/coins/xmr"
+      "url": "https://etz-swap.com/coins/xmr"
     }
   ],
   "seo": {
