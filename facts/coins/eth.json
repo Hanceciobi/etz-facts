@@ -3,7 +3,7 @@
     "symbol": "ETH",
     "name": "Ether",
     "slug": "eth",
-    "coinPage": "https://etz-swap.com/en/coins/eth",
+    "coinPage": "https://etz-swap.com/coins/eth",
     "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ethereum-explained-cover.webp"
   },
   "summary": "Ethereum (ETH) is a programmable blockchain for apps and digital agreements. ETH pays for gas and secures consensus via Proof-of-Stake.",
@@ -14,14 +14,14 @@
     "Rollup-centric scaling: L2s inherit L1 security"
   ],
   "relatedPairs": [
-    {"title": "BTC→ETH", "url": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125"},
-    {"title": "ETH→XMR", "url": "https://etz-swap.com/en/exchange-pair/eth-eth-xmr-xmr-0.125"},
-    {"title": "XMR→ETH", "url": "https://etz-swap.com/en/exchange-pair/xmr-xmr-eth-eth-1"}
+    {"title": "BTC→ETH", "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125"},
+    {"title": "ETH→XMR", "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125"},
+    {"title": "XMR→ETH", "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1"}
   ],
   "friendLinks": [
-    {"title": "BTC coin page", "url": "https://etz-swap.com/en/coins/btc"},
-    {"title": "XMR coin page", "url": "https://etz-swap.com/en/coins/xmr"},
-    {"title": "USDT coin page", "url": "https://etz-swap.com/en/coins/usdt"}
+    {"title": "BTC coin page", "url": "https://etz-swap.com/coins/btc"},
+    {"title": "XMR coin page", "url": "https://etz-swap.com/coins/xmr"},
+    {"title": "USDT coin page", "url": "https://etz-swap.com/coins/usdt"}
   ],
   "seo": {
     "title": "Ethereum (ETH) Explained — Programmable Blockchain & Staking",
