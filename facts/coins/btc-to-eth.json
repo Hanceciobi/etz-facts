@@ -3,14 +3,14 @@
   "from": {
     "symbol": "BTC",
     "name": "Bitcoin",
-    "coinPage": "https://etz-swap.com/en/coins/btc"
+    "coinPage": "https://etz-swap.com/coins/btc"
   },
   "to": {
     "symbol": "ETH",
     "name": "Ether",
-    "coinPage": "https://etz-swap.com/en/coins/eth"
+    "coinPage": "https://etz-swap.com/coins/eth"
   },
-  "pageUrl": "https://etz-swap.com/en/exchange-pair/btc-btc-eth-eth-0.125",
+  "pageUrl": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-eth-swap-simple-guide-cover.webp",
   "quickSteps": [
     "Open the pair BTC→ETH on ETZ Swap and confirm the live quote for your target amount.",
@@ -20,8 +20,8 @@
     "Send the main BTC amount in 1–2 parts; check your ETH balance after each."
   ],
   "friendLinks": [
-    {"title": "BTC coin page", "url": "https://etz-swap.com/en/coins/btc"},
-    {"title": "ETH coin page", "url": "https://etz-swap.com/en/coins/eth"}
+    {"title": "BTC coin page", "url": "https://etz-swap.com/coins/btc"},
+    {"title": "ETH coin page", "url": "https://etz-swap.com/coins/eth"}
   ],
   "seo": {
     "title": "BTC to ETH: Simple Reasons and a Calm, Repeatable Swap",
