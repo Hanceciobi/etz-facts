@@ -3,14 +3,14 @@
   "from": {
     "symbol": "USDT",
     "name": "Tether",
-    "coinPage": "https://etz-swap.com/en/coins/usdt"
+    "coinPage": "https://etz-swap.com/coins/usdt"
   },
   "to": {
     "symbol": "SOL",
     "name": "Solana",
-    "coinPage": "https://etz-swap.com/en/coins/sol"
+    "coinPage": "https://etz-swap.com/coins/sol"
   },
-  "pageUrl": "https://etz-swap.com/en/exchange-pair/usdt-eth-sol-sol-100",
+  "pageUrl": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-to-sol-smart-move-narrative-guide-cover.webp",
   "quickSteps": [
     "Open the pair USDT→SOL on ETZ Swap and preview the expected SOL outcome for your size.",
@@ -20,8 +20,8 @@
     "Send the main USDT amount within the quote window and verify your SOL balance."
   ],
   "friendLinks": [
-    { "title": "USDT coin page", "url": "https://etz-swap.com/en/coins/usdt" },
-    { "title": "SOL coin page", "url": "https://etz-swap.com/en/coins/sol" }
+    { "title": "USDT coin page", "url": "https://etz-swap.com/coins/usdt" },
+    { "title": "SOL coin page", "url": "https://etz-swap.com/coins/sol" }
   ],
   "seo": {
     "title": "USDT to SOL: From Stability to Growth",
