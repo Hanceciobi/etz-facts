@@ -1,0 +1,21 @@
+{
+  "title": "AML Gray Zones: When a Safe Transaction Looks Suspicious",
+  "pageUrl": "https://etz-swap.com/blog/aml-gray-zones-safe-transactions-look-suspicious",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/aml-gray-zones-safe-transactions-look-suspicious-cover.webp",
+  "quickSteps": [
+    "Map the full route and purpose of each major transaction before you send anything.",
+    "Keep amounts, timing, and counterparties aligned with a simple real-life story you can explain.",
+    "Separate personal, business, and experimental flows across wallets, accounts, and tools.",
+    "Store lightweight evidence for larger moves (invoices, notes, screenshots) without oversharing.",
+    "If a transaction is flagged, respond calmly with a clear explanation and documents instead of improvising."
+  ],
+  "friendLinks": [
+    "https://etz-swap.com/blog/zk-kyc-aml-privacy-preserving-compliance",
+    "https://etz-swap.com/blog/navigating-aml-laws-bitcoin-investors"
+  ],
+  "seo": {
+    "keywords": "AML gray zones,crypto AML false positives,chain analytics heuristics,safe transactions flagged,crypto compliance and privacy",
+    "description": "A practical guide to AML gray zones in crypto: why safe transactions get flagged, how heuristics work, and how to design routes that are easy to explain."
+  },
+  "updatedAt": "2025-11-15T20:30:00Z"
+}
