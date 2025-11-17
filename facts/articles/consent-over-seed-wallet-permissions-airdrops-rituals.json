@@ -1,0 +1,18 @@
+{
+  "title": "Consent Over Seed: How Permissions, Airdrops, and Weekly Rituals Protect Your Wallet",
+  "pageUrl": "https://etz-swap.com/blog/consent-over-seed-wallet-permissions-airdrops-rituals",
+  "friendlyUrl": "https://etz-swap.com/blog/consent-over-seed-wallet-permissions-airdrops-rituals",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/consent-over-seed-wallet-permissions-airdrops-rituals-cover.webp",
+  "quickSteps": [
+    "Start only from official sources; avoid screenshot → random link flows.",
+    "Check domain consistency and signing scope; reject broad or unlimited approvals.",
+    "Use a low-balance burner wallet for airdrops and quests; revoke permissions weekly.",
+    "Avoid unverified bots and mini-apps; stop if asked for broad spending rights.",
+    "If something feels off, revoke approvals, move funds to a new address, and document tx hashes."
+  ],
+  "seo": {
+    "keywords": "wallet permissions,airdrop safety,crypto approvals,revoke allowances,burner wallet,storage wallet,web3 security,points farming risks",
+    "description": "A practical guide to consent-based wallet security, safe approvals, burner vs storage wallets, and weekly revoke rituals for airdrops and points."
+  },
+  "updatedAt": "2025-11-17T00:00:00Z"
+}
