@@ -1,0 +1,26 @@
+{
+  "slug": "aml-rules-2025-private-crypto-swaps-europe",
+  "pageUrl": "https://etz-swap.com/blog/aml-rules-2025-private-crypto-swaps-europe",
+  "friendlyUrls": [
+    "https://etz-swap.com/blog/aml-rules-2025-private-crypto-swaps-europe",
+    "https://etz-swap.com/blog/navigating-aml-laws-bitcoin-investors",
+    "https://etz-swap.com/blog/zk-kyc-aml-privacy-preserving-compliance",
+    "https://etz-swap.com/blog/aml-gray-zones-safe-transactions-look-suspicious"
+  ],
+  "title": "How 2025 AML Rules Reshape Private Crypto Swaps in Europe",
+  "description": "How the EU Travel Rule with a zero threshold, updated FATF guidance and the new AMLA watchdog reshape private crypto swaps, no-KYC services and privacy tools for everyday users.",
+  "lang": "en",
+  "category": "blog",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/aml-rules-2025-private-crypto-swaps-europe-cover.webp",
+  "topics": [
+    "AML",
+    "EU Travel Rule",
+    "FATF",
+    "AMLA",
+    "private crypto swaps",
+    "no-KYC services",
+    "crypto compliance and privacy"
+  ],
+  "createdAt": "2025-11-18T01:00:00+03:00",
+  "updatedAt": "2025-11-18T01:00:00+03:00"
+}
