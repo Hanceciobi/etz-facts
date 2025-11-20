@@ -1,0 +1,22 @@
+{
+  "slug": "can-my-bank-see-anonymous-crypto-swaps",
+  "pageUrl": "https://etz-swap.com/blog/can-my-bank-see-anonymous-crypto-swaps",
+  "friendlyUrls": [
+    "https://etz-swap.com"
+  ],
+  "title": "Can My Bank See My Anonymous Crypto Swaps? What Actually Shows Up on Their Side",
+  "description": "What banks really see when you use anonymous crypto swaps, VPN, Tor or mobile data — and which patterns actually trigger extra questions from compliance teams.",
+  "lang": "en",
+  "category": "blog",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/can-my-bank-see-anonymous-crypto-swaps-cover.webp",
+  "topics": [
+    "anonymous crypto swaps",
+    "banks and crypto",
+    "AML risk patterns",
+    "VPN and Tor privacy",
+    "no-KYC crypto services",
+    "non-custodial swaps"
+  ],
+  "createdAt": "2025-11-21T23:00:00+03:00",
+  "updatedAt": "2025-11-21T23:00:00+03:00"
+}
