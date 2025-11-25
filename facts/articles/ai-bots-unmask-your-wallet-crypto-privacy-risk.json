@@ -1,0 +1,27 @@
+{
+  "title": "Can AI Bots Unmask Your Wallet? Crypto Privacy at Risk",
+  "pageUrl": "https://etz-swap.com/blog/ai-bots-unmask-your-wallet-crypto-privacy-risk",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-bots-unmask-your-wallet-crypto-privacy-risk-cover.webp",
+  "quickSteps": [
+    "Always crop screenshots before sending anything to AI or support.",
+    "Avoid pasting exact wallet addresses, TX IDs or xpubs into chat.",
+    "Ask broad technical questions instead of narrating full routing paths.",
+    "Use static guides and documentation for sensitive or high-risk topics.",
+    "Separate main wallets from low-risk demo wallets used in examples."
+  ],
+  "seo": {
+    "keywords": "AI crypto privacy, AI assistants wallet data, chat logs blockchain identity, anonymous crypto swaps, wallet screenshots TX IDs, crypto KYC flows, AI bots on-chain deanonymization",
+    "description": "AI assistants seem helpful—but they can log wallet addresses, TX IDs and KYC flows. Learn how chat logs can expose your on-chain identity—and how to stay safe."
+  },
+  "friendlyUrls": [
+    "https://etz-swap.com/blog/airdrops-points-fake-agents-safety-guide",
+    "https://etz-swap.com/blog/top-ai-crypto-coins-2026",
+    "https://etz-swap.com/blog/ai-tools-for-crypto-market-analysis-field-guide",
+    "https://etz-swap.com/blog/bnb-ecosystem-growth-drivers-trends",
+    "https://etz-swap.com/blog/future-of-okzoo-aiot-cryptocurrency",
+    "https://etz-swap.com/blog/ai-agents-stablecoin-stability",
+    "https://etz-swap.com/blog/rwa-2025-straight-talk-guide",
+    "https://etz-swap.com/blog/crypto-is-not-anonymous"
+  ],
+  "updatedAt": "2025-11-25T12:00:00Z"
+}
