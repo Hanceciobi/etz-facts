@@ -1,0 +1,17 @@
+{
+  "title": "Zano on ETZ Swap: A Private Doorway into a Privacy-First Layer 1",
+  "pageUrl": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/zano-on-etz-swap-private-l1-cover.webp",
+  "quickSteps": [
+    "Open ETZ Swap and choose a ZANO pair that matches your funding asset, such as BTC→ZANO, USDT→ZANO or XMR→ZANO.",
+    "Make sure your Zano wallet is updated, synced and ready, and skim the /en/coins/zano page if you need a quick refresher on how the network works.",
+    "Generate a fresh ZANO receiving address, paste it into ETZ Swap, and double-check the network, quoted rate, minimum amount and time window before sending anything.",
+    "Send a small test amount first, wait for the ZANO payout to appear in your wallet, and confirm that the balance is final and spendable.",
+    "Once the test looks good, send the main amount within the time window shown on ETZ Swap and wait for confirmations until the full ZANO balance is credited."
+  ],
+  "seo": {
+    "keywords": "Zano, ZANO coin, ETZ Swap, private crypto exchange, no KYC crypto swap, privacy coin, confidential assets, Zarcanum, hybrid PoW/PoS, XMR swap",
+    "description": "Learn how to use ETZ Swap to move from BTC, USDT or XMR into ZANO and why this privacy-first Layer 1 matters for traders and builders."
+  },
+  "updatedAt": "2025-11-26T19:00:00Z"
+}
