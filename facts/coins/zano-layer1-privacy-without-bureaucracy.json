@@ -1,0 +1,51 @@
+{
+  "pairId": "zano-layer1-privacy-without-bureaucracy",
+  "from": {
+    "symbol": "ZANO",
+    "name": "Zano",
+    "coinPage": "https://etz-swap.com/coins/zano"
+  },
+  "to": {
+    "symbol": "XMR",
+    "name": "Monero",
+    "coinPage": "https://etz-swap.com/coins/xmr"
+  },
+  "pageUrl": "https://etz-swap.com/coins/zano",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/zano-layer1-privacy-without-bureaucracy-cover.webp",
+  "quickSteps": [
+    "Pick your path: choose BTC, ETH, USDT or XMR as the source asset, set ZANO as the destination, and review the quote and time window.",
+    "Prepare your wallets: ensure your source wallet is funded and have a fresh ZANO receiving address under your control ready to accept the swap.",
+    "Double-check the details: verify the asset, amount, networks, destination ZANO address, and visible fees before broadcasting any transaction.",
+    "Send your coins within the quote window; the non-custodial swap service waits for confirmations on the source chain and then issues the outgoing payment in ZANO.",
+    "Confirm ZANO arrival in your wallet, compare it to the expected amount from the quote, and then hold, move, or spend it according to your own plan."
+  ],
+  "friendLinks": [
+    {
+      "title": "XMR,BTC,ETH,USDT crypto swap to Zano (ZANO)",
+      "url": "https://etz-swap.com/coins/zano"
+    },
+    {
+      "title": "XMR,BTC,ETH,USDT crypto swap to Zano (ZANO)",
+      "url": "https://etz-swap.com/coins/xmr"
+    },
+    {
+      "title": "Zano on ETZ Swap: private L1 integration",
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1"
+    },
+    {
+      "title": "ETZ Swap homepage",
+      "url": "https://etz-swap.com"
+    }
+  ],
+  "friendlyUrls": [
+    "https://etz-swap.com/coins/zano",
+    "https://etz-swap.com",
+    "https://etz-swap.com/coins/xmr",
+    "https://etz-swap.com/blog/zano-on-etz-swap-private-l1"
+  ],
+  "seo": {
+    "title": "Zano (ZANO): Layer-1 Privacy Without the Bureaucracy",
+    "description": "Why traders route BTC, ETH, USDT or XMR into ZANO, how this Layer-1 privacy coin compares to Monero, and where no-KYC swaps via ETZ Swap fit in."
+  },
+  "updatedAt": "2025-11-28T00:00:00Z"
+}
