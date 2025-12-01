@@ -1,0 +1,25 @@
+{
+  "title": "Restaked ETH and LRTs: What You’re Really Signing Up For (Beyond “Just” Staking)",
+  "pageUrl": "https://etz-swap.com/blog/restaked-eth-and-lrts-what-youre-really-signing-up-for",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/restaked-eth-and-lrts-what-youre-really-signing-up-for-cover.webp",
+  "quickSteps": [
+    "Decide what share of your ETH stays simple and unlevered in spot or basic staking outside any restaking loops.",
+    "Map which restaking protocols and liquid restaking tokens you actually plan to use, including their AVSs, withdrawal flow, audits, and governance.",
+    "Read each protocol’s risk documentation carefully: slashing conditions, current AVS list, and realistic failure scenarios.",
+    "Start with a small test allocation and watch how the LRT trades in practice: liquidity, discounts to underlying value, and depeg behaviour in stress.",
+    "Review and rebalance your restaked ETH and LRT positions regularly as yields, risks, liquidity, and incentive programs change."
+  ],
+  "seo": {
+    "keywords": "restaked ETH, liquid restaking tokens, LRTs, Ethereum restaking, restaking yield, AVS slashing risk, ETH staking strategy, DeFi risk management",
+    "description": "A practical guide to restaked ETH and liquid restaking tokens: how restaking works, where extra yield comes from, what LRT risks you take on, and how to size exposure in a real ETH portfolio."
+  },
+  "friendlyUrls": [
+    "https://etz-swap.com/blog/how-to-maintain-privacy-when-buying-crypto",
+    "https://etz-swap.com/blog/eth-to-monero-security-tips-and-why-it-makes-sense",
+    "https://etz-swap.com/blog/base-eth-vs-ethereum",
+    "https://etz-swap.com/blog/crypto-trace-techniques-beginners-guide",
+    "https://etz-swap.com/blog/usdt-from-concept-to-worlds-most-used-digital-dollar",
+    "https://etz-swap.com/blog/ethereum-uncovered-how-it-works-why-it-matters-and-where-its-headed"
+  ],
+  "updatedAt": "2025-12-01T17:00:00+03:00"
+}
