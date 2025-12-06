@@ -1,0 +1,38 @@
+{
+  "article": {
+    "slug": "beyond-usdt-and-usdc-yield-bearing-stablecoins-and-perpetual-dex-tokens-explained",
+    "title": "Beyond USDT and USDC: Yield-Bearing Stablecoins and Perpetual DEX Tokens Explained",
+    "description": "Deep dive into yield-bearing stablecoins and perpetual DEX tokens — how they generate yield, where risks hide, and how non-custodial swaps help manage exposure.",
+    "language": "en",
+    "category": "DeFi Analysis",
+    "tags": ["stablecoins", "yield-bearing", "perp DEX", "non-custodial swaps", "DeFi risk"],
+    "publishedAt": "2025-12-04T09:00:00+03:00",
+    "modifiedAt": "2025-12-04T09:00:00+03:00",
+    "canonical": "https://etz-swap.com/blog/beyond-usdt-and-usdc-yield-bearing-stablecoins-and-perpetual-dex-tokens-explained",
+    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/beyond-usdt-and-usdc-yield-bearing-stablecoins-and-perpetual-dex-tokens-explained-cover.webp",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp",
+    "friendlyUrls": [
+      "https://etz-swap.com/blog/usdt-to-xmr-practical-guide-private-digital-cash",
+      "https://etz-swap.com/blog/usdt-vs-usdc-stablecoin-comparison",
+      "https://etz-swap.com/blog/usdt-from-concept-to-worlds-most-used-digital-dollar"
+    ],
+    "riskNotes": [
+      "Yield-bearing stablecoins add extra legal and structural layers, increasing counterparty complexity.",
+      "Perpetual DEX tokens depend on trader P&L and can face sharp drawdowns during one-sided markets.",
+      "Liquidity for new stablecoins or DEX tokens may be thin outside their native ecosystems.",
+      "Non-custodial swaps mitigate centralised custody risk but do not eliminate protocol-level risk."
+    ],
+    "keyTakeaways": [
+      "Yield-bearing stablecoins share part of reserve interest with users, often through complex setups.",
+      "Perp DEX tokens provide exposure to exchange revenue but carry volatility and trend risk.",
+      "Non-custodial swaps enable flexible portfolio rotation between yield and safety modes.",
+      "Clarity of structure and legal backing is critical before allocating capital.",
+      "Small, reversible test positions and periodic stress reviews help manage downside."
+    ],
+    "schemaIncluded": true,
+    "openGraphIncluded": true,
+    "twitterCardIncluded": true,
+    "faqIncluded": true,
+    "howToIncluded": true
+  }
+}
