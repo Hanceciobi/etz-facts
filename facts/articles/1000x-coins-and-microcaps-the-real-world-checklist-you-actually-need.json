@@ -1,0 +1,43 @@
+{
+  "article": {
+    "slug": "1000x-coins-and-microcaps-the-real-world-checklist-you-actually-need",
+    "title": "1000x Coins and Microcaps: The Real-World Checklist You Actually Need",
+    "description": "Practical, real-world checklist for 1000x microcap coins: FDV, liquidity, vesting, tokenomics, AI-assisted due diligence and position sizing that does not blow up your portfolio.",
+    "language": "en",
+    "category": "Trading Psychology & Risk",
+    "tags": [
+      "1000x coins",
+      "microcaps",
+      "FDV",
+      "liquidity risk",
+      "tokenomics",
+      "AI due diligence"
+    ],
+    "publishedAt": "2025-12-04T09:00:00+03:00",
+    "modifiedAt": "2025-12-04T09:00:00+03:00",
+    "canonical": "https://etz-swap.com/blog/1000x-coins-and-microcaps-the-real-world-checklist-you-actually-need",
+    "cover": "https://api.etz-swap.com/api/v1/content?path=blog/1000x-coins-and-microcaps-the-real-world-checklist-you-actually-need-cover.webp",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp",
+    "friendlyUrls": [
+      "https://etz-swap.com"
+    ],
+    "riskNotes": [
+      "Microcap coins combine thin liquidity, concentrated holdings and aggressive unlock schedules, which can turn small narrative shifts into severe drawdowns.",
+      "Survivorship bias around past 1000x winners hides the far larger set of projects that died quietly after early pumps.",
+      "AI tools can speed up research but cannot replace human judgement; blindly following AI-generated picks turns due diligence into another form of gambling.",
+      "Non-custodial swaps reduce custody risk and help with execution, but they do not remove protocol, tokenomics or market structure risks."
+    ],
+    "keyTakeaways": [
+      "FDV, real liquidity depth, vesting schedules and listing venues matter more for microcaps than memes or short-term hype.",
+      "Red flags cluster around opaque tokenomics, extreme insider allocations, vanishing liquidity and purely promotional social channels.",
+      "A simple pre-trade drilldown across documentation, block explorers, social channels and code activity can filter out many obvious traps.",
+      "AI is best used as an assistant for summarising, stress-testing tokenomics and writing risk memos, not as an oracle for 1000x picks.",
+      "Services like ETZ only make sense once a token has basic trading depth; they are execution tools, not sources of alpha."
+    ],
+    "schemaIncluded": true,
+    "openGraphIncluded": true,
+    "twitterCardIncluded": true,
+    "faqIncluded": true,
+    "howToIncluded": true
+  }
+}
