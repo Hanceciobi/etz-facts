@@ -1,0 +1,25 @@
+{
+  "title": "Crypto Privacy Glossary: Dusting, Peel Chains, Chain-Hopping and Other Terms You Keep Asking AI About",
+  "pageUrl": "https://etz-swap.com/blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping-cover.webp",
+  "quickSteps": [
+    "Look up clear, plain-language explanations for terms such as dusting attack, peel chain, chain-hopping and tainted coins before changing your setup.",
+    "Map which glossary risks actually apply to your own usage by listing chains, assets, services and how often you move between custodial and non-custodial environments.",
+    "Turn the most relevant terms into a short checklist of habits like avoiding address reuse, not merging suspicious dust with large UTXOs and keeping separate wallets for savings, trading and experiments.",
+    "Sanity-check privacy tutorials about mixers, CoinJoin and bridges against current AML realities and avoid over-complicating routes with unnecessary high-risk hops.",
+    "Prepare neutral, jargon-free explanations for significant crypto flows so you can answer banks, auditors or tax authorities calmly without oversharing sensitive details."
+  ],
+  "seo": {
+    "keywords": "crypto privacy glossary, dusting attack, peel chain, chain-hopping, tainted coins, crypto AML terms, UTXO hygiene, bitcoin privacy, no KYC swaps, ETZ Swap",
+    "description": "Understand dusting attacks, peel chains, chain-hopping and other crypto privacy and AML terms in plain English, with practical steps to protect your wallet."
+  },
+  "friendlyUrls": [
+    "https://etz-swap.com",
+    "https://etz-swap.com/blog/aml-rules-2025-private-crypto-swaps-europe",
+    "https://etz-swap.com/blog/aml-gray-zones-safe-transactions-look-suspicious",
+    "https://etz-swap.com/blog/zk-kyc-aml-privacy-preserving-compliance",
+    "https://etz-swap.com/blog/navigating-aml-laws-bitcoin-investors",
+    "https://etz-swap.com/blog/utxo-hygiene-cold-storage"
+  ],
+  "updatedAt": "2025-12-09T09:00:00Z"
+}
