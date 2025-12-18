@@ -1,0 +1,27 @@
+{
+  "title": "Monero Payment Proofs & View Keys for Audits (Without Oversharing)",
+  "pageUrl": "https://etz-swap.com/blog/monero-proof-without-full-disclosure",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-proof-without-full-disclosure-cover.webp",
+  "quickSteps": [
+    "Start by naming the exact question you must answer: prove a specific payment, show income for a period, or prove reserves at a point in time.",
+    "For one-off disputes, use a Monero payment/transaction proof instead of sharing wallet history or any view-only access.",
+    "If someone needs ongoing oversight, use a dedicated reporting wallet and share view-only access only for that wallet and only for the needed time window.",
+    "Package your evidence so it’s easy to verify: invoice reference, recipient address/subaddress, dates, the proof string, and short copy-paste instructions.",
+    "Shrink the blast radius: keep business and personal wallets separate, never share spend keys, and avoid screenshots that reveal unrelated transactions."
+  ],
+  "friendlyUrls": [
+    "https://etz-swap.com",
+    "https://etz-swap.com/blog/browser-fingerprints-captchas-suspicious-device-flags-crypto-privacy",
+    "https://etz-swap.com/blog/crypto-payments-freelancers-xmr-vs-usdt-privacy",
+    "https://etz-swap.com/blog/ethereum-privacy-layers-mixers-zk-l2s-shielded-pools",
+    "https://etz-swap.com/blog/tainted-coins-blacklists-crypto-analytics-risk-scores",
+    "https://etz-swap.com/blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping",
+    "https://etz-swap.com/coins/xmr",
+    "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125"
+  ],
+  "seo": {
+    "keywords": "monero payment proof, monero view key, view-only wallet, xmr audit, reserve proof, prove monero payment, monero accounting, xmr tax reporting, selective disclosure",
+    "description": "Learn how to prove an XMR payment or satisfy an audit using Monero payment proofs, view-only access, and reserve proofs—without exposing your whole wallet."
+  },
+  "updatedAt": "2025-12-18T00:00:00Z"
+}
