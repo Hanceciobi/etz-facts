@@ -1,0 +1,25 @@
+{
+  "title": "Telegram/Discord Tracking: Social Graph Leaks in Swaps",
+  "pageUrl": "https://etz-swap.com/blog/social-graph-leaks-telegram-discord-referral-links",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/social-graph-leaks-telegram-discord-referral-links-cover.webp",
+  "quickSteps": [
+    "Separate personas: keep your swap/storage identity away from your public chat and points-farming identity.",
+    "Use a dedicated campaign wallet for quests, bots, referrals, and role-gated servers; never bridge it to serious funds.",
+    "Treat tracked links as attribution tools: avoid reusing the same UTM/referral URL across accounts, sessions, or wallets.",
+    "Reduce click-path correlation: avoid in-app browsing for sensitive actions and minimize session overlap between chats and swaps.",
+    "Stop screenshot leaks: share minimal context in support chats, crop aggressively, and avoid posting full timelines or identifiers."
+  ],
+  "friendlyUrls": [
+    "https://etz-swap.com",
+    "https://etz-swap.com/blog/cryptocurrency-exchange-no-kyc-guide",
+    "https://etz-swap.com/blog/no-kyc-crypto-exchanges-benefits-trade-offs",
+    "https://etz-swap.com/blog/no-kyc-crypto-swaps-why-clients-prefer-monero",
+    "https://etz-swap.com/blog/zk-kyc-aml-privacy-preserving-compliance",
+    "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety"
+  ],
+  "seo": {
+    "keywords": "social graph leaks, Telegram bots, Discord verification, UTM tracking, referral links, wallet correlation, points farming privacy, no-kyc swaps, anonymous swaps",
+    "description": "How Telegram/Discord bots, UTMs, and referrals build a social graph around your swaps—and how to stay active in crypto chats without linking your wallets."
+  },
+  "updatedAt": "2025-12-20T00:00:00Z"
+}
