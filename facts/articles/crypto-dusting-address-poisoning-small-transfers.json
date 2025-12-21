@@ -1,0 +1,20 @@
+{
+  "title": "Crypto Dusting & Address Poisoning: Why Tiny Transfers Show Up",
+  "pageUrl": "https://etz-swap.com/blog/crypto-dusting-address-poisoning-small-transfers",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-dusting-address-poisoning-small-transfers-cover.webp",
+  "quickSteps": [
+    "Treat transaction history as untrusted: never copy recipient addresses from “recent” or from past transfers.",
+    "Use a verified address book/whitelist for your own wallets, exchanges, and recurring recipients.",
+    "Verify the full destination address (not only the first/last characters) and do a second-check for large sends.",
+    "Prefer QR codes when possible and separate wallets by role (storage vs spending vs experimentation).",
+    "Ignore memo links and “claim” bait; if an address mismatch happens, stop and check for clipboard malware."
+  ],
+  "friendlyUrls": [
+    "https://etz-swap.com/blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping"
+  ],
+  "seo": {
+    "keywords": "crypto dusting, address poisoning, tiny transfers, dust attack, wallet spam, look-alike address, verify crypto address, transaction history scam",
+    "description": "Small crypto deposits can be spam, dusting, or address poisoning. Learn how the trap works and how to avoid sending to a look-alike address."
+  },
+  "updatedAt": "2025-12-21T00:00:00Z"
+}
