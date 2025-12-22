@@ -1,0 +1,21 @@
+{
+  "title": "Stop Clipboard Hijacking: Catch Address Swaps Fast",
+  "pageUrl": "https://etz-swap.com/blog/clipboard-hijacking-crypto-address-replacement",
+  "friendlyUrl": "https://etz-swap.com/blog/utxo-hygiene-cold-storage",
+  "friendlyUrls": [
+    "https://etz-swap.com/blog/utxo-hygiene-cold-storage"
+  ],
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/clipboard-hijacking-crypto-address-replacement-cover.webp",
+  "quickSteps": [
+    "Treat the paste action as the decision point, not the copy action.",
+    "Verify three parts of the destination string, including one middle chunk.",
+    "Reduce clipboard use by using saved destinations and QR scanning.",
+    "Separate long-term funds from high-risk activity with role-based wallets.",
+    "If a string changes unexpectedly, stop sending and treat the device as compromised until you can verify otherwise."
+  ],
+  "seo": {
+    "keywords": "clipboard hijacking, crypto address changed after copy, wallet address replacement, crypto malware, browser extension security, verify address after paste, secure copy paste, crypto swap xmr",
+    "description": "Clipboard hijacking can replace a copied crypto address before you paste. Learn quick checks that catch swaps and hygiene that prevents repeats."
+  },
+  "updatedAt": "2025-12-22T16:13:26Z"
+}
