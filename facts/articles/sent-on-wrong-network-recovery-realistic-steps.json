@@ -1,0 +1,71 @@
+{
+  "slug": "sent-on-wrong-network-recovery-realistic-steps",
+  "type": "article",
+  "title": "Sent Crypto on the Wrong Network: What Recovery Is Realistic (and What Isn’t)",
+  "pageUrl": "https://etz-swap.com/blog/sent-on-wrong-network-recovery-realistic-steps",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/sent-on-wrong-network-recovery-realistic-steps-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping",
+      "anchor": "crypto privacy glossary: dusting, peel chains, chain hopping"
+    }
+  ],
+  "keyQuestions": [
+    "I sent USDT on the wrong network — can I get it back?",
+    "Tokens not showing after transfer — wrong chain or wrong wallet?",
+    "What can an exchange recover if I used the wrong network?",
+    "Can MetaMask (or another wallet) recover funds sent on the wrong chain?",
+    "How to check which network I actually used from the TXID",
+    "Do I need a memo/tag — and what happens if it’s missing?"
+  ],
+  "quickSteps": [
+    "Freeze: don’t send a second “test” transfer while you’re unsure.",
+    "Use the TXID in an explorer to confirm the chain, destination, and token contract (if applicable).",
+    "Decide custody: your wallet (you control keys) vs platform deposit vs unknown address.",
+    "If it’s your wallet: switch network view, import the token if needed, get native gas, then move funds carefully.",
+    "If it’s a platform: open a precise support ticket and ignore DMs, “recovery agents,” seed-phrase requests, and remote-access offers."
+  ],
+  "recoveryDecisionTree": {
+    "start": "Confirmed TXID but missing balance / no deposit credit",
+    "branches": [
+      {
+        "if": "Destination is your own address and you control the seed/private key",
+        "then": [
+          "Switch wallet to the chain shown by the TXID",
+          "Verify you’re on the correct account/address",
+          "For tokens: import using the contract address from the explorer",
+          "Get a small amount of the chain’s native coin to pay fees",
+          "Move funds to the intended destination with a deliberate chain+address check"
+        ]
+      },
+      {
+        "if": "Destination is an exchange/service deposit address",
+        "then": [
+          "Collect TXID, asset, chain, amount, time, destination address",
+          "Open a support ticket (don’t rely on chat DMs)",
+          "Ask if they support recovery for that chain/token route",
+          "Expect delay and possible fee; don’t send more deposits until resolved"
+        ]
+      },
+      {
+        "if": "Destination is an address you don’t control (not your wallet, not your platform deposit)",
+        "then": [
+          "Treat recovery as unlikely",
+          "Do not trust anyone offering guaranteed recovery for payment",
+          "Secure your accounts/devices if you suspect you copied a wrong address from a compromised source"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Same ticker name can represent different token contracts across chains.",
+    "Many EVM networks share 0x addresses; address format alone doesn’t prove the correct chain.",
+    "Missing memo/tag can prevent auto-crediting on custodial deposits; wrong memo can be worse than none.",
+    "Scammers target panic windows with fake support, recovery links, and seed-phrase phishing."
+  ]
+}
