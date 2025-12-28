@@ -1,0 +1,71 @@
+{
+  "slug": "token-permissions-approval-drains-revoke-safely",
+  "type": "article",
+  "title": "Token permissions in crypto: how approval-based drains happen (and how to shut them down safely)",
+  "pageUrl": "https://etz-swap.com/blog/token-permissions-approval-drains-revoke-safely",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/token-permissions-approval-drains-revoke-safely-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "anonymous cryptocurrency exchange"
+    }
+  ],
+  "keyQuestions": [
+    "Why did my wallet get drained after I clicked “Approve”?",
+    "What does “Approve” actually authorize on EVM networks?",
+    "Can an approval-based drain happen without me signing a new transaction?",
+    "What information is safe to share when asking for help — and what is never safe?",
+    "What is Permit2 and why does it appear in my approvals list?",
+    "How do I revoke token permissions safely without breaking future swaps?"
+  ],
+  "quickSteps": [
+    "Freeze: stop signing and stop reconnecting the wallet to new sites while you triage.",
+    "Document: save the approval TXID, the suspicious transfer TXID, token contract, spender address, chain, timestamps, and the domain you used.",
+    "Contain: move remaining funds to a fresh wallet created in a clean environment (prioritize high-value tokens first).",
+    "Revoke: set allowances to 0 (or reduce them) for unknown/suspicious spenders first, then clean oversized limits; re-approve only bounded amounts when needed.",
+    "Harden: use an interaction wallet for dapps, rely on bookmarks (not ads), and audit permissions weekly/monthly depending on swap frequency."
+  ],
+  "recoveryDecisionTree": {
+    "start": "Unexpected outgoing token transfer and suspicion of an approval-based drain",
+    "branches": [
+      {
+        "if": "You still control the wallet (seed phrase not exposed) and only one/few tokens moved",
+        "then": [
+          "Freeze activity: stop signing and stop connecting to unfamiliar sites",
+          "Move remaining funds to a fresh wallet (clean device/profile) if anything valuable remains",
+          "Revoke suspicious spenders first (especially on stablecoins), then reduce oversized limits",
+          "Re-approve later only via bookmarked domains and with bounded limits"
+        ]
+      },
+      {
+        "if": "You suspect the environment is compromised (malicious extension, fake domain, repeated strange prompts)",
+        "then": [
+          "Stop using the current browser profile/device for crypto actions",
+          "Move remaining funds to a new wallet from a clean environment",
+          "Revoke permissions only from the clean environment (avoid random “revoke sites” from DMs)",
+          "Rotate to a new interaction wallet for future swaps"
+        ]
+      },
+      {
+        "if": "You suspect seed phrase/private key exposure or broad asset loss across tokens",
+        "then": [
+          "Treat the wallet as compromised and do not attempt to “clean” it as a primary fix",
+          "Move any recoverable funds to a fresh wallet immediately (clean environment)",
+          "Assume all permissions and signatures from the old wallet are unsafe going forward",
+          "Use new wallets: storage wallet (rare dapp use) + interaction wallet (small working balance)"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "On EVM networks, allowances persist until changed; an old approval can be abused long after the original swap.",
+    "Unlimited approvals expand blast radius; bounded limits reduce worst-case loss if a spender turns hostile.",
+    "Fake “support” and fake “revoke tools” often target users after a drain; never share seed phrases or accept remote access requests.",
+    "Permit2 is a tool, not automatically a scam, but broad limits plus a fake interface can amplify mistakes."
+  ]
+}
