@@ -1,0 +1,83 @@
+{
+  "slug": "etz-swap-zenx-partnership",
+  "type": "article",
+  "title": "ETZ Swap & ZenX: Why This Partnership Actually Matters for Users",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-zenx-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "ETZ Swap and Trocador partnership press release"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "ETZ Swap and Orangefren partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "ETZ Swap listed in top no-KYC catalog"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano on ETZ Swap private L1"
+    }
+  ],
+  "keyQuestions": [
+    "What is ZenX and how is it different from a swap provider?",
+    "What does the ETZ Swap × ZenX partnership change for ETZ-Swap users?",
+    "Does a privacy-first route comparison layer reduce tracking risks?",
+    "How do I avoid ad traps and lookalike domains when searching for swap routes?",
+    "What habits keep crypto swaps safer when routing into XMR?",
+    "Does this partnership make swaps invisible on-chain?"
+  ],
+  "quickSteps": [
+    "Verify the source: use bookmarks and confirm the full domain before you compare routes.",
+    "Keep roles separate: use a small interaction wallet for swapping and store long-term funds elsewhere.",
+    "Avoid broad permissions: don’t approve anything you can’t explain in one sentence.",
+    "Stay deliberate: compare routes calmly, then execute the swap without rushing through prompts.",
+    "Pause on doubt: if a page feels urgent or odd, close it and retry from a clean browser profile/device."
+  ],
+  "recoveryDecisionTree": {
+    "start": "You suspect a fake domain, social-engineering prompt, or unsafe swap flow while trying to compare routes",
+    "branches": [
+      {
+        "if": "You clicked an ad or arrived via a link you don’t fully trust",
+        "then": [
+          "Close the tab and do not continue on the current page",
+          "Open the real site from a bookmark or manually typed URL",
+          "Re-check the route details (asset, chain, receive address) before proceeding",
+          "Avoid any prompts asking for seed phrases or remote access"
+        ]
+      },
+      {
+        "if": "You approved a permission or signed something you didn’t understand",
+        "then": [
+          "Stop interacting with new sites immediately",
+          "Move any remaining funds to a fresh wallet if you hold meaningful balances",
+          "Audit and revoke unnecessary token approvals from a clean environment",
+          "Switch to an interaction-wallet model for future swaps"
+        ]
+      },
+      {
+        "if": "Everything looks legitimate but the swap is delayed",
+        "then": [
+          "Avoid panic-retries across multiple providers at once",
+          "Document TXIDs, timestamps, and the route/provider you selected",
+          "Wait for normal confirmations, then check status via an explorer",
+          "Use only official support channels; ignore unsolicited DMs"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Many swap incidents start before the chain: ad traps, lookalike domains, and urgent fake prompts.",
+    "A privacy-first comparison layer can reduce passive tracking, but it does not make on-chain activity invisible.",
+    "Never share seed phrases, private keys, or accept remote-access requests from “support”.",
+    "Using an interaction wallet limits blast radius if a swap session goes wrong."
+  ]
+}
