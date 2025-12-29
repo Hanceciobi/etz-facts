@@ -1,0 +1,76 @@
+{
+  "slug": "my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+  "type": "article",
+  "title": "My crypto transaction is stuck: what actually works (and how to avoid “fee boost” scams)",
+  "pageUrl": "https://etz-swap.com/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety",
+      "anchor": "crypto scams 2025 warning signs"
+    },
+    {
+      "url": "https://etz-swap.com/blog/aml-gray-zones-safe-transactions-look-suspicious",
+      "anchor": "AML gray zones where safe transfers look suspicious"
+    },
+    {
+      "url": "https://etz-swap.com/blog/utxo-hygiene-cold-storage",
+      "anchor": "UTXO hygiene for cold storage"
+    }
+  ],
+  "keyQuestions": [
+    "My crypto transaction is stuck — what should I do first?",
+    "How can I tell normal network congestion from a scam?",
+    "Should I pay for a transaction accelerator or fee boost?",
+    "What information is safe to share when asking for help?",
+    "What actually works: RBF, speed-up, cancel — and when?",
+    "What should I do if someone asks for a recovery fee or remote access?"
+  ],
+  "quickSteps": [
+    "Verify the real status in a reputable block explorer: confirmed, pending/unconfirmed, or not found.",
+    "Identify the chain rules: Bitcoin-like fee competition vs Ethereum-like nonce/gas vs networks where waiting is the only safe option.",
+    "Use only built-in wallet controls (RBF, Speed up, Cancel) — never third-party “accelerators” promoted via ads or DMs.",
+    "Ignore unsolicited “support” and refuse access requests: no seed phrase, no private keys, no keystore files, no screen sharing, no remote tools.",
+    "After confirmation, close the loop: verify balances, record the TXID/timestamps, and avoid “test transfers” that add confusion."
+  ],
+  "issueRouting": {
+    "start": "My transaction looks stuck or something feels off",
+    "branches": [
+      {
+        "if": "The TXID is not found on reputable explorers",
+        "then": [
+          "Confirm you copied the correct TXID and selected the correct chain/explorer",
+          "Check whether your wallet broadcasted the transaction (some apps queue before broadcasting)",
+          "If it still doesn’t appear, consult official wallet support using safe details only"
+        ]
+      },
+      {
+        "if": "The TX is pending/unconfirmed in the explorer",
+        "then": [
+          "Compare your fee/gas to current network conditions to understand whether congestion is likely",
+          "If your wallet offers RBF/Speed up/Cancel, use only those built-in actions",
+          "If no safe replacement exists, wait and monitor confirmations — don’t send extra “test” transactions"
+        ]
+      },
+      {
+        "if": "Someone contacts you first offering a fee boost, accelerator, or recovery service",
+        "then": [
+          "Treat it as a scam attempt and do not click links or pay fees",
+          "Never share seed phrases, private keys, or grant remote access/screen sharing",
+          "Use only official support channels you already trust"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Scammers exploit urgency: fake accelerators, fee boosts, and impersonated support are most active when a transaction is pending.",
+    "Wallet UIs can lag or misreport; treat a reputable block explorer as the source of truth for status and confirmations.",
+    "Third-party “recovery fees” don’t upgrade your on-chain transaction — they usually just transfer money to scammers.",
+    "Remote access and screen sharing can be enough to drain funds even without a seed phrase; refuse it every time."
+  ]
+}
