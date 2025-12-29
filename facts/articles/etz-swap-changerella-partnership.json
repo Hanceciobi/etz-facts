@@ -1,0 +1,76 @@
+{
+  "slug": "etz-swap-changerella-partnership",
+  "type": "article",
+  "title": "ETZ Swap × Changerella: Why This Partnership Matters When You Just Want a Clean Swap",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-changerella-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "ETZ Swap + Trocador partnership release"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "ETZ Swap and Orangefren partnership update"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano now available via ETZ Swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "How the ETZ Swap × ZenX integration works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "ETZ Swap listed in a top no-KYC catalog"
+    }
+  ],
+  "keyQuestions": [
+    "What does Changerella do versus what ETZ Swap does?",
+    "How does this partnership reduce mistakes before you even send funds?",
+    "Why is comparing swap offers safer than clicking the first search result?",
+    "What changes when ETZ Swap appears inside a comparison dashboard?",
+    "If something goes wrong, should I contact Changerella or ETZ Swap support?",
+    "What basic checks should I do before I start any swap?"
+  ],
+  "quickSteps": [
+    "Start in Changerella to compare offers side by side instead of hunting links in search results.",
+    "Pick the route you actually want (rate, speed, network), not just the biggest number.",
+    "When you open ETZ Swap from Changerella, switch into “verify mode” (domain, pair, network).",
+    "Paste your receive address carefully and double-check chain + memo/tag rules before sending.",
+    "After you deposit, wait for confirmations and share only safe details with support (TXID/order number), never seed phrases."
+  ],
+  "issueRouting": {
+    "start": "Something feels off during the swap journey",
+    "branches": [
+      {
+        "if": "The listing, comparison view, countdown, or display data looks wrong inside Changerella",
+        "then": [
+          "Refresh and re-check the same offer from a second device/network if possible",
+          "Capture the offer details (pair, amount, timestamp) and report it to Changerella",
+          "Do not send funds until the offer looks consistent"
+        ]
+      },
+      {
+        "if": "You created an ETZ Swap order and funds were sent but status looks stuck or unclear",
+        "then": [
+          "Collect the TXID, deposit amount, and your order details",
+          "Contact ETZ Swap support through official channels only",
+          "Ignore DMs, “recovery agents,” and anyone asking for seed phrases or remote access"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The biggest failures often happen at discovery: fake domains, spoofed links, and “too good” rates with hidden terms.",
+    "Rates and network fees can move during market spikes; stability can matter more than a tiny headline advantage.",
+    "Address and network mismatches are irreversible; treat every send like a bank transfer.",
+    "Scammers target panic moments with fake support and recovery promises—verify channels and never share secrets."
+  ]
+}
