@@ -1,0 +1,59 @@
+{
+  "slug": "etz-swap-and-monerodex-partnership-compare-swap-routes",
+  "type": "article",
+  "title": "ETZ Swap and MoneroDEX Partnership: A Simpler Way to Compare Swap Routes Without Giving Up Control",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-and-monerodex-partnership-compare-swap-routes",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-and-monerodex-partnership-compare-swap-routes-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "ETZ Swap + Trocador partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "ETZ Swap + OrangeFren partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano on ETZ Swap (private L1)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "ETZ Swap + ZenX partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "listed in a top no‑KYC catalog"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "ETZ Swap + Changerella partnership"
+    }
+  ],
+  "keyQuestions": [
+    "What is MoneroDEX and what does it actually do when comparing swap routes?",
+    "Does MoneroDEX custody funds or require deposits before you choose a provider?",
+    "Why would a user pick ETZ Swap from the offers list — what’s the practical difference?",
+    "What should you compare: provider rate, provider fee, network fees, or execution time?",
+    "What information is safe to share with support if something feels off during a swap?",
+    "How do you reduce wrong-network / wrong-address mistakes in a compare → choose → execute flow?"
+  ],
+  "quickSteps": [
+    "Compare offers calmly: pick based on your real constraint (speed, simplicity, terms), not only the headline rate.",
+    "Verify the basics twice: asset, network, deposit address, and destination address.",
+    "Execute from a clean environment: avoid rushing on a compromised or overloaded device.",
+    "If support is needed, share only public data: TXID, time sent, amount, and asset/network used.",
+    "Keep control boundaries strict: never share recovery secrets and never accept “remote help.”"
+  ],
+  "riskNotes": [
+    "Aggregators reduce tab-hopping, but look‑alike domains and fake “route” pages still exist — verify URLs letter‑for‑letter.",
+    "A slightly better quote can be offset by network fees or a slower route; compare time and conditions, not just price.",
+    "Multi‑network assets make mistakes easy; the TXID’s chain must match the chain you intended to use.",
+    "Scammers target urgency windows with fake support and “instant fixes”; share only public info and never seeds/keys."
+  ]
+}
