@@ -1,0 +1,62 @@
+{
+  "slug": "etz-swap-cyphergoat-partnership",
+  "type": "article",
+  "title": "ETZ Swap + CypherGoat: What This Partnership Actually Changes for You",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-cyphergoat-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "ETZ Swap and Trocador partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "ETZ Swap and OrangeFren partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano on ETZ Swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "ETZ Swap and ZenX partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "top no-KYC catalog listing"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "ETZ Swap and Changerella partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "compare XMR swap routes"
+    }
+  ],
+  "keyQuestions": [
+    "What is CypherGoat?",
+    "How does a swap comparison layer work?",
+    "What does the ETZ Swap partnership change for users?",
+    "Does using a route comparison tool guarantee no KYC?",
+    "What should I do if a swap is delayed or fails?"
+  ],
+  "quickSteps": [
+    "Choose your priority (rate, speed, or lower identity friction) before comparing routes.",
+    "Compare routes in one place to reduce tab-hopping and avoid rushed decisions.",
+    "Pick a provider with clear expectations and don’t ignore route warnings.",
+    "Confirm network, address, and memo/tag requirements before you send funds.",
+    "If something goes wrong, share only public swap details and follow official support paths."
+  ],
+  "riskNotes": [
+    "Route comparison improves decision context but does not eliminate transaction risk.",
+    "A lower likelihood of verification is not a guarantee; edge cases can trigger extra checks depending on provider policies.",
+    "Most user losses happen from wrong links, wrong networks, or rushed decisions—use bookmarks and confirm details before sending.",
+    "Never share a seed phrase or allow remote access, even if someone claims to be support."
+  ]
+}
