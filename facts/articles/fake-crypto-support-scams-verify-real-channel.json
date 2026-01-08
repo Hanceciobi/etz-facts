@@ -1,0 +1,44 @@
+{
+  "slug": "fake-crypto-support-scams-verify-real-channel",
+  "type": "article",
+  "title": "How Not to Get Tricked by “Support” Scammers in Crypto (and What to Do If You Already Slipped Up)",
+  "pageUrl": "https://etz-swap.com/blog/fake-crypto-support-scams-verify-real-channel",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/fake-crypto-support-scams-verify-real-channel-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+      "anchor": "my crypto transaction is stuck"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety",
+      "anchor": "crypto scams 2025 warning signs"
+    }
+  ],
+  "keyQuestions": [
+    "How do I know this support account is real?",
+    "Why do scammers reply faster than real support?",
+    "Will real support ever ask for my seed phrase or private key?",
+    "How do I verify an official support channel?",
+    "What screenshots and logs are safe to share?",
+    "What should I do if I already shared something sensitive?"
+  ],
+  "quickSteps": [
+    "Pause first and refuse urgency: no new links, installs, screenshares, or “verification” steps.",
+    "Verify the support channel from the official website (bookmark or typed domain), not from DMs or ads.",
+    "Cross-check identity in two official places (website + app help menu or older official pinned post).",
+    "Share only safe data: TXID, network, time, order ID, and redacted errors—never recovery words or keys.",
+    "If anything sensitive leaked, treat it as compromised and migrate funds to a new wallet on a clean device."
+  ],
+  "riskNotes": [
+    "Fast replies and urgency are not credibility signals; they are common manipulation tools.",
+    "Legitimate support will never ask for seed phrases, private keys, 2FA codes, or remote access.",
+    "Look-alike domains and handles often differ by one character, an extra word, or a different TLD.",
+    "Wallet logs and screenshots can leak sensitive metadata; redact or avoid sharing them unless you know what they contain.",
+    "If recovery words were shared, there is no safe “fix” other than moving funds to a new seed phrase."
+  ]
+}
