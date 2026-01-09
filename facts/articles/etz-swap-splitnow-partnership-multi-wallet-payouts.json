@@ -1,0 +1,114 @@
+{
+  "slug": "etz-swap-and-splitnow-partnership",
+  "type": "article",
+  "title": "ETZ Swap & SplitNOW: Swap Once, Send the Result to Multiple Wallets",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-and-splitnow-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-and-splitnow-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "ETZ Swap + Trocador partnership press release"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "ETZ Swap + OrangeFren partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano on ETZ Swap: private L1"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "ETZ Swap & ZenX partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "ETZ Swap listed in a top no-KYC catalog"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "ETZ Swap + Changerella partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "ETZ Swap + MoneroDex partnership: compare XMR swap routes"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+      "anchor": "ETZ Swap + CypherGoat partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-eigenwallet-partnership",
+      "anchor": "ETZ Swap + EigenWallet partnership"
+    }
+  ],
+  "keyQuestions": [
+    "What is SplitNOW and why would I want a swap to land in multiple wallets?",
+    "How does a single swap turn into payouts to several recipient addresses?",
+    "Is a multi-wallet payout safer than doing multiple manual sends after a swap?",
+    "What extra fees or network costs should I expect with multi-wallet distribution?",
+    "What should I do if one recipient address did not receive the payout?",
+    "How do I avoid “support” scams when something looks delayed or confusing?"
+  ],
+  "quickSteps": [
+    "Decide why each wallet exists before you create the split.",
+    "Start with a small test amount on the same network you plan to use.",
+    "Prepare recipient addresses directly inside your wallet apps and double-check them.",
+    "Keep your execution environment clean and refuse any remote “help.”",
+    "Verify completion and label wallets so the routine stays simple next time."
+  ],
+  "recoveryDecisionTree": {
+    "title": "If a multi-wallet payout looks wrong: what to do first",
+    "goal": "Reduce panic, confirm facts, and avoid scam-driven mistakes.",
+    "branches": [
+      {
+        "if": "You are not sure whether the order is still processing or already completed",
+        "then": [
+          "Check the order status in the service interface",
+          "Confirm the asset, network, and recipient list you entered",
+          "Wait for normal settlement time before changing anything",
+          "Do not accept “support” via DMs or random links"
+        ]
+      },
+      {
+        "if": "One of the recipient wallets did not receive funds",
+        "then": [
+          "Verify the exact recipient address you entered (first/last characters)",
+          "Confirm the network for that recipient wallet matches the payout network",
+          "Check the transaction explorer link(s) associated with the payout",
+          "If the address was wrong, treat it as irreversible and focus on prevention next time"
+        ]
+      },
+      {
+        "if": "Amounts look different from what you expected",
+        "then": [
+          "Account for network fees and routing costs across the involved networks",
+          "Confirm whether the split was set as fixed amounts or percentages",
+          "Compare the final received amounts per wallet against the completed payout details",
+          "If the mismatch persists, use official support channels only"
+        ]
+      },
+      {
+        "if": "Someone offers to ‘fix it’ by screen sharing, remote access, or installing a tool",
+        "then": [
+          "Refuse immediately and do not continue the conversation",
+          "Do not share seed phrases, private keys, or wallet files",
+          "Move remaining funds to a safer setup if you suspect compromise",
+          "Re-check your device for suspicious extensions or apps"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A multi-wallet payout reduces repetitive manual sends, but it does not remove the need to verify every address and network.",
+    "Expect routing and network fees to affect final per-wallet amounts; always confirm results after completion.",
+    "Never accept support through DMs, screen sharing, or remote-access tools; use official channels only.",
+    "Do not copy recipient addresses from chats or screenshots; take them directly from your wallet apps and double-check.",
+    "If you entered a wrong address, blockchain transfers are typically irreversible—slow down and verify before you submit."
+  ]
+}
