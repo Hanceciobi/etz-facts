@@ -1,0 +1,110 @@
+{
+  "slug": "etz-swap-lizardswap-partnership-no-kyc-swap-users",
+  "type": "article",
+  "title": "ETZ Swap × LizardSwap Partnership: What It Changes for No-KYC Swap Users",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-lizardswap-partnership-no-kyc-swap-users",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-lizardswap-partnership-no-kyc-swap-users-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "trocador partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "orangefren partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "zano private l1"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "zenx partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "top no-kyc catalog"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "changerella partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "monerodex swap routes"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+      "anchor": "cyphergoat partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-eigenwallet-partnership",
+      "anchor": "eigenwallet partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-splitnow-partnership-multi-wallet-payouts",
+      "anchor": "splitnow payouts"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-wellcrypto-partnership-safer-swap-route-faster",
+      "anchor": "wellcrypto partnership"
+    }
+  ],
+  "keyQuestions": [
+    "What is LizardSwap and what does it do for no-account crypto swaps?",
+    "Does LizardSwap require KYC and what does “no KYC” mean in practice?",
+    "How does an instant swap flow work from deposit to payout?",
+    "Why can a simple swap still fail or get delayed?",
+    "How does ETZ Swap × LizardSwap partnership help users find a safer route faster?",
+    "What should I double-check before sending funds on any swap route?",
+    "Is a small test swap worth it when using a new route?"
+  ],
+  "quickSteps": [
+    "Start with your exact direction: what you send and what you want to receive.",
+    "Use route discovery to build a shortlist, then choose the clearest flow.",
+    "Verify direction, payout address, and any network context before you deposit.",
+    "If the route is new, test with a small amount first, then proceed.",
+    "Keep basic order and transaction context until the payout is confirmed."
+  ],
+  "recoveryDecisionTree": {
+    "title": "Swap route selection and safer execution",
+    "goal": "Choose a clearer route fast and avoid common mistakes before you deposit",
+    "branches": [
+      {
+        "if": "You found several routes that look similar",
+        "then": [
+          "Prefer the route with the clearest flow and fewer surprises",
+          "Verify the domain and the direction before you send funds",
+          "If it’s a new route, do a small test swap first"
+        ]
+      },
+      {
+        "if": "One route looks unusually good compared with the rest",
+        "then": [
+          "Treat it as a signal to slow down and verify details",
+          "Double-check direction, address, and any network assumptions",
+          "If anything feels unclear, pick a normal-market route instead"
+        ]
+      },
+      {
+        "if": "The swap is delayed and you receive unsolicited “support” messages",
+        "then": [
+          "Ignore DMs and do not share seed phrases or private keys",
+          "Do not grant remote access or install unknown tools",
+          "Keep your transaction context and use only the official support path"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-KYC routing reduces onboarding friction but does not remove execution risk.",
+    "Wrong address or wrong network assumptions are the most common swap mistakes.",
+    "A “too good” route is a reason to verify details, not to rush.",
+    "Never trust unsolicited DMs offering “swap help” or “recovery.”"
+  ]
+}
