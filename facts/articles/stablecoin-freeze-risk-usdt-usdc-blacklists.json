@@ -1,0 +1,110 @@
+{
+  "slug": "stablecoin-freeze-risk-usdt-usdc-blacklists",
+  "type": "article",
+  "title": "Stablecoin Freeze Risk: Can USDT or USDC Be Frozen (and What to Do)",
+  "pageUrl": "https://etz-swap.com/blog/stablecoin-freeze-risk-usdt-usdc-blacklists",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/stablecoin-freeze-risk-usdt-usdc-blacklists-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/beyond-usdt-and-usdc-yield-bearing-stablecoins-and-perpetual-dex-tokens-explained",
+      "anchor": "yield-bearing stablecoins & perp DEX tokens"
+    },
+    {
+      "url": "https://etz-swap.com/blog/tainted-coins-blacklists-crypto-analytics-risk-scores",
+      "anchor": "tainted coins, blacklists & risk scores"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-regulation-innovation-security",
+      "anchor": "stablecoin regulation: innovation vs security"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-agents-stablecoin-stability",
+      "anchor": "AI agents and stablecoin stability"
+    },
+    {
+      "url": "https://etz-swap.com/blog/usdt-vs-usdc-stablecoin-comparison",
+      "anchor": "USDT vs USDC comparison"
+    }
+  ],
+  "keyQuestions": [
+    "Can stablecoins be frozen, and what do blacklists mean for USDT/USDC users?",
+    "Can USDT or USDC be frozen after I receive it in my wallet?",
+    "What does “blocklisted” mean on-chain, and why can balances still display normally?",
+    "Can stablecoins be frozen on one chain but not another — and what changes with bridged versions?",
+    "How can I reduce blacklist risk without oversharing my identity graph?",
+    "Should I avoid receiving stablecoins from unknown sources, and what are the red flags?",
+    "What should I do first if my stablecoin transfer fails or an exchange says “restricted funds”?",
+    "How do I keep stablecoin routing hygiene clean for swaps and payouts?",
+    "When is “freeze risk” real, and when is it exaggerated?"
+  ],
+  "quickSteps": [
+    "Confirm whether the issue is on-chain or just a wallet/platform limitation by checking the network, gas, and the explorer failure reason.",
+    "Stop mixing immediately: keep the suspected stablecoins separate from your main balances and avoid routing them through multiple apps.",
+    "Try a tiny test transfer to an address you control to confirm whether transfers are actually restricted.",
+    "Collect minimal proof only (txids, timestamps, chain, context) and use official issuer or platform support channels if escalation is needed.",
+    "For future flows, accept unknown-source stablecoins into a separate receiving address, verify movement first, then swap or distribute."
+  ],
+  "recoveryDecisionTree": {
+    "title": "If your stablecoin transfer fails or funds look restricted: what to do first",
+    "goal": "Contain risk, confirm whether the restriction is on-chain or platform-side, and avoid scam-driven mistakes.",
+    "branches": [
+      {
+        "if": "You are not sure whether it’s a token freeze or a simple wallet/network issue",
+        "then": [
+          "Confirm you are on the correct network for that stablecoin",
+          "Check that you have enough gas for the transaction fee",
+          "Try a tiny test transfer to an address you control",
+          "Review the transaction outcome and failure reason in a block explorer"
+        ]
+      },
+      {
+        "if": "The explorer shows a clear revert or restricted/blacklisted behavior on the token contract",
+        "then": [
+          "Stop routing the funds through swaps, bridges, and DeFi until you understand the scope",
+          "Do not mix the suspected stablecoins with your main wallet balances",
+          "Collect minimal evidence (txids, timestamps, chain, how you received the funds)",
+          "Use official issuer support paths only if escalation is required"
+        ]
+      },
+      {
+        "if": "A centralized platform says “restricted funds” but the token may still move elsewhere",
+        "then": [
+          "Open a formal ticket via the platform’s official support system",
+          "Share only the minimum required details (txid, date/time, chain, amount, brief context)",
+          "Avoid sending full wallet history or unrelated address lists",
+          "Do not use third-party ‘recovery’ agents or paid intermediaries"
+        ]
+      },
+      {
+        "if": "You bridged the stablecoin and are unsure whether it’s native or bridged/wrapped",
+        "then": [
+          "Identify the exact token contract you hold on that chain",
+          "Confirm whether the asset is a native deployment or a bridged representation",
+          "Treat bridges as an additional control and risk layer",
+          "Avoid repeated chain-hopping as a ‘fix’ before you confirm what’s blocked"
+        ]
+      },
+      {
+        "if": "Someone offers to ‘unfreeze’ funds via screen sharing, remote access, or a paid tool",
+        "then": [
+          "Refuse immediately and stop the conversation",
+          "Never share seed phrases, private keys, or wallet files",
+          "Do not install unknown software or browser extensions",
+          "If you suspect compromise, move remaining unaffected funds to a safer setup"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Many centralized stablecoins can enforce on-chain transfer restrictions; a visible balance does not guarantee spendability.",
+    "The same ticker on different chains can represent different contracts; bridged versions add extra control points and risks.",
+    "Unknown-source stablecoins can carry inherited provenance risk; verify movement before mixing or routing into complex flows.",
+    "Containment matters: stop mixing and stop routing suspected funds through multiple apps to avoid spreading the problem.",
+    "Never accept ‘support’ via DMs, remote access, or paid unfreeze promises; use official channels only and share minimal proof."
+  ]
+}
