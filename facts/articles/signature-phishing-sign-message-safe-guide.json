@@ -1,0 +1,85 @@
+{
+  "slug": "signature-phishing-sign-message-safe-guide",
+  "type": "article",
+  "title": "Is signing a message safe? How signature phishing steals crypto without a transfer",
+  "pageUrl": "https://etz-swap.com/blog/signature-phishing-sign-message-safe-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/signature-phishing-sign-message-safe-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    { "url": "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety", "anchor": "crypto scams 2025" },
+    { "url": "https://etz-swap.com/blog/stablecoin-regulation-innovation-security", "anchor": "stablecoin regulation" },
+    { "url": "https://etz-swap.com/blog/airdrops-points-fake-agents-safety-guide", "anchor": "airdrops points fake agents" },
+    { "url": "https://etz-swap.com/blog/aml-gray-zones-safe-transactions-look-suspicious", "anchor": "aml gray zones" },
+    { "url": "https://etz-swap.com/blog/seed-phrase-storage-icloud-google-drive-password-manager", "anchor": "seed phrase storage" },
+    { "url": "https://etz-swap.com/blog/token-approvals-allowance-drains-revoke-safely", "anchor": "allowance drains revoke" },
+    { "url": "https://etz-swap.com/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams", "anchor": "stuck avoid accelerator" },
+    { "url": "https://etz-swap.com/blog/fake-wallet-updates-verify-wallet-downloads", "anchor": "fake wallet updates" }
+  ],
+  "keyQuestions": [
+    "Is it safe to sign a message if it doesn’t cost gas?",
+    "Sign-in vs approve vs send — what am I actually authorizing?",
+    "What does “Sign this message to verify your wallet” really mean?",
+    "How signature phishing steals assets without an obvious transfer prompt",
+    "What a safe signature request looks like and what’s a red flag",
+    "What should I refuse to sign, even if a site looks legitimate?",
+    "How to review signature requests in plain English",
+    "A quick refusal checklist before you sign anything during a swap flow"
+  ],
+  "quickSteps": [
+    "Separate sign-in, approve, and send in your head before you touch the button.",
+    "Treat gasless signing as potentially powerful, not automatically safe.",
+    "Refuse anything unclear, urgent, or coming from support chats or DMs.",
+    "Use an interaction wallet and keep your main holdings wallet isolated.",
+    "If you already signed and something feels wrong, disconnect, review permissions, and contain risk fast."
+  ],
+  "recoveryDecisionTree": {
+    "title": "If you already signed a suspicious message",
+    "goal": "Contain risk first, then remove standing permissions and reduce future exposure.",
+    "branches": [
+      {
+        "if": "You signed but did not connect further or approve anything",
+        "then": [
+          "Disconnect the site from your wallet session.",
+          "Stop signing additional prompts, even if the page pushes you to continue.",
+          "Avoid keeping significant balances in the same interaction wallet until you are confident it is safe."
+        ]
+      },
+      {
+        "if": "You suspect approvals or permissions were set",
+        "then": [
+          "Disconnect the site from your wallet session immediately.",
+          "Review token approvals and revoke anything you do not recognize.",
+          "Move remaining funds to a safer wallet if you are unsure about ongoing exposure."
+        ]
+      },
+      {
+        "if": "Funds already moved unexpectedly",
+        "then": [
+          "Record transaction IDs, domains, timestamps, and the exact message context you saw.",
+          "Use official support channels only for the tools you used, and share public details only.",
+          "Do not accept help via DMs or viewing-session tools, and do not install unknown software."
+        ]
+      },
+      {
+        "if": "You suspect device compromise",
+        "then": [
+          "Stop wallet actions on the current device and move to a clean environment.",
+          "Treat the incident as a device hygiene problem first, not a customer-support problem.",
+          "Rebuild your routine using an interaction wallet and isolate long-term holdings."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Gasless signing can still grant powerful intent. No gas does not mean no risk.",
+    "If you cannot explain why you are signing in one sentence, refuse.",
+    "Verification requests should not require urgency, repeated signing, or support-chat instructions.",
+    "Use an interaction wallet for dapps and swaps, and keep a separate storage wallet for holdings.",
+    "If you already signed and something feels wrong, disconnect first, then review and revoke approvals where applicable.",
+    "Never share seed phrases, private keys, or allow remote access for ‘help’ or ‘recovery’."
+  ]
+}
