@@ -1,0 +1,119 @@
+{
+  "slug": "etz-swap-and-trocador-partnership-press-release",
+  "type": "article",
+  "title": "ETZ-Swap Announces a Strategic Partnership with Trocador.app",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-and-trocador-partnership-press-release-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is Trocador.app and why is its partner bar considered high?",
+    "How does this partnership improve routing, pricing, and reliability for ETZ-Swap users?",
+    "What changes for users at checkout, and what stays the same?",
+    "How does route selection work (fixed vs floating, time windows, fees)?",
+    "What should users do to reduce failed attempts on larger swaps?"
+  ],
+  "quickSteps": [
+    "Request a quote for your pair and amount on ETZ Swap.",
+    "Review the route details (rate type, fees, expected time window).",
+    "Send funds from your wallet and monitor status updates.",
+    "If conditions change, review alternative routes when offered.",
+    "For larger swaps, test small first, then proceed in tranches."
+  ],
+  "issueRouting": {
+    "start": "I want better pricing and fewer failed swaps without giving up privacy or custodial control",
+    "branches": [
+      {
+        "if": "I want the best net outcome after fees",
+        "then": [
+          "Compare routes by net received, not just headline rate",
+          "Prefer routes with clear fee math and realistic time windows",
+          "Use a small test swap before sending a larger amount"
+        ]
+      },
+      {
+        "if": "I care most about reliability during volatile periods",
+        "then": [
+          "Choose routes with strong historical uptime and realistic confirmation expectations",
+          "Avoid pushing the edge of time windows; send promptly after quoting",
+          "Use tranche sizing to reduce execution risk"
+        ]
+      },
+      {
+        "if": "A swap stalls or conditions change mid-execution",
+        "then": [
+          "Follow ETZ Swap status updates and any alternative route proposal",
+          "Verify all addresses carefully before resending anything",
+          "Keep minimal, consistent records to speed up support resolution if needed"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Better routing reduces risk, but network congestion and confirmation delays still happen—watch time windows.",
+    "Always verify addresses; avoid copying from untrusted sources and double-check the destination.",
+    "Compare by net received after fees and spread, not by headline pricing alone.",
+    "For large swaps, test first and use tranches to reduce the cost of mistakes."
+  ]
+}
