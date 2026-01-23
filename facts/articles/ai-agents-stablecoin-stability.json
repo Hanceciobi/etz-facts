@@ -1,0 +1,119 @@
+{
+  "slug": "ai-agents-stablecoin-stability",
+  "type": "article",
+  "title": "How AI Agents Keep Stablecoins Stable",
+  "pageUrl": "https://etz-swap.com/blog/ai-agents-stablecoin-stability",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-agents-stablecoin-stability-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why do stablecoin pegs wobble even when collateral looks fine on paper?",
+    "Which operational tasks can narrow AI agents automate safely without turning into a black box?",
+    "How can agents route liquidity across fragmented venues while keeping costs predictable?",
+    "What guardrails prevent automated rebalancing from becoming a cascading failure?",
+    "How can teams reduce strategy leakage and metadata exposure during routine operations?"
+  ],
+  "quickSteps": [
+    "Define peg SLOs (tolerances and time windows) and decide what gets automated vs escalated.",
+    "Ship one role first (Peg Watcher), then add Smart Router and Collateral Sentinel with strict caps.",
+    "Implement guardrails: hard limits, rate limits, signed intents, multi-sig confirms, kill switches.",
+    "Design for the worst case: dispute/latency, fee spikes, oracle disagreement, chain halts.",
+    "Log inputs, thresholds, and reasons for every action; run monthly drills against playbooks."
+  ],
+  "issueRouting": {
+    "start": "I want stablecoin stability automation without taking on hidden tail risks",
+    "branches": [
+      {
+        "if": "I’m an issuer or operator and need a safer peg maintenance loop",
+        "then": [
+          "Start with monitoring + alerting; automate only small, reversible actions",
+          "Use smart routing based on effective cost (fees, gas, MEV) and pre-approved venues",
+          "Add collateral stress tests and parameter nudges only within governance-bounded ranges"
+        ]
+      },
+      {
+        "if": "My biggest risk is data leakage and strategy exposure",
+        "then": [
+          "Minimize identity and metadata where it is not required for execution",
+          "Separate research, monitoring, and execution accounts/infra where practical",
+          "Prefer routes that reduce unnecessary data exhaust during routine swaps and rebalances"
+        ]
+      },
+      {
+        "if": "I’m worried about automation misfiring during volatility",
+        "then": [
+          "Require oracle agreement and anomaly thresholds before execution",
+          "Use timelocks/circuit breakers on contracts; keep emergency powers narrow and logged",
+          "Run drills (oracle outage, chain halt, rumor-led redemptions) and practice fail-safe behavior"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Automation helps operations; it cannot fix broken economics in an under-secured design.",
+    "Fragmented liquidity creates hidden costs—measure effective cost per action, not headline rates.",
+    "Bad UX breaks privacy: users will screenshot, paste, or reuse sensitive data if flows are unclear.",
+    "Incidents happen; transparent playbooks and fast, boring responses matter more than cleverness."
+  ]
+}
