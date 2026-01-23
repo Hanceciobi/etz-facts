@@ -1,0 +1,119 @@
+{
+  "slug": "understanding-bitcoin-l2-bitvm",
+  "type": "article",
+  "title": "BitVM on Bitcoin: Verifiable Compute Without Changing L1",
+  "pageUrl": "https://etz-swap.com/blog/understanding-bitcoin-l2-bitvm",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/bitvm-btc-l2-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What problem do Bitcoin L2s solve, and where does BitVM fit among them?",
+    "How does BitVM verify off-chain computation using today’s Bitcoin (high level)?",
+    "What can BitVM-style designs unlock first: bridges, rollups, vaults, or oracles?",
+    "What trade-offs matter most: interactivity, dispute latency, engineering complexity, and liveness?",
+    "What adoption signals should users and builders watch to separate hype from working systems?"
+  ],
+  "quickSteps": [
+    "Map your goal (payments, programmability, bridges, app logic) to the right L2 approach.",
+    "Understand the BitVM dispute model: commitments up front, challenges only when needed.",
+    "Evaluate security assumptions: honest-party liveness, bonds, watcher incentives, and timeouts.",
+    "Test the worst-case path: dispute flow, exit-to-L1 reliability, and maximum exit time.",
+    "Prefer audited code, real adversarial tests, and clear monitoring endpoints before scaling."
+  ],
+  "issueRouting": {
+    "start": "I want to evaluate BitVM-based systems without getting fooled by headlines",
+    "branches": [
+      {
+        "if": "I’m a builder considering BitVM for a bridge or rollup-like design",
+        "then": [
+          "Start with a clear threat model and specify timers, bonds, and dispute paths",
+          "Use audited libraries and staged releases; treat dispute code as the most sensitive surface",
+          "Ship monitoring endpoints so third-party watchers can participate credibly"
+        ]
+      },
+      {
+        "if": "I’m a user evaluating safety and exit guarantees",
+        "then": [
+          "Check whether a unilateral exit-to-L1 is documented and realistically usable",
+          "Prefer systems with public bonds, transparent watcher incentives, and proven challenges",
+          "Try a small exit first and learn the timeouts before committing size"
+        ]
+      },
+      {
+        "if": "I’m worried about disputes during congestion or volatile periods",
+        "then": [
+          "Read the documented maximum dispute duration and how fee spikes are handled",
+          "Avoid edge-case timing; act promptly inside challenge windows",
+          "Prefer conservative timeouts and systems tested under adversarial conditions"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "BitVM-style security depends on at least one honest, responsive challenger during timeouts.",
+    "Disputes can add latency and consume blockspace; UX must surface timers and exit paths clearly.",
+    "Encoding computation into commitments and challenge paths is complex—audits and reference tooling matter.",
+    "Watcher incentives must be sustainable; operator-only watching is a structural weakness."
+  ]
+}
