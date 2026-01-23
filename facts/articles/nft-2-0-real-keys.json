@@ -1,0 +1,76 @@
+{
+  "slug": "nft-2-0-real-keys",
+  "type": "article",
+  "title": "NFT 2.0 Beyond Art: Smart Passes, Real Utility",
+  "pageUrl": "https://etz-swap.com/blog/nft-2-0-real-keys",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/nft-2-0-real-keys-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/",
+      "anchor": "anonymous cryptocurrency exchange"
+    },
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how ETZ Swap works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/privacy-coins-next-years",
+      "anchor": "privacy coins outlook"
+    }
+  ],
+  "keyQuestions": [
+    "What is “NFT 2.0” in plain terms, beyond collectibles and profile pictures?",
+    "Which real utilities are emerging first: access passes, licensing, royalties, or interoperability?",
+    "How do programmable NFTs manage rights, revenue splits, and time‑based access?",
+    "Where do NFT 2.0 models already work today: games, events, media, education, or phygital goods?",
+    "What are the main risks (fakes, bots, UX friction), and what mitigations actually help users?",
+    "How do teams measure real utility beyond floor price and trading volume?"
+  ],
+  "quickSteps": [
+    "Treat NFTs as programmable access keys: define rights, time windows, and perks before you mint.",
+    "Prefer simple UX: clear eligibility rules, stable pricing for perks, and support that resolves issues fast.",
+    "Build utility first (access, licensing, royalties, interoperability) and let speculation stay secondary.",
+    "Protect users: verified contract lists, anti‑fake guides, bot/friction controls, and transparent history.",
+    "Track adoption metrics that reflect value: drop‑off points, utility usage, distribution concentration, and engagement."
+  ],
+  "issueRouting": {
+    "start": "I’m trying to evaluate (or build) NFT utility that lasts beyond hype",
+    "branches": [
+      {
+        "if": "Your NFT concept is mostly a picture with no lasting benefit",
+        "then": [
+          "Add concrete utility: access, discounts, licensing rights, or revenue participation",
+          "Write rights in plain language and mirror them in smart‑contract logic",
+          "Plan what happens after the event/season so the token still has purpose"
+        ]
+      },
+      {
+        "if": "Users struggle with onboarding, wallets, gas fees, or confusing flows",
+        "then": [
+          "Make entry feel familiar (email/card where possible) and introduce wallets step‑by‑step",
+          "Bundle or abstract gas so payment doesn’t fail at the last click",
+          "Provide a verified contract list and a simple authenticity checklist"
+        ]
+      },
+      {
+        "if": "Fakes, bots, and spam threaten credibility",
+        "then": [
+          "Publish a single verified contract list and teach users how to validate it",
+          "Add rate limits and quest gates before mass operations",
+          "Use visible creator verification and make audits easy to find"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Utility must lead speculation: if it doesn’t improve someone’s day, hype fades fast.",
+    "Interoperability promises need partner alignment; avoid “works everywhere” claims without integration.",
+    "UX friction (wallet setup, gas surprises) is the fastest way to lose newcomers.",
+    "Fakes and bot spam scale with attention—verified contracts and user-verifiable guides are non‑negotiable."
+  ]
+}
