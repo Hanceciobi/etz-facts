@@ -1,0 +1,119 @@
+{
+  "slug": "zk-kyc-aml-privacy-preserving-compliance",
+  "type": "article",
+  "title": "ZK-KYC & AML: Compliance by Proof, Not Excess Data",
+  "pageUrl": "https://etz-swap.com/blog/zk-kyc-aml-privacy-preserving-compliance",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/zk-kyc-aml-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does ZK-KYC prove, and what does it deliberately avoid revealing?",
+    "How can privacy-preserving AML work with dynamic sanctions lists and revocation?",
+    "Which architectural components are required for production-grade ZK compliance?",
+    "How can DeFi preserve composability while enforcing eligibility rules?",
+    "What are the hardest real-world constraints (Travel Rule, UX, regulator access)?"
+  ],
+  "quickSteps": [
+    "Define the exact policy statements you want to prove (age, residency, sanctions, limits, freshness).",
+    "Choose attesters and credential formats, then model proofs as commitments + selective disclosure.",
+    "Design revocation and list updates (rolling commitments, refresh cadence, grace windows).",
+    "Ship with audited circuits/contracts and replay-resistant nullifiers.",
+    "Make UX simple: one-tap proofs, clear validity windows, and actionable failure messages."
+  ],
+  "issueRouting": {
+    "start": "I want compliance checks without collecting or leaking unnecessary personal data",
+    "branches": [
+      {
+        "if": "I’m designing ZK-KYC for a dApp, exchange, or bridge",
+        "then": [
+          "Use attesters to validate users off-chain and issue signed credentials",
+          "Have wallets generate proofs of eligibility (policy) without disclosing raw attributes",
+          "Verify proofs on- or off-chain and store only validity windows and nullifiers"
+        ]
+      },
+      {
+        "if": "Revocation and list updates are my biggest worry",
+        "then": [
+          "Implement privacy-preserving non-revocation proofs with scheduled refresh",
+          "Commit to rolling sanctions roots with predictable update cadence and grace windows",
+          "Log policy diffs and effective dates so users can re-prove smoothly"
+        ]
+      },
+      {
+        "if": "I need regulator visibility under due process, not surveillance",
+        "then": [
+          "Use warranted-disclosure playbooks via the attester, with strict logging",
+          "Consider view-key style access for targeted investigations only",
+          "Separate audit trails of checks from storage of raw PII"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "ZK proves statements about data; it doesn’t replace legal obligations or eliminate enforcement risk.",
+    "Dynamic lists and revocation are the hardest parts—design them before scaling user volume.",
+    "Circuit and contract bugs can be catastrophic; audited libraries and change management are mandatory.",
+    "Bad UX breaks privacy: users will screenshot, paste, or reuse proofs—build clear, safe flows by default."
+  ]
+}
