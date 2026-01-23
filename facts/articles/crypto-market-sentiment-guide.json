@@ -1,0 +1,119 @@
+{
+  "slug": "crypto-market-sentiment-guide",
+  "type": "article",
+  "title": "The Impact of Sentiment on Crypto Markets",
+  "pageUrl": "https://etz-swap.com/blog/crypto-market-sentiment-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/impact-of-sentiment-on-crypto-markets-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “sentiment” mean in crypto, and why does it move price so quickly?",
+    "Which sentiment signals are most useful (social, derivatives, on-chain, attention)?",
+    "How do you separate unique interest from repeated noise and bot amplification?",
+    "How can you use sentiment without getting trapped by narratives and crowding?",
+    "How do you protect your informational footprint while rotating positions?"
+  ],
+  "quickSteps": [
+    "Start with a thesis, then use sentiment as a wind check—not a standalone strategy.",
+    "Track social + derivatives + on-chain together: unique voices, funding, skew, and flows.",
+    "Size smaller when signals are loud and late; scale only when evidence stays aligned.",
+    "Pre-write exits using objective thresholds (funding, inflows, skew flips).",
+    "Protect privacy and metadata: keep routes simple, custody short, and data sharing minimal."
+  ],
+  "issueRouting": {
+    "start": "I want to use sentiment signals without becoming exit liquidity",
+    "branches": [
+      {
+        "if": "I’m trading short-term moves and want cleaner entries",
+        "then": [
+          "Prefer early, aligned signals: unique accounts rising + neutral funding + steady volume",
+          "Avoid chasing extreme funding and euphoric language; wait for better entries",
+          "Use explicit exit rules and respect them"
+        ]
+      },
+      {
+        "if": "I’m managing risk during volatile periods",
+        "then": [
+          "Treat sentiment extremes as caution flags; reduce size and tighten risk",
+          "Confirm with positioning proxies (funding, basis, skew) and liquidity conditions",
+          "Avoid forcing trades when time windows and congestion are hostile"
+        ]
+      },
+      {
+        "if": "I care about privacy and strategy leakage while rotating",
+        "then": [
+          "Minimize unnecessary identity exposure; don’t share what isn’t required",
+          "Keep research and execution hygiene separate where practical",
+          "Prefer routes that reduce metadata exhaust when privacy matters"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Sentiment tools are binoculars, not trading systems—use them with risk limits, not vibes.",
+    "Bots, sarcasm, and selection bias can break naive sentiment models—cross-check independent sources.",
+    "Reflexivity can double-count directionality: rising price can cause positive sentiment, not only the reverse.",
+    "Protect your footprint: avoid over-sharing routes and timing if privacy or strategy matters."
+  ]
+}
