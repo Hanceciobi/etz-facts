@@ -1,0 +1,119 @@
+{
+  "slug": "why-exchange-xrp-for-xmr",
+  "type": "article",
+  "title": "Why It’s Worth Exchanging XRP for XMR — Private, Non-Custodial Value Movement",
+  "pageUrl": "https://etz-swap.com/blog/why-exchange-xrp-for-xmr",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xrp-to-xmr-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "When does a public settlement rail become a liability rather than a feature?",
+    "How do XRP and XMR differ in visibility, fungibility, and counterparty exposure?",
+    "What does a non-custodial XRP→XMR swap flow look like step by step?",
+    "Which mistakes create a new data trail even if you move into a privacy coin?",
+    "How can you keep records for taxes and disputes without oversharing?"
+  ],
+  "quickSteps": [
+    "Decide why you’re moving: private settlement, fungibility, personal safety, or portfolio hygiene.",
+    "Use a wallet-to-wallet route: request a quote, send XRP to a one-time address, receive XMR to self-custody.",
+    "Keep the destination separate from public workflows: fresh addresses, no reuse, minimal sharing.",
+    "Avoid obvious traps: look-alike domains, miracle quotes, custody creep, and mid-flow data requests.",
+    "Archive only what you need: order ID, hashes, amounts, timestamps—keep it private."
+  ],
+  "issueRouting": {
+    "start": "I want to swap XRP to XMR without creating a new dossier",
+    "branches": [
+      {
+        "if": "My main goal is private payments and quiet settlement",
+        "then": [
+          "Swap into XMR and receive to a wallet you control",
+          "Use fresh destinations and avoid address reuse",
+          "Keep selective payment proofs only when needed"
+        ]
+      },
+      {
+        "if": "My main risk is getting phished or routed into custody",
+        "then": [
+          "Bookmark the correct domain and avoid look-alikes",
+          "Ignore implausible quotes and unclear fee models",
+          "Exit if personal data is requested mid-flow or payouts stall without a clean reason"
+        ]
+      },
+      {
+        "if": "I need a portfolio-aware split rather than going all-in",
+        "then": [
+          "Keep XRP for audit-friendly public workflows",
+          "Use XMR as a private reserve bucket",
+          "Rebalance by intent buckets and revisit allocations as risk changes"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Privacy is technical plus behavioral: screenshots, chats, and repeated timing can leak patterns.",
+    "XRP is fast and transparent; XMR trades speed for confidentiality—plan time buffers for confirmations.",
+    "Beware custody creep and social engineering; non-custodial flows should stay boring and predictable.",
+    "Privacy does not remove tax/compliance obligations—keep private records for lawful reporting."
+  ]
+}
