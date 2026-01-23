@@ -1,0 +1,120 @@
+{
+  "slug": "monero-privacy-uses-beyond-finance",
+  "type": "article",
+  "title": "Applications of Monero and Privacy Coins — looking beyond money to voting, identification, and private data exchange",
+  "pageUrl": "https://etz-swap.com/blog/monero-privacy-uses-beyond-finance",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-privacy-uses-beyond-finance-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "How can privacy-coin patterns be used outside payments?",
+    "What does “prove one fact without exposing everything” look like in practice?",
+    "How can voting stay verifiable without linking ballots to identities?",
+    "Where do view keys and selective disclosure fit in real workflows?",
+    "What are the main pitfalls (UX, coercion, endpoint risk) and how do teams mitigate them?",
+    "How can organizations roll out privacy-by-design systems step by step?"
+  ],
+  "quickSteps": [
+    "Define what must stay private and what can be auditable (one-page threat model).",
+    "Use attestations + short proofs to reveal only what’s needed, not full documents.",
+    "Design voting and access rights as one-time or quota-based entitlements without registries.",
+    "Plan key hygiene: rotation, recovery, and scoped view keys for audits or disputes.",
+    "Pilot with a small group, measure confusion points, and simplify flows before scaling."
+  ],
+  "issueRouting": {
+    "start": "I want to apply privacy-coin patterns beyond finance without creating new risks",
+    "branches": [
+      {
+        "if": "Your system needs verifiable results but voters/users must remain unlinkable",
+        "then": [
+          "Use one-time voting/entitlement rights with non-repeat markers (nullifiers)",
+          "Keep tallies auditable while preventing ballot-to-person linkage",
+          "Plan for coercion resistance and clear lost-key recovery rules"
+        ]
+      },
+      {
+        "if": "You need to prove eligibility (age, membership, qualification) without exposing full identity",
+        "then": [
+          "Collect attestations in advance and present short proofs for specific questions",
+          "Implement revocation and expiry for credentials",
+          "Add anti-abuse controls for mass fake-proof attempts"
+        ]
+      },
+      {
+        "if": "Endpoint risk or UX complexity threatens real-world safety",
+        "then": [
+          "Treat devices and storage as part of the threat model (compromised endpoints break privacy)",
+          "Store hashes/commitments on-chain; keep files and documents off-chain",
+          "Simplify interfaces so users don’t create risky workarounds"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Endpoint compromise can defeat strong cryptography—device security and workflow design matter.",
+    "Coercion and proof-of-choice markets are hard problems for private voting; plan mitigations early.",
+    "Off-chain storage and operational policies define real privacy boundaries more than slogans do.",
+    "If UX is too complex, users will leak data through shortcuts—design for humans."
+  ]
+}
