@@ -1,0 +1,120 @@
+{
+  "slug": "ai-tools-for-crypto-market-analysis-field-guide",
+  "type": "article",
+  "title": "AI Tools for Crypto: A Real Trader’s Field Guide",
+  "pageUrl": "https://etz-swap.com/blog/ai-tools-for-crypto-market-analysis-field-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-tools-for-crypto-market-analysis-field-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Which datasets matter most for crypto market analysis (price, microstructure, derivatives, on-chain, sentiment)?",
+    "What can AI do reliably in trading—and what is mostly noise or overfitting?",
+    "How do you avoid the classic backtest traps (leakage, survivorship bias, unrealistic fills)?",
+    "What execution choices matter most in live crypto markets (routing, slippage, TWAP/VWAP)?",
+    "How do you monitor model health and detect regime shifts before performance collapses?",
+    "What’s a practical checklist to move from notebooks to a stable trading stack?"
+  ],
+  "quickSteps": [
+    "Start with clean, timestamped data and a realistic backtest that includes fees, slippage, and latency.",
+    "Blend signal types: price/microstructure, derivatives, on-chain flows, and sentiment—then validate out of sample.",
+    "Build risk first: volatility-aware sizing, correlation controls, and a clear kill-switch playbook.",
+    "Treat execution as part of the edge: routing, spreads, and scheduled execution often beat “smarter” models.",
+    "Monitor live drift and retrain on a schedule; update strategies when regimes change."
+  ],
+  "issueRouting": {
+    "start": "I want to use AI for crypto analysis without getting fooled by backtests or hype",
+    "branches": [
+      {
+        "if": "Your results look great in backtests but fail live",
+        "then": [
+          "Audit for leakage and survivorship bias; lock train/test splits by time",
+          "Increase realism: fees, slippage, partial fills, latency, and downtime",
+          "Run walk-forward and paper trading before sizing up"
+        ]
+      },
+      {
+        "if": "Signals work sometimes but collapse when the market mood shifts",
+        "then": [
+          "Add regime labels (trend vs chop, volatility buckets) and adapt sizing by regime",
+          "Monitor live drift and trigger safe mode when metrics degrade",
+          "Retrain on a schedule and retire stale features"
+        ]
+      },
+      {
+        "if": "Execution costs eat the edge",
+        "then": [
+          "Use routing and scheduling (TWAP) when spreads are wide",
+          "Size positions with impact costs in mind and avoid thin books",
+          "Prefer fewer, higher-quality signals over overtrading"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Leakage and survivorship bias can make weak models look brilliant; strict time discipline is non-negotiable.",
+    "Execution and costs are often the difference between profit and disappointment—model edge can evaporate at the fill.",
+    "Markets are non-stationary; plan retraining/decay like maintenance, not a one-off setup.",
+    "Operational risk matters: feed delays, outages, and silent drift need dashboards and rollback paths."
+  ]
+}
