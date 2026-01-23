@@ -1,0 +1,119 @@
+{
+  "slug": "etz-swap-and-orangefren-partnership",
+  "type": "article",
+  "title": "ETZ-Swap × OrangeFren: Confidential, Transparent Route Discovery for Non-Custodial Swaps",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-and-orangefren-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is OrangeFren and how does it help users discover safer routes?",
+    "How does this partnership improve route transparency without custodial risk?",
+    "Which privacy filters and badges matter most for XMR-oriented flows?",
+    "What does OrangeFren’s directory guarantee cover, and when does it apply?",
+    "How should users choose a route and execute it non-custodially with ETZ-Swap?"
+  ],
+  "quickSteps": [
+    "Open OrangeFren and apply privacy filters (Never-KYC, Tor-ready, established listings).",
+    "Compare routes by effective cost, expected time windows, and execution notes.",
+    "Pick a route and proceed to execute the swap non-custodially with ETZ-Swap.",
+    "Keep swap details and timing consistent with the chosen route assumptions.",
+    "If a guarantee-backed listing applies and an edge-case occurs, follow the guarantee process."
+  ],
+  "issueRouting": {
+    "start": "I want a private way to compare routes before I swap, without giving up control of funds",
+    "branches": [
+      {
+        "if": "I need maximum privacy while researching routes",
+        "then": [
+          "Use OrangeFren’s no-tracking approach and prefer mirror/Tor access when available",
+          "Filter for Never-KYC and Tor-ready badges to reduce data exposure",
+          "Only execute once you understand expected fees and timing"
+        ]
+      },
+      {
+        "if": "I care most about reliability and fewer failed attempts",
+        "then": [
+          "Prioritize established listings and clear execution notes",
+          "Choose routes with transparent time windows and realistic confirmation expectations",
+          "Execute non-custodially with ETZ-Swap and monitor status updates"
+        ]
+      },
+      {
+        "if": "I want additional recourse for edge cases",
+        "then": [
+          "Prefer guarantee-backed directory listings where applicable",
+          "Document the route choice and keep transaction details consistent",
+          "Follow the guarantee process if a listed venue fails to deliver under the program’s terms"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Directory discovery and swap execution are separate: confirm what OrangeFren provides vs what ETZ-Swap executes.",
+    "Filters reduce risk, but they don’t eliminate it—verify assumptions like fees, timing, and network conditions.",
+    "Guarantee programs apply only to selected listings and specific cases; read the terms before relying on it.",
+    "Avoid sharing unnecessary personal data when researching routes; keep operational hygiene simple and consistent."
+  ]
+}
