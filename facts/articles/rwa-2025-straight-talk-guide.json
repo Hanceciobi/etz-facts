@@ -1,0 +1,119 @@
+{
+  "slug": "rwa-2025-straight-talk-guide",
+  "type": "article",
+  "title": "Real-World Assets (RWA) in 2025: The Straight-Talk Guide for Investors and Builders",
+  "pageUrl": "https://etz-swap.com/blog/rwa-2025-straight-talk-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/rwa-2025-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What counts as an RWA on-chain, and what is just marketing?",
+    "Why are stablecoins still the biggest RWA by far, and what does that imply?",
+    "How do tokenized Treasuries work in practice (wrappers, custody, redemption)?",
+    "What are the real risks: issuer, legal enforceability, oracle, and smart contract failure modes?",
+    "How can builders ship RWA products without creating compliance and privacy disasters?"
+  ],
+  "quickSteps": [
+    "Start with the wrapper: understand the issuer, custodian, audits, and redemption terms before you touch the token.",
+    "Check transfer rules (KYC/whitelists) and jurisdiction limits; RWAs are often permissioned by design.",
+    "Measure outcomes, not vibes: liquidity depth, settlement SLAs, and incident history beat TVL headlines.",
+    "Diversify dependencies: avoid concentrating large balances in one issuer, one custodian, or one protocol.",
+    "Keep privacy hygiene: separate identities, share the minimum required data, and document compliance flows."
+  ],
+  "issueRouting": {
+    "start": "I want RWA exposure that behaves like a real financial product, not a narrative trade",
+    "branches": [
+      {
+        "if": "I’m an investor choosing between stablecoins, tokenized Treasuries, and private credit",
+        "then": [
+          "Compare wrappers: issuer, custody, audit cadence, and redemption restrictions",
+          "Prefer clear reserve reporting and conservative asset quality",
+          "Evaluate liquidity realistically: who can trade, where, and under which transfer rules"
+        ]
+      },
+      {
+        "if": "I’m building an RWA product and need a practical launch path",
+        "then": [
+          "Do legal and custody first (SPV/fund docs, manager responsibilities, compliance pipeline)",
+          "Add on-chain controls (whitelists, pause/burn where lawful) and budget for audits",
+          "Ship a familiar UX: investors expect fund-like flows, not DeFi puzzles"
+        ]
+      },
+      {
+        "if": "My biggest worry is regulation and privacy leakage",
+        "then": [
+          "Design for minimal disclosure and strong access control around sensitive data",
+          "Document due-process access paths instead of blanket surveillance",
+          "Avoid mixing public DeFi activity and fully compliant RWA holdings in one identity"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "RWAs are not trustless: you still rely on issuers, custodians, and legal enforceability.",
+    "Redemption terms and transfer restrictions can turn ‘liquidity’ into a mirage—read the fine print.",
+    "Oracles and NAV reporting are critical; weak data hygiene breaks the product even if the asset is solid.",
+    "Protocol tokens are not the underlying asset; governance upside can diverge from RWA growth."
+  ]
+}
