@@ -1,0 +1,120 @@
+{
+  "slug": "top-ai-crypto-coins-2026",
+  "type": "article",
+  "title": "Top AI Crypto Coins for 2026: A Pragmatic Field Guide",
+  "pageUrl": "https://etz-swap.com/blog/top-ai-crypto-coins-2026",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/top-ai-crypto-coins-2026-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does an “AI coin” actually do, beyond marketing?",
+    "How can you tell whether a token is essential to compute/data/coordination—or just bolted on?",
+    "Which AI-crypto categories matter most in 2026: compute networks, data markets, agent platforms, or AI marketplaces?",
+    "What adoption signals matter more than price and hype?",
+    "What are the biggest practical risks (incentive gaming, thin liquidity, security, UX), and how do you manage them?",
+    "How do you build a defensible watchlist you can keep updating over time?"
+  ],
+  "quickSteps": [
+    "Start with impact: define what gets cheaper, faster, safer, or easier thanks to the project.",
+    "Trace the flywheel: who supplies compute/data/agents today, and why they return tomorrow.",
+    "Prioritize deployments over demos: look for paid jobs, integrations, and recurring usage.",
+    "Track a monthly scorecard: supply depth, demand proof, cost/latency vs incumbents, developer activity.",
+    "Manage risk: expect correlation during mania, and update the thesis every quarter."
+  ],
+  "issueRouting": {
+    "start": "I want to evaluate AI-crypto projects without getting trapped by hype",
+    "branches": [
+      {
+        "if": "A project can’t explain its real-world impact in one sentence",
+        "then": [
+          "Pause the research and restate the user benefit in plain language",
+          "Check whether the token coordinates compute, data licensing, or incentives (not vibes)",
+          "If the value proposition stays vague, remove it from your short list"
+        ]
+      },
+      {
+        "if": "The project has big claims but no visible usage",
+        "then": [
+          "Look for paid jobs, production integrations, or recurring users (not just hackathons)",
+          "Check developer activity and ecosystem growth rather than social metrics",
+          "Set a thesis expiry date (e.g., 90 days) unless new evidence appears"
+        ]
+      },
+      {
+        "if": "You’re worried about incentive gaming, thin liquidity, or security",
+        "then": [
+          "Size positions assuming exits may be noisy and slippage-heavy",
+          "Prefer projects with transparent metrics and robust reputation/anti-sybil design",
+          "Treat custody and endpoint security as part of the thesis, not an afterthought"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Most failures look like incentives being gamed, not the tech being impossible.",
+    "Thin liquidity and concentration can turn normal volatility into forced exits.",
+    "If onboarding and reliability aren’t close to web2 standards, adoption stalls.",
+    "Security is end-to-end: contracts, off-chain endpoints, and user behavior all matter."
+  ]
+}
