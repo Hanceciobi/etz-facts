@@ -1,0 +1,119 @@
+{
+  "slug": "eth-to-monero-security-tips-and-why-it-makes-sense",
+  "type": "article",
+  "title": "Security Tips for ETH to Monero Transactions — And Why the Move Makes Sense",
+  "pageUrl": "https://etz-swap.com/blog/eth-to-monero-security-tips-and-why-it-makes-sense",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/eth-xmr-security-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why do people move value from ETH into XMR in the first place?",
+    "What privacy and fungibility problems does Monero solve that ETH cannot by default?",
+    "Which security surfaces matter most during an ETH→XMR move (device, network, counterparty, records)?",
+    "What are the most common operational mistakes that leak metadata or invite scams?",
+    "How can you keep lawful records without turning your transactions into public content?"
+  ],
+  "quickSteps": [
+    "Use a non-custodial route where you control the destination wallet and avoid mid-flow identity requests.",
+    "Verify the domain and deposit details every time; treat impossible quotes as a red flag.",
+    "Receive XMR to a fresh wallet destination and avoid address reuse or public sharing.",
+    "Protect the edges: updated devices, cautious browser hygiene, and VPN on untrusted networks.",
+    "Keep minimal private receipts (order ID, hashes, timestamps) for compliance and disputes."
+  ],
+  "issueRouting": {
+    "start": "I want to move from ETH to XMR with less noise and fewer security mistakes",
+    "branches": [
+      {
+        "if": "My goal is business confidentiality (vendors, payroll, donors)",
+        "then": [
+          "Use default-private settlement for sensitive payments",
+          "Keep accounting records privately and avoid sharing addresses publicly",
+          "Compartmentalize wallets by purpose (operating vs savings)"
+        ]
+      },
+      {
+        "if": "My biggest risk is scams, impersonation, and custody creep",
+        "then": [
+          "Bookmark the correct domain and verify it before every swap",
+          "Never share seed phrases; never install ‘support’ software",
+          "Exit if extra deposits or personal data are requested mid-flow"
+        ]
+      },
+      {
+        "if": "My biggest risk is metadata leakage (IP, timing, screenshots)",
+        "then": [
+          "Use VPN/Tor where appropriate and reduce browser fingerprinting",
+          "Avoid screenshots and chat logs that include addresses or personal identifiers",
+          "Separate public DeFi activity from private settlement wallets"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "ETH is transparent by design; privacy on transparent rails is brittle and easy to undo with one mistake.",
+    "Monero reduces on-chain leakage, but edge metadata (devices, network, behavior) still matters.",
+    "Fees and venue availability differ; plan buffers for confirmation times and payout delays.",
+    "Privacy does not remove tax/compliance duties—keep private records for lawful reporting."
+  ]
+}
