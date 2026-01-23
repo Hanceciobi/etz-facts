@@ -1,0 +1,119 @@
+{
+  "slug": "how-to-maintain-privacy-when-buying-crypto",
+  "type": "article",
+  "title": "How to Maintain Privacy When Buying Crypto",
+  "pageUrl": "https://etz-swap.com/blog/how-to-maintain-privacy-when-buying-crypto",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/how-to-maintain-privacy-when-buying-crypto-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does privacy mean on public blockchains, and what data leaks first?",
+    "Which acquisition methods reduce identity collection the most (cash, P2P, swaps)?",
+    "How do you choose a realistic threat model without breaking the law?",
+    "What wallet habits prevent re-linking your identity after a “private” buy?",
+    "What are the biggest mistakes that destroy privacy even with good tools?"
+  ],
+  "quickSteps": [
+    "Define your threat model: who you’re hiding from and what data matters most.",
+    "Pick a route that minimizes data collection (cash ATM, escrowed P2P, or non-custodial swap).",
+    "Use fresh receive addresses and avoid address reuse; isolate funds by purpose.",
+    "Protect network metadata (VPN/Tor) and reduce unnecessary telemetry.",
+    "Document transactions privately for taxes/compliance, but don’t publish addresses or screenshots."
+  ],
+  "issueRouting": {
+    "start": "I want to buy crypto with stronger privacy without falling for ‘guaranteed anonymity’ claims",
+    "branches": [
+      {
+        "if": "I want the simplest privacy upgrade with minimal setup",
+        "then": [
+          "Use a reputable non-custodial wallet and generate a fresh address",
+          "Buy small via cash-based methods where lawful, or use escrowed P2P",
+          "Avoid address reuse and don’t consolidate mixed sources"
+        ]
+      },
+      {
+        "if": "I’m converting a transparent asset into a privacy coin",
+        "then": [
+          "Receive to a fresh wallet address, then swap via a non-custodial route",
+          "Withdraw to a self-custody privacy wallet (fresh subaddress if supported)",
+          "Don’t recombine post-swap outputs with previously doxxed funds"
+        ]
+      },
+      {
+        "if": "My main risk is leaking identity through devices and metadata",
+        "then": [
+          "Separate research and execution workflows where practical",
+          "Use VPN/Tor and minimize browser fingerprinting and DNS leaks",
+          "Keep logs private; never post TxIDs, addresses, or screenshots publicly"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Privacy is a practice: sloppy address reuse can undo careful acquisition routes.",
+    "‘Anonymous’ usually means data-minimizing—on-chain activity can still be public on many networks.",
+    "Cash/P2P rules vary by jurisdiction; stay within local limits and reporting requirements.",
+    "Beware of scams and ‘guaranteed anonymity’ marketing—verify terms, fees, and policies."
+  ]
+}
