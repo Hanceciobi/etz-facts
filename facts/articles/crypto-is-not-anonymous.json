@@ -1,0 +1,119 @@
+{
+  "slug": "crypto-is-not-anonymous",
+  "type": "article",
+  "title": "Crypto Is Not Anonymous: How Criminals Are Caught on the Blockchain",
+  "pageUrl": "https://etz-swap.com/blog/crypto-is-not-anonymous",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-is-not-anonymous-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why are most cryptocurrencies pseudonymous rather than anonymous?",
+    "How do investigators cluster addresses and trace flows across transactions?",
+    "Where do off-chain breadcrumbs (KYC records, OSINT, IP data) enter the picture?",
+    "What do privacy coins change, and where do their limits still show up?",
+    "What practical habits improve privacy without relying on myths?"
+  ],
+  "quickSteps": [
+    "Assume transparency by default: public chains expose a permanent transaction graph.",
+    "Avoid address reuse and careless change handling; use wallets with strong hygiene features.",
+    "Reduce off-chain leakage: don’t post addresses/TxIDs, and avoid screenshots of sensitive flows.",
+    "Protect network metadata (VPN/Tor where appropriate) and minimize unnecessary telemetry.",
+    "If you need stronger on-chain confidentiality, learn the trade-offs of default-private assets and good operational practice."
+  ],
+  "issueRouting": {
+    "start": "I want to understand why “crypto is anonymous” is a myth and what actually improves privacy",
+    "branches": [
+      {
+        "if": "I mainly use Bitcoin/Ethereum and want less avoidable exposure",
+        "then": [
+          "Use fresh addresses and avoid consolidation that links unrelated funds",
+          "Treat exchanges as identity choke points and plan your flows accordingly",
+          "Keep operational logs private and minimize public sharing"
+        ]
+      },
+      {
+        "if": "I’m evaluating privacy coins and privacy layers",
+        "then": [
+          "Understand what is protected (sender/receiver/amount) and what can still leak at the edges",
+          "Avoid toggling between transparent and private pools without understanding linkage risk",
+          "Prefer well-understood tools and wallet hygiene over magic-bullet promises"
+        ]
+      },
+      {
+        "if": "My biggest risk is metadata (devices, IP, and off-chain traces)",
+        "then": [
+          "Separate research and execution where practical",
+          "Use VPN/Tor and reduce browser fingerprinting and DNS leakage",
+          "Never publish addresses, TxIDs, screenshots, invoices, or chat logs tied to your identity"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Public ledgers are transparent; anonymity depends on behavior and surrounding infrastructure, not addresses alone.",
+    "Mixing techniques can raise analysis cost, but post-mix behavior can re-link funds.",
+    "Privacy tooling is dual-use; follow local law and avoid claims of ‘guaranteed anonymity’.",
+    "Edge leaks matter: exchanges, devices, and network metadata often defeat good on-chain practice."
+  ]
+}
