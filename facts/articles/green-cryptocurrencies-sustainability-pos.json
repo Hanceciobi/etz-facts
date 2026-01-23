@@ -1,0 +1,120 @@
+{
+  "slug": "green-cryptocurrencies-sustainability-pos",
+  "type": "article",
+  "title": "Green cryptocurrencies and environmental sustainability — how “green” is actually achieved",
+  "pageUrl": "https://etz-swap.com/blog/green-cryptocurrencies-sustainability-pos",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/green-cryptocurrencies-sustainability-pos-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What makes a cryptocurrency “green” in technical terms?",
+    "How do PoS, DPoS, PoA, and proof of space/time change energy use?",
+    "What does credible carbon accounting look like for a blockchain project?",
+    "How can crypto operations align with renewables and grid stability?",
+    "What are the sustainability trade-offs (centralization, e-waste, hardware churn)?",
+    "How can users and builders spot real environmental progress versus marketing?"
+  ],
+  "quickSteps": [
+    "Check the consensus model and its real-world energy profile (PoS vs PoW, plus operational choices).",
+    "Look for transparent reporting: dashboards, audits, and consistent methodology for footprint estimates.",
+    "Verify renewable strategy and location choices; avoid vague claims with no evidence.",
+    "Assess hardware and governance: upgrades should not force rapid e-waste cycles.",
+    "Use a simple checklist to separate measurable reductions from slogans."
+  ],
+  "issueRouting": {
+    "start": "I want to understand whether a crypto project is genuinely sustainable",
+    "branches": [
+      {
+        "if": "The project claims to be green but shows no measurements",
+        "then": [
+          "Look for public power/footprint reporting and repeatable methodology",
+          "Check for dashboards or audits that users can verify",
+          "Treat unmeasured claims as marketing until proven"
+        ]
+      },
+      {
+        "if": "Consensus is efficient but decentralization looks weak",
+        "then": [
+          "Review validator concentration and governance controls",
+          "Check whether the model relies on a small trusted set (PoA) or stake whales (PoS)",
+          "Balance sustainability with credible security and openness"
+        ]
+      },
+      {
+        "if": "Hardware churn and e-waste risk seems high",
+        "then": [
+          "Prefer designs that run on commodity hardware and minimize forced upgrades",
+          "Check upgrade cadence and compatibility commitments",
+          "Consider the full lifecycle: devices, replacements, and reuse markets"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Low-energy consensus can still concentrate power if governance is weak.",
+    "Offsets vary in quality; transparency and verification matter more than slogans.",
+    "Storage-based models can create e-waste if incentives push rapid hardware churn.",
+    "Sustainability is operational as much as technical: where and how nodes run is part of the footprint."
+  ]
+}
