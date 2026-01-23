@@ -1,17 +1,77 @@
 {
+  "slug": "airdrops-points-fake-agents-safety-guide",
+  "type": "article",
   "title": "Airdrops, Points, and Fake Agents: A Practical Safety Guide",
   "pageUrl": "https://etz-swap.com/blog/airdrops-points-fake-agents-safety-guide",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/airdrops-points-fake-agents-safety-guide-cover.webp",
-  "quickSteps": [
-    "Start only from the official source.",
-    "Do a one-minute page & wallet check.",
-    "Claim from a separate, low-balance wallet.",
-    "Be strict with bots and mini-apps.",
-    "If something went wrong, contain it now."
-  ],
-  "seo": {
-    "keywords": "crypto airdrop checklist,verify claim domain,wallet drainer approve unlimited,permit signature risk,points farming safety,web3 security",
-    "description": "A calm, practical guide to avoid airdrop/points scams and shrink blast radius."
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
   },
-  "updatedAt": "2025-11-12T00:00:00Z"
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety",
+      "anchor": "crypto scams 2025 warning signs"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fake-crypto-support-scams-verify-real-channel",
+      "anchor": "fake crypto support scams"
+    },
+    {
+      "url": "https://etz-swap.com/blog/signature-phishing-sign-message-safe-guide",
+      "anchor": "signature phishing explained"
+    }
+  ],
+  "keyQuestions": [
+    "How do fake airdrop and points campaigns actually drain wallets?",
+    "What is the 60-second Source–Technical–Economics check before connecting a wallet?",
+    "Which wallet popups are immediate red flags (approvals, permits, SetApprovalForAll)?",
+    "How should I use a separate “claim” wallet so mistakes stay small?",
+    "How do I verify bots, mini-apps, and “admins” in Telegram safely?",
+    "What should I do right now if I already clicked or signed something suspicious?"
+  ],
+  "quickSteps": [
+    "Start only from an official announcement you can verify; match the domain letter-for-letter and avoid forwarded links.",
+    "Before you connect, run the three-screen check: Source, Technical ask, and Economics (rules and dates must be clear).",
+    "Reject broad permissions: SetApprovalForAll, IncreaseAllowance, “unlimited”, unclear permits, surprise chain/RPC switches.",
+    "Claim from a separate low-balance wallet; keep savings elsewhere and revoke new permissions on a weekly habit.",
+    "If something went wrong: revoke approvals/permits, move assets to a fresh address, save tx hashes, and warn others."
+  ],
+  "issueRouting": {
+    "start": "I want to claim points/airdrops but something feels off",
+    "branches": [
+      {
+        "if": "The link came from a forward, DM, or screenshot and you can’t trace it to the project’s official site",
+        "then": [
+          "Do not connect your wallet or sign anything",
+          "Find the announcement on the project’s official site/verified socials and compare the domain letter-for-letter",
+          "If the domain or handle doesn’t match exactly, treat it as a scam and leave"
+        ]
+      },
+      {
+        "if": "Your wallet asks for broad approvals or vague permits (SetApprovalForAll, IncreaseAllowance, unlimited)",
+        "then": [
+          "Cancel the request immediately and close the page",
+          "Repeat the check using a separate low-balance claim wallet only",
+          "If you need to proceed, only sign narrow, time-bound actions tied to a verified contract"
+        ]
+      },
+      {
+        "if": "You already clicked, connected, or signed something suspicious",
+        "then": [
+          "Revoke recent approvals/permits as soon as possible",
+          "Move remaining assets to a fresh wallet address",
+          "Record tx hashes and timestamps for your notes and report the scam channel to your community"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Most drainers don’t need your seed phrase — they rely on rushed consent: approvals, permits, and signatures you didn’t fully read.",
+    "Lookalike domains and compromised chat channels exploit urgency; always verify the source before connecting.",
+    "Broad approvals (unlimited allowances, SetApprovalForAll) create lasting exposure even after you close the claim page.",
+    "A separate low-balance claim wallet turns disasters into small losses; revoking permissions weekly keeps exposure short-lived."
+  ]
 }
+
