@@ -1,0 +1,119 @@
+{
+  "slug": "no-kyc-crypto-swaps-why-clients-prefer-monero",
+  "type": "article",
+  "title": "No-KYC Crypto Swaps — Why Privacy-Focused Clients Prefer Monero",
+  "pageUrl": "https://etz-swap.com/blog/no-kyc-crypto-swaps-why-clients-prefer-monero",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/no-kyc-monero-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “no-KYC” actually mean in a crypto-to-crypto swap?",
+    "Which swap models are truly account-free (DEX, cross-chain swappers, P2P) and what are their trade-offs?",
+    "Why does Monero (XMR) keep showing up as the practical privacy default?",
+    "Which risks hurt users most (impersonation, miracle quotes, custody creep, linkable habits)?",
+    "What wallet and record-keeping habits keep swaps private without breaking real-world obligations?"
+  ],
+  "quickSteps": [
+    "Choose a non-custodial, account-free route where your wallet is the account.",
+    "Request a quote, send the deposit, and track the order via verifiable on-chain artifacts.",
+    "Receive XMR to a wallet you control and avoid address reuse or public sharing.",
+    "Ignore miracle pricing and avoid services that request extra deposits or personal data mid-flow.",
+    "Keep private receipts: order ID, hashes, amounts, and timestamps—nothing more."
+  ],
+  "issueRouting": {
+    "start": "I want to swap into XMR without creating a long-lived identity profile",
+    "branches": [
+      {
+        "if": "My main goal is quiet, default-private settlement",
+        "then": [
+          "Receive XMR to self-custody and keep destinations fresh (no reuse)",
+          "Use selective proofs only when needed and keep them private",
+          "Separate public activity wallets from private holdings"
+        ]
+      },
+      {
+        "if": "My main risk is scams and impersonation",
+        "then": [
+          "Use bookmarks and verify the exact domain every time",
+          "Never enter a seed phrase on a website and read permissions before signing",
+          "Avoid services with impossible quotes or unclear fee models"
+        ]
+      },
+      {
+        "if": "My main risk is leaking privacy through habits",
+        "then": [
+          "Compartmentalize wallets by intent (CEX-touched vs private holdings)",
+          "Store only minimal receipts and avoid screenshots/chats tied to identity",
+          "Use network hygiene (VPN on untrusted networks, updated software)"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-KYC does not mean lawless: you still have tax and reporting obligations where you live.",
+    "Optional-privacy systems are easier to use incorrectly; default-private rails reduce routine mistakes.",
+    "Impersonation and bait pricing are common—verify domains and treat “too good” quotes as a red flag.",
+    "Privacy leaks through behavior: address reuse, public sharing, and consolidation can undo good tools."
+  ]
+}
