@@ -1,0 +1,119 @@
+{
+  "slug": "utxo-hygiene-cold-storage",
+  "type": "article",
+  "title": "Toxic UTXOs, “Dirty” Addresses, and Cold Storage: A Field Guide to Protecting Your On-Chain Reputation",
+  "pageUrl": "https://etz-swap.com/blog/utxo-hygiene-cold-storage",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/utxo-hygiene-cold-storage-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a UTXO, and how do UTXOs become “toxic” in practice?",
+    "How do addresses get labeled “dirty,” and which habits accelerate that label?",
+    "Which wallet features matter most for clean spending (coin control, change handling, address rotation)?",
+    "How does cold storage reduce both security risk and reputational metadata leakage?",
+    "What should you do if a wallet is already contaminated by tainted inputs?"
+  ],
+  "quickSteps": [
+    "Compartmentalize wallets by purpose: clean vault, operating, and quarantine.",
+    "Use coin control and avoid co-spending UTXOs from different reputational sources.",
+    "Rotate addresses by default and prevent address reuse anywhere public.",
+    "Move long-term holdings to cold storage and minimize transaction cadence.",
+    "If contamination happens, stop consolidating, isolate exposure, and document intent privately."
+  ],
+  "issueRouting": {
+    "start": "I want to avoid toxic UTXOs and keep my on-chain reputation clean without turning my workflow into a mess",
+    "branches": [
+      {
+        "if": "I’m receiving funds from new counterparties or uncertain sources",
+        "then": [
+          "Route inflows to a quarantine wallet first",
+          "Label provenance privately (TxID, source, purpose) and avoid screenshots",
+          "Only promote funds to the clean vault after you’re comfortable with the footprint"
+        ]
+      },
+      {
+        "if": "I need safer everyday spending on UTXO chains",
+        "then": [
+          "Use wallets with coin control and strong change address handling",
+          "Avoid consolidation that mixes different sources",
+          "Prefer short-lived addresses and separate public-facing wallets from savings"
+        ]
+      },
+      {
+        "if": "I believe an address or wallet is already flagged",
+        "then": [
+          "Freeze the wallet and stop consolidating immediately",
+          "Identify the exposure hop and isolate questionable UTXOs",
+          "Spend clean UTXOs separately and keep private notes for compliance questions"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Labeling rules change: what looks benign today can be reclassified later, so compartmentalization matters.",
+    "Mixing clean and questionable inputs in one spend can merge reputations permanently.",
+    "Cold storage reduces attack surface but also reduces the metadata you leak by moving less often.",
+    "Privacy is a practice: address rotation and operational hygiene matter as much as tools."
+  ]
+}
