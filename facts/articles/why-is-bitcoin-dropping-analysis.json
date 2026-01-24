@@ -1,0 +1,115 @@
+{
+  "slug": "why-is-bitcoin-dropping-analysis",
+  "type": "article",
+  "title": "Analyzing Bitcoin's Downward Trajectory: Deep Insights into the Current Market",
+  "pageUrl": "https://etz-swap.com/blog/why-is-bitcoin-dropping-analysis",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/why-is-bitcoin-dropping-analysis-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why is Bitcoin dropping right now: sentiment, macro pressure, regulation, or crypto-specific events?",
+    "Which indicators help distinguish a routine correction from a structural trend shift?",
+    "How do regulation headlines and enforcement actions translate into BTC price moves?",
+    "What liquidity signals matter during sharp declines (spread, depth, and forced selling)?",
+    "What risk rules help you avoid panic decisions during volatility?"
+  ],
+  "quickSteps": [
+    "Identify the main driver: macro risk-off, policy headlines, or crypto-specific stress.",
+    "Watch liquidity (spread and depth) and avoid large market orders during turbulence.",
+    "Use staged entries/exits and define risk limits before you act.",
+    "Reduce leverage when volatility expands; liquidation cascades are common in fast drops.",
+    "Keep operational hygiene: verify links, double-check networks, and store backups offline."
+  ],
+  "issueRouting": {
+    "start": "Separate the catalyst (macro, regulation, or crypto-specific), then manage exposure first: size, leverage, and execution costs. Only after that should you plan entries or long-term accumulation.",
+    "branches": [
+      {
+        "if": "The move is mostly macro-driven (rates up, risk-off markets)",
+        "then": [
+          "Expect correlation with equities and weaker risk appetite.",
+          "Prefer smaller size, patience, and staged accumulation near support zones."
+        ]
+      },
+      {
+        "if": "The move is driven by regulation or policy headlines",
+        "then": [
+          "Assume headline whipsaws and fast reversals; avoid chasing candles.",
+          "Wait for volatility to compress and volume to stabilize before scaling in."
+        ]
+      },
+      {
+        "if": "The move is mostly sentiment and momentum selling",
+        "then": [
+          "Watch for capitulation signals: volume spikes, funding extremes, and long wicks.",
+          "Use conservative tranches and keep liquidity for retries instead of one-shot timing."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Volatility clusters: sharp drops can be followed by sharp rebounds—plan for both.",
+    "Liquidity thins during stress; spreads and slippage can dominate outcomes.",
+    "News-driven moves are noisy; position sizing and risk rules matter more than predictions."
+  ]
+}
