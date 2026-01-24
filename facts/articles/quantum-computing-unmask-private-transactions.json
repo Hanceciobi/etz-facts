@@ -1,0 +1,130 @@
+{
+  "slug": "quantum-computing-unmask-private-transactions",
+  "type": "article",
+  "title": "How Quantum Computing Could Unmask Today’s Private Transactions",
+  "pageUrl": "https://etz-swap.com/blog/quantum-computing-unmask-private-transactions",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/quantum-computing-unmask-private-transactions-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does quantum computing actually threaten in crypto, and what stays safe?",
+    "How does “harvest now, decrypt later” apply to public blockchains?",
+    "Why can Bitcoin’s revealed public keys become a long-term risk?",
+    "How could quantum pressure affect Monero’s privacy model?",
+    "Why are some zero-knowledge systems exposed to proof forgery risk?",
+    "What can users and builders do now to reduce future exposure?"
+  ],
+  "quickSteps": [
+    "Avoid address reuse and reduce long-lived key exposure.",
+    "Rotate funds away from addresses that have revealed public keys.",
+    "Segment savings vs spending across separate wallets/subaddresses.",
+    "Harden your network layer (Tor/I2P, avoid identifiable broadcasts).",
+    "Prefer non-custodial workflows when rebalancing positions.",
+    "Track ecosystem migration plans toward hybrid / post-quantum schemes."
+  ],
+  "issueRouting": {
+    "start": "I’m worried quantum computing could expose my private transactions — where do I start?",
+    "branches": [
+      {
+        "if": "You hold BTC (or used BTC scripts/addresses that revealed public keys).",
+        "then": [
+          "Stop reusing addresses and consolidate hygiene into a routine.",
+          "Rotate residual balances to newer spend paths where possible.",
+          "Separate identity-linked activity from long-term holdings."
+        ]
+      },
+      {
+        "if": "You use Monero (XMR) and care about long-term recipient privacy.",
+        "then": [
+          "Keep wallet software updated and avoid weak operational patterns.",
+          "Use separate subaddresses for distinct contexts.",
+          "Watch for post-quantum migration proposals and upgrade paths."
+        ]
+      },
+      {
+        "if": "You rely on shielded / ZK systems for privacy.",
+        "then": [
+          "Assume proof systems may need upgrades; follow protocol roadmaps.",
+          "Avoid mixed optional-privacy flows that leak via correlations.",
+          "Keep long-term storage plans flexible for migrations."
+        ]
+      },
+      {
+        "if": "You’re building wallets/infrastructure.",
+        "then": [
+          "Prototype hybrid signatures and staged rollouts.",
+          "Publish a runbook for key rotation and address migration.",
+          "Benchmark candidate post-quantum primitives for mobile and nodes."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "On-chain data is permanent: anything revealed today can be exploited later.",
+    "Future key recovery can enable both theft (remaining funds) and deanonymization (provable control).",
+    "Proof forgery and binding failures are integrity risks, not just privacy risks.",
+    "Metadata (timing/IP/KYC leaks) combined with broken keys can amplify exposure.",
+    "Optional privacy modes create mixed flows that are harder to migrate cleanly."
+  ]
+}
