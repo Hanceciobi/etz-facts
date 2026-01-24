@@ -1,0 +1,115 @@
+{
+  "slug": "trump-coin-market-performance",
+  "type": "article",
+  "title": "Factors Influencing Trump Coin's Market Performance",
+  "pageUrl": "https://etz-swap.com/blog/trump-coin-market-performance",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/trump-coin-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is Trump Coin, and what actually drives its demand?",
+    "How do political headlines and media cycles translate into price moves?",
+    "Why do meme coins swing so hard on sentiment and community activity?",
+    "How do broader crypto market conditions affect small, themed tokens?",
+    "What risk rules help you trade or hold a high-volatility meme asset?"
+  ],
+  "quickSteps": [
+    "Treat it as a high-volatility meme asset first; size risk accordingly.",
+    "Track catalysts: political news, social media momentum, and listing/liquidity changes.",
+    "Check market conditions (BTC/ETH trend, risk-on vs risk-off) before you interpret moves.",
+    "Use staged entries/exits and prefer limit orders to reduce slippage during spikes.",
+    "Keep operational hygiene tight: verify networks, start with a small test transfer, and store backups offline."
+  ],
+  "issueRouting": {
+    "start": "Start with the catalyst (headline vs broader market move), then validate liquidity and execution conditions. If it is purely sentiment-driven, reduce size and avoid leverage.",
+    "branches": [
+      {
+        "if": "Price is moving on political headlines",
+        "then": [
+          "Expect fast reversals; avoid chasing vertical candles.",
+          "Wait for consolidation or use smaller tranches with clear invalidation levels."
+        ]
+      },
+      {
+        "if": "Community activity is surging (viral posts, coordinated campaigns)",
+        "then": [
+          "Treat momentum as time-sensitive; watch for volume fade and widening spreads.",
+          "Plan exits ahead of time; do not rely on instant liquidity during a squeeze."
+        ]
+      },
+      {
+        "if": "The wider market turns bearish",
+        "then": [
+          "Assume meme assets will underperform and draw down faster.",
+          "Cut size, tighten risk limits, and prioritize capital preservation."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Meme assets can detach from fundamentals; sentiment can flip quickly and violently.",
+    "Liquidity can dry up during stress, making execution costs (spread/slippage) the real risk.",
+    "Political themes add headline risk; treat news-driven pumps and dumps as part of the asset’s nature."
+  ]
+}
