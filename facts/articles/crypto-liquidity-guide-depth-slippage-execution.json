@@ -1,0 +1,115 @@
+{
+  "slug": "crypto-liquidity-guide-depth-slippage-execution",
+  "type": "article",
+  "title": "A User-First Guide to Crypto Market Depth and Execution",
+  "pageUrl": "https://etz-swap.com/blog/crypto-liquidity-guide-depth-slippage-execution",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-liquidity-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “liquidity” mean in crypto in practical terms?",
+    "How do market depth, spreads, and slippage interact during execution?",
+    "What are the key differences between CEX order books and DEX pools for liquidity?",
+    "Which pre-trade checks reduce hidden costs the most?",
+    "How can you size and route orders to avoid walking the book or spiking price impact?"
+  ],
+  "quickSteps": [
+    "Check spread and visible size near the midpoint for your pair and venue.",
+    "Simulate your swap size (or look at depth within 1–2%) before executing.",
+    "Prefer major quote assets and venues/pools with consistent, reputable volume.",
+    "Split large orders into smaller clips and avoid illiquid hours where possible.",
+    "Record realized slippage for your typical size to learn the best execution windows."
+  ],
+  "issueRouting": {
+    "start": "Start with your order size and pick the venue/path that offers the tightest spread and the most depth close to price. If impact rises quickly, split the order or route via aggregators.",
+    "branches": [
+      {
+        "if": "Your order moves the price or fills far from the quote",
+        "then": [
+          "Reduce clip size and execute in slices, allowing the book/pool to refill.",
+          "Switch to a deeper venue or a major stable/BTC/ETH-quoted market."
+        ]
+      },
+      {
+        "if": "On-chain quotes show large price impact for modest swaps",
+        "then": [
+          "Route through an aggregator across multiple pools and fee tiers.",
+          "Wait for lower gas/less congestion, or use a chain where execution is cheaper."
+        ]
+      },
+      {
+        "if": "Liquidity depends on one venue or incentive program",
+        "then": [
+          "Diversify execution paths and avoid assuming yesterday’s depth will persist.",
+          "Monitor for incentive cliffs and sudden TVL/volume drops."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Liquidity is dynamic; spreads and depth can change quickly with volatility, congestion, or venue outages.",
+    "Printed volume can be misleading; prioritize consistent, reputable liquidity over vanity metrics.",
+    "Most avoidable execution losses come from market orders in thin books/pools and from trading during illiquid windows."
+  ]
+}
