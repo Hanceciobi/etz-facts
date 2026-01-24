@@ -1,0 +1,130 @@
+{
+  "slug": "why-anonymous-swaps-still-matter",
+  "type": "article",
+  "title": "Why Anonymous Swaps Still Matter in a Regulated Crypto World",
+  "pageUrl": "https://etz-swap.com/blog/why-anonymous-swaps-still-matter",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/anonymous-swaps-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What are anonymous, accountless swaps—and what are they not?",
+    "Why do privacy needs grow as regulation and data collection expand?",
+    "Where does identity make sense (banks, custody), and where is data minimization healthier?",
+    "What legitimate use cases benefit from accountless, non-custodial conversions?",
+    "Which safeguards can reduce abuse without building identity dossiers?",
+    "How can users keep good records for taxes and compliance without oversharing?"
+  ],
+  "quickSteps": [
+    "Use self-custody wallets and keep your seed offline (no screenshots/cloud).",
+    "Treat swaps as data minimization: avoid accounts when custody isn’t required.",
+    "Separate contexts with different wallets/subaddresses to reduce linkability.",
+    "Keep private logs (quote IDs, tx hashes, timestamps) for taxes and support.",
+    "Avoid posting addresses, invoices, and tx links publicly.",
+    "Use official support channels only and never share seed phrases."
+  ],
+  "issueRouting": {
+    "start": "I want to use anonymous, accountless swaps responsibly — where do I start?",
+    "branches": [
+      {
+        "if": "You’re converting between crypto assets only (no banks involved).",
+        "then": [
+          "Prefer non-custodial, accountless routing to minimize identity collection.",
+          "Verify asset + network selections carefully before sending.",
+          "Keep minimal private records for bookkeeping and support."
+        ]
+      },
+      {
+        "if": "You need fiat on/off ramps or bank transfers.",
+        "then": [
+          "Expect identity checks at banking and custodial edges.",
+          "Use regulated rails where required and keep documentation organized.",
+          "Separate bank-linked activity from purely on-chain routing habits."
+        ]
+      },
+      {
+        "if": "You want stronger privacy hygiene.",
+        "then": [
+          "Avoid address reuse; separate activities across wallets/subaddresses.",
+          "Reduce edge metadata (device hygiene, cautious notes, safer connectivity when needed).",
+          "Don’t publish transaction context that can link identities to on-chain routines."
+        ]
+      },
+      {
+        "if": "You’re evaluating a service.",
+        "then": [
+          "Prefer clear fee/rate policies and short data-retention windows.",
+          "Look for transparent support procedures that don’t require permanent accounts.",
+          "Avoid services that demand sensitive documents for routine crypto-to-crypto swaps."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Privacy is not invisibility: edge metadata (IP, timing, KYC deposits, chats) can re-link activity.",
+    "No pooled balances reduce catastrophic custodial failure risk, but user-side hygiene still matters.",
+    "Wrong network selection and rushed transfers are common causes of delays.",
+    "Over-collecting identity data creates breach magnets and long-lived profiling risk.",
+    "Good private records enable compliance without surrendering personal data to every intermediary."
+  ]
+}
