@@ -1,0 +1,130 @@
+{
+  "slug": "privacy-coins-explained",
+  "type": "article",
+  "title": "Privacy Coins, Plainly Explained: Why They Exist, How They Work, and Where They’re Headed",
+  "pageUrl": "https://etz-swap.com/blog/privacy-coins-explained",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/privacy-coins-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What makes a coin “private,” and what does it actually hide?",
+    "How do the main privacy techniques work (rings, stealth addresses, zk-proofs, CoinJoin)?",
+    "What’s the difference between pseudonymity and anonymity in practice?",
+    "Which legitimate use cases benefit from stronger payment privacy?",
+    "Where do privacy failures still happen (metadata, KYC edges, address reuse)?",
+    "How are regulation and privacy-preserving compliance likely to evolve next?"
+  ],
+  "quickSteps": [
+    "Use self-custody wallets and store your seed offline (no screenshots or cloud notes).",
+    "Avoid address reuse and separate contexts by purpose with subaddresses or separate wallets.",
+    "Plan for edge metadata: clean devices, cautious connectivity, and less public tx sharing.",
+    "Keep private records for taxes/compliance without broadcasting your activity publicly.",
+    "Understand the trade-offs: liquidity, UX, and policy friction vary by coin and region.",
+    "Use privacy to minimize unnecessary exposure—not to evade legitimate obligations."
+  ],
+  "issueRouting": {
+    "start": "I want to use privacy coins responsibly — what should I do first?",
+    "branches": [
+      {
+        "if": "You’re learning the basics and choosing a privacy coin.",
+        "then": [
+          "Start with what you need to hide: sender, receiver, amount—or just reduce profiling.",
+          "Compare default-privacy vs optional-privacy models and the wallet UX.",
+          "Check liquidity and practical access routes in your region."
+        ]
+      },
+      {
+        "if": "You’re worried about privacy leaks around exchanges and bridges.",
+        "then": [
+          "Assume KYC entry/exit points can anchor identity; plan around that reality.",
+          "Avoid tight, unique-amount sequences (deposit → swap → withdraw) when possible.",
+          "Reduce oversharing (txids, screenshots, timestamps) that can create linkability."
+        ]
+      },
+      {
+        "if": "You need selective disclosure for accounting or audits.",
+        "then": [
+          "Prefer tools that support ‘prove just enough’ (viewing keys or structured exports).",
+          "Share disclosures only with trusted parties and limit scope and duration.",
+          "Keep documentation private rather than posting it publicly."
+        ]
+      },
+      {
+        "if": "You’re securing long-term holdings.",
+        "then": [
+          "Use redundant offline backups and consider multisig for larger balances.",
+          "Verify wallet sources and updates to avoid phishing and fake apps.",
+          "Test recovery before moving meaningful value."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Protocol privacy doesn’t protect you from metadata leaks (IP, timing, KYC edges, chats).",
+    "Liquidity can be thinner in some markets; large trades may face slippage.",
+    "Wallet UX matters: poor defaults or user mistakes can undo strong cryptography.",
+    "Policy and platform support vary by jurisdiction; expect uneven access over time.",
+    "Security basics (seed storage, phishing resistance) often matter more than advanced tricks."
+  ]
+}
