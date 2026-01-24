@@ -1,0 +1,115 @@
+{
+  "slug": "crypto-crash-investing-strategies",
+  "type": "article",
+  "title": "Investing Strategies During Cryptocurrency Market Crashes",
+  "pageUrl": "https://etz-swap.com/blog/crypto-crash-investing-strategies",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-crash-strategies-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why do crypto crashes happen so often, and what usually triggers them?",
+    "What early warning signals are most useful during fast drawdowns?",
+    "Which portfolio tactics reduce damage during high volatility?",
+    "How can DCA, rebalancing, and hedging fit into a single plan?",
+    "What should you do in the first 72 hours of a major selloff?"
+  ],
+  "quickSteps": [
+    "Pause before acting; separate liquidity stress from fundamental impairment.",
+    "Map exposures and liquidation risks (loans, perps, options, yield positions).",
+    "Execute with limits and staged orders; respect thin books and slippage.",
+    "Use pre-set DCA tranches and rebalancing bands instead of emotional buys/sells.",
+    "Rebuild optionality: restore cash buffers and tighten security after volatility spikes."
+  ],
+  "issueRouting": {
+    "start": "Start by stabilizing custody and access, then identify the single biggest failure mode (forced liquidation, counterparty risk, or bad execution) and neutralize it first.",
+    "branches": [
+      {
+        "if": "You have leverage or collateralized loans",
+        "then": [
+          "Calculate liquidation thresholds and reduce exposure before volatility accelerates.",
+          "Add collateral or close positions to remove forced-selling risk."
+        ]
+      },
+      {
+        "if": "You are unleveraged but exposed to concentrated risk",
+        "then": [
+          "Rebalance toward target weights using bands instead of impulse trades.",
+          "Upgrade quality: keep assets with durable fundamentals, exit broken theses."
+        ]
+      },
+      {
+        "if": "You want protection without liquidating core holdings",
+        "then": [
+          "Use defined-budget hedges (partial short futures or option structures) sized to risk, not fear.",
+          "Set expiry/roll rules so protection doesn’t decay unnoticed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Crashes can combine thin liquidity and forced liquidations; execution quality often matters as much as direction.",
+    "Counterparty failures and rehypothecation risk tend to surface during stress; diversify venues and prioritize self-custody.",
+    "Over-trading headlines and averaging down without re-underwriting fundamentals are common, avoidable mistakes."
+  ]
+}
