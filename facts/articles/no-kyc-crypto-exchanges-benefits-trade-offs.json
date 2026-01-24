@@ -1,0 +1,130 @@
+{
+  "slug": "no-kyc-crypto-exchanges-benefits-trade-offs",
+  "type": "article",
+  "title": "Advantages of No-KYC Crypto Exchanges: Privacy, Access, and Practical Trade-Offs",
+  "pageUrl": "https://etz-swap.com/blog/no-kyc-crypto-exchanges-benefits-trade-offs",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/no-kyc-crypto-exchanges-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “no-KYC” really mean, and what does it not guarantee?",
+    "How do DEXs, P2P platforms, and non-custodial swap services differ?",
+    "What are the main privacy and access benefits of no-KYC workflows?",
+    "Where do pricing, liquidity, and execution trade-offs show up most?",
+    "Which user mistakes cause losses (wrong network, memo/tag, time windows)?",
+    "How can you reduce fraud risk and keep better operational hygiene?"
+  ],
+  "quickSteps": [
+    "Treat no-KYC as data minimization, not invisibility.",
+    "Choose the venue type that matches your risk (DEX, P2P escrow, or swap).",
+    "Do a small test transfer first to validate network, address, memo/tag.",
+    "Compare all-in costs (spread + gas/fees), not only the headline rate.",
+    "Keep records privately (txids, receipts) for support and provenance.",
+    "Reduce metadata leaks: fresh addresses, careful timing, safer connectivity."
+  ],
+  "issueRouting": {
+    "start": "I want a no-KYC workflow that’s practical and safer — where do I begin?",
+    "branches": [
+      {
+        "if": "You’re new and want the least friction.",
+        "then": [
+          "Start with small amounts to learn networks and wallet habits.",
+          "Read fee/time window rules before sending anything.",
+          "Keep your seed phrase offline and test recovery early."
+        ]
+      },
+      {
+        "if": "You want better privacy, not just “no ID.”",
+        "then": [
+          "Avoid address reuse and separate contexts across wallets/subaddresses.",
+          "Don’t leak metadata in chats, screenshots, and public posts.",
+          "Use safer connectivity when needed (Tor/I2P or a trusted VPN)."
+        ]
+      },
+      {
+        "if": "You’re using P2P and worry about scams.",
+        "then": [
+          "Use escrow and keep communication on-platform.",
+          "Refuse requests to move off-platform or share documents.",
+          "Verify payment finality before releasing crypto."
+        ]
+      },
+      {
+        "if": "You’re optimizing execution and costs.",
+        "then": [
+          "Check liquidity depth and expected slippage for your size.",
+          "Split large trades into tranches when price impact is high.",
+          "Avoid congested windows where gas spikes distort all-in costs."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-KYC does not prevent network metadata and behavioral correlations.",
+    "Thin liquidity can increase spreads and slippage on larger trades.",
+    "Wrong network or missing memo/tag is a common source of loss and delays.",
+    "P2P trades add counterparty risk; escrow and discipline matter.",
+    "Custodial shortcuts trade analysis risk for counterparty and seizure risk."
+  ]
+}
