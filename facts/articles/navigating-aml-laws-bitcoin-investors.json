@@ -1,0 +1,130 @@
+{
+  "slug": "navigating-aml-laws-bitcoin-investors",
+  "type": "article",
+  "title": "Navigating AML Laws for Bitcoin Investors",
+  "pageUrl": "https://etz-swap.com/blog/navigating-aml-laws-bitcoin-investors",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/navigating-aml-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What do AML rules try to achieve in practice for Bitcoin holders?",
+    "When and why do exchanges ask for KYC or additional verification?",
+    "What is the Travel Rule, and how does it affect transfers between VASPs?",
+    "Which transaction patterns trigger reviews and temporary holds?",
+    "What records should long-term BTC investors keep to avoid friction?",
+    "How can you balance privacy with compliance without oversharing publicly?"
+  ],
+  "quickSteps": [
+    "Use reputable, compliant platforms for fiat on/off ramps and keep a backup account.",
+    "Keep basic records (deposits, withdrawals, trades) in exports, not screenshots.",
+    "Label large transfers with a short purpose note and retain supporting documents.",
+    "Expect Travel Rule checks for larger VASP-to-VASP transfers; plan for them.",
+    "Keep self-custody for savings and separate wallets by purpose.",
+    "Answer compliance questions quickly, clearly, and with minimal necessary proof."
+  ],
+  "issueRouting": {
+    "start": "I hold or trade BTC and want fewer AML-related interruptions — what should I do first?",
+    "branches": [
+      {
+        "if": "You’re choosing platforms for long-term investing.",
+        "then": [
+          "Prefer providers with clear AML/KYC pages, stable history, and strong security.",
+          "Set up two accounts (primary + backup) so one review doesn’t block you.",
+          "Enable strong account security (2FA, address allow-lists, withdrawal delays)."
+        ]
+      },
+      {
+        "if": "You’re moving BTC between services or cashing out to a bank.",
+        "then": [
+          "Keep clean exports (CSV/PDF) for deposits, withdrawals, and trades.",
+          "Maintain a short note for unusual inflows (bonus, sale, repayment) with proof.",
+          "Expect additional checks for larger amounts and cross-platform transfers."
+        ]
+      },
+      {
+        "if": "You’re worried about Travel Rule friction.",
+        "then": [
+          "Check whether both platforms support interoperable Travel Rule messaging.",
+          "Avoid last-minute transfers over thresholds when timing is tight.",
+          "Keep the recipient details consistent and documented."
+        ]
+      },
+      {
+        "if": "A provider flagged your activity.",
+        "then": [
+          "Respond calmly with purpose + source-of-funds evidence.",
+          "Provide structured exports rather than screenshots where possible.",
+          "If the case drags, use your backup platform and keep records organized."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Most AML “alerts” are routine checks; clear documentation resolves them faster.",
+    "Posting addresses, tx links, or screenshots publicly can create permanent linkability.",
+    "Mixing unrelated activities in one wallet makes your story harder to explain.",
+    "Travel Rule implementations differ by country and provider; plan for variability.",
+    "Chasing “KYC-dodge” products often increases risk and scrutiny rather than reducing it."
+  ]
+}
