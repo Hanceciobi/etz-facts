@@ -1,0 +1,131 @@
+{
+  "slug": "mr-monero-money-that-knows-when-to-stay-quiet",
+  "type": "article",
+  "title": "Mr. Monero: Money That Knows When to Stay Quiet",
+  "pageUrl": "https://etz-swap.com/blog/mr-monero-money-that-knows-when-to-stay-quiet",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/mr-monero-money-that-knows-when-to-stay-quiet-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “privacy by default” mean in Monero, and why does it matter?",
+    "How do stealth addresses prevent public linkage of recipients?",
+    "How do ring signatures break input clustering and tracing attempts?",
+    "What do RingCT and Bulletproofs hide, and what still gets verified?",
+    "How does Dandelion++ help reduce network-layer linkage risk?",
+    "What operational habits make privacy real in everyday use?",
+    "When do atomic swaps and non-custodial conversions matter most?"
+  ],
+  "quickSteps": [
+    "Write your seed phrase on paper and keep at least two separated backups.",
+    "Check addresses as a ritual before every send to defeat clipboard swaps.",
+    "Separate hot and cold wallets so daily use can’t expose long-term savings.",
+    "Use subaddresses per context to reduce accidental linkage.",
+    "Prefer default privacy settings; avoid “clever tweaks” that leak.",
+    "When converting, choose non-custodial, account-free routes and keep proofs privately."
+  ],
+  "issueRouting": {
+    "start": "I want Monero privacy to stay strong in real life — what should I do first?",
+    "branches": [
+      {
+        "if": "You’re worried about losing access to funds.",
+        "then": [
+          "Store the seed offline (paper/metal) and make redundant backups.",
+          "Avoid screenshots and cloud storage for seed phrases.",
+          "Test recovery on a clean device before holding large balances."
+        ]
+      },
+      {
+        "if": "You’re worried about sending to the wrong address or malware.",
+        "then": [
+          "Verify the first/last characters of every address before sending.",
+          "Use an address book, but still verify each time.",
+          "Keep your device clean and avoid random wallet downloads."
+        ]
+      },
+      {
+        "if": "You want better privacy between different activities.",
+        "then": [
+          "Use separate subaddresses (or separate wallets) per context.",
+          "Separate spending vs savings (hot vs cold).",
+          "Avoid posting payment details, screenshots, or full TX info publicly."
+        ]
+      },
+      {
+        "if": "You need to convert between transparent assets and XMR.",
+        "then": [
+          "Prefer non-custodial swaps so you don’t create long-lived profiles.",
+          "Minimize repeated round-trips that build patterns.",
+          "Keep receipts/hashes locally for your own bookkeeping."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Privacy is technology plus routine; sloppy habits can undo strong cryptography.",
+    "Metadata leaks (IP, timing, KYC deposits, chats) can re-identify flows even when amounts are hidden.",
+    "Optional privacy in other systems often leaks via mixed-mode usage and smaller anonymity sets.",
+    "Address/identity reuse creates long-lived biographies; separate contexts by design.",
+    "Custodial “privacy” routes trade analysis risk for counterparty and seizure risk."
+  ]
+}
