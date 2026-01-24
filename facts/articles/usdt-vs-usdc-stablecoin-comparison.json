@@ -1,0 +1,115 @@
+{
+  "slug": "usdt-vs-usdc-stablecoin-comparison",
+  "type": "article",
+  "title": "USDT vs USDC: Pick the Right Stablecoin for Your Strategy",
+  "pageUrl": "https://etz-swap.com/blog/usdt-vs-usdc-stablecoin-comparison",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-vs-usdc-stablecoin-comparison-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is the real difference between USDT and USDC?",
+    "Which stablecoin is usually more liquid for trading and swaps?",
+    "How do reserve disclosures and attestations differ between issuers?",
+    "What are the practical risks: depegs, freezes, or compliance controls?",
+    "How do you choose the right network to reduce fees and mistakes?"
+  ],
+  "quickSteps": [
+    "Decide what you need most: liquidity, transparency, or compliance fit.",
+    "Choose the chain (fees/speed) and verify you’re on the correct network.",
+    "Confirm the token contract if you’re using DeFi or a wallet swap.",
+    "Start with a small test transfer when using a new address or chain.",
+    "Keep basic records (TXIDs, screenshots) for accounting and troubleshooting."
+  ],
+  "issueRouting": {
+    "start": "Pick USDT or USDC based on the main constraint: liquidity/availability vs reporting/compliance, then choose the lowest-fee chain you can safely use.",
+    "branches": [
+      {
+        "if": "You need the broadest market access and deepest books",
+        "then": [
+          "Prefer USDT on the venue/chain with the best liquidity for your pair.",
+          "Double-check withdrawal network to avoid wrong-chain deposits."
+        ]
+      },
+      {
+        "if": "You need clearer reserve reporting or compliance-aligned rails",
+        "then": [
+          "Prefer USDC where attestations and issuer posture matter to you.",
+          "Export statements/TXIDs for treasury and audit trails."
+        ]
+      },
+      {
+        "if": "Fees are unexpectedly high",
+        "then": [
+          "Compare the same stablecoin on a lower-fee network (where supported).",
+          "Re-check that the receiving wallet/exchange supports that network."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Stablecoins can deviate from $1 during stress; don’t assume perfect peg in all conditions.",
+    "Issuer-level controls (freezes/blacklists) exist for some stablecoins and may affect funds in edge cases.",
+    "Most user losses come from operational errors: wrong network, wrong address, or unverified token contracts."
+  ]
+}
