@@ -1,0 +1,130 @@
+{
+  "slug": "crypto-swap-xmr-guide",
+  "type": "article",
+  "title": "Crypto Swap XMR: A Real-World Guide You Can Actually Use",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-xmr-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-xmr-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a crypto swap to XMR, and how is it different from opening an exchange account?",
+    "When does swapping into Monero make practical sense in real life?",
+    "What is the end-to-end flow (quote → send → route → receive) and where do delays happen?",
+    "How do fixed vs floating quotes change execution risk and timing?",
+    "What costs matter most (network fees, spread, slippage), and how do you compare providers?",
+    "Which operational habits reduce metadata leaks and prevent common mistakes?"
+  ],
+  "quickSteps": [
+    "Pick the pair and read the quote rules (rate type, timer, confirmations, refund policy).",
+    "Send the exact amount to the deposit address before the timer ends (fixed-rate).",
+    "Use a fresh XMR address/subaddress for each purpose to reduce accidental linkage.",
+    "Compare outcomes by net XMR received, not marketing fees or headline rates.",
+    "Keep a private log (quote ID, tx hashes, timestamps) for support and reconciliation.",
+    "Reduce edge metadata: clean device, careful notes, and safer connectivity when needed."
+  ],
+  "issueRouting": {
+    "start": "I want to do a crypto swap to XMR safely and privately — what should I check first?",
+    "branches": [
+      {
+        "if": "You want price certainty and can fund quickly.",
+        "then": [
+          "Use a fixed-rate quote and fund immediately.",
+          "Pick source-chain fees that confirm inside the quote window.",
+          "Save the quote ID and timer details before sending."
+        ]
+      },
+      {
+        "if": "You want more flexibility or network conditions are unstable.",
+        "then": [
+          "Use a floating-rate quote to avoid strict deadlines.",
+          "Expect small drift during volatility windows.",
+          "Budget extra time for confirmations on both legs."
+        ]
+      },
+      {
+        "if": "You’re choosing a provider and want quick due diligence.",
+        "then": [
+          "Prefer non-custodial, accountless models when possible.",
+          "Look for clear refund/expiration/slippage policies in plain language.",
+          "Compare net outputs across multiple quotes before committing."
+        ]
+      },
+      {
+        "if": "Something looks stuck or the quote expired.",
+        "then": [
+          "Check the funding tx status and required confirmation count.",
+          "Compare against the provider’s stated threshold and window.",
+          "Use official support channels only and never share your seed phrase."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The source-chain transfer is visible; privacy depends on how you manage the edges and habits.",
+    "Fixed-rate swaps can fail if confirmations arrive late; low fees can break the timer.",
+    "Bigger swaps can face higher slippage; split into tranches when liquidity is thin.",
+    "Address reuse and oversharing screenshots/tx links can create long-lived linkability.",
+    "Keep proof privately for yourself; avoid building public dossiers of your activity."
+  ]
+}
