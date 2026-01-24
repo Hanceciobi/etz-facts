@@ -1,0 +1,131 @@
+{
+  "slug": "monero-crypto-swaps-xmr-privacy-guide",
+  "type": "article",
+  "title": "Understanding Crypto Swaps with Monero (XMR): A Privacy-First, Practical Guide",
+  "pageUrl": "https://etz-swap.com/blog/monero-crypto-swaps-xmr-privacy-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-crypto-swaps-xmr-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a crypto swap, and how is it different from selling to fiat and buying back?",
+    "Which swap models exist (non-custodial services, DEX routes, routers, atomic swaps)?",
+    "How does Monero hide sender, receiver, and amount by default?",
+    "How do confirmations, timers, and rate types affect execution for XMR swaps?",
+    "What really determines your outcome: fees, spread, slippage, limits, and congestion?",
+    "What habits reduce metadata leaks and linkability across the non-XMR leg?",
+    "How do you troubleshoot a swap that looks stuck or expired?"
+  ],
+  "quickSteps": [
+    "Choose fixed vs floating based on your ability to fund quickly and network congestion.",
+    "Verify the exact asset + chain on both legs (especially stablecoins).",
+    "Use fresh payout addresses and separate contexts (spending vs savings).",
+    "Plan for confirmation thresholds; the slowest leg sets the total time.",
+    "Save minimal proof privately (quote ID, txids, timestamps) for support.",
+    "Treat privacy as routine: reduce edge metadata (IP, screenshots, chats)."
+  ],
+  "issueRouting": {
+    "start": "My XMR swap feels confusing or risky — what should I do first?",
+    "branches": [
+      {
+        "if": "You need price certainty and can send promptly.",
+        "then": [
+          "Use a fixed-rate quote and fund immediately.",
+          "Pick miner fees that confirm within the quote window.",
+          "Save the quote ID and timer details before you send."
+        ]
+      },
+      {
+        "if": "Networks are congested or you can’t race a timer.",
+        "then": [
+          "Use a floating-rate quote to avoid strict deadlines.",
+          "Expect minor slippage in volatile windows.",
+          "Budget extra time for confirmations on both legs."
+        ]
+      },
+      {
+        "if": "You’re worried about privacy leaks outside the XMR leg.",
+        "then": [
+          "Use fresh payout addresses and avoid address reuse.",
+          "Separate activities across wallets/subaddresses.",
+          "Avoid posting tx links, screenshots, or exact patterns publicly."
+        ]
+      },
+      {
+        "if": "The swap looks stuck or expired.",
+        "then": [
+          "Check the funding transaction status and confirmation count.",
+          "Compare against the service’s required confirmation threshold.",
+          "If a timer expired, review the re-quote/refund policy and keep proof."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The non-XMR leg can leak metadata even when XMR on-chain data is private.",
+    "Fixed-rate swaps are sensitive to delays; low fees can void the rate window.",
+    "Wrong network or missing memo/tag is a common cause of loss and manual recovery.",
+    "Thin liquidity increases spreads and slippage for larger swaps.",
+    "Refunds and repeated patterns can create linkable traces if you reuse addresses."
+  ]
+}
