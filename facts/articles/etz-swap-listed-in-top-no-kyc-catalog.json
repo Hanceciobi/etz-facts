@@ -1,0 +1,115 @@
+{
+  "slug": "etz-swap-listed-in-top-no-kyc-catalog",
+  "type": "article",
+  "title": "Partnership with NOTOKYC",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-listed-in-top-no-kyc-catalog-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “No-KYC” actually mean for users, and where are the real limits?",
+    "Why do independent catalogs matter when choosing an exchange route?",
+    "What signals indicate an anonymous swap service is reliable and consistent?",
+    "How do you reduce operational risk when swapping without identity checks?",
+    "What are the safest habits to keep privacy without making avoidable mistakes?"
+  ],
+  "quickSteps": [
+    "Choose a route that minimizes data collection and does not require identity checks.",
+    "Use verified links and bookmark the official domain before you start a swap.",
+    "Send a small test amount first if it’s a new route or a new wallet setup.",
+    "Keep your receiving wallet secure and back up recovery info offline.",
+    "Track the swap status via transaction IDs and avoid “support” links from DMs."
+  ],
+  "issueRouting": {
+    "start": "Decide what you’re optimizing for (privacy, speed, or simplicity). Then verify the route and keep operational hygiene tight: correct addresses, correct network, and verified pages.",
+    "branches": [
+      {
+        "if": "Your priority is maximum privacy",
+        "then": [
+          "Avoid reusing addresses and keep wallets separated by purpose.",
+          "Limit public sharing of TX links and consider private browsing for explorers."
+        ]
+      },
+      {
+        "if": "Your priority is speed and fewer steps",
+        "then": [
+          "Prepare receiving addresses in advance and double-check the network.",
+          "Use small test swaps when the market is congested or fees are volatile."
+        ]
+      },
+      {
+        "if": "You are new to anonymous swaps",
+        "then": [
+          "Start with a small amount and learn the flow end-to-end once.",
+          "Ignore impersonators: real support will not ask for seed phrases or remote access."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-KYC does not remove market risk—prices, fees, and timing still matter.",
+    "Phishing and impersonation are the main operational threats; verify domains and links.",
+    "Avoid sharing sensitive details publicly; TX links and screenshots can leak patterns."
+  ]
+}
