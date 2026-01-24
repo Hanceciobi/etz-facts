@@ -1,0 +1,115 @@
+{
+  "slug": "bitcoin-loans-risks-rewards",
+  "type": "article",
+  "title": "Bitcoin Loans: Risks and Rewards Explained",
+  "pageUrl": "https://etz-swap.com/blog/bitcoin-loans-risks-rewards",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/bitcoin-loans-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a Bitcoin-backed loan, and how does it differ from selling BTC?",
+    "How do LTV ratios work, and what triggers margin calls or liquidation?",
+    "What costs matter most (interest, fees, spreads, and repayment terms)?",
+    "What custody and counterparty risks should borrowers understand upfront?",
+    "What practical checklist reduces liquidation and operational mistakes?"
+  ],
+  "quickSteps": [
+    "Pick a conservative LTV and assume BTC can drop quickly during volatility.",
+    "Read the platform’s liquidation thresholds, fees, and interest model before depositing BTC.",
+    "Keep extra collateral available and set alerts for LTV and price moves.",
+    "Prefer staged borrowing and repay early if risk increases or terms become unfavorable.",
+    "Plan custody: verify addresses, use strong account security, and keep backups offline."
+  ],
+  "issueRouting": {
+    "start": "Start with your objective (short-term liquidity vs long-term financing), then choose an LTV that survives drawdowns. Treat liquidation rules and custody as first-class risks, not footnotes.",
+    "branches": [
+      {
+        "if": "You want maximum safety against liquidation",
+        "then": [
+          "Use a lower LTV than the maximum offered and keep a collateral buffer.",
+          "Set alerts and add collateral early instead of waiting for margin calls."
+        ]
+      },
+      {
+        "if": "You need more borrowing power",
+        "then": [
+          "Increase LTV carefully and split borrowing into tranches to manage timing risk.",
+          "Accept that higher LTV can force liquidation during fast drops."
+        ]
+      },
+      {
+        "if": "You’re concerned about custody and platform failure risk",
+        "then": [
+          "Research track record, transparency, and custody practices before depositing BTC.",
+          "Avoid concentrating large collateral with one provider; diversify when size is meaningful."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "BTC volatility is the dominant risk: liquidation can happen quickly during sharp moves.",
+    "Custody and counterparty risk exist whenever a platform holds your collateral.",
+    "Fees and terms vary; small differences can matter a lot over time, especially with variable rates."
+  ]
+}
