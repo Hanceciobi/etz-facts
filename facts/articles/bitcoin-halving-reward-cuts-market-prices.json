@@ -1,0 +1,115 @@
+{
+  "slug": "bitcoin-halving-reward-cuts-market-prices",
+  "type": "article",
+  "title": "How Scheduled Reward Reductions Shape Bitcoin’s Market Path",
+  "pageUrl": "https://etz-swap.com/blog/bitcoin-halving-reward-cuts-market-prices",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/bitcoin-halving-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a Bitcoin halving, and why does it happen every 210,000 blocks?",
+    "How does a reward cut change daily BTC issuance and miner sell pressure?",
+    "Why doesn’t price necessarily react immediately on halving day?",
+    "What metrics help you track miner stress, liquidity, and demand around the event?",
+    "How can you plan and manage risk during the halving window?"
+  ],
+  "quickSteps": [
+    "Understand the schedule and the size of the issuance change (before you form expectations).",
+    "Watch miner health indicators: hash rate trends, difficulty, and known treasury flows.",
+    "Track liquidity and positioning: spreads, depth, funding, and options skew.",
+    "Use staged entries and predefined risk limits; avoid over-leverage into volatility spikes.",
+    "Secure custody before activity picks up: backups, device hygiene, and small test transfers."
+  ],
+  "issueRouting": {
+    "start": "Start with your objective (long-horizon accumulation vs tactical positioning). Then set risk limits, choose an execution plan, and monitor miner and liquidity signals for context.",
+    "branches": [
+      {
+        "if": "You are accumulating for the long run",
+        "then": [
+          "Use a steady schedule (DCA) and avoid treating the halving date as a single binary bet.",
+          "Rebalance periodically so a single asset doesn’t dominate portfolio risk."
+        ]
+      },
+      {
+        "if": "You are trading the halving window",
+        "then": [
+          "Expect volatility and whipsaws; use defined risk per trade and avoid emotional scaling.",
+          "Prefer limit orders and staged execution to reduce slippage in thin moments."
+        ]
+      },
+      {
+        "if": "Miner stress appears to be rising (profitability shock)",
+        "then": [
+          "Monitor hash rate dips and difficulty adjustments as the system rebalances.",
+          "Avoid assuming miner capitulation always equals a bottom; confirm with liquidity and demand signals."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Halvings reduce new supply, but price is still set by demand, liquidity, and broader macro conditions.",
+    "The marginal impact shrinks in absolute BTC terms each cycle; markets may price expectations earlier.",
+    "Execution risk is real: thin books, leverage cascades, and headline-driven volatility can punish poor sizing."
+  ]
+}
