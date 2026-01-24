@@ -1,0 +1,130 @@
+{
+  "slug": "dogecoin-cloud-mining-basics",
+  "type": "article",
+  "title": "Understanding Dogecoin Cloud Mining: From Scrypt to Realistic Returns",
+  "pageUrl": "https://etz-swap.com/blog/dogecoin-cloud-mining-basics",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/dogecoin-mining-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "How does Dogecoin mining work, and why is merged mining with Litecoin so common?",
+    "What does “cloud mining” really mean for a Scrypt-based coin like DOGE?",
+    "Which contract terms and fees decide whether returns are plausible or impossible?",
+    "How do you model profitability realistically under price and difficulty changes?",
+    "What are the most reliable red flags for cloud mining scams?",
+    "What safer alternatives exist if your real goal is DOGE exposure rather than mining?"
+  ],
+  "quickSteps": [
+    "Verify the provider: legal entity, operators, facility proof, and trackable payout history.",
+    "Read the fee stack carefully (maintenance, pool, withdrawal, conversion spreads).",
+    "Model outcomes with conservative price and difficulty assumptions—stress-test bear cases.",
+    "Avoid “guaranteed ROI,” fixed daily percentages, and referral-heavy schemes.",
+    "Start tiny: confirm one real payout and one successful withdrawal before scaling.",
+    "Withdraw regularly and use 2FA + address whitelists to reduce account-takeover risk."
+  ],
+  "issueRouting": {
+    "start": "I’m considering a DOGE cloud mining contract — what should I check first?",
+    "branches": [
+      {
+        "if": "The offer promises guaranteed returns or fixed daily percentages.",
+        "then": [
+          "Treat it as a red flag: mining revenue depends on difficulty and price.",
+          "Ask for a full fee schedule and historical payouts with timestamps.",
+          "If claims stay “too smooth,” walk away."
+        ]
+      },
+      {
+        "if": "The contract hides maintenance fees or makes them hard to compute.",
+        "then": [
+          "Convert maintenance to a per-day cost and compare it to expected revenue.",
+          "Stress-test with lower DOGE/LTC prices and higher difficulty.",
+          "If maintenance can exceed revenue in the base case, skip the contract."
+        ]
+      },
+      {
+        "if": "The provider can’t prove operations (pool ties, live hashrate, payout ledger).",
+        "then": [
+          "Request verifiable pool accounts, real-time hashrate metrics, and payout tx evidence.",
+          "Avoid stock-photo “data centers” and anonymous team pages.",
+          "Prefer providers with consistent, on-chain, independently checkable payouts."
+        ]
+      },
+      {
+        "if": "You mainly want DOGE exposure rather than mining experience.",
+        "then": [
+          "Consider spot buying or periodic purchases instead of renting hash rate.",
+          "Compare the expected mining net yield to simply holding DOGE.",
+          "Choose the path with fewer counterparty and fee risks."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Merged mining means you’re effectively renting Scrypt hash rate that often yields both LTC and DOGE via pool payouts.",
+    "Maintenance fees compound and can erase returns during flat or bearish markets.",
+    "Difficulty drift reduces coins per MH/s over time—even if your hash rate stays constant.",
+    "Counterparty risk is the core risk: you depend on a third party to operate and pay.",
+    "Avoid over-committing: size contracts so a total loss wouldn’t harm your finances."
+  ]
+}
