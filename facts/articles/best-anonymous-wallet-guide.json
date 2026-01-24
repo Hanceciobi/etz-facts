@@ -1,0 +1,131 @@
+{
+  "slug": "best-anonymous-wallet-guide",
+  "type": "article",
+  "title": "How to Choose the Best Anonymous Wallet: A Human-Friendly Buyer’s Guide",
+  "pageUrl": "https://etz-swap.com/blog/best-anonymous-wallet-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/anonymous-wallet-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “anonymous wallet” really mean in crypto—pseudonymity or strong privacy?",
+    "Which must-have features matter most for real-world privacy and security?",
+    "When do you need coin control and labeling, and how do they prevent linkage?",
+    "What transport privacy options (Tor, nodes, telemetry) should you look for?",
+    "How should you compare mobile, desktop, hardware, and web wallets for your threat model?",
+    "What daily habits keep you private even when the wallet is “good enough” on paper?"
+  ],
+  "quickSteps": [
+    "Start with self-custody: keys generated locally, seed stored offline, no cloud screenshots.",
+    "Choose wallets that rotate addresses and handle change safely; avoid address reuse.",
+    "Prefer coin control + labeling when available to prevent accidental mixing/linkage.",
+    "Enable Tor (or equivalent) and minimize telemetry; keep devices clean and updated.",
+    "Use hardware signing for larger balances and test recovery before going big.",
+    "Keep private records for accounting/taxes without posting tx context publicly."
+  ],
+  "issueRouting": {
+    "start": "I want an “anonymous” wallet that’s practical and safe — how do I choose?",
+    "branches": [
+      {
+        "if": "You’re mainly protecting against casual onlookers and profiling.",
+        "then": [
+          "Choose a wallet with address rotation by default and clear warnings for reuse.",
+          "Separate contexts (work vs personal) with subaddresses or separate wallets.",
+          "Avoid publishing permanent receive addresses on public pages."
+        ]
+      },
+      {
+        "if": "You’re worried about targeted attacks or larger balances.",
+        "then": [
+          "Use a hardware signer and keep the seed offline with redundant backups.",
+          "Enable strong local encryption and lock screens; avoid risky browser extensions.",
+          "Test restore on a clean device before you store meaningful value."
+        ]
+      },
+      {
+        "if": "You need better bookkeeping and fewer compliance headaches.",
+        "then": [
+          "Pick wallets with exportable history and labeling for invoices/taxes.",
+          "Keep purpose notes privately; don’t overshare tx links publicly.",
+          "Maintain a clean lane for regulated entry/exit points."
+        ]
+      },
+      {
+        "if": "You’re comparing wallet types quickly.",
+        "then": [
+          "Mobile: convenient for spending, but keep balances small and apps minimal.",
+          "Desktop: best for coin control and records; pair with hardware for safety.",
+          "Hardware: best for savings; still needs good software privacy defaults.",
+          "Web wallets: avoid for privacy unless you fully understand custody trade-offs."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No wallet is a magic cloak: privacy depends on habits (reuse, screenshots, device hygiene).",
+    "Transport metadata (IP/RPC endpoints) can leak context even when the chain is private.",
+    "Fake apps and look-alike domains are common—verify publishers and sources.",
+    "Coin mixing and advanced features help only if you understand the trade-offs and defaults.",
+    "Keep your own records for compliance; privacy is data minimization, not “no paperwork.”"
+  ]
+}
