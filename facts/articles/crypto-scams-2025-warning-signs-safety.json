@@ -1,0 +1,130 @@
+{
+  "slug": "crypto-scams-2025-warning-signs-safety",
+  "type": "article",
+  "title": "Crypto Scams You Need to Know in 2025: Red Flags and How to Avoid Them",
+  "pageUrl": "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-scams-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What are the most common crypto scams in 2025?",
+    "How can you spot imposter websites, fake apps, and social media giveaways?",
+    "What are the clearest red flags for fake exchanges, Ponzi yields, and rug pulls?",
+    "How do wallet drainers and malicious approvals work, and how do you prevent them?",
+    "What should you do immediately if you suspect you were scammed?",
+    "Which due-diligence checklist catches most traps before you commit funds?"
+  ],
+  "quickSteps": [
+    "Verify official links and contract addresses from known-good sources—never from DMs.",
+    "Use hardware wallets for long-term holdings and app-based 2FA (not SMS).",
+    "Refuse any request for seed phrases, 2FA codes, or remote-access installs.",
+    "Avoid “guaranteed returns” and pressure-to-act-now offers; step away and verify.",
+    "Use a separate low-balance wallet for experiments and revoke approvals regularly.",
+    "If something feels off: disconnect, revoke, move funds to a fresh wallet, and preserve evidence."
+  ],
+  "issueRouting": {
+    "start": "I think a crypto offer or link might be a scam — what should I do first?",
+    "branches": [
+      {
+        "if": "You haven’t interacted yet (no clicks, no connects, no signatures).",
+        "then": [
+          "Do not click the link. Navigate via a known bookmark or official channel.",
+          "Verify the domain character-by-character and confirm the contract address on a block explorer.",
+          "Search for independent confirmation (docs, repo, audits) before engaging."
+        ]
+      },
+      {
+        "if": "You connected your wallet or signed something you didn’t understand.",
+        "then": [
+          "Disconnect the wallet from the site/app immediately.",
+          "Revoke token approvals/permissions for the suspicious contract.",
+          "Move remaining funds to a fresh wallet created on a clean device."
+        ]
+      },
+      {
+        "if": "You sent funds to a scam address or fake exchange.",
+        "then": [
+          "Stop sending additional funds—no legitimate service requires “unlock fees.”",
+          "Preserve evidence: tx hashes, addresses, domains, emails, chat logs.",
+          "Notify relevant platforms/support with the evidence and report the incident."
+        ]
+      },
+      {
+        "if": "You suspect malware or a compromised device.",
+        "then": [
+          "Isolate the device and avoid typing seeds/passwords on it.",
+          "Create a new wallet on a clean device and migrate funds if possible.",
+          "Review extensions/apps, remove unknown software, and scan for malware."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "HTTPS alone does not prove legitimacy; phishing sites can also use TLS.",
+    "In thin liquidity, slippage and taxes can hide the true cost of a trade.",
+    "‘Guaranteed returns’ and urgent countdowns are classic manipulation signals.",
+    "Wallet drainers often rely on confusing permissions; read what you sign and keep a separate hot wallet.",
+    "Oversharing tx links and screenshots can create permanent linkability."
+  ]
+}
