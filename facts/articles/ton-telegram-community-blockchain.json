@@ -1,0 +1,111 @@
+{
+  "slug": "ton-telegram-community-blockchain",
+  "type": "article",
+  "title": "TON Blockchain: From Telegram to Community Power",
+  "pageUrl": "https://etz-swap.com/blog/ton-telegram-community-blockchain",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ton-telegram-community-blockchain-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is TON and why did it start with Telegram?",
+    "How did Toncoin replace Gram and what does it do on the network?",
+    "What makes TON scalable (masterchain, workchains, shardchains)?",
+    "How is TON used today: payments, DeFi, NFTs, and Telegram mini-apps?",
+    "What risks and criticisms should users consider when using TON?"
+  ],
+  "quickSteps": [
+    "Understand TON’s origin story: Telegram’s early role and the community continuation.",
+    "Learn the basics of Toncoin: fees, staking, and ecosystem utility.",
+    "Check the network design: how sharding and multiple chains support scalability.",
+    "Explore the main use cases: payments, DeFi, NFTs, domains, and Telegram integrations.",
+    "Review risks: decentralization concerns, regulation, and dependency on Telegram as an adoption channel."
+  ],
+  "issueRouting": {
+    "start": "If you’re evaluating TON, start by deciding whether you care most about speed/fees, Telegram integrations, or decentralization trade-offs.",
+    "branches": [
+      {
+        "if": "You want fast, low-fee payments and easy onboarding via Telegram",
+        "then": [
+          "Use TON for small transfers and everyday payments first.",
+          "Test with a low amount to confirm wallet behavior and fees.",
+          "Keep long-term holdings in a wallet you control and back up properly."
+        ]
+      },
+      {
+        "if": "You want DeFi and on-chain activity (DEX, pools, NFTs)",
+        "then": [
+          "Use reputable TON apps and verify links before connecting a wallet.",
+          "Limit approvals/permissions and keep a separate wallet for experiments.",
+          "Track transactions with a block explorer and save TXIDs for support."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Governance and decentralization perceptions can shift as the ecosystem grows.",
+    "Regulatory pressure may affect access, listings, and some integrations over time.",
+    "Bridges and third-party apps introduce security risk beyond the base chain.",
+    "Telegram’s user base is a growth advantage, but also a concentration point for distribution."
+  ]
+}
