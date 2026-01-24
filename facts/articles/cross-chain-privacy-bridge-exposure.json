@@ -1,0 +1,130 @@
+{
+  "slug": "cross-chain-privacy-bridge-exposure",
+  "type": "article",
+  "title": "Inter-Chain Connectors and Confidentiality: Where Exposure Emerges—and How to Limit It",
+  "pageUrl": "https://etz-swap.com/blog/cross-chain-privacy-bridge-exposure",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/cross-chain-privacy-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why are bridge deposits and mints so easy to correlate across chains?",
+    "Which bridge designs leak the most metadata (timing, amounts, fee payers, batch cadence)?",
+    "Do proof-based bridges eliminate correlation, or just reduce trust in intermediaries?",
+    "What habits create the strongest linkability right after funds arrive?",
+    "How can builders reduce exposure in event design, batching, and relayer operations?",
+    "How can users limit cross-chain correlation while staying lawful and responsible?"
+  ],
+  "quickSteps": [
+    "Avoid unique amounts and block-tight sequences (arrive → swap → withdraw). Add spacing when you can.",
+    "Separate fee payers and roles across chains; don’t stitch steps together with the same account.",
+    "Use fresh addresses per purpose, but remember exits to regulated services can still anchor identity.",
+    "Prefer designs that minimize trusted logging surfaces (proof-based verification when feasible).",
+    "Reduce edge metadata: safer connectivity, fewer screenshots, and no public tx context while in flight.",
+    "Keep a private audit log (txids, times, addresses) for your own records—not for public sharing."
+  ],
+  "issueRouting": {
+    "start": "I’m planning a cross-chain move and want to reduce exposure — what should I check first?",
+    "branches": [
+      {
+        "if": "Your transfer amount is distinctive or unusually precise.",
+        "then": [
+          "Split into tranches or adjust sizing where feasible to avoid a unique fingerprint.",
+          "Avoid mirroring the received amount exactly in the next swap or liquidity action.",
+          "Be mindful that stable-value transfers with repeated sizes are easy to align."
+        ]
+      },
+      {
+        "if": "You tend to use the same wallet to pay fees everywhere.",
+        "then": [
+          "Separate fee funding roles across chains so one account doesn’t bind all steps together.",
+          "Top up gas independently and avoid using the same source for every hop.",
+          "Maintain an address book per network to prevent accidental reuse."
+        ]
+      },
+      {
+        "if": "You need to exit to a regulated service soon after arrival.",
+        "then": [
+          "Assume the exit anchors identity; plan around that reality.",
+          "Avoid back-to-back actions that build a readable narrative in minutes.",
+          "Keep clean private records to explain the flow if needed."
+        ]
+      },
+      {
+        "if": "You’re a builder/operator designing a connector.",
+        "then": [
+          "Design events and batching with privacy in mind (avoid rigid cadence and overly verbose logs).",
+          "Rotate relayer/payout accounts and publish data-minimization and retention policies.",
+          "Audit error paths and incident response so failures don’t leak extra state."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Proof-based verification reduces reliance on intermediaries, but timing/amount correlation usually remains.",
+    "Batch cadence and synchronized logs can reveal depositor cohorts even when amounts collide.",
+    "Fee-payer reuse is a common hidden link that stitches cross-chain steps together.",
+    "RPC endpoints, telemetry, and public screenshots can leak metadata outside on-chain data.",
+    "Aim for proportionate, lawful confidentiality—reduce unnecessary exposure without obstructing legitimate oversight."
+  ]
+}
