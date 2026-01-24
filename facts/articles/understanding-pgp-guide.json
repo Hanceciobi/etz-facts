@@ -1,0 +1,115 @@
+{
+  "slug": "understanding-pgp-guide",
+  "type": "article",
+  "title": "Understanding PGP: A Modern Guide to Encryption and Privacy",
+  "pageUrl": "https://etz-swap.com/blog/understanding-pgp-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/understanding-pgp-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is PGP and why is it still relevant for privacy in 2025?",
+    "How does hybrid encryption combine symmetric and public-key cryptography?",
+    "What are digital signatures and what do they actually prove?",
+    "Which modern tools make PGP usable without deep technical skills?",
+    "How should you manage keys safely to avoid losing access or leaking secrets?"
+  ],
+  "quickSteps": [
+    "Generate a key pair and protect your private key with a strong passphrase.",
+    "Share only your public key and verify fingerprints via a trusted channel.",
+    "Encrypt messages/files for the recipient and sign important data you send.",
+    "Back up keys securely (offline when possible) and keep revocation info ready.",
+    "Update tools regularly and rotate keys when standards or risks change."
+  ],
+  "issueRouting": {
+    "start": "Start by deciding what you need: encrypted email, file encryption, or signatures for verification. Then pick a tool that fits your device and workflow, and lock down key storage before you share anything.",
+    "branches": [
+      {
+        "if": "You mainly need secure email",
+        "then": [
+          "Use a mail plugin or web extension and practice with test messages first.",
+          "Verify public key fingerprints before trusting a new contact."
+        ]
+      },
+      {
+        "if": "You mainly need to protect files and backups",
+        "then": [
+          "Encrypt archives locally and keep the private key offline when possible.",
+          "Create a recovery plan so you don’t lose access to long-term data."
+        ]
+      },
+      {
+        "if": "You need authenticity and tamper-proof publishing",
+        "then": [
+          "Sign releases, documents, or messages and publish your public key fingerprint.",
+          "Teach recipients how to verify signatures, not just how to decrypt."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "PGP security depends on key management; leaked private keys or weak passphrases negate encryption.",
+    "Trust is social as much as technical; fingerprint verification prevents impostor keys.",
+    "Complexity is manageable with modern tools, but onboarding and habits still matter."
+  ]
+}
