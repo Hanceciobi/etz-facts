@@ -1,0 +1,130 @@
+{
+  "slug": "crypto-trace-techniques-beginners-guide",
+  "type": "article",
+  "title": "Crypto Trace Techniques: A Beginner’s Guide to Blockchain Analysis",
+  "pageUrl": "https://etz-swap.com/blog/crypto-trace-techniques-beginners-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-trace-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “crypto tracing” actually mean—and what does it not prove?",
+    "How do UTXO and account-based chains change tracing workflows and evidence?",
+    "Which heuristics are most common (clustering, change detection), and where do they fail?",
+    "How do analysts handle DeFi routers, L2s/rollups, and cross-chain bridges?",
+    "What are the biggest limits and blind spots (mixing, privacy coins, shared addresses)?",
+    "What legal and ethical guardrails should beginners follow when tracing funds?"
+  ],
+  "quickSteps": [
+    "Start from one tx hash and verify chain + network before drawing conclusions.",
+    "Decode the transaction (inputs/outputs or from/to + logs) and capture evidence links.",
+    "Expand one hop at a time and label known services (exchanges, routers, bridges).",
+    "Look for patterns (peeling, fan-outs, consolidation) and state confidence levels.",
+    "Document choke points where intervention is realistic (KYC off-ramps, bridges).",
+    "Keep your work ethical: purpose-limited, minimal data, no doxxing, audit-ready notes."
+  ],
+  "issueRouting": {
+    "start": "I want to trace a transaction responsibly — how do I begin without jumping to conclusions?",
+    "branches": [
+      {
+        "if": "You only have a single tx hash and no context.",
+        "then": [
+          "Open it in a block explorer and confirm network, time, and direction of value.",
+          "Record the addresses, amounts, fees, and any contract events.",
+          "Expand to the immediate neighbors only (one hop) and label any known entities."
+        ]
+      },
+      {
+        "if": "The flow hits DeFi or smart contracts (routers, bridges, mixers).",
+        "then": [
+          "Read event logs to reconstruct token movement; don’t assume the ‘to’ address is the beneficiary.",
+          "Treat the contract as infrastructure; focus on the origin and ultimate destination.",
+          "Document the exact contract addresses and timestamps to support replay."
+        ]
+      },
+      {
+        "if": "You’re trying to connect to a person rather than a service.",
+        "then": [
+          "Be explicit: on-chain data often leads to a service, not an individual.",
+          "Require off-chain evidence (legal requests, disclosures) before attribution to a person.",
+          "Write findings as hypotheses with confidence, not as facts."
+        ]
+      },
+      {
+        "if": "You’re doing incident response or risk screening.",
+        "then": [
+          "Identify potential choke points (exchanges/off-ramps) with precise deposit addresses and times.",
+          "Preserve evidence (screenshots, URLs, block heights) for escalation.",
+          "Stop when commingling makes certainty drop; focus on actionable touchpoints."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Heuristics are probabilistic and can be broken by CoinJoin, shared custody, and deliberate obfuscation.",
+    "Cross-chain and L2 flows desynchronize time/amount signals; matching often needs multiple cues.",
+    "Privacy coins and shielded pools reduce public traceability; edges (entry/exit) become the focus.",
+    "Over-sharing addresses and findings can harm innocents; avoid doxxing and keep data minimal.",
+    "Good tracing is repeatable: record every assumption, source URL, and uncertainty."
+  ]
+}
