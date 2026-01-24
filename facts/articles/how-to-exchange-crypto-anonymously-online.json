@@ -1,0 +1,115 @@
+{
+  "slug": "how-to-exchange-crypto-anonymously-online",
+  "type": "article",
+  "title": "How to Exchange Crypto Anonymously Online",
+  "pageUrl": "https://etz-swap.com/blog/how-to-exchange-crypto-anonymously-online",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/exchange-crypto-anonymously-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “anonymous crypto exchange” actually mean in practice?",
+    "Which swap options work without registration or identity checks?",
+    "How do you reduce traceability beyond simply skipping KYC?",
+    "What are the most common operational mistakes during non-KYC swaps?",
+    "How do you balance privacy, security, liquidity, and legal constraints?"
+  ],
+  "quickSteps": [
+    "Use a separate wallet for swaps and keep long-term storage isolated.",
+    "Choose a non-KYC swap route and verify the destination address and network.",
+    "Start with a small test transaction when using a new chain or wallet.",
+    "Avoid linking your private wallet flow to accounts that require identity checks.",
+    "Record TXIDs and basic notes so you can troubleshoot without sharing sensitive data."
+  ],
+  "issueRouting": {
+    "start": "Pick your privacy baseline first (non-KYC route + separate wallet). Then reduce linkage risks (device hygiene, network checks, and operational discipline).",
+    "branches": [
+      {
+        "if": "You want the simplest ID-free swap workflow",
+        "then": [
+          "Use a non-KYC swap service and send funds from a wallet you control.",
+          "Double-check network selection and addresses to avoid wrong-chain losses."
+        ]
+      },
+      {
+        "if": "You need stronger privacy properties end-to-end",
+        "then": [
+          "Prefer privacy-oriented assets for the transfer leg where appropriate.",
+          "Keep swap activity and long-term holdings in separate wallet identities."
+        ]
+      },
+      {
+        "if": "You’re concerned about safety and support limits",
+        "then": [
+          "Avoid oversized swaps on unfamiliar routes; split orders when needed.",
+          "Keep custody under your control and verify everything before sending."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Non-KYC does not automatically equal anonymity; linkability can come from addresses, devices, and behavioral patterns.",
+    "Operational errors (wrong network/address, unsafe signing) are the most frequent cause of losses.",
+    "Regulatory posture varies by jurisdiction; understand local constraints and avoid assuming a single global rule."
+  ]
+}
