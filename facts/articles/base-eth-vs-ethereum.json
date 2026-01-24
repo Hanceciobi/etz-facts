@@ -1,0 +1,130 @@
+{
+  "slug": "base-eth-vs-ethereum",
+  "type": "article",
+  "title": "Base ETH vs Ethereum: Key Differences & When to Use Each",
+  "pageUrl": "https://etz-swap.com/blog/base-eth-vs-ethereum",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/eth-vs-ethereum-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Is “Base ETH” a different coin, or just ETH on an L2 network?",
+    "How do Base (L2) and Ethereum mainnet (L1) split execution vs settlement?",
+    "Why are fees typically lower on Base, and when can they rise?",
+    "What does “finality” mean on L2 vs L1, especially for withdrawals?",
+    "What extra trust assumptions come with an optimistic rollup (sequencer, fraud proofs, upgrades)?",
+    "When should builders and users prefer L1, and when does Base make more sense?"
+  ],
+  "quickSteps": [
+    "Decide what matters most: maximum settlement assurances (L1) or low fees + speed (L2).",
+    "For routine activity, use Base; for high-value settlement, keep critical moves on L1.",
+    "Budget for withdrawals: canonical exits may take days; liquidity bridges can be faster with added risk/fees.",
+    "Verify contract addresses and token versions per network (L1 vs Base).",
+    "Track bridge tx hashes + L2 tx hashes for operations and accounting.",
+    "Keep a fallback route documented (alternate bridge or direct rails)."
+  ],
+  "issueRouting": {
+    "start": "I’m not sure whether to use Ethereum mainnet or Base — how do I choose?",
+    "branches": [
+      {
+        "if": "Value at risk is high and you need the strongest settlement guarantees.",
+        "then": [
+          "Prefer Ethereum mainnet (L1) for the critical transaction.",
+          "Use L2 only for ancillary steps and keep bridging optional.",
+          "Document addresses and approvals carefully before moving size."
+        ]
+      },
+      {
+        "if": "You need cheap, fast UX for frequent actions (swaps, mints, app interactions).",
+        "then": [
+          "Use Base for day-to-day activity and onboarding.",
+          "Expect near-instant local confirmations for UX.",
+          "Keep a small L1 buffer for emergencies and bridge fees."
+        ]
+      },
+      {
+        "if": "You must move funds back to L1 quickly.",
+        "then": [
+          "Plan for the challenge window on canonical withdrawals.",
+          "If time is critical, compare reputable liquidity bridges and fees.",
+          "Keep records of both sides of the bridge for support."
+        ]
+      },
+      {
+        "if": "You’re building a product and choosing architecture.",
+        "then": [
+          "Anchor critical state/governance on L1; put user interactions on Base.",
+          "Maintain per-network address books and deployment checklists.",
+          "Monitor sequencer/proof systems and publish an incident runbook."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "L2 UX finality is fast, but L1-level settlement depends on batching and dispute periods.",
+    "Optimistic rollups add assumptions: sequencer behavior, fraud-proof availability, and upgrade policies.",
+    "Asset names can look identical across networks; token representations and contract addresses may differ.",
+    "Fast exits via liquidity bridges can reduce latency but add smart-contract and liquidity risk.",
+    "Operational hygiene (records, address books, incident readiness) matters as much as technology."
+  ]
+}
