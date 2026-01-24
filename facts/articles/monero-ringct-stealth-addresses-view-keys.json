@@ -1,0 +1,130 @@
+{
+  "slug": "monero-ringct-stealth-addresses-view-keys",
+  "type": "article",
+  "title": "Monero in Practice: RingCT, Stealth Addresses, and View Keys",
+  "pageUrl": "https://etz-swap.com/blog/monero-ringct-stealth-addresses-view-keys",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-addresses-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does Monero hide by default, and what can still leak outside the chain?",
+    "What is RingCT, and how does it hide amounts and the true input?",
+    "Why do stealth addresses prevent recipient linkage and address reuse on-chain?",
+    "What is a view key, and how does it enable audits without spending power?",
+    "How do payment proofs work and when do you actually need them?",
+    "Which everyday habits preserve privacy better than “advanced” tricks?"
+  ],
+  "quickSteps": [
+    "Use a reputable XMR wallet and store your seed offline (no photos or cloud notes).",
+    "Use subaddresses to organize flows by purpose without creating on-chain reuse patterns.",
+    "Confirm restore height to speed up syncing and reduce confusion when scanning.",
+    "Keep transaction keys/private proofs only when you’ll need to prove a specific payment.",
+    "Share view access only when required, via trusted channels, and revoke when done.",
+    "Protect metadata: careful connectivity, clean devices, and no public txid oversharing."
+  ],
+  "issueRouting": {
+    "start": "I want practical Monero privacy without making mistakes — where should I begin?",
+    "branches": [
+      {
+        "if": "You’re setting up a wallet for the first time.",
+        "then": [
+          "Create and store the seed phrase offline with redundant backups.",
+          "Set a correct restore height so scanning doesn’t take forever.",
+          "Generate subaddresses for different purposes (personal, business, donations)."
+        ]
+      },
+      {
+        "if": "You need selective transparency for accounting or audits.",
+        "then": [
+          "Use a view-only wallet instead of screenshots or ad-hoc exports.",
+          "Share the view key only with a trusted party and document the scope.",
+          "Rotate/revoke disclosures when the purpose ends."
+        ]
+      },
+      {
+        "if": "You need to prove you paid someone.",
+        "then": [
+          "Generate a payment proof from the transaction key for that payment.",
+          "Share the proof with the recipient via a trusted channel.",
+          "Avoid posting proofs publicly unless disclosure is explicitly required."
+        ]
+      },
+      {
+        "if": "You’re worried about linkability outside the chain.",
+        "then": [
+          "Avoid posting txids, times, and amounts in public chats or social posts.",
+          "Use safer connectivity when needed (trusted nodes and privacy-aware routing).",
+          "Keep separate wallets/contexts for unrelated activities."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Monero hides on-chain details, but network metadata and off-chain touchpoints can still reveal context.",
+    "Sharing view keys widely increases exposure; scope access and treat it as sensitive.",
+    "Public disclosures (txids, timestamps, amounts) can undo privacy even if the chain is private.",
+    "Device compromise and clipboard malware can leak more than the blockchain ever would.",
+    "Operational hygiene and clear routines matter more than “clever” tricks."
+  ]
+}
