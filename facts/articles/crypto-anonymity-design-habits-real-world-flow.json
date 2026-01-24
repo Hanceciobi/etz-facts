@@ -1,0 +1,130 @@
+{
+  "slug": "crypto-anonymity-design-habits-real-world-flow",
+  "type": "article",
+  "title": "Crypto Anonymity That Actually Works: Design, Habits, and Real-World Flow",
+  "pageUrl": "https://etz-swap.com/blog/crypto-anonymity-design-habits-real-world-flow",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-anonymity-design-habits-real-world-flow-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What’s the difference between pseudonymity and real on-chain anonymity?",
+    "Which techniques actually hide recipients, senders, and amounts?",
+    "Why is Monero (XMR) considered the practical default for private transactions?",
+    "Where do ZK systems, Mimblewimble-style designs, and “privacy modes” fit?",
+    "What everyday habits prevent metadata leaks outside the blockchain?",
+    "How can you bridge from transparent assets into private ones with minimal exposure?"
+  ],
+  "quickSteps": [
+    "Use privacy-by-default systems when anonymity matters.",
+    "Avoid address reuse and keep contexts separated (hot vs cold, personal vs business).",
+    "Verify addresses every time to defeat clipboard-swapping attacks.",
+    "Keep seeds offline; avoid screenshots and cloud storage for backups.",
+    "Route wallet traffic via Tor/I2P when you need stronger network privacy.",
+    "Use non-custodial swaps to bridge without creating long-lived profiles."
+  ],
+  "issueRouting": {
+    "start": "I want crypto anonymity that actually holds up—what should I change first?",
+    "branches": [
+      {
+        "if": "Your chain is transparent (BTC/ETH/stablecoins) and you’re leaking through address reuse.",
+        "then": [
+          "Stop reusing addresses and rotate to new receive paths.",
+          "Separate spending vs savings so flows don’t cross-contaminate.",
+          "Assume public graphs are permanent; design for long-term exposure."
+        ]
+      },
+      {
+        "if": "You need default-private payments for routine use.",
+        "then": [
+          "Adopt a wallet and workflow that is private by default (e.g., XMR).",
+          "Use subaddresses per context and avoid public posting of payment data.",
+          "Keep your broadcast layer quiet (Tor/I2P, trusted nodes)."
+        ]
+      },
+      {
+        "if": "You’re bridging between transparent and private assets.",
+        "then": [
+          "Prefer non-custodial, account-free swaps to minimize metadata.",
+          "Avoid unnecessary round trips and keep swaps purpose-driven.",
+          "Store receipts for your own accounting without oversharing."
+        ]
+      },
+      {
+        "if": "You’re choosing tools (wallets/nodes) and want low-risk defaults.",
+        "then": [
+          "Pick maintained, open-source wallets with clear release notes.",
+          "Treat the seed as the master key; keep backups boring and offline.",
+          "Keep a minimal proofs folder (hashes, timestamps) for your own audits."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Optional privacy modes often shrink anonymity sets and leak via mixed flows.",
+    "Metadata at the edges (IP, timing, KYC deposits, chats) can undo strong on-chain privacy.",
+    "Custodial “privacy” services replace analysis risk with counterparty and seizure risk.",
+    "Publicly sharing addresses or invoices can link years of activity.",
+    "Privacy is a repeatable routine—technology plus habits—not a one-time switch."
+  ]
+}
