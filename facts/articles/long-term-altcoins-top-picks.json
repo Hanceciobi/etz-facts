@@ -1,0 +1,130 @@
+{
+  "slug": "long-term-altcoins-top-picks",
+  "type": "article",
+  "title": "Top Long-Term Altcoins to Consider Now",
+  "pageUrl": "https://etz-swap.com/blog/long-term-altcoins-top-picks",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/altcoins-top-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What makes an altcoin a viable long-term hold beyond hype?",
+    "How do you evaluate fundamentals: utility, security, token economics, and governance?",
+    "Which metrics signal real adoption instead of short-lived speculation?",
+    "How should you diversify across categories (L1s, interoperability, oracles, ecosystems)?",
+    "What custody and operational hygiene reduces long-term risk?",
+    "When should you trim or exit a long-term position?"
+  ],
+  "quickSteps": [
+    "Define your thesis: utility, adoption, and defensible differentiation—not narratives.",
+    "Pick a basket across categories (base layers + interoperability + data/oracles).",
+    "Favor projects with shipping cadence, audits, and a transparent roadmap.",
+    "Size positions based on liquidity and downside tolerance; avoid leverage.",
+    "Secure custody (hardware wallet for meaningful balances) and review approvals routinely.",
+    "Re-evaluate quarterly and exit if the thesis breaks (security, governance, stalled shipping)."
+  ],
+  "issueRouting": {
+    "start": "I want to build a long-term altcoin basket — how do I choose and manage it?",
+    "branches": [
+      {
+        "if": "You want a core that tracks broad crypto activity.",
+        "then": [
+          "Anchor the basket in the most-used platforms and tooling layers.",
+          "Prefer assets with durable fee demand and ecosystem liquidity.",
+          "Add smaller positions only when fundamentals justify it."
+        ]
+      },
+      {
+        "if": "You want more upside but still care about survivability.",
+        "then": [
+          "Blend higher-volatility names with resilient networks and service layers.",
+          "Avoid over-concentration in one narrative or one ecosystem.",
+          "Use staged entries and rebalancing rather than “all-in” buys."
+        ]
+      },
+      {
+        "if": "You want safer execution and custody.",
+        "then": [
+          "Verify official contract addresses and networks before buying.",
+          "Use hardware wallets for long-term holds and enable strong 2FA on accounts.",
+          "Keep seeds offline; never store them in cloud notes or screenshots."
+        ]
+      },
+      {
+        "if": "You’re not sure when to exit.",
+        "then": [
+          "Revisit the thesis on incidents: security breaches, governance capture, or declining usage.",
+          "Trim when position size grows beyond your risk budget.",
+          "Exit when assumptions break or better risk-adjusted opportunities appear."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Smaller caps offer more upside but come with higher execution and liquidity risk.",
+    "Strong narratives can mask weak token economics or fragile governance.",
+    "Custody mistakes and approval drains can dominate long-term outcomes more than price moves.",
+    "Regulatory changes can alter exchange access and on/off-ramp friction by jurisdiction.",
+    "Diversification helps, but only if the assets are truly different in drivers and risk."
+  ]
+}
