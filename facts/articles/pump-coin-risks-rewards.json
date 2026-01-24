@@ -1,0 +1,130 @@
+{
+  "slug": "pump-coin-risks-rewards",
+  "type": "article",
+  "title": "Risks and Rewards of Pump Coin Investments",
+  "pageUrl": "https://etz-swap.com/blog/pump-coin-risks-rewards",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/pump-coin-risks-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What exactly is a “pump coin,” and how is it different from a normal small-cap token?",
+    "How do coordinated pumps typically unfold—from accumulation to distribution?",
+    "Where do the biggest hidden risks sit: liquidity, slippage, and information asymmetry?",
+    "How can a trader set position size, stop rules, and profit-taking in thin books?",
+    "Which red flags most often signal a pump-and-dump setup?",
+    "How should pump-coin trades fit into an overall portfolio, if at all?"
+  ],
+  "quickSteps": [
+    "Assume extreme volatility and thin liquidity; size positions so a fast -50% won’t break you.",
+    "Define invalidation and take-profit levels before entering; don’t improvise in the pump window.",
+    "Prefer limit orders and staged exits to reduce slippage and decision pressure.",
+    "Treat chatroom “signals” as unverified; validate with liquidity, volume, and holder distribution.",
+    "Cap daily loss and stop trading when the limit hits—tilt is the real enemy here.",
+    "Keep pump exposure in a segregated speculative sleeve; never dip into core funds."
+  ],
+  "issueRouting": {
+    "start": "I want to trade pump coins more safely — what should I do first?",
+    "branches": [
+      {
+        "if": "You’re new to pump-driven markets.",
+        "then": [
+          "Trade paper or tiny size first to learn slippage and spread behavior.",
+          "Study order books and volume spikes; avoid chasing vertical candles.",
+          "Write a simple playbook: entry triggers, invalidation, and exits."
+        ]
+      },
+      {
+        "if": "You’re worried about getting trapped by illiquidity.",
+        "then": [
+          "Check depth at multiple price levels, not just the last trade.",
+          "Avoid market orders in thin books; use limits and accept missed fills.",
+          "Plan exits in ladders so you can derisk on the way up."
+        ]
+      },
+      {
+        "if": "You’re trying to avoid manipulation and misinformation.",
+        "then": [
+          "Treat screenshots and “leaks” as marketing until verified.",
+          "Watch for concentrated holders and synchronized wallet funding patterns.",
+          "Refuse “guaranteed profit” claims and exact-timestamp entry instructions."
+        ]
+      },
+      {
+        "if": "You want to manage psychology and avoid revenge trading.",
+        "then": [
+          "Set a maximum daily loss and stop trading when it’s hit.",
+          "Use partial profit-taking to remove emotional pressure.",
+          "Post-trade review: log slippage, timing, and whether you followed your rules."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Thin liquidity and widening spreads can erase profits even when price moves your way.",
+    "Information asymmetry is structural: insiders can use hype to sell into late buyers.",
+    "Stops can slip badly in air-pocket moves; “perfect” risk control is not guaranteed.",
+    "Rumors and screenshots can be engineered to move markets long enough for distribution.",
+    "For most investors, the rational allocation to pump coins is zero; if used, keep it small and segregated."
+  ]
+}
