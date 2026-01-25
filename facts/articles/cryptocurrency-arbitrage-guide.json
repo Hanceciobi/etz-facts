@@ -1,0 +1,111 @@
+{
+  "slug": "cryptocurrency-arbitrage-guide",
+  "type": "article",
+  "title": "Cryptocurrency Arbitrage: How Traders Profit from Price Gaps",
+  "pageUrl": "https://etz-swap.com/blog/cryptocurrency-arbitrage-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/cryptocurrency-arbitrage-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is cryptocurrency arbitrage, and why do price gaps exist?",
+    "What types of arbitrage are most practical (spot, futures, triangular, cross-exchange)?",
+    "How do fees, transfer times, and limits change real profitability?",
+    "Which tools and safeguards help reduce execution and custody risk?",
+    "When does privacy matter for arbitrage workflows, and what trade-offs exist?"
+  ],
+  "quickSteps": [
+    "Pick exchanges/venues with enough liquidity and predictable fees.",
+    "Calculate profit after all costs: trading fees, withdrawal fees, and slippage.",
+    "Test the full route with a small amount to measure transfer time end-to-end.",
+    "Automate monitoring (alerts/bots) but keep manual controls for risk.",
+    "Limit exposure: diversify venues and keep only operational balances online."
+  ],
+  "issueRouting": {
+    "start": "If you want to try arbitrage, start by choosing the simplest route that matches your speed, capital, and risk tolerance.",
+    "branches": [
+      {
+        "if": "You want the simplest approach with the fewest moving parts",
+        "then": [
+          "Use spot cross-exchange arbitrage with highly liquid pairs.",
+          "Prefer assets with fast settlement and low withdrawal fees.",
+          "Avoid routes that depend on congested networks."
+        ]
+      },
+      {
+        "if": "You want to use derivatives or leverage to amplify small gaps",
+        "then": [
+          "Use futures/spot basis setups only if you understand liquidation mechanics.",
+          "Keep leverage low and define exit rules before entering.",
+          "Monitor funding rates, margin requirements, and exchange risk continuously."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Execution risk: gaps close fast, and delays can turn a trade negative.",
+    "Fee and slippage risk: many “profitable” spreads vanish after costs.",
+    "Custody and counterparty risk: exchange outages and freezes can trap funds.",
+    "Operational risk: mis-sent assets or wrong networks can be difficult to recover."
+  ]
+}
