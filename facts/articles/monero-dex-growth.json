@@ -1,0 +1,111 @@
+{
+  "slug": "monero-dex-growth",
+  "type": "article",
+  "title": "The Role of Decentralized Exchanges in Monero’s Growth",
+  "pageUrl": "https://etz-swap.com/blog/monero-dex-growth",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-dex-growth-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "Why did major centralized exchanges delist Monero (XMR)?",
+    "How do KYC rules and regulations push users toward decentralized swaps?",
+    "What makes Monero difficult to monitor (stealth addresses, RingCT, ring signatures)?",
+    "What are the practical pros and cons of swapping XMR via DEX and instant swap services?",
+    "How can users reduce risk when swapping privacy coins?"
+  ],
+  "quickSteps": [
+    "Understand the trade-off: privacy vs. the restrictions of regulated centralized venues.",
+    "Choose a non-custodial swap route when you want self-custody and fewer account barriers.",
+    "Verify coin/network details and confirm amounts before sending funds.",
+    "Start with a small test swap if you’re using a new venue or route.",
+    "Use basic hygiene: clean device, verified links, and secure wallet backups."
+  ],
+  "issueRouting": {
+    "start": "If you want to obtain XMR after exchange delistings, start by choosing between custodial convenience and non-custodial privacy-preserving swaps.",
+    "branches": [
+      {
+        "if": "You want maximum convenience and are fine with KYC/monitoring",
+        "then": [
+          "Use a regulated centralized platform where XMR access is still available in your region.",
+          "Expect more checks, limits, and potential delays.",
+          "Withdraw to a wallet you control after the trade."
+        ]
+      },
+      {
+        "if": "You prioritize privacy and self-custody for XMR swaps",
+        "then": [
+          "Use a decentralized or non-custodial swap service to avoid custodial exposure.",
+          "Double-check addresses and required transaction fields before sending.",
+          "Keep records (TXIDs) and follow the venue’s status page if a swap is delayed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Regulatory pressure can change access to privacy coins on centralized venues quickly.",
+    "Counterparty and custody risk exist on centralized exchanges, even with strong brands.",
+    "Execution risk: thin liquidity or network congestion can affect swap timing and price.",
+    "Phishing risk: fake “DEX links” and impersonated support are common—verify URLs."
+  ]
+}
