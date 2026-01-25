@@ -1,0 +1,111 @@
+{
+  "slug": "usdt-from-concept-to-worlds-most-used-digital-dollar",
+  "type": "article",
+  "title": "USDT Explained: History, Growth, and the Role of Tether in Global Crypto",
+  "pageUrl": "https://etz-swap.com/blog/usdt-from-concept-to-worlds-most-used-digital-dollar",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-from-concept-to-worlds-most-used-digital-dollar-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is USDT (Tether), and why was it created?",
+    "How does USDT keep its price close to 1 USD in practice?",
+    "Why is USDT so widely used for trading and liquidity on exchanges?",
+    "How do different USDT networks (ERC-20, TRC-20, etc.) change fees and speed?",
+    "What risks matter most: reserves, regulation, freezes, and third‑party custody?"
+  ],
+  "quickSteps": [
+    "Decide your purpose: trading liquidity, payments, or a volatility hedge.",
+    "Pick the right network for your transfer (fees, speed, exchange support).",
+    "Send a small test transaction before moving larger amounts.",
+    "Prefer self-custody for longer holding; avoid leaving balances on exchanges.",
+    "Understand stablecoin risks: issuer controls, compliance pressure, and blacklists."
+  ],
+  "issueRouting": {
+    "start": "If you plan to use USDT, start by choosing between convenience (custodial) and control (self-custody), then pick the network that fits your fees/speed needs.",
+    "branches": [
+      {
+        "if": "You need fast, cheap transfers for active trading",
+        "then": [
+          "Use a supported low-fee network where your venue accepts deposits/withdrawals.",
+          "Always verify the exact network before sending.",
+          "Keep only working balances on an exchange; withdraw the rest."
+        ]
+      },
+      {
+        "if": "You want USDT as a temporary stable holding or for payments",
+        "then": [
+          "Use a wallet you control and back up access securely.",
+          "Treat USDT as a tool, not a risk-free bank account.",
+          "Consider diversification (e.g., multiple stablecoins) if your risk model requires it."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Issuer and compliance risk: stablecoin issuers can freeze addresses on some chains.",
+    "Counterparty risk: exchanges and custodians can restrict withdrawals or suffer incidents.",
+    "Network risk: sending on the wrong chain can delay recovery or make it impossible.",
+    "Regulatory risk: rules can change access, listings, and reporting requirements."
+  ]
+}
