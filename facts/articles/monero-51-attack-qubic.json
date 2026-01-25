@@ -1,0 +1,111 @@
+{
+  "slug": "monero-51-attack-qubic",
+  "type": "article",
+  "title": "Monero Blockchain 51% Attack: Qubic’s Impact & Risks",
+  "pageUrl": "https://etz-swap.com/blog/monero-51-attack-qubic",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-51-attack-qubic-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a 51% attack and what can it realistically do to a PoW chain?",
+    "What happened during the Qubic-related Monero reorganizations?",
+    "How did exchanges and the Monero community respond in practice?",
+    "Why can hashrate economics be a bigger risk than protocol bugs?",
+    "Which mitigations are discussed (decentralization, checkpoints, merge mining) and what trade-offs do they bring?"
+  ],
+  "quickSteps": [
+    "Treat large confirmations seriously during suspected reorg periods; do not rush deposits.",
+    "Follow exchange notices and official community channels for confirmation guidance.",
+    "Avoid large, time-sensitive transfers until the chain is stable again.",
+    "Keep TXIDs and timestamps; document everything if you need support.",
+    "Prefer non-custodial workflows and minimize time funds sit on custodial venues."
+  ],
+  "issueRouting": {
+    "start": "If you’re moving XMR during or after a reorg event, start by deciding whether you can delay the transfer; if not, increase safety margins and documentation.",
+    "branches": [
+      {
+        "if": "You can wait for stability",
+        "then": [
+          "Pause large transfers until reorg chatter and exchange warnings subside.",
+          "Monitor confirmations and network status from multiple sources.",
+          "Resume with a small test transfer before moving full size."
+        ]
+      },
+      {
+        "if": "You must transfer now (time-sensitive)",
+        "then": [
+          "Use higher confirmation thresholds and conservative amounts.",
+          "Avoid routing through venues that currently pause deposits/withdrawals.",
+          "Keep a clear paper trail (TXIDs, screenshots, timestamps) for any dispute."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Reorg/double-spend risk rises when a single entity can influence block production.",
+    "Exchange policy risk: platforms may pause deposits or raise confirmation requirements without notice.",
+    "Market risk: headline-driven volatility can spike during security incidents.",
+    "Operational risk: confusion about confirmations and chain state can cause mistakes under stress."
+  ]
+}
