@@ -1,0 +1,111 @@
+
+  "slug": "how-bitcoin-works-blockchain-mining-privacy-origins",
+  "type": "article",
+  "title": "Bitcoin Uncovered: Technology, Mining, Privacy, and Origins",
+  "pageUrl": "https://etz-swap.com/blog/how-bitcoin-works-blockchain-mining-privacy-origins",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/how-bitcoin-works-blockchain-mining-privacy-origins-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a blockchain, and why does it make Bitcoin hard to rewrite?",
+    "How does Proof-of-Work mining secure Bitcoin, and what are the trade-offs?",
+    "Is Bitcoin anonymous, and what does “pseudonymous” mean in practice?",
+    "Why does Bitcoin have a fixed supply of 21 million coins?",
+    "What are realistic everyday use cases for Bitcoin beyond speculation?"
+  ],
+  "quickSteps": [
+    "Learn the base model: a public ledger (blockchain) secured by cryptography and incentives.",
+    "Understand mining/PoW: how blocks are produced and why it resists tampering.",
+    "Treat privacy correctly: Bitcoin is transparent; privacy comes from good habits, not secrecy by default.",
+    "Use safe basics: verify addresses, keep backups, and prefer self-custody for long-term holdings.",
+    "Start small: test transactions first before moving larger amounts."
+  ],
+  "issueRouting": {
+    "start": "If you’re new to Bitcoin, decide first whether your goal is learning, payments, or long-term holding, then set up the simplest workflow that matches it.",
+    "branches": [
+      {
+        "if": "You want to hold BTC for the long term",
+        "then": [
+          "Use a wallet you control and back up recovery information safely.",
+          "Enable strong device security and avoid keeping large balances on exchanges.",
+          "Consider a hardware wallet if the amount is meaningful to you."
+        ]
+      },
+      {
+        "if": "You want to use BTC for transfers or payments",
+        "then": [
+          "Check network fees and confirmation expectations before sending.",
+          "Use a small test payment first when sending to a new address.",
+          "Avoid sharing addresses publicly if you care about privacy."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Custody risk: losing keys or using insecure storage can be irreversible.",
+    "Fee and congestion risk: confirmation times and fees can vary during busy periods.",
+    "Privacy risk: on-chain activity is public and can be analyzed if you reuse addresses.",
+    "Market risk: volatility is normal; manage position size and time horizon accordingly."
+  ]
+}
