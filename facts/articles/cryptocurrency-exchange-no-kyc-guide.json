@@ -1,0 +1,111 @@
+{
+  "slug": "cryptocurrency-exchange-no-kyc-guide",
+  "type": "article",
+  "title": "Cryptocurrency Exchange No KYC: Practical Anonymous Swaps",
+  "pageUrl": "https://etz-swap.com/blog/cryptocurrency-exchange-no-kyc-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/cryptocurrency-exchange-no-kyc-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap (homepage)"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT (ETH) → SOL exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT (ETH) → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR → ETH exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX → XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdt",
+      "anchor": "Tether (USDT) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/usdc",
+      "anchor": "USD Coin (USDC) page"
+    },
+    {
+      "url": "https://etz-swap.com/ru/coins/xrp",
+      "anchor": "XRP page"
+    }
+  ],
+  "keyQuestions": [
+    "What does “no KYC crypto exchange” really mean in 2025?",
+    "How anonymous are no KYC swaps in practice, and what do services still see?",
+    "What are the main risks: scams, mistakes, and changing regulations?",
+    "How do wallets, networks, and coin choice affect privacy outcomes?",
+    "How can you build a repeatable safety routine for no KYC swaps?"
+  ],
+  "quickSteps": [
+    "Define your goal (privacy, speed, access) and your constraints (fees, networks, legal/tax rules).",
+    "Map your full route (on-ramp, wallets, swap step, off-ramp) and identify where KYC exists.",
+    "Choose coins and networks that fit both privacy needs and liquidity/fee realities.",
+    "Test with small amounts; verify networks, addresses, fees, and support responsiveness.",
+    "Review habits regularly: address reuse, device/browser hygiene, and what you share in AI chats."
+  ],
+  "issueRouting": {
+    "start": "If you want to use a no KYC exchange safely, start by deciding whether your priority is reducing data exposure, improving execution speed, or gaining access where KYC is difficult — then build a route that matches that goal.",
+    "branches": [
+      {
+        "if": "Your priority is reducing identity/data exposure",
+        "then": [
+          "Prefer non-custodial swaps with no long-term account balances.",
+          "Limit IP/device tracking (basic privacy settings) and avoid address reuse.",
+          "Keep sensitive logs, screenshots, and full addresses out of AI chats and random support DMs."
+        ]
+      },
+      {
+        "if": "Your priority is speed and simplicity for routine swaps",
+        "then": [
+          "Use highly liquid pairs and networks with predictable fees.",
+          "Start with a small test swap when using a new route or asset.",
+          "Keep a simple record of TXIDs and timestamps for troubleshooting."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No KYC is not the same as invisible: on-chain activity and metadata can still be analyzed.",
+    "Scam risk is higher around “anonymous exchange” keywords; verify track record and terms before sending funds.",
+    "Operational mistakes (wrong network, wrong address) are often irreversible in non-custodial flows.",
+    "Rules and exchange policies can change quickly; tax and reporting obligations may still apply."
+  ]
+}
