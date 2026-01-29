@@ -1,0 +1,80 @@
+{
+  "slug": "etz-swap-without-javascript-nojs",
+  "type": "article",
+  "title": "ETZ Swap Without JavaScript: Why a No-JS Version Matters for Crypto Swaps",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-without-javascript-nojs",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-without-javascript-nojs-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap"
+    }
+  ],
+  "keyQuestions": [
+    "Is a no-JavaScript website safer for crypto swaps?",
+    "What risks are reduced when a swap flow works without client-side scripts?",
+    "Will the no-JS version work with Tor, NoScript, or hardened browsers?",
+    "Does disabling JavaScript stop tracking and fingerprinting?",
+    "Is the no-JS site faster and more reliable on slow devices or networks?",
+    "How should I verify deposit and payout status when the UI is minimal?"
+  ],
+  "quickSteps": [
+    "Use the official no-JS site at https://nojs.etz-swap.com and verify the domain carefully before entering any addresses.",
+    "Treat the network as part of the asset name and double-check networks before sending, especially for stablecoins like USDT.",
+    "If your browser setup is strict or new, start with a small test amount to confirm the flow before sending larger funds.",
+    "Verify deposit and payout using TXIDs in a block explorer and confirmation counts, not only on-page status indicators.",
+    "If anything feels inconsistent, stop: do not rush, re-check details, and only proceed when the basics match."
+  ],
+  "issueRouting": {
+    "start": "If something goes wrong, do not send additional funds. First collect the facts (asset, network, amount, TXIDs, time) and verify on-chain status.",
+    "branches": [
+      {
+        "if": "The no-JS page loads but a step seems missing or the form does not submit",
+        "then": [
+          "Refresh the page and try again on a stable connection.",
+          "Check whether your browser blocks cookies or form submissions and adjust settings if needed.",
+          "Try another hardened browser profile or device for the same no-JS domain.",
+          "If the issue persists, use the main site and compare the required fields, then return to the no-JS flow."
+        ]
+      },
+      {
+        "if": "The swap status page does not update",
+        "then": [
+          "Refresh the status page and confirm you are using the correct swap identifier if one is provided.",
+          "Verify the deposit TXID and confirmation count in a block explorer.",
+          "If the deposit is confirmed, look for the payout TXID or output transaction on-chain.",
+          "If on-chain status is correct but the UI still does not reflect it, contact support with TXIDs and swap details."
+        ]
+      },
+      {
+        "if": "You sent on the wrong network",
+        "then": [
+          "Stop immediately and do not make new transfers to 'fix' it.",
+          "Record the TXID, the network used, the destination address, and the swap details.",
+          "Contact support with full details; recovery may be limited depending on the chain and access."
+        ]
+      },
+      {
+        "if": "The swap completed but funds are not visible in your wallet",
+        "then": [
+          "Confirm the receiving address and the correct network in your wallet.",
+          "Check the payout TXID in a block explorer and verify the destination address matches yours.",
+          "Refresh the wallet, re-scan, or ensure the correct network is selected for display.",
+          "If the payout TXID shows a different address, contact support with the deposit TXID and the receiving address you entered."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-JS reduces reliance on client-side scripts, which can lower certain browser-side risks and improve stability in hardened environments.",
+    "It does not make you invisible: network-level signals and on-chain visibility still exist.",
+    "Typos and lookalike domains are a common threat; always verify https://nojs.etz-swap.com before proceeding.",
+    "Network mix-ups remain a leading cause of failed swaps, especially for stablecoins that exist on multiple chains.",
+    "Minimal UI does not replace verification: always confirm deposits and payouts by TXID and confirmation counts."
+  ]
+}
