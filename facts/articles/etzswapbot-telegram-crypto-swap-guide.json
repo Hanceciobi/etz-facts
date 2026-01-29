@@ -1,0 +1,109 @@
+{
+  "slug": "etzswapbot-telegram-crypto-swap-guide",
+  "type": "article",
+  "title": "ETZ Swap Telegram Bot: Swap Crypto Inside Telegram with @EtzSwapBot",
+  "pageUrl": "https://etz-swap.com/blog/etzswapbot-telegram-crypto-swap-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etzswapbot-telegram-crypto-swap-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ Swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC→XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH→XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR→ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT(ETH)→XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT(ETH)→SOL"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC→ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX→XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Is it safe to swap crypto inside Telegram with a bot?",
+    "How do I verify I’m using the real @EtzSwapBot and not a clone?",
+    "Which USDT network should I pick (TRC20 vs ERC20), and what goes wrong if I mix them up?",
+    "Why did I receive less than expected after a swap?",
+    "What should I do if the deposit is stuck or the swap status doesn’t update?",
+    "How do I avoid fake support and “unlock fee” scams in Telegram?"
+  ],
+  "quickSteps": [
+    "Verify the exact bot username (@EtzSwapBot) before starting and ignore links from random DMs.",
+    "Treat the network as part of the asset name (e.g., USDT TRC20 vs USDT ERC20) and copy any memo/tag exactly.",
+    "If you’re unsure about the flow, start with a small test swap to confirm addresses, networks, and timing.",
+    "Track your deposit and payout using TXIDs in a block explorer and watch confirmation counts.",
+    "If anything feels off, stop: do not send extra “unlock” payments; gather TXIDs and contact official support."
+  ],
+  "issueRouting": {
+    "start": "If something goes wrong, do not send additional funds. First collect the facts (asset, network, amount, TXIDs, time) and verify on-chain status.",
+    "branches": [
+      {
+        "if": "The bot shows 'waiting for deposit' but you already sent funds",
+        "then": [
+          "Find the deposit TXID in your wallet and verify it on a block explorer.",
+          "Confirm you used the exact network specified in the deposit instructions.",
+          "Check confirmations; many swaps only proceed after a required count.",
+          "If the network and TXID are correct but the status does not update, contact support with the TXID and timestamp."
+        ]
+      },
+      {
+        "if": "The transaction is unconfirmed or 'stuck' on-chain",
+        "then": [
+          "Check the TXID in a block explorer and confirm fee/priority status.",
+          "Wait for confirmations if the network is congested; delays are normal during spikes.",
+          "Do not pay third-party 'accelerators' that message you first.",
+          "If it remains stalled unusually long, contact support with the TXID and network."
+        ]
+      },
+      {
+        "if": "You sent on the wrong network (e.g., TRC20 vs ERC20 mismatch)",
+        "then": [
+          "Stop immediately and do not make new transfers to 'fix' it.",
+          "Record the TXID, the network used, the destination address, and the swap details.",
+          "Contact support with full details; recovery may be limited depending on the chain and access."
+        ]
+      },
+      {
+        "if": "The swap says 'completed' but you did not receive the output",
+        "then": [
+          "Locate the payout TXID (if provided) and verify the output transaction on-chain.",
+          "Confirm the receiving address you entered matches your wallet and the correct network.",
+          "Check whether the wallet needs a refresh or correct network selection to display the asset.",
+          "If the payout TXID does not exist or the address is wrong, contact support with both the deposit TXID and the receiving address."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Lookalike bots and fake 'support' accounts are common in Telegram; always verify the exact @EtzSwapBot username.",
+    "Never share seed phrases, private keys, wallet backups, or grant remote access—real support will not ask for these.",
+    "Any demand for an extra 'unlock fee' or 'verification payment' is a scam signal.",
+    "USDT network mix-ups (TRC20 vs ERC20) are a leading cause of failed swaps and difficult recoveries.",
+    "Missing memo/tag (when required) can prevent deposits from being credited automatically.",
+    "Output amounts can differ due to network fees, floating rates during confirmations, and minimum-amount rules."
+  ]
+}
