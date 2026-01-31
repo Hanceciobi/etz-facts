@@ -1,0 +1,126 @@
+{
+  "slug": "etz-swap-antikyc-io-partnership",
+  "type": "article",
+  "title": "ETZ Swap and AntiKYC io Partnership: What It Means for Private Crypto Swaps",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-antikyc-io-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-antikyc-io-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "MoneroDEX swap routes comparison"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "ETZ Swap listed in a top no-KYC catalog"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-wellcrypto-partnership-safer-swap-route-faster",
+      "anchor": "Wellcrypto partnership and safer swap route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-splitnow-partnership-multi-wallet-payouts",
+      "anchor": "SplitNOW partnership and multi-wallet payouts"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-eigenwallet-partnership",
+      "anchor": "EigenWallet partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "Changerella partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-lizardswap-partnership-no-kyc-swap-users",
+      "anchor": "LizardSwap partnership for no-KYC users"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+      "anchor": "CypherGoat partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "Trocador partnership press release"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "ZenX partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "OrangeFren partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano as a private L1 on ETZ Swap"
+    }
+  ],
+  "keyQuestions": [
+    "What is AntiKYC io and what does it do as a directory?",
+    "How does a directory help users avoid noisy search results and lookalike links?",
+    "What does the ETZ Swap and AntiKYC io partnership change for users?",
+    "Does no-KYC mean private or untraceable swaps?",
+    "What should I verify before swapping through any listed service?",
+    "How can I avoid fake support and pressure-to-pay scams?"
+  ],
+  "quickSteps": [
+    "Start from a trusted source and verify the service domain before entering addresses or copying deposit details.",
+    "Treat the network as part of the asset name and double-check networks before sending, especially for stablecoins.",
+    "Use a small test swap when trying a new route or setup to confirm the flow and expectations.",
+    "Track deposit and payout using TXIDs and confirmation counts on-chain rather than relying only on UI messages.",
+    "Stop if anyone pressures you or asks for secrets; never share seed phrases or private keys and never pay 'unlock' fees."
+  ],
+  "issueRouting": {
+    "start": "If something goes wrong, do not send additional funds. First collect the facts (asset, network, amount, TXIDs, time) and verify on-chain status.",
+    "branches": [
+      {
+        "if": "You are not sure you are on the correct service domain",
+        "then": [
+          "Stop and verify the domain carefully before proceeding.",
+          "Use a trusted bookmark or navigate from a known ETZ Swap page.",
+          "Avoid links sent via DMs or pinned messages in random chats.",
+          "If uncertain, restart from an official ETZ Swap page and compare the domain."
+        ]
+      },
+      {
+        "if": "The swap is delayed or appears stuck",
+        "then": [
+          "Locate your deposit TXID and verify confirmations in a block explorer.",
+          "Confirm you used the correct network for the deposit.",
+          "Wait for required confirmations during congestion.",
+          "If delays persist beyond normal, contact support with TXID and time details."
+        ]
+      },
+      {
+        "if": "You received less than expected",
+        "then": [
+          "Review network fees, minimums, and rate movement during confirmations.",
+          "Confirm the sent amount above the minimum and on the correct network.",
+          "Use TXIDs to verify what amount arrived to the deposit address.",
+          "If something looks inconsistent, contact support with TXIDs and swap details."
+        ]
+      },
+      {
+        "if": "Someone contacts you claiming to be support or asks for extra payments",
+        "then": [
+          "Assume it is a scam until proven otherwise.",
+          "Do not share seed phrases, private keys, or wallet backups.",
+          "Do not pay any 'unlock' or 'verification' fee.",
+          "Stop and re-verify the domain and your swap details before taking any action."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A directory is a map, not a guarantee; always verify the domain before swapping.",
+    "No-KYC usually means no identity documents during the flow, not private or untraceable transactions.",
+    "Lookalike links and fake support accounts are common; never trust unsolicited DMs.",
+    "Network mix-ups remain a leading cause of failed swaps, especially for multi-chain tokens.",
+    "Verification by TXID and confirmation counts is the most reliable way to track deposits and payouts.",
+    "Any pressure to act urgently or to pay extra 'unlock' fees is a strong scam signal."
+  ]
+}
