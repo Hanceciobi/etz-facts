@@ -1,0 +1,90 @@
+{
+  "slug": "offline-phishing-crypto-fake-notices-drain-wallets",
+  "type": "article",
+  "title": "Offline Phishing in Crypto: Fake Letters, Calls, and “Official” Notices That Drain Wallets",
+  "pageUrl": "https://etz-swap.com/blog/offline-phishing-crypto-fake-notices-drain-wallets",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/offline-phishing-crypto-fake-notices-drain-wallets-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/signature-phishing-sign-message-safe-guide",
+      "anchor": "signature phishing guide"
+    }
+  ],
+  "keyQuestions": [
+    "What is offline phishing in crypto and how does it differ from normal phishing?",
+    "Why do fake letters, phone calls, and QR codes work even on experienced users?",
+    "What are the most common offline playbooks used to drain wallets?",
+    "How can you spot red flags in under a minute without clicking or scanning?",
+    "How do QR code scams hide the real destination and what is the safest way to verify it?",
+    "What should you do immediately if you already scanned, clicked, installed, or signed?"
+  ],
+  "quickSteps": [
+    "Treat any offline prompt as untrusted until you verify it through your own path.",
+    "Do not scan QR codes or call back first; verify the sender and destination independently.",
+    "Use a separate interaction wallet for unknown flows to limit blast radius.",
+    "Keep recovery words offline and never type them into any site or form.",
+    "If pressured, pause, switch channels, and verify with calm written details."
+  ],
+  "issueRouting": {
+    "start": "Choose the situation that matches what happened and follow the safe next steps in order.",
+    "branches": [
+      {
+        "if": "You scanned a QR code or opened a link from a letter, SMS, or flyer.",
+        "then": [
+          "Close the page and do not connect your wallet or enter any information.",
+          "Preview and verify the domain using your own trusted path, not the notice.",
+          "Run a quick check for suspicious extensions or profiles in your browser.",
+          "If you feel rushed or unsure, stop and verify later from a clean environment."
+        ]
+      },
+      {
+        "if": "You entered your recovery phrase or uploaded a wallet backup anywhere.",
+        "then": [
+          "Assume the wallet is compromised.",
+          "Create a new wallet in a clean environment with a new recovery phrase.",
+          "Move funds immediately if still accessible.",
+          "Secure your email and key accounts used for recovery from a clean device."
+        ]
+      },
+      {
+        "if": "You installed an app, extension, or 'security tool' after an offline prompt.",
+        "then": [
+          "Disconnect from the network if you suspect active control.",
+          "Remove the tool and abandon that browser profile.",
+          "Use a clean device or reinstall the system if compromise is likely.",
+          "Move assets to a fresh wallet created in a clean environment if needed."
+        ]
+      },
+      {
+        "if": "You signed a message or approved a token permission you did not understand.",
+        "then": [
+          "Disconnect from the site and do not sign further requests.",
+          "Move remaining assets to a fresh wallet if you are unsure about exposure.",
+          "Review and revoke token permissions from a clean environment.",
+          "Watch for follow-up social engineering attempts that push urgency or extra payments."
+        ]
+      },
+      {
+        "if": "You were on a phone call and the caller pushed remote access or screen sharing.",
+        "then": [
+          "End the call immediately and uninstall any remote access tools.",
+          "Change your email password and revoke unknown sessions from a clean device.",
+          "Treat the device as untrusted until you rebuild a clean environment.",
+          "Create new wallets if any sensitive secrets may have been exposed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A QR code is just a shortcut to a destination; it can hide lookalike domains behind redirects or short links.",
+    "Case numbers, deadlines, and official tone are often used to force urgency and prevent independent verification.",
+    "Any request to type recovery words into a website or form is a guaranteed scam.",
+    "Remote access turns the scam into guided theft, even if you never share recovery words.",
+    "Requests for a small 'verification' payment or moving funds to a 'safe wallet' are common endgame steps."
+  ]
+}
