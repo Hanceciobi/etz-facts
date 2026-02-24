@@ -1,0 +1,98 @@
+{
+  "slug": "crypto-gets-stolen-phone-laptop-access-theft",
+  "type": "article",
+  "title": "How Crypto Gets Stolen Through Your Phone or Laptop: Real Attack Paths and a Practical Defense Plan",
+  "pageUrl": "https://etz-swap.com/blog/crypto-gets-stolen-phone-laptop-access-theft",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-gets-stolen-phone-laptop-access-theft-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/ru/blog/crypto-scams-2025-warning-signs-safety",
+      "anchor": "crypto scams warning signs"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+      "anchor": "avoid accelerator scams"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/fake-crypto-support-scams-verify-real-channel",
+      "anchor": "fake crypto support verification"
+    }
+  ],
+  "keyQuestions": [
+    "What does it mean when crypto is stolen through your phone or laptop rather than a blockchain hack?",
+    "What are the fastest warning signs of account or device compromise?",
+    "How do fake wallet updates and malicious browser extensions steal access?",
+    "What should you do in the first 30 minutes if you suspect compromise?",
+    "How do you rebuild a clean setup and prevent repeat drains?",
+    "Should you use a separate interaction wallet for swaps and approvals?"
+  ],
+  "quickSteps": [
+    "Separate a holdings wallet from an interaction wallet and keep the holdings wallet quiet.",
+    "Use a dedicated browser profile for financial actions with minimal add-ons and no email logins.",
+    "Keep recovery words offline and never type them into pages reached via messages or pop-ups.",
+    "Treat screen-share and remote-control support as hostile by default.",
+    "If something feels wrong, pause, migrate funds through a clean path, then rebuild before resuming routine actions."
+  ],
+  "issueRouting": {
+    "start": "Pick the situation that matches what happened, then follow the safe next steps in order.",
+    "branches": [
+      {
+        "if": "You typed your recovery phrase on any website or sent it to anyone.",
+        "then": [
+          "Assume that wallet is compromised.",
+          "Create a new wallet in a clean environment with a new recovery phrase.",
+          "Migrate funds immediately if you still have access.",
+          "Secure your email and accounts used for recovery from a clean device."
+        ]
+      },
+      {
+        "if": "You installed a suspicious wallet update, extension, or helper tool.",
+        "then": [
+          "Disconnect from the network if you suspect active control.",
+          "Remove the tool and abandon that browser profile.",
+          "Use a clean device or reinstall the system if compromise is likely.",
+          "Move assets to a fresh wallet created in a clean environment."
+        ]
+      },
+      {
+        "if": "A wallet popup asked you to sign or approve when you did not initiate an action.",
+        "then": [
+          "Do not sign anything.",
+          "Close the page and disconnect the wallet.",
+          "Re-open only from a clean browser profile and verify the domain carefully.",
+          "Consider moving funds to a fresh wallet if you are unsure."
+        ]
+      },
+      {
+        "if": "Someone asked you to screen-share or install remote access for support.",
+        "then": [
+          "End the session immediately and uninstall remote tools.",
+          "Change your email password and revoke unknown sessions from a clean device.",
+          "Treat the device as untrusted until you rebuild a clean environment.",
+          "Move funds to a new wallet if any secrets may have been exposed."
+        ]
+      },
+      {
+        "if": "Your copied addresses change or clipboard behavior is suspicious.",
+        "then": [
+          "Stop sending transactions from that device.",
+          "Verify addresses character-by-character on a trusted screen.",
+          "Switch to a clean environment before making any transfers.",
+          "Scan for unwanted extensions and system-level malware indicators."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Sponsored search ads and DM links are common entry points for cloned wallet download pages.",
+    "A single unlimited token approval can enable future drains without another prompt.",
+    "Remote-support scams often succeed because the victim is rushed and distracted.",
+    "Cloud sync of screenshots and notes can leak recovery words and backups.",
+    "If you cannot guarantee a clean environment, rushing a recovery transfer can increase losses."
+  ]
+}
