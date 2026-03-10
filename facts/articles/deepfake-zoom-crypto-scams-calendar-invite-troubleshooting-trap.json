@@ -1,0 +1,99 @@
+{
+  "slug": "deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap",
+  "type": "article",
+  "title": "Deepfake Zoom Crypto Scams: Calendar Invites, Fake Calls, and the Troubleshooting Trap",
+  "pageUrl": "https://etz-swap.com/blog/deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/fake-crypto-support-scams-verify-real-channel",
+      "anchor": "fake support scams"
+    },
+    {
+      "url": "https://etz-swap.com/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+      "anchor": "avoid accelerator scams"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-scams-2025-warning-signs-safety",
+      "anchor": "crypto scams warning signs"
+    }
+  ],
+  "keyQuestions": [
+    "What is a deepfake Zoom crypto scam and how does it usually start?",
+    "Why do calendar invite scams work even on cautious users?",
+    "What are the most common scripts on fake security calls?",
+    "Why is screen sharing dangerous for crypto users?",
+    "What is the troubleshooting trap and what should you never install or run?",
+    "Can scammers drain funds without your seed phrase, and how?",
+    "What should you do if you already joined the call, shared your screen, or installed a tool?"
+  ],
+  "quickSteps": [
+    "Decline unexpected calls and request a written summary of the issue.",
+    "Verify identity using official sources you find yourself, not invite links or DMs.",
+    "Never install tools or run commands during a live call.",
+    "Never sign or approve anything you did not initiate and cannot explain.",
+    "Separate an interaction wallet from holdings to reduce blast radius."
+  ],
+  "issueRouting": {
+    "start": "Pick the situation that matches what happened, then follow the safe next steps in order.",
+    "branches": [
+      {
+        "if": "You received a calendar invite or DM pushing an urgent security call.",
+        "then": [
+          "Decline the invite and request a written summary.",
+          "Verify the sender through your own path using official sources.",
+          "Do not use meeting links or contact details from the invite.",
+          "If the request is legitimate, re-initiate contact from a trusted channel."
+        ]
+      },
+      {
+        "if": "You shared your screen during the call.",
+        "then": [
+          "End the call immediately and stop further actions.",
+          "Assume anything shown on screen may be compromised for targeting.",
+          "Secure your email and key accounts from a clean device.",
+          "Monitor wallets and accounts for follow-up attempts and consider moving assets if you are unsure."
+        ]
+      },
+      {
+        "if": "You installed a troubleshooting tool or ran commands suggested on the call.",
+        "then": [
+          "Disconnect from the network if you suspect active control.",
+          "Remove the tool and review installed programs and browser extensions.",
+          "Use a clean device or reinstall the system if compromise is likely.",
+          "Move assets to a fresh wallet created in a clean environment if exposure is possible."
+        ]
+      },
+      {
+        "if": "You signed a message or approved a token permission you did not understand.",
+        "then": [
+          "Disconnect from the site and do not sign further requests.",
+          "Review and revoke token permissions from a clean environment.",
+          "Move remaining assets to a fresh wallet if you are unsure about exposure.",
+          "Watch for delayed drains and follow-up social engineering messages."
+        ]
+      },
+      {
+        "if": "You were told to send a test payment or move funds to a safe wallet.",
+        "then": [
+          "Do not send any additional funds.",
+          "Collect transaction IDs and timestamps for what you already sent.",
+          "Secure your remaining assets immediately using a clean path.",
+          "Treat any further contact from the caller as hostile and verify independently."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Calendar invites feel legitimate, but the meeting link and attendee names can be spoofed.",
+    "Screen sharing turns the scam into guided theft and reveals valuable targeting information.",
+    "Troubleshooting tools and command-line steps are common delivery methods for remote control and spyware.",
+    "Many losses do not require seed phrase exposure and can happen via approvals, signatures, or account recovery.",
+    "Urgency, one-channel pressure, and refusal to provide written details are reliable red flags."
+  ]
+}
