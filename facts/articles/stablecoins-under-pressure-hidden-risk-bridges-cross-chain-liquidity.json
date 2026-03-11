@@ -1,0 +1,77 @@
+{
+  "slug": "stablecoins-under-pressure-hidden-risk-bridges-cross-chain-liquidity",
+  "type": "article",
+  "title": "Stablecoins Under Pressure: The Hidden Risk Is Not Only the Issuer, but Also Bridges and Cross-Chain Liquidity",
+  "pageUrl": "https://etz-swap.com/blog/stablecoins-under-pressure-hidden-risk-bridges-cross-chain-liquidity",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/stablecoins-under-pressure-hidden-risk-bridges-cross-chain-liquidity-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/beyond-usdt-and-usdc-yield-bearing-stablecoins-and-perpetual-dex-tokens-explained",
+      "anchor": "there is more to stablecoins than USDT and USDC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-agents-stablecoin-stability",
+      "anchor": "AI agents may change how stablecoins stay stable"
+    }
+  ],
+  "keyQuestions": [
+    "Can a stablecoin stay stable and still become hard to use?",
+    "Why does the same stablecoin ticker mean different risk on different chains?",
+    "What hidden bridge risk appears when stablecoins move across chains?",
+    "Why can cross-chain liquidity become the real problem under pressure?",
+    "What should I do first if a stablecoin route suddenly looks wrong?",
+    "How can I verify a stablecoin issue without exposing too much information?"
+  ],
+  "quickSteps": [
+    "Treat stablecoin risk as a route problem, not only an issuer problem.",
+    "Check whether the asset is native or bridged before you trust the route.",
+    "Remember that a stable price does not guarantee easy transfers, exits, or platform support.",
+    "If something looks wrong, stop using the same route and contain the situation first.",
+    "Verify the chain, token contract, destination, and transaction status before making the next move."
+  ],
+  "recoveryDecisionTree": {
+    "start": "Stablecoin balance is visible, but the transfer, deposit, or exit path does not work as expected",
+    "branches": [
+      {
+        "if": "The transaction succeeded on-chain, but the receiving platform does not credit the deposit",
+        "then": [
+          "Check whether the platform supports that exact chain and token contract",
+          "Confirm whether the asset is native or bridged",
+          "Collect the tx hash, amount, time, token contract, and destination address",
+          "Open a precise support ticket and do not send another test transfer"
+        ]
+      },
+      {
+        "if": "The token is in your own wallet, but you cannot use or exit it cleanly",
+        "then": [
+          "Check the chain and token contract in an explorer",
+          "Determine whether liquidity is native, wrapped, or fragmented",
+          "Avoid extra bridge hops until the route is fully understood",
+          "Prefer a simpler exit path if one exists"
+        ]
+      },
+      {
+        "if": "You suspect the route itself is wrong or unsupported",
+        "then": [
+          "Stop sending more funds through the same route",
+          "Do not mix the questionable balance with other funds",
+          "Do not trust recovery agents, remote-access offers, or direct-message support",
+          "Re-check the route using structured on-chain proof before taking any action"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The same ticker can represent different assets across chains and contracts.",
+    "A stablecoin can remain near one dollar and still become hard to use because of route fragility.",
+    "Bridged stablecoins add another control point beyond the issuer.",
+    "Cross-chain liquidity can be deep on one network and weak on another.",
+    "Unsupported token versions and platform mismatches are often mistaken for freezes.",
+    "Scammers target panic during recovery with fake support and remote-access traps."
+  ]
+}
