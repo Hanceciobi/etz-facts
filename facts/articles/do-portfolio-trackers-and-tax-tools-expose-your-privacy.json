@@ -1,0 +1,110 @@
+{
+  "slug": "do-portfolio-trackers-and-tax-tools-expose-your-privacy",
+  "type": "article",
+  "title": "Do Portfolio Trackers and Tax Tools Expose Your Privacy? Read-Only APIs, Wallet Linking, and the Hidden Identity Graph",
+  "pageUrl": "https://etz-swap.com/blog/do-portfolio-trackers-and-tax-tools-expose-your-privacy",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/do-portfolio-trackers-and-tax-tools-expose-your-privacy-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/ru/blog/etz-swap-without-javascript-nojs",
+      "anchor": "ETZ-Swap without JavaScript"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/signature-phishing-sign-message-safe-guide",
+      "anchor": "Is signing a message safe"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/fake-wallet-updates-verify-wallet-downloads",
+      "anchor": "How to verify wallet downloads and avoid fake updates"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+      "anchor": "How to avoid accelerator scams when a crypto transaction is stuck"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/token-approvals-allowance-drains-revoke-safely",
+      "anchor": "How to revoke risky token approvals safely"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/seed-phrase-storage-icloud-google-drive-password-manager",
+      "anchor": "Where to store a seed phrase safely"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/buy-bitcoin-anonymously-2026",
+      "anchor": "How to buy Bitcoin anonymously in 2026"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/aml-gray-zones-safe-transactions-look-suspicious",
+      "anchor": "Why safe transactions can still fall into AML gray zones"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/airdrops-points-fake-agents-safety-guide",
+      "anchor": "How to stay safe around airdrops, points, and fake agents"
+    },
+    {
+      "url": "https://etz-swap.com/ru/blog/stablecoin-regulation-innovation-security",
+      "anchor": "How regulation can reshape stablecoins, innovation, and security"
+    }
+  ],
+  "keyQuestions": [
+    "Are crypto portfolio trackers actually safe to use?",
+    "What does read-only API really expose?",
+    "If I only connect public wallet addresses, what can really be learned?",
+    "Can portfolio apps and tax dashboards link my wallets together?",
+    "Are tax tools worse for privacy than ordinary trackers?",
+    "How can I track my holdings without exposing my full financial map?"
+  ],
+  "quickSteps": [
+    "Treat read-only access as limited control, not private invisibility.",
+    "Assume that convenience creates linkage across wallets, exchanges, and histories.",
+    "Give each tool only the smallest view it really needs.",
+    "Separate what must stay private from what must stay convenient.",
+    "Review and remove old connections, stale syncs, and unused API keys regularly."
+  ],
+  "recoveryDecisionTree": {
+    "title": "How to Reduce Exposure After Overconnecting Tools",
+    "goal": "Cut unnecessary visibility and reduce future privacy leakage after too many wallets, exchanges, or records were connected to tracking or reporting services.",
+    "branches": [
+      {
+        "if": "You still have active exchange API keys connected to old dashboards or tax tools",
+        "then": [
+          "Review all connected services",
+          "Revoke unused API keys",
+          "Replace broad keys with narrower read-only permissions where possible",
+          "Keep only the integrations you actively need"
+        ]
+      },
+      {
+        "if": "Too many wallets are permanently synced into one place",
+        "then": [
+          "Remove wallets that do not need live tracking",
+          "Keep long-term storage outside routine dashboards",
+          "Use partial or delayed imports for sensitive holdings",
+          "Avoid extending the same visible cluster without a clear reason"
+        ]
+      },
+      {
+        "if": "Old exports, reports, or screenshots are spread across email and cloud storage",
+        "then": [
+          "Delete unnecessary historical exports",
+          "Clean shared folders and inbox attachments",
+          "Keep only the minimum records needed for reporting",
+          "Avoid uploading broad screenshots when a narrow proof is enough"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Read-only access can still reveal balances, history, timing patterns, and account structure.",
+    "Several public addresses viewed together can become a clear behavioral profile.",
+    "Tax tools often create deeper visibility than ordinary trackers because they reconstruct continuity across years and venues.",
+    "Convenience can quietly build an identity graph even without direct identity data.",
+    "Good platform security does not erase the privacy cost of aggregation.",
+    "Unused API keys, stale syncs, and old exports can keep exposure alive long after their original purpose is gone."
+  ]
+}
