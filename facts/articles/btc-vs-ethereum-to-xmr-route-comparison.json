@@ -1,0 +1,98 @@
+{
+  "slug": "btc-vs-ethereum-to-xmr-route-comparison",
+  "type": "article",
+  "title": "BTC vs Ethereum to XMR: Which Crypto Swap Route Leaks Less, Costs Less, and Settles More Smoothly?",
+  "pageUrl": "https://etz-swap.com/blog/btc-vs-ethereum-to-xmr-route-comparison",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-vs-ethereum-to-xmr-route-comparison-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "Ethereum to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "Bitcoin to Ethereum"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR to Ethereum"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "XMR"
+    },
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin"
+    }
+  ],
+  "keyQuestions": [
+    "Is BTC or Ethereum better if I want to swap into XMR?",
+    "Which route leaks less before I even receive Monero?",
+    "Does BTC to XMR usually feel simpler than Ethereum to XMR?",
+    "Does BTC to XMR cost less than Ethereum to XMR in real life?",
+    "Is Ethereum more exposed because my whole wallet history is public?",
+    "What is the smartest way to choose between BTC and Ethereum for an XMR swap?"
+  ],
+  "quickSteps": [
+    "Start with the asset you already hold if that avoids unnecessary extra conversions.",
+    "Compare the full route, not just the displayed rate.",
+    "Treat Ethereum as the more context-heavy path when the wallet has a long public history.",
+    "Do not add a middle step just because it sounds smarter.",
+    "Pick the route you are least likely to misuse."
+  ],
+  "recoveryDecisionTree": {
+    "title": "How to Choose Between BTC and Ethereum for an XMR Swap",
+    "goal": "Help the user choose the cleaner route into XMR with fewer leaks, lower practical overhead, and smoother execution.",
+    "branches": [
+      {
+        "if": "You already hold Bitcoin in a simple wallet setup",
+        "then": [
+          "Compare the live BTC to XMR route first",
+          "Check total overhead instead of looking only at the headline rate",
+          "Use the simpler path if it avoids extra conversions",
+          "Keep the send side clean and avoid unnecessary extra steps"
+        ]
+      },
+      {
+        "if": "You already hold Ethereum and want to avoid building a two-step route",
+        "then": [
+          "Check the direct Ethereum to XMR route",
+          "Make sure the wallet setup is clear and ready",
+          "Remember that the sending side may carry more public account context",
+          "Prefer one clean direct move over two extra conversions unless there is a real reason"
+        ]
+      },
+      {
+        "if": "You are unsure which route is cleaner at your amount",
+        "then": [
+          "Compare fee overhead, confirmation flow, and operational complexity",
+          "Look at how much visible baggage the sending side already carries",
+          "Avoid adding a middle asset just because it sounds clever",
+          "Choose the route you are least likely to misuse"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Neither BTC to XMR nor Ethereum to XMR is automatically private before the swap starts.",
+    "Ethereum often carries denser public wallet context because one address may expose a longer activity trail.",
+    "Bitcoin often feels simpler operationally, but simple does not mean invisible.",
+    "More steps usually mean more cost, more history, and more room for mistakes.",
+    "The displayed rate is only part of the real route cost.",
+    "A cleaner route is often the one with fewer moving parts and fewer assumptions."
+  ]
+}
