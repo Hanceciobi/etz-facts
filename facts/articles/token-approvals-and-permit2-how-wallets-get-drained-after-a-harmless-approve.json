@@ -1,0 +1,100 @@
+{
+  "slug": "token-approvals-and-permit2-how-wallets-get-drained-after-a-harmless-approve",
+  "type": "article",
+  "title": "Token Approvals and Permit2: How Wallets Get Drained After a Harmless Approve",
+  "pageUrl": "https://etz-swap.com/blog/token-approvals-and-permit2-how-wallets-get-drained-after-a-harmless-approve",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/token-approvals-and-permit2-how-wallets-get-drained-after-a-harmless-approve-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/fake-crypto-support-scams-verify-real-channel",
+      "anchor": "fake support chat"
+    },
+    {
+      "url": "https://etz-swap.com/blog/best-anonymous-wallet-guide",
+      "anchor": "best anonymous wallet guide"
+    },
+    {
+      "url": "https://etz-swap.com/blog/monero-wallets-guide",
+      "anchor": "Monero wallets guide"
+    },
+    {
+      "url": "https://etz-swap.com/blog/seed-phrase-storage-icloud-google-drive-password-manager",
+      "anchor": "How to Store a Seed Phrase Safely"
+    },
+    {
+      "url": "https://etz-swap.com/blog/deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap",
+      "anchor": "deepfake Zoom crypto scams"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fake-wallet-updates-verify-wallet-downloads",
+      "anchor": "Fake Wallet Updates and Safe Downloads"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-bots-unmask-your-wallet-crypto-privacy-risk",
+      "anchor": "How AI Bots Unmask Your Wallet"
+    }
+  ],
+  "keyQuestions": [
+    "Why do wallets get drained if I never shared my seed phrase",
+    "Is approving a token the same as signing a message",
+    "Why do people keep mentioning Permit2 after wallet drains",
+    "Why does a claim page ask for unlimited approval",
+    "Which approval requests are normal and which ones are red flags",
+    "Can a safe-looking site still drain my wallet after I approve",
+    "Should I use a separate wallet for claims, mints, and new apps",
+    "How do I check what my wallet is really being asked to approve",
+    "I already approved something suspicious. What should I do now"
+  ],
+  "quickSteps": [
+    "Start from the official source only. If the route to the page is messy, do not connect your wallet yet.",
+    "Run three screens before any approval or permit: source, technical ask, and economics. If one fails, stop.",
+    "Treat unlimited approvals, SetApprovalForAll, and vague permits as hard slow-down moments, not routine clicks.",
+    "Use a separate low-balance interaction wallet for claims, mints, and new apps. Keep savings elsewhere.",
+    "Revoke old permissions on a schedule, and if something feels wrong, contain it fast: revoke, move assets, and retire that workflow."
+  ],
+  "recoveryDecisionTree": {
+    "start": "You approved or signed something suspicious and now need to reduce wallet risk fast",
+    "branches": [
+      {
+        "if": "You only approved a token or permit and assets are still in the wallet",
+        "then": [
+          "Review the spender and token scope before doing anything else",
+          "Revoke the risky approval or permit as soon as possible",
+          "Move important assets to a fresh wallet after revocation",
+          "Stop using the same page, app, or route that triggered the request"
+        ]
+      },
+      {
+        "if": "Assets already moved out after the approval",
+        "then": [
+          "Treat the wallet workflow as compromised",
+          "Revoke any remaining approvals linked to the same wallet",
+          "Move any untouched assets to a fresh wallet",
+          "Save TXIDs, timestamps, token names, contract addresses, and screenshots for your own records",
+          "Ignore recovery agents, support DMs, seed-phrase requests, and remote-access offers"
+        ]
+      },
+      {
+        "if": "You are not sure whether the request was safe or malicious",
+        "then": [
+          "Pause all new wallet interactions from that device/session",
+          "Check whether the request was narrow, understandable, and proportional to the action",
+          "If the approval scope is vague, broad, or unlimited, treat it as suspicious",
+          "Revoke first, then resume activity only from a clean and trusted route"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A wallet can be exposed through granted permissions even when the seed phrase was never shared.",
+    "Unlimited approvals and broad asset-control requests create more downside than most users expect.",
+    "Permit2 is not automatically malicious, but it can appear inside unsafe flows and confusing prompts.",
+    "A polished site does not prove a safe contract path, clean source, or proportional permission request.",
+    "Old forgotten approvals remain part of your risk surface until you revoke them or the permission expires."
+  ]
+}
