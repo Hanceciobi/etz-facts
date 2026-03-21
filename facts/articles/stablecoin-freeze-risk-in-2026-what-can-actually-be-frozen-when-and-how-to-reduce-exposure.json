@@ -1,0 +1,102 @@
+{
+  "slug": "stablecoin-freeze-risk-in-2026-what-can-actually-be-frozen-when-and-how-to-reduce-exposure",
+  "type": "article",
+  "title": "Stablecoin Freeze Risk in 2026: What Can Actually Be Frozen, When, and How to Reduce Exposure",
+  "pageUrl": "https://etz-swap.com/blog/stablecoin-freeze-risk-in-2026-what-can-actually-be-frozen-when-and-how-to-reduce-exposure",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/stablecoin-freeze-risk-in-2026-what-can-actually-be-frozen-when-and-how-to-reduce-exposure-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/usdt-from-concept-to-worlds-most-used-digital-dollar",
+      "anchor": "USDT from concept to world's most used digital dollar"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-freeze-risk-usdt-usdc-blacklists",
+      "anchor": "Stablecoin Freeze Risk: USDT, USDC, and Blacklists"
+    },
+    {
+      "url": "https://etz-swap.com/blog/usdt-vs-usdc-stablecoin-comparison",
+      "anchor": "USDT vs USDC stablecoin comparison"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-agents-stablecoin-stability",
+      "anchor": "AI Agents and Stablecoin Stability"
+    },
+    {
+      "url": "https://etz-swap.com/blog/beyond-usdt-and-usdc-yield-bearing-stablecoins-and-perpetual-dex-tokens-explained",
+      "anchor": "Beyond USDT and USDC: Yield-Bearing Stablecoins and Perpetual DEX Tokens Explained"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-payments-freelancers-xmr-vs-usdt-privacy",
+      "anchor": "crypto payments for freelancers: XMR vs USDT privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/usdt-to-xmr-practical-guide-private-digital-cash",
+      "anchor": "USDT to XMR Practical Guide: Private Digital Cash"
+    }
+  ],
+  "keyQuestions": [
+    "Can USDT or USDC really be frozen, or is that just internet panic",
+    "Who can actually freeze stablecoins",
+    "Why does everyone say the same ticker is not always the same asset",
+    "My USDT is stuck — was it frozen, blocked by the platform, or did I just make a mistake",
+    "Can stablecoins be frozen in a self-custody wallet",
+    "Can a blacklist affect old funds, incoming funds, or both",
+    "Are USDT and USDC freeze risks basically the same",
+    "Can bridged stablecoins or wrapped versions be frozen too",
+    "What should I do first if I think my stablecoins were frozen",
+    "Who should I contact if I suspect a freeze",
+    "Can frozen stablecoins be recovered",
+    "How can I reduce freeze exposure before anything goes wrong"
+  ],
+  "quickSteps": [
+    "Diagnose before you panic. Separate issuer freeze, platform restriction, and user error before you do anything else.",
+    "Stop mixing funds the moment something looks wrong. Containment comes before explanation.",
+    "Verify the exact asset and route: chain, contract, native or bridged version, sender path, and platform context.",
+    "Escalate with the minimum necessary evidence: txid, timestamp, chain, exact token, and basic facts.",
+    "Reduce future exposure by choosing cleaner routes, simpler custody habits, and fewer unnecessary control layers."
+  ],
+  "recoveryDecisionTree": {
+    "start": "Your stablecoins look stuck and you need to understand whether this is a freeze, a platform restriction, or a route mistake.",
+    "branches": [
+      {
+        "if": "The transaction is confirmed on-chain, but the destination platform did not credit the funds",
+        "then": [
+          "Treat it first as a platform-side restriction or support issue",
+          "Verify the exact chain, token contract, and asset version used",
+          "Check whether the destination officially supports that exact route",
+          "Escalate with txid, timestamp, chain, token, and a short plain description"
+        ]
+      },
+      {
+        "if": "The tokens are visible in your self-custody wallet, but movement or use appears restricted",
+        "then": [
+          "Separate token-level control from wallet confusion or interface issues",
+          "Confirm the exact token contract and whether it is native or bridged",
+          "Do not mix funds or test random routes while the cause is still unclear",
+          "Collect structured evidence before contacting the relevant issuer or platform"
+        ]
+      },
+      {
+        "if": "You are not sure whether the problem is actually a freeze",
+        "then": [
+          "Run the three-bucket diagnosis: issuer freeze, platform restriction, user error",
+          "Check chain, token contract, asset version, txid status, and support for that route",
+          "Avoid panic transfers, remote-help offers, and oversharing",
+          "Escalate only after you know which control layer is most likely involved"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Stablecoins can behave like digital dollars in daily use while still operating inside systems that include issuer or platform control.",
+    "The same ticker does not always mean the same asset, contract, support path, or freeze and recovery profile.",
+    "Self-custody protects wallet access, but it does not automatically remove issuer-level token controls or bridge-related control layers.",
+    "Platform restrictions, routing mistakes, and true token-level freezes can feel similar to users, but they require different responses.",
+    "Panic after a suspected freeze often attracts fake support and recovery scams that make the situation worse."
+  ]
+}
