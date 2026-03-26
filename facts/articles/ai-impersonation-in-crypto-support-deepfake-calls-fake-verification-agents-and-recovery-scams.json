@@ -1,0 +1,109 @@
+{
+  "slug": "ai-impersonation-in-crypto-support-deepfake-calls-fake-verification-agents-and-recovery-scams",
+  "type": "article",
+  "title": "AI Impersonation in Crypto Support: Deepfake Calls, Fake Verification Agents, and Recovery Scams",
+  "pageUrl": "https://etz-swap.com/blog/ai-impersonation-in-crypto-support-deepfake-calls-fake-verification-agents-and-recovery-scams",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-impersonation-in-crypto-support-deepfake-calls-fake-verification-agents-and-recovery-scams-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/fake-crypto-support-scams-verify-real-channel",
+      "anchor": "support channel"
+    },
+    {
+      "url": "https://etz-swap.com/blog/do-portfolio-trackers-and-tax-tools-expose-your-privacy",
+      "anchor": "trackers"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoins-under-pressure-hidden-risk-bridges-cross-chain-liquidity",
+      "anchor": "stablecoins under pressure"
+    },
+    {
+      "url": "https://etz-swap.com/blog/deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap",
+      "anchor": "deepfake Zoom trap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/signature-phishing-sign-message-safe-guide",
+      "anchor": "sign message"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-freeze-risk-usdt-usdc-blacklists",
+      "anchor": "freeze risk"
+    },
+    {
+      "url": "https://etz-swap.com/blog/token-approvals-allowance-drains-revoke-safely",
+      "anchor": "token approvals"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-payments-freelancers-xmr-vs-usdt-privacy",
+      "anchor": "privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping",
+      "anchor": "privacy glossary"
+    }
+  ],
+  "keyQuestions": [
+    "Why do fake crypto support calls now feel so believable?",
+    "How do deepfake calls and fake verification agents push users into risky actions?",
+    "Why are signing, approvals, screen sharing, and fund transfers dangerous in support conversations?",
+    "What should you save and secure after a suspicious support interaction?",
+    "How do recovery scams target people after the first loss?"
+  ],
+  "quickSteps": [
+    "Never trust support that contacts you first.",
+    "Restart contact only from your own trusted route.",
+    "Do not sign, approve, screen share, install remote tools, or move funds on request.",
+    "If the interaction becomes suspicious, stop, isolate affected wallets or devices, and save evidence.",
+    "Ignore guaranteed recovery promises that require a fee, deposit, or special unlock process."
+  ],
+  "recoveryDecisionTree": {
+    "title": "Support Scam Response Path",
+    "goal": "Help the user contain exposure, verify the situation, and avoid a second scam.",
+    "branches": [
+      {
+        "if": "You receive a support call, direct message, or video request that you did not initiate.",
+        "then": [
+          "Treat the contact as suspicious from the start.",
+          "Do not continue verification inside the same route.",
+          "End the interaction and restart contact only through your own trusted channel."
+        ]
+      },
+      {
+        "if": "The caller asks you to sign, approve, connect a wallet, screen share, install remote access, or move funds.",
+        "then": [
+          "Assume the requested action may be the real attack path.",
+          "Do not follow live instructions under pressure.",
+          "Leave the session and review the situation from a clean setup."
+        ]
+      },
+      {
+        "if": "You already interacted with a fake agent or suspect a compromise.",
+        "then": [
+          "Preserve screenshots, handles, URLs, caller details, and transaction records.",
+          "Revoke risky approvals and rotate exposed credentials.",
+          "Move remaining assets only from a calm verified environment if needed."
+        ]
+      },
+      {
+        "if": "Someone later offers tracing, unlocking, or guaranteed fund recovery for a fee.",
+        "then": [
+          "Treat it as a possible second-wave scam.",
+          "Do not pay deposits, taxes, release fees, or service retainers.",
+          "Focus on containment, evidence, and verified reporting instead of rescue promises."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A polished voice, face, badge, logo, or dashboard is not proof that support is real.",
+    "Support scams often succeed through a chain of small actions rather than one obvious secret request.",
+    "Screen sharing and remote access can expose much more than users expect.",
+    "Words such as verify, protect, review, release, or secure do not explain what a wallet action really does.",
+    "Recovery scams often target victims when they are already stressed and eager to reverse a loss."
+  ]
+}
