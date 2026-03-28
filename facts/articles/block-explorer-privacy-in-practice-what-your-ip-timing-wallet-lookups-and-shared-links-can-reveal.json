@@ -1,0 +1,113 @@
+{
+  "slug": "block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+  "type": "article",
+  "title": "Block Explorer Privacy in Practice: What Your IP, Timing, Wallet Lookups, and Shared Links Can Reveal",
+  "pageUrl": "https://etz-swap.com/blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/monero-ringct-stealth-addresses-view-keys",
+      "anchor": "monero privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/my-crypto-transaction-is-stuck-avoid-accelerator-scams",
+      "anchor": "stuck transaction"
+    },
+    {
+      "url": "https://etz-swap.com/blog/anonymous-crypto-transactions-future",
+      "anchor": "anonymous transactions"
+    },
+    {
+      "url": "https://etz-swap.com/blog/do-portfolio-trackers-and-tax-tools-expose-your-privacy",
+      "anchor": "portfolio trackers"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ethereum-privacy-layers-mixers-zk-l2s-shielded-pools",
+      "anchor": "privacy layers"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-privacy-glossary-dusting-peel-chains-chain-hopping",
+      "anchor": "privacy glossary"
+    },
+    {
+      "url": "https://etz-swap.com/blog/real-world-crypto-privacy-coins-ai-assistants-safe-routing",
+      "anchor": "safe routing"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-bots-unmask-your-wallet-crypto-privacy-risk",
+      "anchor": "ai bots"
+    },
+    {
+      "url": "https://etz-swap.com/blog/privacy-coins-next-five-years",
+      "anchor": "privacy coins"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-kyc-crypto-swaps-why-clients-prefer-monero",
+      "anchor": "no kyc swaps"
+    }
+  ],
+  "keyQuestions": [
+    "Can a block explorer connect wallet lookups to your IP address?",
+    "What can repeated wallet checks reveal even if the address is public?",
+    "Why does transaction timing make explorer activity more revealing?",
+    "How can shared explorer links expose more context than expected?",
+    "Why does later privacy not erase earlier behavioral exposure?"
+  ],
+  "quickSteps": [
+    "Separate wallet monitoring from general browsing.",
+    "Avoid repeated lookups of sensitive addresses from the same visible pattern.",
+    "Share only the minimum needed when sending explorer links or screenshots.",
+    "Treat timing as data and avoid obvious refresh habits around live transfers.",
+    "Build privacy across the whole workflow, not only around the final asset."
+  ],
+  "recoveryDecisionTree": {
+    "title": "Explorer Privacy Response Path",
+    "goal": "Help the user reduce avoidable privacy leakage from wallet lookups, timing patterns, and shared links.",
+    "branches": [
+      {
+        "if": "You need to check a transaction or address tied to your own funds.",
+        "then": [
+          "Use a cleaner, more deliberate browsing setup.",
+          "Avoid mixing general research, chats, and sensitive wallet monitoring in one session.",
+          "Check only what you need instead of building a long pattern of repeated lookups."
+        ]
+      },
+      {
+        "if": "You find yourself refreshing the same transaction or address repeatedly.",
+        "then": [
+          "Assume the pattern itself may add context around ownership interest or urgency.",
+          "Slow down and avoid turning one lookup into a visible habit loop.",
+          "Return later instead of creating a tight cluster of checks around the event."
+        ]
+      },
+      {
+        "if": "You want to send an explorer link or screenshot to another person.",
+        "then": [
+          "Share only the minimum needed for that moment.",
+          "Avoid adding extra explanation, labels, visible tabs, balances, or surrounding context.",
+          "Treat shared links as part of your privacy surface, not as neutral proof."
+        ]
+      },
+      {
+        "if": "You plan to move funds into a more private route later.",
+        "then": [
+          "Remember that earlier transparent-chain behavior can still reveal intent and timing.",
+          "Reduce upstream behavioral clues before the route begins.",
+          "Build privacy across the full workflow instead of relying only on the final destination."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A public address becomes more revealing when repeated lookups add visible ownership interest and timing context.",
+    "No login does not mean no trace, because browsing patterns still create metadata.",
+    "Repeated refreshes can signal urgency, expectation, or operational importance.",
+    "Shared explorer links can connect people, payments, and time windows more clearly than users expect.",
+    "Later privacy on another route does not erase earlier exposure from transparent-chain behavior."
+  ]
+}
