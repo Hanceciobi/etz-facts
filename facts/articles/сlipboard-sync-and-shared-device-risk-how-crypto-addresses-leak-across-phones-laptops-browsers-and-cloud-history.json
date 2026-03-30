@@ -1,0 +1,126 @@
+{
+  "slug": "clipboard-sync-and-shared-device-risk-how-crypto-addresses-leak-across-phones-laptops-browsers-and-cloud-history",
+  "type": "article",
+  "title": "Clipboard Sync and Shared-Device Risk: How Crypto Addresses Leak Across Phones, Laptops, Browsers, and Cloud History",
+  "pageUrl": "https://etz-swap.com/blog/clipboard-sync-and-shared-device-risk-how-crypto-addresses-leak-across-phones-laptops-browsers-and-cloud-history",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/clipboard-sync-and-shared-device-risk-how-crypto-addresses-leak-across-phones-laptops-browsers-and-cloud-history-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/clipboard-hijacking-crypto-address-replacement",
+      "anchor": "Clipboard Hijacking and Crypto Address Replacement"
+    },
+    {
+      "url": "https://etz-swap.com/blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+      "anchor": "block explorer privacy in practice"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-bots-unmask-your-wallet-crypto-privacy-risk",
+      "anchor": "AI Bots Unmask Your Wallet"
+    },
+    {
+      "url": "https://etz-swap.com/blog/do-portfolio-trackers-and-tax-tools-expose-your-privacy",
+      "anchor": "Do Portfolio Trackers and Tax Tools Expose Your Privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/smart-wallets-and-account-abstraction-in-2026-easier-ux-new-risks-and-what-users-should-verify-before-signing",
+      "anchor": "smart wallets and account abstraction in 2026"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-dusting-address-poisoning-small-transfers",
+      "anchor": "Crypto Dusting and Address Poisoning Small Transfers"
+    },
+    {
+      "url": "https://etz-swap.com/blog/monero-ringct-stealth-addresses-view-keys",
+      "anchor": "Monero RingCT, Stealth Addresses, and View Keys"
+    },
+    {
+      "url": "https://etz-swap.com/blog/token-approvals-and-permit2-how-wallets-get-drained-after-a-harmless-approve",
+      "anchor": "token approvals and Permit2"
+    },
+    {
+      "url": "https://etz-swap.com/blog/airdrops-points-fake-agents-safety-guide",
+      "anchor": "airdrops, points, and fake agents safety guide"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-regulation-innovation-security",
+      "anchor": "Stablecoin Regulation, Innovation, and Security"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-impersonation-in-crypto-support-deepfake-calls-fake-verification-agents-and-recovery-scams",
+      "anchor": "AI Impersonation in Crypto Support"
+    },
+    {
+      "url": "https://etz-swap.com/blog/deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap",
+      "anchor": "deepfake Zoom crypto scams"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ethereum-privacy-layers-mixers-zk-l2s-shielded-pools",
+      "anchor": "Ethereum privacy layers, mixers, ZK L2s, and shielded pools"
+    }
+  ],
+  "keyQuestions": [
+    "Can clipboard history expose my crypto address later, even if I copied it only once",
+    "Does clipboard sync share crypto addresses across my phone, laptop, and tablet automatically",
+    "Can someone on a shared laptop or family computer see copied wallet addresses",
+    "Can browser history, form memory, or cloud history keep pasted crypto addresses",
+    "If I copied a wallet address on my phone, can it appear on my computer later",
+    "Can clipboard sync leak more than the address itself",
+    "Is clipboard sync a real privacy problem or just a theoretical one",
+    "What should I check first if I think a crypto address leaked through clipboard history or sync",
+    "Should I stop using clipboard history and sync completely for crypto",
+    "Are phones safer than laptops for copying wallet addresses",
+    "Can copied addresses survive in cloud-backed tools, notes, keyboards, or productivity apps",
+    "What is the safest way to handle crypto addresses if I use multiple devices"
+  ],
+  "quickSteps": [
+    "Treat copied wallet addresses as temporary sensitive data, not harmless scraps of text.",
+    "Check whether clipboard history, sync, shared devices, and browser memory are all part of your workflow, not just the wallet app.",
+    "Disable or limit cross-device clipboard features on any device used for crypto transfers.",
+    "Separate crypto activity from shared, family, work, or convenience-heavy devices whenever possible.",
+    "Use a repeatable hygiene routine: copy less, clear faster, sync less, and assume one pasted address can leave a trail."
+  ],
+  "recoveryDecisionTree": {
+    "start": "You think a copied wallet address may have leaked through clipboard history, cross-device sync, browser memory, or a shared device.",
+    "branches": [
+      {
+        "if": "The address appeared on another device or in a place where you did not paste it manually",
+        "then": [
+          "Assume the workflow is wider than one local clipboard event",
+          "Map which devices, apps, and synced tools were active at the time",
+          "Stop repeating the same copy-paste action across more devices while you investigate",
+          "Reduce the trail before you try to explain it"
+        ]
+      },
+      {
+        "if": "The device was shared, borrowed, or used in a family or work environment",
+        "then": [
+          "Treat ordinary visibility as a real exposure path",
+          "Check clipboard history, browser fields, notes, and obvious memory points quietly",
+          "Avoid turning the review into more exposure through extra screenshots or chats",
+          "Move future crypto handling away from that environment"
+        ]
+      },
+      {
+        "if": "You are unsure whether the problem is clipboard history, sync, browser memory, or cloud spillover",
+        "then": [
+          "Walk the sequence back from first copy to final paste",
+          "List the apps and devices touched during the workflow",
+          "Look for where the address resurfaced unexpectedly",
+          "Treat repeated convenience features as part of the risk, not separate from it"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A copied wallet address can become a longer-lived trace instead of a one-second action.",
+    "Cross-device clipboard features can spread sensitive wallet data farther than users expect.",
+    "Shared devices create believable privacy leaks even without malware or a dramatic compromise.",
+    "Browser memory, notes, search tools, and productivity apps can preserve fragments outside the clipboard itself.",
+    "The real privacy problem is often the trail around the address, not only the address on its own."
+  ]
+}
