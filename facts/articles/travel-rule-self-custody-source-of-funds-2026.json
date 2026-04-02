@@ -1,0 +1,93 @@
+{
+  "slug": "travel-rule-self-custody-source-of-funds-2026",
+  "type": "article",
+  "title": "Travel Rule, Self-Custody, and Source of Funds in 2026: What Normal Users Should Expect Before an Exchange Freezes a Deposit",
+  "pageUrl": "https://etz-swap.com/blog/travel-rule-self-custody-source-of-funds-2026",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/travel-rule-self-custody-source-of-funds-2026-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/aml-rules-2025-private-crypto-swaps-europe",
+      "anchor": "AML rules in 2025 for private crypto swaps in Europe"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-regulation-innovation-security",
+      "anchor": "stablecoin regulation, innovation, and security"
+    },
+    {
+      "url": "https://etz-swap.com/blog/monero-payment-proofs-view-keys-selective-audits",
+      "anchor": "Monero payment proofs, view keys, and selective audits"
+    },
+    {
+      "url": "https://etz-swap.com/blog/aml-gray-zones-safe-transactions-look-suspicious",
+      "anchor": "safe transactions can still look suspicious in AML gray zones"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zk-kyc-aml-privacy-preserving-compliance",
+      "anchor": "ZK KYC and AML with privacy-preserving compliance"
+    },
+    {
+      "url": "https://etz-swap.com/blog/deepfake-zoom-crypto-scams-calendar-invite-troubleshooting-trap",
+      "anchor": "deepfake Zoom crypto scams and troubleshooting traps"
+    },
+    {
+      "url": "https://etz-swap.com/blog/smart-wallets-and-account-abstraction-in-2026-easier-ux-new-risks-and-what-users-should-verify-before-signing",
+      "anchor": "smart wallets and account abstraction in 2026"
+    }
+  ],
+  "keyQuestions": [
+    "Can I send from a self-custody wallet to an exchange without problems in 2026?",
+    "Why is an exchange asking me to prove I own my wallet?",
+    "What is the difference between source of funds and source of wealth in crypto?",
+    "Why can a deposit stay pending even after blockchain confirmation?",
+    "What documents usually help prove crypto source of funds in 2026?",
+    "How do I explain coins that sat in a private wallet for years?"
+  ],
+  "quickSteps": [
+    "Map your route before you move anything and identify whether the funds came from salary, business income, another exchange, mining, savings, or asset sales.",
+    "Prove wallet ownership separately from fund origin because a signed message can show control of an address but not the economic source of the assets.",
+    "Build a small evidence box before support asks for it with exchange records, bank trail, tax or contract proof where relevant, and a short private timeline.",
+    "Share only what answers the exact question and never send seed phrases, private keys, or broad screenshots that expose unrelated activity.",
+    "Use self-custody like a system by separating storage, spending, and exchange-routing wallets so future deposits and cash-outs stay easier to explain."
+  ],
+  "recoveryDecisionTree": {
+    "start": "Deposit is confirmed on-chain but the exchange asks for wallet proof or source-of-funds documents",
+    "branches": [
+      {
+        "if": "The platform only asks whether the sending wallet is yours",
+        "then": [
+          "Read the request carefully and confirm the exact wallet or address under review",
+          "Use the platform’s accepted ownership method such as message signing or wallet verification if available",
+          "Do not assume wallet ownership proof also answers source-of-funds questions"
+        ]
+      },
+      {
+        "if": "The platform asks where the money in the transfer came from",
+        "then": [
+          "Build a short timeline for the specific transfer",
+          "Attach focused records such as exchange statements, bank statements, payroll records, contracts, tax references, or old withdrawal history",
+          "Send only the documents that answer that exact route and avoid unrelated oversharing"
+        ]
+      },
+      {
+        "if": "You have old coins in self-custody with weak paperwork",
+        "then": [
+          "Reconstruct the route from acquisition to the current deposit as clearly as possible",
+          "Use whatever reliable historical records you still have such as exchange withdrawals, bank transfers, tax notes, mining records, or business documents",
+          "Explain the gap plainly instead of sending a large pile of disconnected screenshots"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Blockchain confirmation and exchange crediting are different processes, so a deposit can be final on-chain and still paused internally.",
+    "Wallet ownership proof shows control of an address, but it does not replace source-of-funds evidence.",
+    "Oversharing can create new privacy problems without improving the review outcome.",
+    "Seed phrases, private keys, and remote access should never be shared during a compliance review.",
+    "Simple, boring, well-documented routes are easier to clear than complex multi-hop histories."
+  ]
+}
