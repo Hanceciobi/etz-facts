@@ -1,0 +1,81 @@
+{
+  "slug": "etz-swap-kycnotlist-partnership",
+  "type": "article",
+  "title": "ETZ-Swap and KYCnotlist: Why This Partnership Matters for Users Who Want Clearer No-KYC Exchange Choices",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-kycnotlist-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-kycnotlist-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-lizardswap-partnership-no-kyc-swap-users",
+      "anchor": "LizardSwap for no-KYC swap users"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-wellcrypto-partnership-safer-swap-route-faster",
+      "anchor": "WellCrypto for a safer, faster swap route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+      "anchor": "CypherGoat"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "MoneroDEX for comparing XMR swap routes"
+    }
+  ],
+  "keyQuestions": [
+    "What is KYCnotlist in simple terms?",
+    "Why do privacy-focused users need a discovery layer like KYCnotlist?",
+    "Why does ETZ-Swap fit naturally on KYCnotlist?",
+    "What do ETZ-Swap users gain from this partnership?",
+    "Why is this more useful than a generic listing?",
+    "Does KYCnotlist replace checking the final exchange details yourself?"
+  ],
+  "quickSteps": [
+    "Start with KYCnotlist to narrow the field and compare relevant exchangers by direction, visible labels, and practical conditions.",
+    "Treat KYCnotlist as a discovery layer, not the final decision, and still review the exchanger itself before sending funds.",
+    "Use ETZ-Swap when the route and conditions fit your goal, and make sure the path matches your privacy and speed priorities.",
+    "Compare context, not just the headline rate, because the most attractive number is not always the most practical route.",
+    "Keep the process simple and deliberate by using trusted discovery, verifying the final details, and choosing the exchanger that fits the real task."
+  ],
+  "recoveryDecisionTree": {
+    "start": "You found ETZ-Swap through KYCnotlist and want to choose the route carefully",
+    "branches": [
+      {
+        "if": "You are still comparing options",
+        "then": [
+          "Use KYCnotlist to narrow the field by direction and basic conditions",
+          "Open only the exchangers that match your actual route",
+          "Compare practical fit, not just the first visible rate"
+        ]
+      },
+      {
+        "if": "You already decided to use ETZ-Swap",
+        "then": [
+          "Open ETZ-Swap directly from the comparison context",
+          "Review the route, limits, and exchange details on the service itself",
+          "Make sure the path matches your privacy and speed priorities before proceeding"
+        ]
+      },
+      {
+        "if": "The listing helped discovery but you still feel uncertain",
+        "then": [
+          "Treat the monitor as a starting point, not the final guarantee",
+          "Verify the final exchange details yourself before sending funds",
+          "Choose the exchanger that makes sense for your actual task instead of following noise"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "KYCnotlist improves discovery and comparison, but it does not execute the swap for the user.",
+    "A focused monitor reduces noise, but users should still verify the exchanger itself before sending funds.",
+    "Better discovery is about context and fit, not only about finding the highest headline rate.",
+    "Relevant traffic from a niche comparison environment is usually more useful than broad untargeted exposure.",
+    "The strongest value of this partnership is qualified discovery inside the right user context."
+  ]
+}
