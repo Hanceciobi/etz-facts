@@ -1,0 +1,98 @@
+{
+  "slug": "buy-monero-without-kyc",
+  "type": "article",
+  "title": "Buy Monero Without KYC",
+  "pageUrl": "https://etz-swap.com/buy-monero-without-kyc",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/buy-monero-without-kyc-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "swap BTC to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "swap USDT to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "exchange ETH to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/blog/best-anonymous-wallet-guide",
+      "anchor": "best anonymous wallet guide"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero wallet basics"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-without-javascript-nojs",
+      "anchor": "No-JavaScript swap option"
+    }
+  ],
+  "keyQuestions": [
+    "How can I buy Monero without KYC right now?",
+    "What is the easiest route to get XMR without registration?",
+    "Which source asset is most practical for a first entry into XMR?",
+    "Why does wallet readiness matter before the first Monero purchase?",
+    "What mistakes most often slow down a first XMR swap?",
+    "How long does it usually take to receive XMR after the send?"
+  ],
+  "quickSteps": [
+    "Choose the source asset you already understand best before you worry about clever route theory.",
+    "Prepare the wallet first and make sure the receiving address is ready before you open the order.",
+    "Read the quote carefully, including network, expected amount, and timing conditions.",
+    "Send once, then let confirmations do their work instead of creating extra stress with rushed repeat actions.",
+    "Verify the XMR arrival in the wallet and keep the whole process simple enough that you can repeat it calmly next time."
+  ],
+  "recoveryDecisionTree": {
+    "title": "Choosing the Right First Route Into XMR",
+    "goal": "Help a first-time user decide how to get Monero without KYC through the cleanest practical route.",
+    "branches": [
+      {
+        "if": "You already hold Bitcoin and want the fewest conceptual moves",
+        "then": [
+          "Use a direct BTC to XMR route",
+          "Check Bitcoin confirmation timing before you create the order",
+          "Prepare the XMR wallet first so the route stays simple from start to finish"
+        ]
+      },
+      {
+        "if": "You already hold USDT and want a clearer starting value in stable terms",
+        "then": [
+          "Use a direct USDT to XMR route",
+          "Confirm the exact USDT network before you send anything",
+          "Do not guess the network from memory if the route is not fully clear"
+        ]
+      },
+      {
+        "if": "You already hold Ethereum and want to avoid an intermediate step",
+        "then": [
+          "Use a direct ETH to XMR route",
+          "Check current Ethereum conditions before creating the order",
+          "Treat route simplicity as more important than theoretical optimization"
+        ]
+      },
+      {
+        "if": "The wallet is not ready or the receiving address is still uncertain",
+        "then": [
+          "Pause before opening the order",
+          "Finish wallet setup and verify the receiving address first",
+          "Create the swap only after the XMR side is fully prepared"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The first XMR purchase usually slows down because of wallet setup errors, not because Monero itself is hard to get.",
+    "USDT routes can feel simple in value terms but become risky if the sender is unsure about the network.",
+    "A direct route into XMR works best when the source asset is already familiar to the user.",
+    "Wrong receiving address, rushed quote review, and unfinished wallet setup are among the most common first-time mistakes.",
+    "A cleaner route is usually better than a clever route for a first entry into Monero."
+  ]
+}
