@@ -1,0 +1,98 @@
+{
+  "slug": "swap-btc-to-xmr-without-kyc",
+  "type": "article",
+  "title": "Swap BTC to XMR Without KYC",
+  "pageUrl": "https://etz-swap.com/swap-btc-to-xmr-without-kyc",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/swap-btc-to-xmr-without-kyc-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/best-anonymous-wallet-guide",
+      "anchor": "best anonymous wallet guide"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero wallet basics"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-without-javascript-nojs",
+      "anchor": "No-JavaScript swap option"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etzswapbot-telegram-crypto-swap-guide",
+      "anchor": "Telegram crypto swap option"
+    },
+    {
+      "url": "https://etz-swap.com/buy-monero-without-kyc",
+      "anchor": "buy Monero without KYC"
+    }
+  ],
+  "keyQuestions": [
+    "How do I swap BTC to XMR without KYC right now?",
+    "Why is BTC to XMR a practical route into Monero for many users?",
+    "How do Bitcoin confirmations and fee pressure affect ETA?",
+    "When should I use fixed or floating for a BTC to XMR swap?",
+    "Why does wallet readiness matter before converting BTC to XMR?",
+    "What mistakes most often slow down smooth BTC to XMR execution?"
+  ],
+  "quickSteps": [
+    "Prepare the XMR wallet before touching the quote so the receiving side is calm and ready.",
+    "Open the BTC to XMR route only after you understand the source asset, timing, and destination clearly.",
+    "Choose fixed or floating based on the real job you are doing, not on habit or guesswork.",
+    "Send BTC with realistic fee awareness and let confirmations do their work before reacting emotionally.",
+    "Verify the XMR arrival in the wallet and keep the route simple enough to repeat cleanly next time."
+  ],
+  "recoveryDecisionTree": {
+    "title": "Choosing the Right BTC to XMR Execution Path",
+    "goal": "Help the user complete a BTC to XMR swap with realistic timing expectations and cleaner execution.",
+    "branches": [
+      {
+        "if": "You already hold Bitcoin and want the most direct route into XMR",
+        "then": [
+          "Use a direct BTC to XMR route instead of adding an extra conversion step",
+          "Treat Bitcoin confirmations as part of the route rather than a separate annoyance",
+          "Prepare the XMR wallet before opening the order so the receiving side is already stable"
+        ]
+      },
+      {
+        "if": "You need a more defined outcome and less tolerance for quote movement",
+        "then": [
+          "Choose fixed instead of floating",
+          "Review route details carefully before sending BTC",
+          "Use the order only when the timing and expected amount fit the job"
+        ]
+      },
+      {
+        "if": "You are comfortable with live market conditions and do not need one exact XMR target",
+        "then": [
+          "Choose floating instead of fixed",
+          "Accept that the route will reflect live conditions more directly",
+          "Focus on clean execution rather than over-controlling the result"
+        ]
+      },
+      {
+        "if": "The wallet is not ready or the receiving address still feels uncertain",
+        "then": [
+          "Pause before opening the order",
+          "Finish wallet setup and verify the full XMR address first",
+          "Start the swap only when the receiving side feels calm and familiar"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "BTC to XMR ETA is shaped heavily by Bitcoin confirmations, fee pressure, and mempool conditions.",
+    "A smooth route depends on both the Bitcoin send side and the XMR receiving side being handled carefully.",
+    "Fixed versus floating changes the feel of execution and should match the actual job, not habit.",
+    "Unprepared wallets, weak fee awareness, and rushed quote handling are among the most common first-time mistakes.",
+    "A practical direct route usually works better than a clever multi-step route when the goal is simply to move from BTC into XMR."
+  ]
+}
