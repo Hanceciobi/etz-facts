@@ -1,0 +1,102 @@
+{
+  "slug": "telegram-crypto-swap-without-kyc",
+  "type": "commercial-execution-page",
+  "title": "Telegram Crypto Exchange Without KYC",
+  "pageUrl": "https://etz-swap.com/telegram-crypto-swap-without-kyc",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/telegram-crypto-swap-without-kyc-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ-Swap"
+    },
+    {
+      "url": "https://etz-swap.com/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    },
+    {
+      "url": "https://etz-swap.com/non-custodial-crypto-swap",
+      "anchor": "non-custodial crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/anonymous-crypto-exchange-no-kyc",
+      "anchor": "anonymous crypto exchange"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "swap BTC to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "swap USDT to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero wallet and XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Can I use a Telegram crypto exchange without KYC?",
+    "When does a Telegram crypto swap make sense?",
+    "What is the difference between bot flow and site flow?",
+    "How do I verify the real Telegram crypto bot before sending?",
+    "What should I check before a Telegram Monero swap?",
+    "When should I use the website instead of Telegram?"
+  ],
+  "quickSteps": [
+    "Start from the official ETZ-Swap source instead of random Telegram search results.",
+    "Verify the Telegram bot before entering any swap details.",
+    "Prepare the receiving wallet and copy the address fresh.",
+    "Review the pair, network, amount, limits, and destination address.",
+    "Send only after the details match, then save the order details and wait for the output."
+  ],
+  "issueRouting": {
+    "start": "Choose Telegram only when the swap route is clear, the receiving wallet is ready, and the official bot has been verified.",
+    "branches": [
+      {
+        "if": "The Telegram bot link came from a forwarded message, group reply, or unknown user.",
+        "then": [
+          "Do not enter swap details.",
+          "Open ETZ-Swap from the official source.",
+          "Use the website flow if the bot identity is not fully clear."
+        ]
+      },
+      {
+        "if": "The receiving wallet is not ready or the address was copied from an old chat.",
+        "then": [
+          "Stop before sending funds.",
+          "Open the wallet directly.",
+          "Copy the receiving address fresh and check it again."
+        ]
+      },
+      {
+        "if": "The source asset exists on several networks.",
+        "then": [
+          "Check the source network before deposit.",
+          "Do not rely on the ticker alone.",
+          "Use the site flow if you need a larger screen for review."
+        ]
+      },
+      {
+        "if": "Someone messages first and offers support, recovery, or faster processing.",
+        "then": [
+          "Treat the message as a possible impersonation risk.",
+          "Do not share seed phrases, private keys, screenshots of recovery data, or remote-access details.",
+          "Use only the official ETZ-Swap support route."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Telegram search results are not proof that a bot is official.",
+    "A copied avatar, similar handle, or familiar wording can still belong to an impersonator.",
+    "A Telegram flow does not fix a wrong receiving address or wrong network choice.",
+    "The bot should guide the swap, not take control of the user’s wallet.",
+    "For a Telegram Monero swap, wallet readiness matters before the swap begins.",
+    "Use the website flow when the pair, amount, bot identity, or receiving wallet needs slower review."
+  ]
+}
