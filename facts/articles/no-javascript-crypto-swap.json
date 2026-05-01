@@ -1,0 +1,118 @@
+{
+  "slug": "no-javascript-crypto-swap",
+  "type": "commercial-decision-page",
+  "title": "No-JavaScript Crypto Swap",
+  "pageUrl": "https://etz-swap.com/no-javascript-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/no-javascript-crypto-swap-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ-Swap"
+    },
+    {
+      "url": "https://etz-swap.com/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    },
+    {
+      "url": "https://etz-swap.com/non-custodial-crypto-swap",
+      "anchor": "non-custodial crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/anonymous-crypto-exchange-no-kyc",
+      "anchor": "anonymous crypto exchange"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "swap BTC to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "swap USDT to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero wallet and XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/telegram-crypto-swap-without-kyc",
+      "anchor": "Telegram crypto exchange"
+    }
+  ],
+  "keyQuestions": [
+    "Do I need a No-JavaScript crypto swap?",
+    "When is No-JS mode practical?",
+    "What changes in a crypto swap without JavaScript?",
+    "Should I choose No-JS mode or the regular UI?",
+    "Who should use a minimal interface crypto swap?",
+    "What still needs checking in No-JS mode?",
+    "When is the regular interface better?",
+    "Can I use No-JS mode for a Monero swap?",
+    "Can I use No-JS mode instead of a Telegram crypto exchange?"
+  ],
+  "quickSteps": [
+    "Decide whether No-JS mode fits this swap.",
+    "Prepare the receiving wallet before opening the flow.",
+    "Enter the pair, amount, and address carefully.",
+    "Review the source network, deposit details, and destination.",
+    "Send only after everything matches and save the order information."
+  ],
+  "issueRouting": {
+    "start": "Choose No-JS mode when the route is clear, the receiving wallet is ready, and a minimal browser interface helps you review the swap more calmly.",
+    "branches": [
+      {
+        "if": "The user already knows the pair, has the receiving wallet ready, and wants fewer dynamic interface layers.",
+        "then": [
+          "Use No-JS mode.",
+          "Review every field manually.",
+          "Save the order details before waiting for the output."
+        ]
+      },
+      {
+        "if": "The user is trying a new pair, comparing routes, or wants more visual guidance.",
+        "then": [
+          "Use the regular swap interface.",
+          "Review the route with the help of the guided UI.",
+          "Return to No-JS mode later if the route becomes familiar."
+        ]
+      },
+      {
+        "if": "The source asset exists on several networks.",
+        "then": [
+          "Check the source network before deposit.",
+          "Do not rely on the ticker alone.",
+          "Use the regular interface if the network choice needs slower review."
+        ]
+      },
+      {
+        "if": "The receiving wallet is not ready or the address was copied from an old note, message, or screenshot.",
+        "then": [
+          "Stop before sending funds.",
+          "Open the wallet directly.",
+          "Copy the receiving address fresh and check it again."
+        ]
+      },
+      {
+        "if": "The user wants a mobile messenger-native flow instead of a minimal browser page.",
+        "then": [
+          "Consider the Telegram crypto exchange flow.",
+          "Verify the real bot before entering swap details.",
+          "Use No-JS mode instead if a plain browser page gives more confidence."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-JS mode simplifies page behavior, not user responsibility.",
+    "A minimal interface does not fix a wrong receiving address or wrong source network.",
+    "No-JS mode should not be treated as complete anonymity.",
+    "The regular UI may be better for first-time users, larger amounts, or complex route checks.",
+    "A familiar route such as BTC to XMR or USDT to XMR still deserves a fresh review.",
+    "For XMR routes, the receiving wallet should be ready before the swap begins.",
+    "A simple page can still lead to a bad send if the user rushes the final check."
+  ]
+}
