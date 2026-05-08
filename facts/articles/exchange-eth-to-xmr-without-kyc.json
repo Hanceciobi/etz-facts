@@ -2,7 +2,7 @@
   "slug": "exchange-eth-to-xmr-without-kyc",
   "type": "article",
   "title": "Exchange ETH to XMR Without KYC",
-  "pageUrl": "https://etz-swap.com/exchange-eth-to-xmr-without-kyc",
+  "pageUrl": "https://etz-swap.com/blog/exchange-eth-to-xmr-without-kyc",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/exchange-eth-to-xmr-without-kyc-cover.webp",
   "publisher": {
     "name": "ETZ Swap",
@@ -31,7 +31,7 @@
       "anchor": "No-JavaScript swap option"
     },
     {
-      "url": "https://etz-swap.com/buy-monero-without-kyc",
+      "url": "https://etz-swap.com/blog/buy-monero-without-kyc",
       "anchor": "buy Monero without KYC"
     }
   ],
