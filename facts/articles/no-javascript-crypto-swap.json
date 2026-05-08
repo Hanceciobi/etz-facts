@@ -2,7 +2,7 @@
   "slug": "no-javascript-crypto-swap",
   "type": "commercial-decision-page",
   "title": "No-JavaScript Crypto Swap",
-  "pageUrl": "https://etz-swap.com/no-javascript-crypto-swap",
+  "pageUrl": "https://etz-swap.com/blog/no-javascript-crypto-swap",
   "cover": "https://api.etz-swap.com/api/v1/content?path=blog/no-javascript-crypto-swap-cover.webp",
   "publisher": {
     "name": "ETZ Swap",
@@ -15,15 +15,15 @@
       "anchor": "ETZ-Swap"
     },
     {
-      "url": "https://etz-swap.com/crypto-exchange-without-registration",
+      "url": "https://etz-swap.com/blog/crypto-exchange-without-registration",
       "anchor": "crypto exchange without registration"
     },
     {
-      "url": "https://etz-swap.com/non-custodial-crypto-swap",
+      "url": "https://etz-swap.com/blog/non-custodial-crypto-swap",
       "anchor": "non-custodial crypto swap"
     },
     {
-      "url": "https://etz-swap.com/anonymous-crypto-exchange-no-kyc",
+      "url": "https://etz-swap.com/blog/anonymous-crypto-exchange-no-kyc",
       "anchor": "anonymous crypto exchange"
     },
     {
@@ -39,7 +39,7 @@
       "anchor": "Monero wallet and XMR route"
     },
     {
-      "url": "https://etz-swap.com/telegram-crypto-swap-without-kyc",
+      "url": "https://etz-swap.com/blog/telegram-crypto-swap-without-kyc",
       "anchor": "Telegram crypto exchange"
     }
   ],
