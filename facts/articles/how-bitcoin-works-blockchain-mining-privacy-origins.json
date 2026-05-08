@@ -1,4 +1,4 @@
-
+ {
   "slug": "how-bitcoin-works-blockchain-mining-privacy-origins",
   "type": "article",
   "title": "Bitcoin Uncovered: Technology, Mining, Privacy, and Origins",
@@ -15,55 +15,55 @@
       "anchor": "ETZ Swap (homepage)"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
       "anchor": "BTC → XMR exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-sol-sol-100",
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
       "anchor": "USDT (ETH) → SOL exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
       "anchor": "ETH → XMR exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/btc-btc-eth-eth-0.125",
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
       "anchor": "BTC → ETH exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/usdt-eth-xmr-xmr-100",
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
       "anchor": "USDT (ETH) → XMR exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/xmr-xmr-eth-eth-1",
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
       "anchor": "XMR → ETH exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/exchange-pair/trx-trx-xmr-xmr-300",
+      "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
       "anchor": "TRX → XMR exchange pair"
     },
     {
-      "url": "https://etz-swap.com/ru/coins/xmr",
+      "url": "https://etz-swap.com/coins/xmr",
       "anchor": "Monero (XMR) page"
     },
     {
-      "url": "https://etz-swap.com/ru/coins/eth",
+      "url": "https://etz-swap.com/coins/eth",
       "anchor": "Ethereum (ETH) page"
     },
     {
-      "url": "https://etz-swap.com/ru/coins/btc",
+      "url": "https://etz-swap.com/coins/btc",
       "anchor": "Bitcoin (BTC) page"
     },
     {
-      "url": "https://etz-swap.com/ru/coins/usdt",
+      "url": "https://etz-swap.com/coins/usdt",
       "anchor": "Tether (USDT) page"
     },
     {
-      "url": "https://etz-swap.com/ru/coins/usdc",
+      "url": "https://etz-swap.com/coins/usdc",
       "anchor": "USD Coin (USDC) page"
     },
     {
-      "url": "https://etz-swap.com/ru/coins/xrp",
+      "url": "https://etz-swap.com/coins/xrp",
       "anchor": "XRP page"
     }
   ],
