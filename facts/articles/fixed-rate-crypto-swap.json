@@ -1,0 +1,93 @@
+{
+  "slug": "fixed-rate-crypto-swap",
+  "type": "article",
+  "title": "Fixed-Rate Crypto Swap: How a Locked Quote Changes the Transaction",
+  "pageUrl": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/fixed-rate-crypto-swap-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how ETZ Swap works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-without-javascript-nojs",
+      "anchor": "No-JavaScript swap option"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR exchange pair"
+    }
+  ],
+  "keyQuestions": [
+    "What is a fixed-rate crypto swap?",
+    "What does a fixed quote actually lock during a crypto swap?",
+    "Why does the quote window matter in a fixed-rate swap?",
+    "Does a fixed rate make the swap faster?",
+    "When is fixed rate better than floating rate?",
+    "What can still go wrong after a fixed quote is created?"
+  ],
+  "quickSteps": [
+    "Prepare the sending wallet and receiving wallet before opening the fixed quote.",
+    "Check the source asset, destination asset, network, amount, minimum, and receiving address against the quote screen.",
+    "Read the quote timer as a condition of the offer, not as a decoration.",
+    "Send only when the wallet’s final transaction details match the fixed quote.",
+    "Stop and create a fresh quote if the timer, network, amount, or address no longer matches."
+  ],
+  "issueRouting": {
+    "start": "The user wants a predictable crypto swap result and needs to decide whether a fixed-rate quote fits the transaction.",
+    "branches": [
+      {
+        "if": "The receiving amount must stay predictable",
+        "then": [
+          "Choose the fixed-rate model before creating the quote.",
+          "Prepare both wallets before the timer starts.",
+          "Send only when the quote details match the wallet transaction."
+        ]
+      },
+      {
+        "if": "The quote timer is low or already expired",
+        "then": [
+          "Do not rush the transaction into unclear conditions.",
+          "Let the old quote expire if the wallet is not ready.",
+          "Create a fresh quote and review the route again."
+        ]
+      },
+      {
+        "if": "The asset, network, amount, or address does not match",
+        "then": [
+          "Stop before sending funds.",
+          "Correct the wallet or route details first.",
+          "Use a new quote only after the transaction facts match."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A fixed rate locks the quote under stated conditions; it does not fix late deposits, wrong networks, or wrong addresses.",
+    "The quote timer is part of the fixed-rate offer and should not be treated as a visual detail.",
+    "A token ticker alone is not enough because the same ticker can exist on different networks.",
+    "Wallet fees can change the final amount sent, so the actual outgoing amount must be checked before confirming.",
+    "Support requests should use narrow public transaction facts, not seed phrases, private keys, backups, or remote access."
+  ]
+}
