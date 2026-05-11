@@ -1,0 +1,93 @@
+{
+  "slug": "floating-rate-crypto-swap",
+  "type": "article",
+  "title": "Floating-Rate Crypto Swap: How Live Quotes Move Through a Wallet-to-Wallet Route",
+  "pageUrl": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/floating-rate-crypto-swap-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how ETZ Swap works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-without-javascript-nojs",
+      "anchor": "No-JavaScript swap option"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR exchange pair"
+    }
+  ],
+  "keyQuestions": [
+    "What is a floating-rate crypto swap?",
+    "Why can the final amount change after the first quote?",
+    "How does a floating quote move through a wallet-to-wallet route?",
+    "When is floating rate better than fixed rate?",
+    "What should users check before sending a floating-rate swap?",
+    "What support data is safe to share if a floating-rate swap looks unclear?"
+  ],
+  "quickSteps": [
+    "Prepare the source wallet and destination wallet before reading the floating quote.",
+    "Treat the quote as a live estimate, not as a locked final amount.",
+    "Check the asset, network, amount, minimum, fee behavior, and receiving address before sending.",
+    "Track the transaction by status and transaction ID instead of reacting to every small quote movement.",
+    "Stop and verify the route if the asset, network, amount, address, or status does not match the expected path."
+  ],
+  "issueRouting": {
+    "start": "The user wants a market-aligned crypto swap and needs to understand whether floating-rate execution fits the wallet-to-wallet route.",
+    "branches": [
+      {
+        "if": "The user can tolerate movement in the final receiving amount",
+        "then": [
+          "Use the floating-rate model as a live estimate.",
+          "Prepare the source and destination wallets before sending.",
+          "Track the final result after the route is processed."
+        ]
+      },
+      {
+        "if": "The user needs a precise receiving amount",
+        "then": [
+          "Do not treat the floating quote as a locked output.",
+          "Compare the route with a fixed-rate model.",
+          "Choose the rate type that matches the required level of certainty."
+        ]
+      },
+      {
+        "if": "The final amount looks different from the first estimate",
+        "then": [
+          "Check whether the market moved between quote and execution.",
+          "Review confirmation timing and route status.",
+          "Verify that the asset, network, amount, and address matched the expected path."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A floating quote is a live estimate and should not be treated as a guaranteed final amount.",
+    "Market movement, confirmation timing, liquidity, and spread can all affect the final receiving amount.",
+    "Floating rate does not excuse wrong network, wrong asset, wrong address, or below-minimum deposits.",
+    "A slow source-chain confirmation can give the market more time to move before execution.",
+    "Support requests should use narrow transaction facts such as TXID, chain, amount, time sent, and visible status, not seed phrases or wallet backups."
+  ]
+}
