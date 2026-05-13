@@ -1,0 +1,133 @@
+{
+  "slug": "etz-swap-isitkyc-partnership",
+  "type": "article",
+  "title": "ETZ Swap and IsItKYC Partnership: Better Verification-Aware Swap Discovery",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-isitkyc-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-isitkyc-partnership-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how ETZ Swap works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-kycnotlist-partnership",
+      "anchor": "ETZ-Swap KYCnotlist partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-antikyc-io-partnership",
+      "anchor": "ETZ Swap AntiKYC io partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerica-partnership-monerica-directory",
+      "anchor": "ETZ Swap Monerica partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "ETZ Swap MoneroDEX partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-lizardswap-partnership-no-kyc-swap-users",
+      "anchor": "ETZ Swap LizardSwap partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-wellcrypto-partnership-safer-swap-route-faster",
+      "anchor": "ETZ Swap Wellcrypto partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-splitnow-partnership-multi-wallet-payouts",
+      "anchor": "ETZ Swap SplitNOW partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-eigenwallet-partnership",
+      "anchor": "ETZ Swap EigenWallet partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+      "anchor": "ETZ Swap CypherGoat partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "ETZ Swap Changerella partnership"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    }
+  ],
+  "keyQuestions": [
+    "What is IsItKYC?",
+    "How is ETZSwap presented inside the IsItKYC directory?",
+    "What does Anonymous Access mean for ETZ Swap users?",
+    "How does a verification-aware directory help before a crypto swap?",
+    "Why should users compare related ETZ Swap partnership pages?",
+    "What should users still verify on ETZ Swap before sending funds?"
+  ],
+  "quickSteps": [
+    "Check the IsItKYC profile to understand the service’s verification category before opening a swap route.",
+    "Treat Anonymous Access as an onboarding signal, not as a replacement for transaction review.",
+    "Compare the related ETZ Swap partnership pages when you need more context about discovery, XMR routes, wallet workflow, or route comparison.",
+    "Verify the live ETZ Swap route, including asset, network, amount, rate type, deposit address, and receiving wallet.",
+    "Proceed only when the directory profile, domain, wallet details, and transaction facts all match the route you intend to use."
+  ],
+  "issueRouting": {
+    "start": "The user wants to understand whether the ETZ Swap IsItKYC listing helps with verification-aware swap discovery before choosing a route.",
+    "branches": [
+      {
+        "if": "The user wants to check onboarding requirements before using a swap service",
+        "then": [
+          "Use the IsItKYC profile as a verification-category starting point.",
+          "Read Anonymous Access as an onboarding signal.",
+          "Move to ETZ Swap only after the service type fits the user’s needs."
+        ]
+      },
+      {
+        "if": "The user wants more context about partner discovery and route comparison",
+        "then": [
+          "Compare the related ETZ Swap partnership pages.",
+          "Separate verification directories, Monero discovery pages, and swap-adjacent workflow tools.",
+          "Use the most relevant partner page to understand the next decision layer."
+        ]
+      },
+      {
+        "if": "The user is ready to open a live swap route",
+        "then": [
+          "Verify the domain, asset pair, network, amount, and rate model.",
+          "Check the deposit address and receiving wallet before sending.",
+          "Proceed only when the live transaction facts match the intended route."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A directory listing is a discovery signal, not a replacement for checking the live swap route.",
+    "Anonymous Access should be treated as an onboarding category, not as a promise that every possible case has no checks or limits.",
+    "Partner pages help with comparison, but the user must still verify asset, network, amount, quote type, and wallet details before sending funds.",
+    "XMR support makes the listing relevant for privacy-aware users, but route execution still depends on correct wallet and network handling.",
+    "Support requests should use narrow transaction facts and should never include seed phrases, private keys, wallet backups, or remote access."
+  ]
+}
