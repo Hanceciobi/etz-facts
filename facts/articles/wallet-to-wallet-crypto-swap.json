@@ -1,0 +1,106 @@
+{
+  "slug": "wallet-to-wallet-crypto-swap",
+  "type": "article",
+  "title": "Wallet-to-Wallet Crypto Swap: How the Route Works Before You Send",
+  "pageUrl": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/wallet-to-wallet-crypto-swap-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how ETZ Swap works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-without-javascript-nojs",
+      "anchor": "No-JavaScript swap option"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR exchange pair"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero (XMR) page"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin (BTC) page"
+    },
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum (ETH) page"
+    }
+  ],
+  "keyQuestions": [
+    "What is a wallet-to-wallet crypto swap?",
+    "How does a wallet-to-wallet swap differ from an exchange account balance?",
+    "What should users prepare before sending from a source wallet?",
+    "Why does the receiving address matter in a wallet-to-wallet route?",
+    "How do fixed-rate and floating-rate quotes fit into wallet-to-wallet swaps?",
+    "What should users do if a wallet-to-wallet swap status is unclear?"
+  ],
+  "quickSteps": [
+    "Prepare the source wallet with the correct asset, network, and fee before opening the swap route.",
+    "Prepare the destination wallet and copy the receiving address from the current wallet, not from old notes or chats.",
+    "Review the quote, rate model, amount, minimum, network, and deposit instructions before sending funds.",
+    "Track the transaction by status and transaction ID after sending instead of reacting to every delay.",
+    "Stop and verify the route if the asset, network, amount, address, or status does not match the expected wallet-to-wallet path."
+  ],
+  "issueRouting": {
+    "start": "The user wants to swap crypto directly from a source wallet to a destination wallet and needs to understand the route before sending funds.",
+    "branches": [
+      {
+        "if": "The source wallet is not ready",
+        "then": [
+          "Prepare the correct asset and network before opening the route.",
+          "Check whether the wallet has enough fee balance.",
+          "Create or review the quote only after the wallet can send cleanly."
+        ]
+      },
+      {
+        "if": "The receiving wallet or address is unclear",
+        "then": [
+          "Stop before sending funds.",
+          "Copy the receiving address from the current destination wallet.",
+          "Verify the asset, network, and any memo or tag requirements before continuing."
+        ]
+      },
+      {
+        "if": "The swap status looks unclear after sending",
+        "then": [
+          "Do not send a second transaction immediately.",
+          "Check the transaction ID, network, amount, confirmation status, and visible route status.",
+          "Share only narrow transaction facts with support if review is needed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A wallet-to-wallet swap depends on the exact transaction facts broadcast from the source wallet.",
+    "A correct quote cannot fix a wrong receiving address, wrong network, wrong asset, or below-minimum deposit.",
+    "The same token ticker can exist on different networks, so network selection must match the route.",
+    "Wallet fee behavior can change the actual amount sent and should be checked before confirmation.",
+    "A pending source transaction is not always broken; confirmation timing and route detection should be reviewed before taking another action.",
+    "Support requests should use TXID, chain, amount, time sent, and visible status, not seed phrases, private keys, wallet backups, or remote access."
+  ]
+}
