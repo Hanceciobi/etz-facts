@@ -1,0 +1,106 @@
+{
+  "slug": "crypto-swap-confirmation-time",
+  "type": "article",
+  "title": "Crypto Swap Confirmation Time: What Actually Delays a Route",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-confirmation-time-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "crypto swap without app download"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-javascript-crypto-swap",
+      "anchor": "No-JavaScript swap option"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    }
+  ],
+  "keyQuestions": [
+    "What affects crypto swap confirmation time?",
+    "Why is my crypto swap still pending after my wallet says sent?",
+    "Does sent mean a crypto swap is complete?",
+    "How does a fixed-rate crypto swap change confirmation pressure?",
+    "Can a no-registration crypto swap still be delayed?",
+    "Should I send a second transaction if a swap is pending?",
+    "What should I share with support for a delayed crypto swap?"
+  ],
+  "quickSteps": [
+    "Check the source transaction first, because a route cannot finish until the source-chain facts are clear.",
+    "Compare the asset, network, amount, and route details before treating the delay as a service problem.",
+    "Separate confirmation waiting from route processing so you know which stage actually needs attention.",
+    "Prepare a narrow support proof packet using public transaction facts instead of broad screenshots or private wallet data.",
+    "Wait, escalate, or stop based on the verified status, and never send a second transaction just to calm uncertainty."
+  ],
+  "issueRouting": {
+    "start": "A crypto swap is pending and the user needs to understand whether the route is waiting normally or needs support.",
+    "branches": [
+      {
+        "if": "The source transaction is not confirmed enough",
+        "then": [
+          "Check the transaction ID on the correct source chain.",
+          "Wait for confirmations to build before assuming the route failed.",
+          "Avoid second sends or random accelerator links while the chain status is unclear."
+        ]
+      },
+      {
+        "if": "The deposit is confirmed but the route has not moved",
+        "then": [
+          "Compare the asset, network, amount, and route identifier.",
+          "Check whether the status shows deposit detected, processing, expired, or support required.",
+          "Prepare a narrow proof packet with public transaction facts for support."
+        ]
+      },
+      {
+        "if": "The amount, network, memo, tag, or destination details do not match",
+        "then": [
+          "Stop adding new transactions to the route.",
+          "Document the mismatch using the transaction ID and route details.",
+          "Contact support with only the facts needed to diagnose the issue."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Wallet status labels such as sent do not always mean the swap route has enough confirmations to continue.",
+    "A low source-chain fee can make a normal route look stuck even when the deposit details are correct.",
+    "Sending on the wrong network is not a confirmation-time problem and may require support review.",
+    "A second transaction can create duplicate deposits, wrong amounts, and avoidable support confusion.",
+    "Support proof should use public transaction facts, not seed phrases, private keys, wallet backups, or full-screen recordings."
+  ]
+}
