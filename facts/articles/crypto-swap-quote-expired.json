@@ -1,0 +1,106 @@
+{
+  "slug": "crypto-swap-quote-expired",
+  "type": "article",
+  "title": "Crypto Swap Quote Expired: What It Means Before You Send",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-quote-expired-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "crypto swap without app download"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    }
+  ],
+  "keyQuestions": [
+    "What does crypto swap quote expired mean?",
+    "Can I still send funds after a swap quote expires?",
+    "Is an expired quote the same as a failed swap?",
+    "What happens if I already sent funds after the quote expired?",
+    "How does fixed-rate quote timing affect a swap route?",
+    "Does a floating-rate swap quote expire?",
+    "What should I check before creating a new crypto swap quote?"
+  ],
+  "quickSteps": [
+    "Check whether the quote is still active before opening your wallet send screen.",
+    "Prepare the source wallet, destination address, network choice, amount, and fee setting before starting a timed quote.",
+    "Create a fresh quote if the timer has expired, instead of sending from an old tab, screenshot, or memory.",
+    "If funds were already sent after expiry, collect a narrow proof packet with public transaction facts and avoid sending again.",
+    "Proceed only when the current route, wallet prompt, quote state, and transaction details all match."
+  ],
+  "issueRouting": {
+    "start": "A crypto swap quote has expired and the user needs to decide whether to send, refresh the route, or handle a late deposit.",
+    "branches": [
+      {
+        "if": "The quote expired before funds were sent",
+        "then": [
+          "Do not send into the expired quote.",
+          "Prepare the source wallet, destination address, network choice, amount, and fee setting.",
+          "Create or refresh the quote and send only when the current route and wallet prompt match."
+        ]
+      },
+      {
+        "if": "Funds were already sent after the quote expired",
+        "then": [
+          "Stop adding new transactions to the route.",
+          "Save the transaction ID, source chain, amount, send time, route identifier, and current status.",
+          "Follow the official support path with narrow public transaction facts."
+        ]
+      },
+      {
+        "if": "The user is unsure whether the issue is quote expiry or confirmation delay",
+        "then": [
+          "Check whether the transaction was broadcast before or after the quote expired.",
+          "Separate quote validity from source-chain confirmation status.",
+          "Use the current route status and transaction facts before deciding the next action."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "An expired quote means the displayed route conditions may no longer be valid.",
+    "A wallet may still allow a send even when the third-party quote window has already closed.",
+    "Old tabs and screenshots can preserve stale route details that should not be used for execution.",
+    "Sending again after a late or unclear deposit can create duplicate deposits and support confusion.",
+    "A quote-expiry support case needs public transaction facts, not seed phrases, private keys, wallet backups, or remote access."
+  ]
+}
