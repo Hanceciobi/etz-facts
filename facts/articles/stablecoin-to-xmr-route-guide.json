@@ -1,0 +1,106 @@
+{
+  "slug": "stablecoin-to-xmr-route-guide",
+  "type": "article",
+  "title": "Stablecoin to XMR Route Guide: What to Check Before You Swap",
+  "pageUrl": "https://etz-swap.com/blog/stablecoin-to-xmr-route-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/stablecoin-to-xmr-route-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/swap-usdt-to-xmr-without-kyc",
+      "anchor": "swap USDT to XMR without KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/buy-monero-without-kyc",
+      "anchor": "buy Monero without KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/non-custodial-crypto-swap",
+      "anchor": "non-custodial crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/anonymous-crypto-exchange-no-kyc",
+      "anchor": "anonymous crypto exchange without KYC"
+    }
+  ],
+  "keyQuestions": [
+    "Can I swap stablecoin to XMR?",
+    "What should I check before swapping USDT to XMR?",
+    "Is USDT the same on every network?",
+    "Why does a stablecoin to XMR swap take time?",
+    "What should I do if I sent stablecoin on the wrong network?",
+    "How should I prepare an XMR receiving wallet before a stablecoin route?",
+    "What support data is safe to share for a stablecoin to XMR route?"
+  ],
+  "quickSteps": [
+    "Choose the exact stablecoin and source network before opening the route, because the ticker alone is not enough.",
+    "Prepare the XMR receiving wallet first so the quote window is not spent searching for a destination address.",
+    "Compare the route page with the wallet prompt, including asset, network, amount, fee token, quote state, and receiving address.",
+    "Track the source transaction and route status after sending instead of assuming every delay is a failure.",
+    "Share only narrow public transaction facts with support if something looks wrong, and never send wallet secrets or a second transaction out of panic."
+  ],
+  "issueRouting": {
+    "start": "A user wants to move from a stablecoin into XMR and needs to verify the route before sending funds.",
+    "branches": [
+      {
+        "if": "The user has not sent funds yet",
+        "then": [
+          "Check the exact stablecoin, source network, amount, fee token, quote state, and XMR receiving address.",
+          "Prepare the destination XMR wallet before opening or using a timed quote.",
+          "Send only when the wallet prompt matches the current route page."
+        ]
+      },
+      {
+        "if": "The source transaction was sent but the route is not moving",
+        "then": [
+          "Check whether the transaction exists on the correct source chain.",
+          "Compare the amount, network, and route identifier with the selected route.",
+          "Read the route status before assuming the swap failed."
+        ]
+      },
+      {
+        "if": "The stablecoin was sent on the wrong network or with mismatched details",
+        "then": [
+          "Stop adding new transactions to the route.",
+          "Save the transaction ID, source chain, amount, send time, route identifier, and current status.",
+          "Contact the official support path with narrow public transaction facts only."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The same stablecoin ticker can exist on several networks, and the route must match the exact network requested.",
+    "A lower-friction or no-registration route still requires exact asset, network, quote, and wallet checks before sending.",
+    "Old tabs and screenshots can preserve stale route data and create avoidable route mistakes.",
+    "A delayed XMR payout does not automatically mean failure; the source transaction, route status, and destination payout stage should be checked separately.",
+    "Support cases should use public transaction facts only, never seed phrases, private keys, wallet backups, passwords, remote access, or full-screen recordings."
+  ]
+}
