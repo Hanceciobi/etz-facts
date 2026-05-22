@@ -1,0 +1,107 @@
+{
+  "slug": "crypto-swap-route-status-explained",
+  "type": "article",
+  "title": "Crypto Swap Route Status Explained: What Each Stage Means",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-route-status-explained-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "crypto swap quote expired"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wrong-network-crypto-swap",
+      "anchor": "wrong-network crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-to-xmr-route-guide",
+      "anchor": "stablecoin to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "crypto swap without app download"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    }
+  ],
+  "keyQuestions": [
+    "What does each crypto swap route status mean?",
+    "What does waiting for deposit mean in a crypto swap?",
+    "What does deposit detected mean?",
+    "Why is my crypto swap processing for a long time?",
+    "What does payout sent mean?",
+    "When should I contact support about a route status?",
+    "What should I share if the route says support required?"
+  ],
+  "quickSteps": [
+    "Identify the exact route status before reacting, because waiting, confirming, processing, and payout sent point to different stages.",
+    "Check the source transaction on the correct chain to separate wallet broadcast, chain confirmation, and route detection.",
+    "Compare the asset, network, amount, quote state, and route identifier before treating the status as a service problem.",
+    "Wait when the stage is normal, but contact official support when confirmed facts contradict the route status or support is required.",
+    "Share only narrow public transaction facts if help is needed, and never send wallet secrets or a second transaction out of panic."
+  ],
+  "issueRouting": {
+    "start": "A user sees a crypto swap route status and needs to decide whether to wait, verify, refresh, or contact support.",
+    "branches": [
+      {
+        "if": "The route is waiting for deposit or confirming",
+        "then": [
+          "Check whether funds were actually sent from the source wallet.",
+          "Verify the transaction ID on the correct source chain.",
+          "Wait if confirmations are still building and the route details match."
+        ]
+      },
+      {
+        "if": "The route shows deposit detected or processing",
+        "then": [
+          "Compare the source asset, network, amount, quote state, and route identifier.",
+          "Check whether the route is still validating confirmations, amount, or payout conditions.",
+          "Avoid sending a second transaction while the route facts are still consistent."
+        ]
+      },
+      {
+        "if": "The route shows expired or support required",
+        "then": [
+          "Stop adding new transactions to the route.",
+          "Collect the transaction ID, source chain, amount, send time, route identifier, and current status.",
+          "Contact the official support path with narrow public transaction facts only."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A pending route status does not always mean failure; it may point to source-chain confirmations, route processing, or destination payout timing.",
+    "Waiting for deposit should be checked against the actual source-chain transaction before assuming the route is stuck.",
+    "Deposit detected can still require confirmations, amount checks, quote validation, or route processing before payout.",
+    "Support required may indicate a mismatch such as wrong network, wrong asset, wrong amount, expired quote, unsupported deposit, or missing memo or tag.",
+    "A second transaction can create duplicate deposits and support confusion if the first route status has not been diagnosed.",
+    "Support proof should use public transaction facts only, never seed phrases, private keys, wallet backups, passwords, remote access, or full-screen recordings."
+  ]
+}
