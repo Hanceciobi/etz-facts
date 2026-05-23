@@ -1,0 +1,105 @@
+{
+  "slug": "crypto-swap-fee-breakdown",
+  "type": "article",
+  "title": "Crypto Swap Fee Breakdown: What You Really Pay For",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-fee-breakdown-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "Quote details can expire before sending"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    }
+  ],
+  "keyQuestions": [
+    "What costs can be included in a crypto swap fee breakdown?",
+    "Why can the final crypto swap output differ from a market chart price?",
+    "How does the source wallet network fee affect a swap?",
+    "How do fixed-rate and floating-rate swaps affect fee expectations?",
+    "Why can confirmation time change the real cost of a crypto swap?",
+    "How should users compare crypto swap costs before sending funds?"
+  ],
+  "quickSteps": [
+    "Enter the exact source amount and pair before judging the route cost.",
+    "Check the source wallet network fee separately from the swap quote.",
+    "Compare the estimated destination output, not only the visible fee label.",
+    "Match the fee expectation to the rate model, fixed or floating.",
+    "Send only while the quote, amount, network, and destination details still match."
+  ],
+  "issueRouting": {
+    "start": "User wants to understand the real cost of a crypto swap before sending funds.",
+    "branches": [
+      {
+        "if": "The user only checks the visible fee label",
+        "then": [
+          "Compare the estimated destination output instead of one fee line.",
+          "Check whether source wallet fees are separate from the route quote.",
+          "Review liquidity spread, payout cost, and rate model before sending."
+        ]
+      },
+      {
+        "if": "The source network fee is high or confirmations may be slow",
+        "then": [
+          "Check the wallet network fee before broadcasting the transaction.",
+          "Compare the fee choice with the quote timing.",
+          "Use a fresh quote if the route conditions or timer may have changed."
+        ]
+      },
+      {
+        "if": "The user is choosing between fixed-rate and floating-rate swaps",
+        "then": [
+          "Use fixed-rate logic when output certainty matters more.",
+          "Use floating-rate logic only when live movement is acceptable.",
+          "Send only when the amount, network, quote type, and destination details match."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A crypto swap fee can include source wallet cost, route pricing, liquidity spread, payout cost, and timing effects.",
+    "A market chart price does not include the full wallet-to-wallet execution path.",
+    "Low source network fees can increase timing uncertainty if the transaction confirms too slowly.",
+    "A quote that has expired may no longer describe the active route cost or expected output.",
+    "Splitting a swap into too many parts can multiply source fees, route checks, and payout costs."
+  ]
+}
