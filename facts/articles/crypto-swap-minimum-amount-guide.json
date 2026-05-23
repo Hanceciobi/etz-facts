@@ -1,0 +1,105 @@
+{
+  "slug": "crypto-swap-minimum-amount-guide",
+  "type": "article",
+  "title": "Crypto Swap Minimum Amount Guide: What to Check Before Sending",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-minimum-amount-guide",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-minimum-amount-guide-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT to SOL"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "quote details can change before sending"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "browser-based crypto swap"
+    }
+  ],
+  "keyQuestions": [
+    "What does a crypto swap minimum amount mean?",
+    "Why do crypto swaps have minimum amounts?",
+    "What happens if I send less than the minimum crypto swap amount?",
+    "Can the minimum amount change between crypto swap routes?",
+    "Why do small crypto swaps need extra checking?",
+    "Should I split a small balance into several smaller swaps?"
+  ],
+  "quickSteps": [
+    "Select the exact source and destination pair.",
+    "Confirm the source network, not only the asset ticker.",
+    "Enter the real amount before sending anything.",
+    "Check the minimum amount and estimated output together.",
+    "Send only while the active quote and route details still match."
+  ],
+  "issueRouting": {
+    "start": "User wants to send a small crypto swap amount and needs to know whether the route can process it cleanly.",
+    "branches": [
+      {
+        "if": "The entered amount is below the route minimum",
+        "then": [
+          "Do not send the transaction.",
+          "Increase the amount or choose another practical route.",
+          "Recheck the active quote before sending from the wallet."
+        ]
+      },
+      {
+        "if": "The amount is above the minimum but the estimated output is too small",
+        "then": [
+          "Compare the source fee, route minimum, and expected payout.",
+          "Decide whether the swap is still worth doing.",
+          "Wait or adjust the amount if fees make the result inefficient."
+        ]
+      },
+      {
+        "if": "Funds were already sent below the minimum",
+        "then": [
+          "Do not send a second transaction blindly.",
+          "Collect the source transaction ID, network, amount, route ID, destination address, and current status.",
+          "Share only narrow support facts and never share seed phrases, private keys, or wallet passwords."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A minimum amount is route-specific and may differ by asset, network, pair, and payout cost.",
+    "Sending below the minimum can create a mismatch that may not process automatically.",
+    "Small swaps are more sensitive to network fees because costs can consume a larger share of the amount.",
+    "A quote that was valid earlier may no longer match current route conditions.",
+    "Splitting an already-small balance can multiply fees and push each part below the route minimum."
+  ]
+}
