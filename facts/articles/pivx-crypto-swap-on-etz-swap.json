@@ -1,0 +1,101 @@
+{
+  "slug": "pivx-crypto-swap-on-etz-swap",
+  "type": "article",
+  "title": "PIVX Crypto Swap on ETZ-Swap: What to Know Before You Exchange",
+  "pageUrl": "https://etz-swap.com/blog/pivx-crypto-swap-on-etz-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/pivx-crypto-swap-on-etz-swap-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "crypto swap quote expired"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/non-custodial-crypto-swap",
+      "anchor": "non-custodial crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/anonymous-crypto-exchange-no-kyc",
+      "anchor": "anonymous crypto exchange with no KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "browser-based crypto swap"
+    }
+  ],
+  "keyQuestions": [
+    "What is PIVX?",
+    "Can PIVX now be exchanged on ETZ-Swap?",
+    "Is PIVX privacy automatic for every transaction?",
+    "Why does PIVX fit a privacy-first crypto swap service?",
+    "What should users check before a PIVX swap?",
+    "How should users prepare a PIVX wallet before exchanging?"
+  ],
+  "quickSteps": [
+    "Confirm that PIVX is the intended asset before selecting the route.",
+    "Prepare a PIVX wallet and copy the receiving address from the correct place.",
+    "Check the live quote, rate model, amount limits, and destination output before sending.",
+    "Send only when the route page and wallet transaction details match.",
+    "Keep seed phrases, private keys, wallet backups, and broad screenshots out of every support or chat context."
+  ],
+  "issueRouting": {
+    "start": "User wants to exchange PIVX on ETZ-Swap and needs to understand the coin, wallet preparation, privacy expectations, and route checks before sending funds.",
+    "branches": [
+      {
+        "if": "The user wants to swap into PIVX for the first time",
+        "then": [
+          "Confirm that PIVX is the selected asset and not a similar-looking ticker.",
+          "Prepare a compatible PIVX wallet before creating the route.",
+          "Check the live quote, destination output, amount limits, and rate model before sending."
+        ]
+      },
+      {
+        "if": "The user expects automatic privacy from every PIVX action",
+        "then": [
+          "Explain that PIVX uses optional privacy rather than automatic privacy for every action.",
+          "Separate the swap route, the receiving PIVX wallet, and later PIVX transaction behavior.",
+          "Avoid assuming that previous source-asset history is erased by receiving PIVX."
+        ]
+      },
+      {
+        "if": "The route details or wallet transaction do not match",
+        "then": [
+          "Do not broadcast the source transaction.",
+          "Recheck the asset, amount, destination address, quote state, and wallet prompt.",
+          "Proceed only when the route page and wallet transaction details match."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "PIVX uses optional privacy, so users should understand wallet behavior and transaction type before assuming what is hidden.",
+    "A PIVX swap does not erase the prior history of the source asset or careless wallet reuse.",
+    "The live route page should be checked for current pair availability, limits, rate model, and destination output before sending.",
+    "A quote that has changed or expired may no longer describe the active PIVX route.",
+    "Seed phrases, private keys, wallet backups, and broad screenshots should never be shared in support or chat contexts."
+  ]
+}
