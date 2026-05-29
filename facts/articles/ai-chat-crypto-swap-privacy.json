@@ -1,0 +1,101 @@
+{
+  "slug": "ai-chat-crypto-swap-privacy",
+  "type": "article",
+  "title": "AI Chat and Crypto Swap Privacy: What Not to Paste Before You Exchange",
+  "pageUrl": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-chat-crypto-swap-privacy-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/ai-bots-unmask-your-wallet-crypto-privacy-risk",
+      "anchor": "AI bots and wallet privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+      "anchor": "block explorer privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "old quote screenshot"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/telegram-crypto-swap-without-kyc",
+      "anchor": "Telegram crypto swap flow"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "browser-based crypto swap"
+    }
+  ],
+  "keyQuestions": [
+    "Is it safe to ask an AI chat about a crypto swap?",
+    "What should users avoid pasting into an AI chat before a crypto swap?",
+    "Why can wallet addresses and TXIDs become sensitive in AI prompts?",
+    "How can screenshots expose crypto swap privacy details?",
+    "How can users ask AI for swap help without exposing wallet activity?",
+    "When should a crypto swap issue move from AI chat to verified support?"
+  ],
+  "quickSteps": [
+    "Ask the AI chat for general checks, not private route inspection.",
+    "Replace wallet addresses, TXIDs, exact amounts, and screenshots with neutral placeholders.",
+    "Keep live quote, network, amount, and destination checks on the current route page.",
+    "Share only narrow public facts with verified support if a real issue appears.",
+    "Stop immediately if any tool or person asks for seed phrases, private keys, backups, or remote access."
+  ],
+  "issueRouting": {
+    "start": "User wants to ask an AI chat for crypto swap help without exposing private wallet, route, or identity details.",
+    "branches": [
+      {
+        "if": "The question is general and does not require exact route inspection",
+        "then": [
+          "Ask for a checklist, definition, or risk explanation.",
+          "Use neutral placeholders instead of wallet addresses, TXIDs, and exact amounts.",
+          "Keep the live route decision on the current swap page and wallet prompt."
+        ]
+      },
+      {
+        "if": "The user wants to paste screenshots, support messages, or explorer links",
+        "then": [
+          "Rewrite the issue as a short neutral summary.",
+          "Remove addresses, balances, handles, case IDs, timestamps, and unrelated transaction history.",
+          "Share the original material only with verified support when narrow proof is actually needed."
+        ]
+      },
+      {
+        "if": "Any tool, person, or message asks for seed phrases, private keys, backups, or remote access",
+        "then": [
+          "Stop the interaction immediately.",
+          "Do not paste or upload wallet control material anywhere.",
+          "Use only public transaction facts and verified support channels for troubleshooting."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A no-KYC swap flow can still lose privacy if the user pastes wallet addresses, TXIDs, screenshots, and route details into an AI chat.",
+    "Wallet addresses are public on-chain, but pasting them into prompts can connect them to writing style, route intent, timing, and other context.",
+    "TXIDs and explorer links can reveal chain, amount, fee, timing, source, destination, and surrounding wallet activity.",
+    "Screenshots can expose more than the swap box, including balances, tabs, notifications, browser details, support messages, and local context.",
+    "AI chats are useful for general checklists and explanations, but they should not replace the live route page, wallet prompt, or verified support."
+  ]
+}
