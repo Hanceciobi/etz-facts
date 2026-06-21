@@ -1,0 +1,97 @@
+{
+  "slug": "xmr-after-kyc-source-privacy-limits",
+  "type": "article",
+  "title": "XMR After KYC Source Privacy Limits",
+  "pageUrl": "https://etz-swap.com/blog/xmr-after-kyc-source-privacy-limits",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xmr-after-kyc-source-privacy-limits-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/buy-monero-without-kyc",
+      "anchor": "buy Monero without KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-kyc-crypto-swap-wallet-trace-risk",
+      "anchor": "no-KYC crypto swap wallet trace risk"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/swap-usdt-to-xmr-without-kyc",
+      "anchor": "swap USDT to XMR without KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/exchange-eth-to-xmr-without-kyc",
+      "anchor": "exchange ETH to XMR without KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat crypto swap privacy"
+    }
+  ],
+  "keyQuestions": [
+    "Is XMR private after a KYC exchange?",
+    "Can the KYC source know what happens after I receive XMR?",
+    "Does Monero erase public-chain history?",
+    "Is it better to use a no-KYC route before receiving XMR?",
+    "What should I avoid sharing after receiving XMR?",
+    "Can I use AI to check XMR privacy?"
+  ],
+  "quickSteps": [
+    "Identify the source before you open the route, because a KYC account, custodial withdrawal, or public-chain wallet may already define the starting privacy context.",
+    "Separate source-side records from Monero-side privacy, because XMR can reduce destination visibility without erasing earlier platform or blockchain history.",
+    "Prepare the XMR destination wallet before the quote starts, so the route is executed calmly without rushed address checks or unnecessary screenshots.",
+    "Keep proof narrow when using support, AI chats, or public questions, and avoid sharing wallet histories, route identifiers, full screenshots, or unrelated balances.",
+    "Proceed only when the source, route, destination wallet, and privacy expectations match; stop if you are relying on Monero to hide records that were already created before the swap."
+  ],
+  "issueRouting": {
+    "start": "The user wants to receive XMR after a KYC-linked source and needs to understand what becomes private and what remains known.",
+    "branches": [
+      {
+        "if": "The funds start from a KYC exchange or custodial platform",
+        "then": [
+          "Assume the source platform may keep account identity and withdrawal records.",
+          "Do not expect Monero to erase the source-side platform history.",
+          "Prepare the destination wallet and route details before opening a quote."
+        ]
+      },
+      {
+        "if": "The source asset is BTC, ETH, USDT, or another transparent-chain asset",
+        "then": [
+          "Check what the source chain reveals before the route reaches XMR.",
+          "Review source wallet history, amount, timing, network, and fee behavior.",
+          "Avoid public posts or screenshots that connect the source event to the XMR route."
+        ]
+      },
+      {
+        "if": "The user needs AI help, support, or public advice after receiving XMR",
+        "then": [
+          "Ask for general privacy layers or a checklist instead of sharing real wallet data.",
+          "Share only the narrow proof needed for the exact support question.",
+          "Never share seed phrases, private keys, wallet backups, route secrets, full screenshots, or full transaction histories."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "XMR can reduce destination-side visibility, but it does not erase KYC exchange account records or earlier withdrawal history.",
+    "A transparent source-chain transaction may remain visible before the route reaches the Monero side.",
+    "A custodial source may create extra records and reduce user control over proof, refunds, and withdrawal context.",
+    "Screenshots, AI prompts, support messages, and public questions can reveal links that the Monero network itself does not show.",
+    "Repeated route patterns, exact timing, and unique amounts can weaken privacy expectations even when the destination asset is XMR."
+  ]
+}
