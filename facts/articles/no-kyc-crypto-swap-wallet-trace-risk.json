@@ -1,0 +1,97 @@
+{
+  "slug": "no-kyc-crypto-swap-wallet-trace-risk",
+  "type": "article",
+  "title": "No-KYC Crypto Swap Wallet Trace Risk",
+  "pageUrl": "https://etz-swap.com/blog/no-kyc-crypto-swap-wallet-trace-risk",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/no-kyc-crypto-swap-wallet-trace-risk-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/anonymous-crypto-exchange-no-kyc",
+      "anchor": "no KYC crypto exchange"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+      "anchor": "block explorer privacy risks"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat crypto swap privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Can a no-KYC crypto swap still be traced on-chain?",
+    "Does no KYC mean anonymous?",
+    "What wallet traces remain visible after a swap?",
+    "Can XMR reduce wallet trace risk?",
+    "What should I avoid sharing with support or AI?",
+    "Should I use a new wallet for every no-KYC swap?"
+  ],
+  "quickSteps": [
+    "Map the source wallet before you open the quote, because its public history may shape the trace context of the swap.",
+    "Check what the selected network reveals, including TXID, amount, timing, token transfer, gas behavior, and reused address patterns.",
+    "Separate wallet roles so storage, source, destination, fee, and support-proof activity do not collapse into one obvious wallet trail.",
+    "Share only narrow proof when using explorers, AI chats, or support, and avoid screenshots or histories that reveal unrelated wallet data.",
+    "Proceed only when the route, source wallet, destination wallet, and privacy expectations match; stop if the public-chain facts do not fit the swap you intend to make."
+  ],
+  "issueRouting": {
+    "start": "The user wants to use a no-KYC crypto swap but needs to understand what wallet traces may still remain visible.",
+    "branches": [
+      {
+        "if": "The source wallet has a long public history or reused address",
+        "then": [
+          "Do not treat no-KYC as full wallet privacy.",
+          "Map what the source wallet already reveals on the selected network.",
+          "Use wallet role separation before opening a quote."
+        ]
+      },
+      {
+        "if": "The route uses a transparent source asset such as BTC, ETH, or USDT",
+        "then": [
+          "Check the public-chain transaction data that will remain visible.",
+          "Confirm the exact network, amount, timing, and destination wallet before sending.",
+          "Avoid publishing explorer links or screenshots that add social context."
+        ]
+      },
+      {
+        "if": "The swap needs support, AI help, or proof sharing",
+        "then": [
+          "Share only the narrow proof needed for the exact question.",
+          "Use public TXID, chain, amount, time, pair, and visible route state only when relevant.",
+          "Never share seed phrases, private keys, wallet backups, route secret tokens, full screenshots, or unrelated wallet history."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "No-KYC reduces identity collection, but it does not make transparent blockchain transactions invisible.",
+    "A reused wallet address can connect income, storage, swaps, support messages, and public activity into one readable pattern.",
+    "A private destination asset does not erase the public source-side transaction history.",
+    "Explorer links, AI prompts, support messages, and screenshots can add off-chain context to public-chain data.",
+    "Opening a timed quote before wallets, networks, fees, and privacy expectations are ready can create rushed and poorly checked decisions."
+  ]
+}
