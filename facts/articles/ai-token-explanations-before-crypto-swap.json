@@ -1,0 +1,97 @@
+{
+  "slug": "ai-token-explanations-before-crypto-swap",
+  "type": "article",
+  "title": "AI Token Checks Before a Crypto Swap",
+  "pageUrl": "https://etz-swap.com/blog/ai-token-explanations-before-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-token-explanations-before-crypto-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/ai-crypto-swap-quote-checker",
+      "anchor": "AI crypto swap quote checker"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT to SOL route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat crypto swap privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    }
+  ],
+  "keyQuestions": [
+    "Can AI verify a token contract before a crypto swap?",
+    "Why can chatbots misread token risk?",
+    "Is the ticker enough to identify a token?",
+    "What should I avoid pasting into AI before checking a token?",
+    "Should I check the token before or after getting a quote?",
+    "How can I reduce wrong-network risk before swapping a token?"
+  ],
+  "quickSteps": [
+    "Identify the chain first, because the same ticker can appear on different networks and route support depends on the selected chain.",
+    "Verify the contract source for non-native tokens using official project references, trusted explorers, and the token selector in the live swap interface.",
+    "Compare route support before opening a timed quote, including input asset, network, destination asset, limits, and wallet compatibility.",
+    "Check wallet prompts and approvals carefully, especially if the token requires permission before a swap.",
+    "Stop before sending if the ticker, contract, network, route, or wallet facts do not match; refresh the quote only after the token identity is clear."
+  ],
+  "issueRouting": {
+    "start": "The user wants to use AI to understand a token before a crypto swap without relying on the chatbot as the final source of truth.",
+    "branches": [
+      {
+        "if": "The ticker looks familiar but the chain or contract is unclear",
+        "then": [
+          "Identify the exact network where the token is held.",
+          "Check the contract source through official references and trusted explorers.",
+          "Avoid opening or sending to a timed quote until token identity is clear."
+        ]
+      },
+      {
+        "if": "The token is real but route support is uncertain",
+        "then": [
+          "Compare the input asset, network, destination asset, limits, and wallet compatibility.",
+          "Use the live swap interface to confirm route support.",
+          "Do not rely on a chatbot explanation of the ticker alone."
+        ]
+      },
+      {
+        "if": "Funds have already been sent or the route state has changed",
+        "then": [
+          "Stop asking general token questions and check the visible route status.",
+          "Confirm the source-chain transaction and route stage.",
+          "Share only narrow support details if escalation is needed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A ticker is only a label; for non-native tokens, the contract address and network identify the asset.",
+    "AI may rely on old or incomplete information about migrations, contract upgrades, delistings, bridge changes, or route support.",
+    "A wallet can display a token even when the swap route does not support that exact asset or network.",
+    "Full screenshots can expose balances, wallet labels, browser extensions, partial addresses, route identifiers, and unrelated assets.",
+    "A quote timer should be used for execution after verification, not for researching token identity under pressure."
+  ]
+}
