@@ -1,0 +1,97 @@
+{
+  "slug": "ai-crypto-swap-quote-checker",
+  "type": "article",
+  "title": "AI Crypto Swap Quote Checker: Safe Quote Checks",
+  "pageUrl": "https://etz-swap.com/blog/ai-crypto-swap-quote-checker",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/ai-crypto-swap-quote-checker-cover.webp",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat crypto swap privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "crypto swap quote expired"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    }
+  ],
+  "keyQuestions": [
+    "Can AI compare crypto swap quotes?",
+    "Can AI tell whether a crypto swap quote is fair?",
+    "What should I avoid pasting into an AI chat before a swap?",
+    "Should I use fixed or floating if I am checking a quote with AI?",
+    "What should I do if the quote expires while I am asking AI?",
+    "How can I compare crypto swap quotes without exposing private wallet data?"
+  ],
+  "quickSteps": [
+    "Remove private data before asking AI, including addresses, route IDs, secret tokens, screenshots, seed phrases, and support case details.",
+    "Map the quote fields in plain language: pair, rate type, timer, input, expected output, network, and visible fee concern.",
+    "Compare the final destination amount, not only the advertised fee, because spread, network cost, and slippage can change the real result.",
+    "Check timing and rate type before sending, especially when a fixed quote has a short timer or a floating quote can move with the market.",
+    "Verify the quote, wallet, network, and address manually before sending; stop if the facts do not match or the quote has expired."
+  ],
+  "issueRouting": {
+    "start": "The user wants to use AI to review a crypto swap quote without exposing private transaction data.",
+    "branches": [
+      {
+        "if": "The user has not sent funds yet",
+        "then": [
+          "Describe the quote fields without private identifiers.",
+          "Compare rate type, timer, network, fees, spread, and expected output.",
+          "Verify the quote page, wallet, network, and address manually before sending."
+        ]
+      },
+      {
+        "if": "The quote is fixed, short on time, or already expired",
+        "then": [
+          "Stop and check whether the timer is still valid.",
+          "Refresh the quote if no funds have been sent.",
+          "Avoid sending after expiry unless the live route instructions clearly match."
+        ]
+      },
+      {
+        "if": "Funds have already been sent",
+        "then": [
+          "Stop comparing quotes and check route status instead.",
+          "Confirm the source-chain transaction and visible confirmations.",
+          "Share only narrow support details if escalation is needed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "AI should not receive seed phrases, private keys, secret tokens, route IDs, or full wallet screenshots.",
+    "A screenshot can expose balances, browser extensions, timestamps, case IDs, unrelated tabs, and other private context.",
+    "AI can explain fixed and floating quote logic, but it cannot guarantee final execution or verify wallet ownership.",
+    "An expired quote should be treated as a stop-and-check signal, not a reason to rush another transaction.",
+    "The real quote comparison should focus on final destination output, not only the advertised service fee."
+  ]
+}
