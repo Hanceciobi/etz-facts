@@ -1,0 +1,97 @@
+{
+  "slug": "crypto-swap-aml-risk-score-before-sending",
+  "type": "article",
+  "title": "Crypto Swap AML Risk Score Before Sending",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-aml-risk-score-before-sending",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-aml-risk-score-before-sending-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/travel-rule-self-custody-source-of-funds-2026",
+      "anchor": "Travel Rule and self-custody checks"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-freeze-risk-usdt-usdc-blacklists",
+      "anchor": "stablecoin freeze risk"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-kyc-crypto-swap-wallet-trace-risk",
+      "anchor": "no-KYC crypto swap wallet trace risk"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat crypto swap privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    }
+  ],
+  "keyQuestions": [
+    "What is an AML risk score in crypto?",
+    "Can a normal wallet get a high-risk score?",
+    "Should I check wallet history before a crypto swap?",
+    "Does no-KYC remove AML risk?",
+    "Can AI check AML risk for my wallet?",
+    "What should I share with support if a transaction needs review?"
+  ],
+  "quickSteps": [
+    "Review the source wallet before opening a quote, because old history, unknown incoming funds, custodial withdrawals, or token exposure can shape the risk context.",
+    "Check the asset and network carefully, including contract details when relevant, fee token requirements, minimum amount, and destination wallet readiness.",
+    "Separate wallet roles so storage, routine swaps, business payments, testing, and support proof do not all sit inside one hard-to-explain wallet history.",
+    "Prepare narrow proof for support or review, using only the chain, TXID, amount, time, route state, and wallet context needed for the exact question.",
+    "Proceed only when the source wallet, route, asset, network, and destination wallet match; stop if you are relying on guesswork, AI certification, or transaction splitting to handle risk."
+  ],
+  "issueRouting": {
+    "start": "The user wants to understand whether a source wallet, asset, or transaction may raise AML risk questions before sending funds into a crypto swap.",
+    "branches": [
+      {
+        "if": "The source wallet has old history, unknown incoming funds, bridge exposure, or custodial withdrawal context",
+        "then": [
+          "Review the source wallet before opening a quote.",
+          "Identify which activity may need a short explanation if support or review is needed.",
+          "Avoid adding new important activity on top of unclear wallet history."
+        ]
+      },
+      {
+        "if": "The route uses BTC, ETH, USDT, or another transparent-chain asset",
+        "then": [
+          "Check the exact asset, network, contract when relevant, fee token, and destination wallet readiness.",
+          "Treat public-chain visibility as separate from no-KYC identity reduction.",
+          "Do not assume the destination asset changes the source-side history that already exists."
+        ]
+      },
+      {
+        "if": "The user needs AI help or support before or after the swap",
+        "then": [
+          "Ask AI for general risk categories and checklists, not a personal AML verdict.",
+          "Share only narrow proof such as chain, TXID, amount, time, route state, and wallet context when needed.",
+          "Never share seed phrases, private keys, wallet backups, remote access, full wallet screenshots, or full transaction histories."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "An AML risk score is a risk signal based on wallet, transaction, and source context, not a complete personal judgment.",
+    "No-KYC can reduce identity collection, but it does not erase public-chain visibility or source-wallet history.",
+    "Stablecoins and tokens may carry network, contract, issuer, or freeze-related controls that native coins do not have.",
+    "Custodial withdrawals can complicate proof, refunds, and source explanation because the user may not control the sending address.",
+    "Splitting transactions to avoid review can create worse patterns and more questions; clear records and narrow proof are safer."
+  ]
+}
