@@ -1,0 +1,99 @@
+```json id="pk5d2r"
+{
+  "slug": "crypto-dusting-before-crypto-swap",
+  "type": "article",
+  "title": "Crypto Dusting Before Crypto Swap",
+  "pageUrl": "https://etz-swap.com/blog/crypto-dusting-before-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-dusting-before-crypto-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-kyc-crypto-swap-wallet-trace-risk",
+      "anchor": "no-KYC crypto swap wallet trace risk"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-aml-risk-score-before-sending",
+      "anchor": "crypto swap AML risk score"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-freeze-risk-usdt-usdc-blacklists",
+      "anchor": "stablecoin freeze risk"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat crypto swap privacy"
+    }
+  ],
+  "keyQuestions": [
+    "What is crypto dusting?",
+    "Is a dusted wallet hacked?",
+    "Can I still use a wallet after receiving dust?",
+    "Should I move dust tokens out of my wallet?",
+    "Can dusting affect a crypto swap?",
+    "Can AI tell me if a dusted wallet is safe?"
+  ],
+  "quickSteps": [
+    "Identify the unknown transfer before opening a quote, including whether it is native coin dust, token spam, NFT spam, a fake reward, or an address-poisoning clue.",
+    "Avoid interacting with strange tokens, claim links, or approval prompts, because the dust itself may be less dangerous than the action it tries to trigger.",
+    "Review the source wallet’s role, history, asset, network, and contract context before using it for a crypto swap.",
+    "Keep wallet roles separate so storage, public payments, routine swaps, testing, and privacy-sensitive routes do not share one noisy wallet history.",
+    "Proceed only when the source wallet, route, destination wallet, and privacy expectations match; stop if the wallet history is unclear or the next action requires guessing."
+  ],
+  "issueRouting": {
+    "start": "The user noticed a tiny unknown transfer or strange token before a crypto swap and needs to decide whether the wallet is still safe and clear enough to use as the source wallet.",
+    "branches": [
+      {
+        "if": "The unknown transfer looks like native coin dust, token spam, NFT spam, a fake reward, or address poisoning",
+        "then": [
+          "Do not interact with the strange asset or follow claim links.",
+          "Check the asset type, network, contract context, and wallet history before opening a quote.",
+          "Use a cleaner source wallet if the current wallet is noisy or privacy-sensitive."
+        ]
+      },
+      {
+        "if": "The planned route uses BTC, USDT, ETH, or another transparent-chain source asset",
+        "then": [
+          "Review what the source chain may reveal before the swap starts.",
+          "Check whether dust or token spam could be moved, approved, or exposed during the source transaction.",
+          "Prepare the destination wallet before using the source wallet for the route."
+        ]
+      },
+      {
+        "if": "The user needs AI help or support to understand the dusting event",
+        "then": [
+          "Ask for general categories and a checklist instead of a personal verdict on a real wallet.",
+          "Share only narrow proof such as chain, TXID, amount, route status, and relevant wallet context when needed.",
+          "Never share seed phrases, private keys, wallet backups, full screenshots, full transaction histories, or route secrets."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A tiny unknown transfer does not automatically mean a wallet was hacked, but interacting with strange tokens can create real risk.",
+    "Dusting can add source-wallet noise and may help observers connect wallet activity on transparent chains.",
+    "Moving dust just to clean a wallet can create more traceability than ignoring or hiding suspicious assets.",
+    "No-KYC can reduce identity collection, but it does not erase public-chain traces or source-wallet history.",
+    "Full wallet screenshots, AI prompts, and broad support evidence can expose more privacy context than the dust itself."
+  ]
+}
+```
