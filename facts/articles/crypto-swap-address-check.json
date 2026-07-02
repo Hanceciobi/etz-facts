@@ -1,0 +1,98 @@
+{
+  "slug": "crypto-swap-address-check",
+  "type": "article",
+  "title": "Crypto Swap Address Check Before Sending",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-address-check",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-address-check-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-kyc-crypto-swap-wallet-trace-risk",
+      "anchor": "wallet trace risk"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "expired crypto swap quote"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-chat-crypto-swap-privacy",
+      "anchor": "AI chat and crypto swap privacy"
+    }
+  ],
+  "keyQuestions": [
+    "How should a user check a crypto swap address before sending funds?",
+    "What is address poisoning in crypto and why does it matter before a swap?",
+    "Can clipboard malware change a copied wallet address before it is pasted?",
+    "Why are wrong-address mistakes different from wrong-network crypto swap mistakes?",
+    "Is checking only the first and last characters of a wallet address enough?",
+    "What proof should a user save after sending funds into a crypto swap route?",
+    "Does no KYC protect a user from wrong-address or wrong-network mistakes?"
+  ],
+  "quickSteps": [
+    "Copy the destination address only from the real receiving wallet or a previously verified address book.",
+    "Paste the address into the swap form and compare the beginning, middle, and end before continuing.",
+    "Verify the asset, network, amount, quote timer, and route deposit address as one complete route.",
+    "Save a narrow proof packet after sending: pair, amount, chain, TXID, time, route identifier, and destination address.",
+    "Stop and rebuild the route if the address, network, quote, or wallet context changes before broadcast."
+  ],
+  "issueRouting": {
+    "start": "The user is preparing to send funds into a crypto swap and needs to confirm that the address, network, and route are correct.",
+    "branches": [
+      {
+        "if": "The pasted address does not match the original wallet address",
+        "then": [
+          "Stop before sending funds.",
+          "Clear the clipboard and test whether copied text changes after pasting.",
+          "Use a cleaner browser profile, device, or wallet confirmation screen before rebuilding the route."
+        ]
+      },
+      {
+        "if": "The asset ticker looks correct but the network context is unclear",
+        "then": [
+          "Read the route as asset plus network, not ticker alone.",
+          "Confirm that the source wallet, network, fee asset, and route deposit address match.",
+          "Rebuild the swap route if the network or wallet context changed."
+        ]
+      },
+      {
+        "if": "Funds have already been sent and the route needs checking",
+        "then": [
+          "Save the TXID, chain, amount, time, pair, destination address, and route identifier.",
+          "Check the route status before taking another action.",
+          "Share only narrow public proof with support and never share seed phrases, private keys, backups, or remote access."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Transaction history is not a trusted address book because poisoned or fake entries can appear near real activity.",
+    "Checking only the first and last characters of an address is weak against lookalike address attacks.",
+    "Clipboard malware can replace a copied address after the user copies it but before the user sends funds.",
+    "The same ticker can represent different network contexts, especially with stablecoins such as USDT.",
+    "No KYC reduces account-level exposure, but it does not correct a wrong address, wrong network, or bad clipboard paste."
+  ]
+}
