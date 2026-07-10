@@ -1,0 +1,93 @@
+{
+  "slug": "crypto-swap-refund-address",
+  "type": "article",
+  "title": "Crypto Swap Refund Address: What to Prepare Before Sending",
+  "pageUrl": "https://etz-swap.com/blog/crypto-swap-refund-address",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-swap-refund-address-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "crypto swap quote expired"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-minimum-amount-guide",
+      "anchor": "crypto swap minimum amount"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "What is a crypto swap refund address?",
+    "When can a refund address become important during a crypto swap?",
+    "Can an exchange deposit address be used as a refund address?",
+    "What happens if the wrong refund address is provided?",
+    "Should a refund address use the same asset and network as the original deposit?",
+    "What proof should be shared with support if a refund is needed?"
+  ],
+  "quickSteps": [
+    "Prepare a refund address before sending if the source wallet cannot safely receive funds back.",
+    "Check the refund asset and network against the route details before copying any address.",
+    "Avoid custodial deposit addresses unless you understand the memo, tag, account, and crediting rules.",
+    "Save a small proof packet with transaction ID, amount, time, asset, network, and route details.",
+    "Stop and verify the route status before sending another transaction or changing the refund plan."
+  ],
+  "issueRouting": {
+    "start": "A crypto swap may need a refund because the route paused, expired, underfilled, used the wrong network, or could not complete the payout.",
+    "branches": [
+      {
+        "if": "The source transaction is not found or still pending.",
+        "then": [
+          "Check whether the wallet actually broadcast the transaction.",
+          "Verify the transaction on the correct source network.",
+          "Wait for confirmation before sending another transaction or changing the refund plan."
+        ]
+      },
+      {
+        "if": "The deposit confirmed but the route did not process normally.",
+        "then": [
+          "Review the route status and quote condition.",
+          "Check whether the amount, asset, network, and timing matched the route instructions.",
+          "Prepare a narrow proof packet before contacting support."
+        ]
+      },
+      {
+        "if": "Support requests a refund address.",
+        "then": [
+          "Use a wallet-controlled address for the correct refund asset and network.",
+          "Avoid old exchange deposit addresses unless memo, tag, and crediting rules are clear.",
+          "Share only the transaction ID, amount, asset, network, time sent, route identifier, and proposed refund address."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A destination address and a refund address may belong to different assets or networks.",
+    "Old exchange deposit addresses can create crediting problems because custodial platforms may rotate addresses or require memos and tags.",
+    "A wrong refund address can create a second recovery problem after the original route issue.",
+    "Sending another transaction before the first route is understood can make support review harder.",
+    "Support does not need seed phrases, private keys, wallet backups, remote access, or full wallet histories for a normal refund review."
+  ]
+}
