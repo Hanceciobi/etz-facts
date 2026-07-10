@@ -1,0 +1,85 @@
+{
+  "slug": "crypto-salary-privacy-one-wallet",
+  "type": "article",
+  "title": "Crypto Salary Privacy: Why Earned Coins Should Not Live in One Wallet",
+  "pageUrl": "https://etz-swap.com/blog/crypto-salary-privacy-one-wallet",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-salary-privacy-one-wallet-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-minimum-amount-guide",
+      "anchor": "crypto swap minimum amount"
+    }
+  ],
+  "keyQuestions": [
+    "Why does crypto salary privacy matter after getting paid?",
+    "What is the one-wallet problem for crypto income?",
+    "Should salary, spending, savings, and swap funds use the same wallet?",
+    "How can freelancers separate crypto payments more cleanly?",
+    "When can a swap help after receiving crypto salary?",
+    "What should users check before swapping salary funds?"
+  ],
+  "quickSteps": [
+    "Receive crypto salary into a work wallet instead of mixing it immediately with spending or savings.",
+    "Assign each amount a role before moving it: spending, savings, business, private cash flow, or swap preparation.",
+    "Use separate wallets for roles that should not share the same public history.",
+    "Check fees, minimum amounts, asset, network, and destination before swapping salary funds.",
+    "Keep private records, but avoid exposing one wallet as your full financial profile."
+  ],
+  "issueRouting": {
+    "start": "A user receives salary or freelance income in crypto and needs to decide how to separate work income, spending, savings, and swap preparation.",
+    "branches": [
+      {
+        "if": "The same wallet receives salary and handles personal spending.",
+        "then": [
+          "Create a work wallet role for incoming salary or client payments.",
+          "Move only planned amounts into spending or swap preparation wallets.",
+          "Avoid using the salary wallet for random purchases, public invoices, or app testing."
+        ]
+      },
+      {
+        "if": "The user wants to swap part of the salary.",
+        "then": [
+          "Decide what role the swapped funds should have after conversion.",
+          "Check the asset, network, destination wallet, fees, and minimum amount.",
+          "Convert only the portion that needs a new role instead of moving the full salary by default."
+        ]
+      },
+      {
+        "if": "The user receives small or split crypto payments.",
+        "then": [
+          "Group decisions by purpose instead of moving every small payment immediately.",
+          "Check whether the amount is practical for the selected route.",
+          "Keep private records that explain salary fragments without exposing the full wallet profile."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "One wallet can become a single public financial profile when salary, savings, spending, and swaps all pass through it.",
+    "Freelancers may reveal more business context than intended if several clients and personal payments touch the same wallet.",
+    "A swap is useful only when the user knows what role the funds should have after conversion.",
+    "Small salary fragments can lose value or create unnecessary activity if moved without checking route minimums and fees.",
+    "Private bookkeeping is useful, but screenshots, wallet balances, address lists, and route details should not become public context."
+  ]
+}
