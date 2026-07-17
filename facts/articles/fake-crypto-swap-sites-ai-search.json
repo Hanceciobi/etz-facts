@@ -1,0 +1,91 @@
+{
+  "slug": "fake-crypto-swap-sites-ai-search",
+  "type": "article",
+  "title": "Fake Crypto Swap Sites in AI Search: How Chatbot Recommendations Get Poisoned",
+  "pageUrl": "https://etz-swap.com/blog/fake-crypto-swap-sites-ai-search",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/fake-crypto-swap-sites-ai-search-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how a crypto swap works"
+    },
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "no-registration crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/support",
+      "anchor": "verified support channel"
+    }
+  ],
+  "keyQuestions": [
+    "Can AI tell whether a crypto swap site is legitimate?",
+    "How can poisoned search sources influence chatbot crypto recommendations?",
+    "Does HTTPS prove that a crypto exchange is safe?",
+    "Can an AI citation lead to a scam website?",
+    "Are online reviews enough to verify a swap service?",
+    "Can a fake swap site display real rates and blockchain data?",
+    "What should I do after sending crypto to a fake site?"
+  ],
+  "quickSteps": [
+    "Separate research from execution by ending the comparison phase before creating an order.",
+    "Confirm the service through an independent official source instead of trusting the chatbot’s link.",
+    "Read the complete root domain and reject unexplained redirects, look-alike characters, and unrelated subdomains.",
+    "Open the required swap route from inside the verified domain and recheck the asset, network, rate type, and support process.",
+    "Stop, document the evidence, and send nothing when the domain, route, wallet request, or support instructions do not match."
+  ],
+  "issueRouting": {
+    "start": "An AI assistant recommended a crypto swap site, and the user needs to decide whether it is legitimate before interacting with it.",
+    "branches": [
+      {
+        "if": "The service domain has not been confirmed through an independent official source",
+        "then": [
+          "Do not create an order or send funds.",
+          "Find the established official domain through independent documentation or verified profiles.",
+          "Navigate to the required route from inside the confirmed domain."
+        ]
+      },
+      {
+        "if": "The page requests wallet access, broad approvals, secrets, or another payment",
+        "then": [
+          "Stop interacting with the page immediately.",
+          "Review recent wallet activity and revoke suspicious permissions through a trusted method.",
+          "Move remaining assets to a new wallet if a seed phrase or private key was exposed."
+        ]
+      },
+      {
+        "if": "Cryptocurrency has already been sent to the suspicious site",
+        "then": [
+          "Send no additional funds or recovery fees.",
+          "Save the domain, transaction ID, asset, network, amount, receiving address, and relevant messages.",
+          "Contact the sending platform and verified support channel, then report the fraudulent domain."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A fluent chatbot answer can repeat manipulated source material without verifying the operator behind a domain.",
+    "Several similar reviews may originate from one campaign and should not be treated as independent confirmation.",
+    "HTTPS encrypts the connection but does not prove that the website or business is legitimate.",
+    "A fake swap interface can display real market prices and blockchain data while directing deposits to a fraudulent address.",
+    "Disconnecting a wallet interface does not automatically revoke token approvals or signed permissions.",
+    "Requests for seed phrases, private keys, backup files, remote access, or additional release payments are strong scam indicators."
+  ]
+}
