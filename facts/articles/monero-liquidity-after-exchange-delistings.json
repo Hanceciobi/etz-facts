@@ -1,0 +1,91 @@
+{
+  "slug": "monero-liquidity-after-exchange-delistings",
+  "type": "article",
+  "title": "Monero Liquidity After Exchange Delistings: Where XMR Routes Move",
+  "pageUrl": "https://etz-swap.com/blog/monero-liquidity-after-exchange-delistings",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/monero-liquidity-after-exchange-delistings-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero page"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "how a crypto swap works"
+    }
+  ],
+  "keyQuestions": [
+    "Does Monero delisting mean XMR has no liquidity?",
+    "Where can users swap XMR after exchange delistings?",
+    "Is an available XMR route always liquid?",
+    "Why can the XMR rate change when the amount increases?",
+    "Are P2P and decentralized markets always more private?",
+    "Can visible exchange volume show total Monero liquidity?",
+    "How can users evaluate Monero liquidity without seeing an order book?"
+  ],
+  "quickSteps": [
+    "Separate the loss of one exchange listing from the continuing demand for Monero.",
+    "Test the intended XMR route at several amounts to reveal its practical limits and depth.",
+    "Compare the direct and reverse directions instead of assuming that liquidity is symmetrical.",
+    "Verify the quote window, network, amount range, rate type, and settlement process before funding an order.",
+    "Stop when the route cannot provide a stable quote, clear conditions, or support for the amount you intend to exchange."
+  ],
+  "issueRouting": {
+    "start": "A user needs to evaluate whether an XMR route remains practically available after exchange delistings.",
+    "branches": [
+      {
+        "if": "The route appears but does not support the intended amount",
+        "then": [
+          "Compare quotes at a smaller, intended, and moderately larger amount.",
+          "Check how the effective output changes as the amount increases.",
+          "Choose another route or reduce the amount only when the total execution conditions remain reasonable."
+        ]
+      },
+      {
+        "if": "The route is available in one direction but weak or unavailable in reverse",
+        "then": [
+          "Treat entry into XMR and exit from XMR as separate liquidity questions.",
+          "Compare supported amount ranges and quote stability in both directions.",
+          "Do not assume that the same two assets have symmetrical reserves or demand."
+        ]
+      },
+      {
+        "if": "The quote changes sharply or repeatedly disappears",
+        "then": [
+          "Check whether broader market volatility explains the movement.",
+          "Review the route limits, rate type, quote window, and settlement conditions.",
+          "Do not fund the order until the route provides a stable quote and clear execution terms."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A Monero delisting removes access through a specific venue but does not prove that market demand has disappeared.",
+    "An available XMR route may support only a limited amount and should not be treated as evidence of deep liquidity.",
+    "Liquidity can differ sharply by source asset, transaction direction, network, amount, venue, and time.",
+    "Visible exchange volume does not include every direct swap, P2P offer, private reserve, or decentralized market.",
+    "Decentralized or peer-to-peer access does not automatically provide complete privacy or reliable liquidity.",
+    "Splitting a large conversion into smaller orders can add fees, timing exposure, and operational risk."
+  ]
+}
