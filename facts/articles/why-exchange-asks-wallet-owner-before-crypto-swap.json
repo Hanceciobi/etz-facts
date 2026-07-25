@@ -1,0 +1,95 @@
+{
+  "slug": "why-exchange-asks-wallet-owner-before-crypto-swap",
+  "type": "article",
+  "title": "Why Does an Exchange Ask Who Owns the Wallet Before a Crypto Swap?",
+  "pageUrl": "https://etz-swap.com/blog/why-exchange-asks-wallet-owner-before-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/why-exchange-asks-wallet-owner-before-crypto-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-exchange-without-registration",
+      "anchor": "crypto exchange without registration"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT to SOL route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/blog/xmr-after-kyc-source-privacy-limits",
+      "anchor": "XMR after a KYC-linked source"
+    }
+  ],
+  "keyQuestions": [
+    "Why does an exchange ask who owns the destination wallet?",
+    "Is a crypto swap deposit address considered a personal wallet?",
+    "Does a wallet ownership question mean the swap requires KYC?",
+    "How should a service-controlled swap deposit address be classified?",
+    "What verification methods can prove control of a self-custody wallet?",
+    "Can wallet verification or address whitelisting make a swap quote expire?",
+    "Should funds be withdrawn to a personal wallet before opening a swap order?"
+  ],
+  "quickSteps": [
+    "Classify the destination as your wallet, another person's wallet, or a service-controlled address before opening the withdrawal form.",
+    "Verify the source platform's beneficiary and wallet ownership requirements before creating a time-sensitive swap order.",
+    "Select the destination category accurately and never claim control of private keys you do not hold.",
+    "Complete only the official verification method that matches the destination type, without sharing wallet secrets.",
+    "Create a fresh swap order and send funds only after the withdrawal path, network, amount, and address are ready."
+  ],
+  "issueRouting": {
+    "start": "The source platform asks who owns the destination address before releasing a crypto withdrawal.",
+    "branches": [
+      {
+        "if": "The destination is a self-custody wallet controlled by the user",
+        "then": [
+          "Select the personal or self-hosted wallet category.",
+          "Complete the platform's official proof-of-control method if requested.",
+          "Confirm that the verification request does not include token approvals or unrelated contract actions."
+        ]
+      },
+      {
+        "if": "The destination belongs to another person or a hosted account",
+        "then": [
+          "Choose the beneficiary or hosted-provider category that matches the destination.",
+          "Provide the requested beneficiary or receiving-platform information accurately.",
+          "Do not enter the sender's details as the wallet owner unless they are also the real beneficiary."
+        ]
+      },
+      {
+        "if": "The destination is a temporary address issued by a crypto swap service",
+        "then": [
+          "Classify it as a service-controlled, hosted, business, or other-provider address when an accurate option exists.",
+          "Use the receiving service's real name if the withdrawal form requests it.",
+          "Ask the source platform's official support for classification guidance if no available option describes the address."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Creating a swap order does not give the user private-key control of the service's deposit address.",
+    "A proof-of-control request may be impossible for a temporary address operated by the receiving swap service.",
+    "Manual review, address whitelisting, or a cooling-off period can outlast a time-sensitive swap quote.",
+    "Old deposit addresses should not be reused because a new order may have different route, amount, memo, or address requirements.",
+    "Wallet ownership verification never requires a seed phrase, private key, keystore file, backup, or remote device access.",
+    "A no-registration swap does not erase identity and withdrawal records already retained by the source exchange."
+  ]
+}
