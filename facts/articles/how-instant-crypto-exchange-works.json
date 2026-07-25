@@ -1,0 +1,111 @@
+{
+  "slug": "how-instant-crypto-exchange-works",
+  "type": "article",
+  "title": "How Does an Instant Crypto Exchange Work? From Quote to Wallet Payout",
+  "pageUrl": "https://etz-swap.com/blog/how-instant-crypto-exchange-works",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/how-instant-crypto-exchange-works-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/non-custodial-crypto-swap",
+      "anchor": "non-custodial crypto exchange"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "expired crypto swap quote"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-minimum-amount-guide",
+      "anchor": "crypto swap minimum amount"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT to SOL route"
+    }
+  ],
+  "keyQuestions": [
+    "How does an instant crypto exchange work from deposit to payout?",
+    "What is the difference between an instant crypto exchange and an account-based exchange?",
+    "Where does a crypto exchange get the destination asset for a payout?",
+    "Why can the final crypto swap amount differ from the original quote?",
+    "Does an instant crypto exchange temporarily hold the user's funds?",
+    "Why can a crypto swap route become unavailable?",
+    "What proves that a crypto swap was completed?"
+  ],
+  "quickSteps": [
+    "Define the exact source asset, destination asset, networks, and amount before creating the order.",
+    "Compare the expected wallet payout, quote type, limits, and timing conditions before sending.",
+    "Verify the deposit instructions and destination address character by character.",
+    "Track the source deposit, exchange status, and destination payout as separate stages.",
+    "Stop and investigate whenever the blockchain facts do not match the order details."
+  ],
+  "issueRouting": {
+    "start": "Which stage of the instant crypto exchange process does not match the expected order flow?",
+    "branches": [
+      {
+        "if": "The source deposit is not detected or confirmed",
+        "then": [
+          "Check the source transaction identifier on the correct blockchain.",
+          "Verify the asset, network, amount, and deposit address against the order.",
+          "Do not send another payment until the first transaction status is clear."
+        ]
+      },
+      {
+        "if": "The exchange is processing but the payout has not been broadcast",
+        "then": [
+          "Review the quote type, confirmation requirements, and route status.",
+          "Check whether liquidity, network maintenance, or amount limits are affecting execution.",
+          "Use the order identifier or secret tracking token when contacting official support."
+        ]
+      },
+      {
+        "if": "The payout was sent but has not appeared in the destination wallet",
+        "then": [
+          "Check the payout transaction on the destination network.",
+          "Verify the destination address, asset, network, amount, and confirmation status.",
+          "Wait for the required destination confirmations before treating the payout as missing."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A wallet status showing sent does not prove that a deposit has reached the required confirmation level.",
+    "Sending the correct ticker on the wrong network can prevent automatic processing.",
+    "A fixed quote protects the expected result only when its amount and timing conditions are followed.",
+    "An instant exchange temporarily controls the deposited funds while executing the conversion and payout.",
+    "Route availability can change because of liquidity, reserve, provider, wallet, or network conditions.",
+    "The source deposit and destination payout are separate blockchain transactions with separate statuses."
+  ]
+}
