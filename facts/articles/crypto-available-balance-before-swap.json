@@ -1,0 +1,95 @@
+{
+  "slug": "crypto-available-balance-before-swap",
+  "type": "article",
+  "title": "Available Balance vs Total Balance Before a Crypto Swap: Why You Cannot Send the Full Amount",
+  "pageUrl": "https://etz-swap.com/blog/crypto-available-balance-before-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-available-balance-before-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "Crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-minimum-amount-guide",
+      "anchor": "crypto swap minimum amount guide"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Why is my crypto available balance lower than my total balance?",
+    "Why does my wallet show a balance but say insufficient funds?",
+    "Can I send my entire crypto balance to a swap?",
+    "Why can I not send USDT even though I have enough USDT?",
+    "How do network fees reduce the maximum sendable amount?",
+    "Should I use the wallet's send-max button before creating a swap order?",
+    "What happens if the wallet sends less than the swap order expects?"
+  ],
+  "quickSteps": [
+    "Open the source wallet's send screen and identify the current available balance instead of relying on the portfolio total.",
+    "Reserve enough native coin for the network fee, especially when the source asset is a token.",
+    "Exclude pending, staked, locked, collateralized, and platform-restricted funds from the planned deposit.",
+    "Check the route minimum and create the swap order only after the exact sendable amount is known.",
+    "Verify the final amount, network, address, and fee once more, then stop if the wallet cannot send the order amount exactly."
+  ],
+  "issueRouting": {
+    "start": "The wallet displays enough cryptocurrency, but the user cannot send the full amount required by the swap order.",
+    "branches": [
+      {
+        "if": "The source asset pays its own network fee",
+        "then": [
+          "Open the send screen and check the current maximum sendable amount.",
+          "Leave enough of the source asset to cover the network fee.",
+          "Create a fresh swap order using the amount the wallet can send exactly."
+        ]
+      },
+      {
+        "if": "The source asset is a token that requires a separate native coin for gas",
+        "then": [
+          "Confirm the exact token network.",
+          "Identify the native asset used to pay that network's fee.",
+          "Add enough of the correct native coin before creating the swap order."
+        ]
+      },
+      {
+        "if": "Part of the displayed balance is pending, staked, locked, reserved, or restricted",
+        "then": [
+          "Identify which part of the balance is currently transferable.",
+          "Complete any confirmation, unlock, unstaking, claim, or platform-release process.",
+          "Wait until the funds appear in the available balance before creating the quote."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The portfolio balance may include funds that cannot currently be transferred.",
+    "Sending the full displayed balance can fail when the network fee is paid from the same asset.",
+    "A token transfer may be impossible when the wallet has no native coin for gas.",
+    "Unconfirmed transactions and pending change can temporarily reduce the safe spendable balance.",
+    "A source-network reserve is different from the minimum deposit accepted by the swap route.",
+    "If the wallet sends less than the order expects, the swap may be delayed, repriced, reviewed, or treated as an underpayment."
+  ]
+}
