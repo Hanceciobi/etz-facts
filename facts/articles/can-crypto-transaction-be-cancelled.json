@@ -1,0 +1,97 @@
+{
+  "slug": "can-crypto-transaction-be-cancelled",
+  "type": "article",
+  "title": "Can a Crypto Transaction Be Cancelled or Reversed? What Changes Before and After Broadcast",
+  "pageUrl": "https://etz-swap.com/blog/can-crypto-transaction-be-cancelled",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/can-crypto-transaction-be-cancelled-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check before sending"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "crypto swap route status"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-refund-address",
+      "anchor": "crypto swap refund address"
+    }
+  ],
+  "keyQuestions": [
+    "Can a crypto transaction be reversed?",
+    "Can I cancel a Bitcoin transaction?",
+    "Does pending mean the transfer can still be canceled?",
+    "Can a Bitcoin transaction be reversed after confirmation?",
+    "What should I do if I sent crypto to the wrong address?",
+    "Can support cancel a confirmed crypto transfer?"
+  ],
+  "quickSteps": [
+    "Identify whether the action is still inside a platform, stored locally, pending in a mempool, or confirmed in a block.",
+    "Verify the TXID on an explorer for the correct network before attempting any cancellation or replacement.",
+    "Use only the platform’s official cancel option or the wallet’s supported RBF, speed-up, or same-nonce replacement controls.",
+    "Avoid duplicate sends, random fee changes, CPFP cancellation attempts, and anyone requesting wallet secrets.",
+    "Confirm the final on-chain result, document the transaction details, and contact the recipient or official service only when a confirmed transfer requires recovery cooperation."
+  ],
+  "issueRouting": {
+    "start": "Can the crypto transfer still be stopped, replaced, or recovered?",
+    "branches": [
+      {
+        "if": "The withdrawal is still waiting inside a custodial platform and no confirmed network transaction is visible.",
+        "then": [
+          "Open the withdrawal details and use the platform’s official cancellation option if it is available.",
+          "Contact official platform support immediately and ask whether the withdrawal has been signed or broadcast.",
+          "Confirm the final status before submitting another withdrawal."
+        ]
+      },
+      {
+        "if": "The transaction was created or signed but has not been broadcast to the network.",
+        "then": [
+          "Stop the wallet or signing process before the transaction is transmitted.",
+          "Discard the local transaction only after confirming that no other device or service received the signed data.",
+          "Check the TXID on reputable explorers for the correct network."
+        ]
+      },
+      {
+        "if": "The transaction is visible in a mempool but remains unconfirmed.",
+        "then": [
+          "Use only wallet-supported RBF, cancellation, speed-up, or same-nonce replacement controls.",
+          "Do not use CPFP when the goal is cancellation because CPFP is designed to accelerate confirmation.",
+          "Track both the original and replacement transaction IDs until the final result is confirmed."
+        ]
+      },
+      {
+        "if": "The transaction has already been confirmed in a blockchain block.",
+        "then": [
+          "Identify who controls the receiving address.",
+          "Contact the recipient or official receiving service and request a return through a new transaction.",
+          "Never share a seed phrase, private key, wallet backup, or remote device access with anyone offering recovery."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A Pending label may describe an internal platform request, a local wallet action, or a transaction already circulating through network mempools.",
+    "A replacement attempt is a race and cannot guarantee that the original transaction will not confirm first.",
+    "CPFP does not cancel the parent transaction and may cause the unwanted transfer to confirm sooner.",
+    "Closing a swap page or allowing an order to expire does not reverse a deposit that has already been broadcast.",
+    "Recovery after confirmation depends on the holder of the destination private key or the receiving service, not on a blockchain undo button."
+  ]
+}
