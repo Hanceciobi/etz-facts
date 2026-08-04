@@ -1,0 +1,95 @@
+{
+  "slug": "why-token-cannot-be-sold",
+  "type": "article",
+  "title": "Why Can You Buy a Token but Not Sell It? Honeypots, Transfer Taxes, and Contract Limits",
+  "pageUrl": "https://etz-swap.com/blog/why-token-cannot-be-sold",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/why-token-cannot-be-sold-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/ai-token-explanations-before-crypto-swap",
+      "anchor": "AI token checks before a crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/token-approvals-and-permit2-how-wallets-get-drained-after-a-harmless-approve",
+      "anchor": "Permit2 and token approval safety"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/how-instant-crypto-exchange-works",
+      "anchor": "how an instant crypto exchange works"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Why can a token be bought but not sold?",
+    "How does a honeypot token block ordinary holders from selling?",
+    "Can a high sell tax make a token effectively unsellable?",
+    "How can blacklists, whitelists, or transaction limits prevent a sale?",
+    "Will increasing slippage allow an unsellable token to be sold?",
+    "Why can a wallet show a token price when there is no usable exit?",
+    "How can a user distinguish a malicious token restriction from a gas, approval, liquidity, or network problem?"
+  ],
+  "quickSteps": [
+    "Confirm the exact token contract and network before changing settings or sending another transaction.",
+    "Separate token restrictions from approval, gas, liquidity, slippage, amount, and service-support problems.",
+    "Inspect failed transactions, recent sales, administrative powers, fees, pause controls, and upgrade history.",
+    "Stop buying, avoid recovery links, and revoke unnecessary approvals created during failed attempts.",
+    "Proceed only when the route supports the exact asset and the expected output remains reasonable; otherwise document the case and stop."
+  ],
+  "issueRouting": {
+    "start": "The token appears in the wallet, but a sale, transfer, or swap does not complete.",
+    "branches": [
+      {
+        "if": "The token cannot be transferred to another ordinary wallet",
+        "then": [
+          "Confirm the exact contract address and network.",
+          "Inspect the contract for blacklist, whitelist, pause, fee, transaction-limit, and upgrade controls.",
+          "Stop further purchases and document the failed transaction."
+        ]
+      },
+      {
+        "if": "Wallet-to-wallet transfers work but the swap fails",
+        "then": [
+          "Check token approval, native gas balance, slippage settings, amount limits, and route support.",
+          "Review the failed transaction and available liquidity.",
+          "Use only a service that supports the exact token contract and network."
+        ]
+      },
+      {
+        "if": "The sale technically works but the expected output is extremely low",
+        "then": [
+          "Separate the token sell tax from network fees, price impact, and service pricing.",
+          "Check whether the fee can be changed by an owner or administrator.",
+          "Do not proceed when the expected result is unreasonable."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A successful purchase does not prove that ordinary holders can sell the token.",
+    "A displayed token price does not guarantee usable liquidity or permission to exit.",
+    "Extreme slippage cannot bypass a blacklist, paused transfer state, hard contract restriction, or missing liquidity.",
+    "Verified source code does not guarantee fair logic, safe administration, or a stable sell tax.",
+    "Sending an unsupported contract token to an exchange or swap deposit address can create a separate recovery problem.",
+    "Fake unlock, migration, verification, and guaranteed recovery offers may target users who already hold unsellable tokens."
+  ]
+}
