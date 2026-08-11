@@ -1,0 +1,95 @@
+{
+  "slug": "what-happens-if-crypto-wallet-app-closes",
+  "type": "article",
+  "title": "What Happens to Your Crypto If a Wallet App Closes or Your Hardware Wallet Breaks?",
+  "pageUrl": "https://etz-swap.com/blog/what-happens-if-crypto-wallet-app-closes",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/what-happens-if-crypto-wallet-app-closes-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/seed-phrase-storage-icloud-google-drive-password-manager",
+      "anchor": "seed phrase storage"
+    },
+    {
+      "url": "https://etz-swap.com/blog/do-crypto-wallet-deposit-addresses-expire",
+      "anchor": "wallet and deposit address expiration"
+    },
+    {
+      "url": "https://etz-swap.com/blog/non-custodial-crypto-swap",
+      "anchor": "non-custodial crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-without-app-download",
+      "anchor": "crypto swap without app download"
+    }
+  ],
+  "keyQuestions": [
+    "What happens if a crypto wallet shuts down?",
+    "What if my hardware wallet breaks?",
+    "Can I recover crypto in another wallet?",
+    "Is crypto stored inside a hardware wallet?",
+    "What if I lose both my hardware wallet and recovery phrase?",
+    "What if my wallet app disappears from the app store?",
+    "Does deleting a wallet app delete my crypto?"
+  ],
+  "quickSteps": [
+    "Identify whether the wallet is self-custodial or custodial before deciding which recovery model applies.",
+    "Verify that your recovery phrase, passphrase, and other required backup information are complete before the current device fails.",
+    "Restore only through a trusted compatible wallet or replacement device and confirm the expected accounts before making new transactions.",
+    "Move funds to a newly backed-up wallet while access still works if your original backup is missing, damaged, or potentially exposed.",
+    "Confirm that both source and destination wallets are recoverable before using them in a wallet-to-wallet crypto swap."
+  ],
+  "issueRouting": {
+    "start": "What should you do if your wallet app disappears, hardware wallet breaks, or wallet access becomes uncertain?",
+    "branches": [
+      {
+        "if": "The device or wallet app is unavailable but you still have a valid recovery backup",
+        "then": [
+          "Use a trusted compatible wallet or replacement device.",
+          "Restore the wallet with the correct recovery phrase, passphrase, and account settings.",
+          "Confirm the expected addresses and balances before making new transactions."
+        ]
+      },
+      {
+        "if": "The recovery phrase is missing but the original wallet still works",
+        "then": [
+          "Create a new wallet with a new verified backup.",
+          "Move the assets while the old wallet can still sign transactions.",
+          "Stop relying on the original wallet as a single point of failure."
+        ]
+      },
+      {
+        "if": "Both wallet access and all valid recovery information are gone",
+        "then": [
+          "Check carefully for any legitimate remaining backup or key copy.",
+          "Do not share sensitive information with people promising private-key recovery.",
+          "Recognize that a normal self-custody wallet has no central reset mechanism for an unknown private key."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A hardware wallet protects private keys; the cryptocurrency itself is recorded on the blockchain rather than stored inside the device.",
+    "A recovery phrase accepted by another wallet may still show different accounts if the passphrase, derivation path, network, or account type does not match.",
+    "Entering a hardware-wallet recovery phrase into an internet-connected software wallet changes the security model and may expose the backup.",
+    "If the wallet still works but the recovery phrase is missing, device failure can turn current access into permanent loss of control.",
+    "Custodial wallet recovery depends on the provider because the user may not control the blockchain private keys.",
+    "A swap service cannot reconstruct a lost self-custody seed phrase after funds have been sent to the destination wallet."
+  ]
+}
