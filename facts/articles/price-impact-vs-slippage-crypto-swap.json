@@ -1,0 +1,83 @@
+{
+  "slug": "price-impact-vs-slippage-crypto-swap",
+  "type": "article",
+  "title": "Price Impact vs Slippage Before a Crypto Swap: Why the Expected Amount Changes",
+  "pageUrl": "https://etz-swap.com/blog/price-impact-vs-slippage-crypto-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/price-impact-vs-slippage-crypto-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "crypto swap quote expires"
+    }
+  ],
+  "keyQuestions": [
+    "What is the difference between price impact and slippage in a crypto swap?",
+    "Is slippage the same as a fee?",
+    "Is price impact the same as spread?",
+    "Does increasing slippage tolerance improve my rate?",
+    "Can a small crypto swap have high price impact?",
+    "Why did I receive less crypto than the quote showed?",
+    "Does a fixed-rate swap remove price impact?"
+  ],
+  "quickSteps": [
+    "Compare the executable swap quote with the market reference price instead of assuming they should be identical.",
+    "Check whether your amount is large relative to available liquidity before blaming later market movement.",
+    "Separate spread, price impact, slippage, and network fees when explaining a lower receiving amount.",
+    "Confirm whether the route uses a fixed or floating quote and check the quote validity before sending funds.",
+    "Compare the final executed amount with the last valid estimate, and stop to investigate if the difference does not match the stated quote conditions."
+  ],
+  "issueRouting": {
+    "start": "Why is the expected or received amount different from the market value or earlier swap estimate?",
+    "branches": [
+      {
+        "if": "The first executable quote is already below the reference market value.",
+        "then": [
+          "Check the spread and actual executable route price.",
+          "Check whether the swap amount is large relative to available liquidity and may create price impact.",
+          "Separate visible route costs and network-related costs from market execution effects."
+        ]
+      },
+      {
+        "if": "The estimated receiving amount changes after the initial quote.",
+        "then": [
+          "Check whether the swap uses a floating-rate quote.",
+          "Compare the latest executable estimate with the earlier estimate to identify market or liquidity movement.",
+          "Check whether the original quote is still within its validity conditions."
+        ]
+      },
+      {
+        "if": "The final received amount differs from the last valid expected amount.",
+        "then": [
+          "Compare the final execution details with the last valid quote.",
+          "Check separately for slippage, quote repricing, and blockchain network costs.",
+          "Stop and investigate if the difference does not match the stated fixed or floating quote conditions."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A higher slippage tolerance does not guarantee a better execution price and permits a wider range of unfavorable outcomes.",
+    "A large swap can create substantial price impact even when the external market price does not move.",
+    "A small swap can still have high price impact when liquidity is unusually shallow.",
+    "Spread, price impact, slippage, and network fees can affect the same swap but represent different mechanisms.",
+    "A market-price website may show a reference value that is not directly executable for the requested amount.",
+    "An expired fixed quote may require a fresh quote even if the previously displayed rate looked favorable."
+  ]
+}
