@@ -1,0 +1,82 @@
+{
+  "slug": "token-balance-no-price-in-crypto-wallet",
+  "type": "article",
+  "title": "Why Does a Crypto Wallet Show Tokens With No Price? Low Liquidity, Fake Assets, and Missing Market Data",
+  "pageUrl": "https://etz-swap.com/blog/token-balance-no-price-in-crypto-wallet",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/token-balance-no-price-in-crypto-wallet-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-dusting-before-crypto-swap",
+      "anchor": "crypto dusting before a swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-token-explanations-before-crypto-swap",
+      "anchor": "AI token checks before a crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/why-token-cannot-be-sold",
+      "anchor": "why a token can be bought but not sold"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-available-balance-before-swap",
+      "anchor": "available balance versus total balance"
+    }
+  ],
+  "keyQuestions": [
+    "Why does my wallet show a token but no price?",
+    "Does no price mean the token is worthless?",
+    "Can I swap a token if my wallet shows no fiat value?",
+    "Why does one wallet show a price while another does not?",
+    "Is a token with no price a scam?",
+    "What should I do with an unknown token that appeared by itself?"
+  ],
+  "quickSteps": [
+    "Verify the token's exact contract address and network before trusting its name, ticker, logo, or displayed balance.",
+    "Confirm the token quantity on the relevant blockchain explorer so you can separate an on-chain balance from a wallet display problem.",
+    "Check whether the exact token has credible liquidity, recent market activity, and enough depth for the amount you would realistically want to exchange.",
+    "Request a modest quote from a trusted interface before signing anything, and keep missing portfolio pricing separate from actual swap execution.",
+    "Stop if the token is unsolicited, the market evidence does not match the claimed value, or interacting with it requires suspicious websites, permissions, payments, or wallet secrets."
+  ],
+  "issueRouting": {
+    "start": "Your wallet shows a token balance but no reliable fiat price. What should you check next?",
+    "branches": [
+      {
+        "if": "The token contract and network are verified, but the wallet shows no price.",
+        "then": [
+          "Check whether the exact token has credible liquidity and recent swap activity.",
+          "Compare market coverage across trusted data sources or wallet interfaces.",
+          "Request a modest quote from a trusted interface without signing the transaction."
+        ]
+      },
+      {
+        "if": "The token is new or has very low liquidity or swap volume.",
+        "then": [
+          "Confirm that the contract matches the intended asset.",
+          "Check whether enough market depth exists for the amount you may want to exchange.",
+          "Treat a missing wallet valuation as incomplete market data rather than automatic proof of zero value."
+        ]
+      },
+      {
+        "if": "The token appeared unexpectedly or its identity cannot be verified.",
+        "then": [
+          "Avoid suspicious websites, approval requests, activation payments, and recovery requests.",
+          "Verify the contract independently before interacting with the asset.",
+          "Leave or hide the token if the available evidence does not establish a legitimate market and purpose."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A visible token balance does not prove that a liquid market exists for the asset.",
+    "A missing fiat price does not automatically mean that a token is worthless or fraudulent.",
+    "Token names, tickers, and logos can be copied, so contract address and network should be verified independently.",
+    "A displayed market value or quote does not prove that the entire token balance can be sold at that rate.",
+    "Unsolicited tokens can be spam or bait for malicious websites, approvals, or fake activation requests.",
+    "Never enter a recovery phrase, private key, or backup to reveal, activate, price, or sell a token."
+  ]
+}
