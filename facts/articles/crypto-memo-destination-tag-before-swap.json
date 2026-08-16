@@ -1,0 +1,86 @@
+{
+  "slug": "crypto-memo-destination-tag-before-swap",
+  "type": "article",
+  "title": "Crypto Memo and Destination Tag Before a Swap: What Happens If You Leave It Out?",
+  "pageUrl": "https://etz-swap.com/blog/crypto-memo-destination-tag-before-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/crypto-memo-destination-tag-before-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/how-instant-crypto-exchange-works",
+      "anchor": "how an instant crypto exchange works"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/sent-on-wrong-network-recovery-realistic-steps",
+      "anchor": "wrong-network crypto recovery"
+    },
+    {
+      "url": "https://etz-swap.com/blog/do-crypto-wallet-deposit-addresses-expire",
+      "anchor": "whether crypto wallet and deposit addresses expire"
+    },
+    {
+      "url": "https://etz-swap.com/blog/can-crypto-transaction-be-cancelled",
+      "anchor": "whether a crypto transaction can be cancelled or reversed"
+    }
+  ],
+  "keyQuestions": [
+    "What is a memo in a crypto transfer?",
+    "What is a destination tag in crypto?",
+    "What happens if I forgot the XRP destination tag?",
+    "What happens if an XLM memo is missing?",
+    "Can I reverse a confirmed crypto deposit that was sent without a memo?",
+    "Do self-custody wallets need a memo or destination tag?"
+  ],
+  "quickSteps": [
+    "Read the current receiving instructions and identify whether the asset requires a memo, destination tag, or other routing field.",
+    "Copy the address and required memo or tag as one complete deposit instruction instead of relying on saved or remembered details.",
+    "Verify the asset, network, address, and routing field before approving the transaction, including fields populated through a QR code.",
+    "Confirm the TXID and on-chain destination first if the deposit does not appear, then determine whether the problem is a missing memo, wrong network, or another deposit condition.",
+    "Contact the receiving platform through its official support process if a required memo or tag was omitted, and never share wallet secrets or pay strangers promising to reverse a confirmed transfer."
+  ],
+  "issueRouting": {
+    "start": "A crypto deposit is confirmed on-chain but has not appeared in the receiving account. What should you check?",
+    "branches": [
+      {
+        "if": "The correct address and network were used, but a required memo or destination tag was missing or incorrect.",
+        "then": [
+          "Verify the TXID, amount, destination address, and the memo or tag that should have been used.",
+          "Do not send another transaction in an attempt to repair the first deposit.",
+          "Contact the receiving platform through its official support process and provide the requested transaction evidence."
+        ]
+      },
+      {
+        "if": "The transfer was sent on a different network from the one the receiving platform required.",
+        "then": [
+          "Confirm the actual network used by inspecting the transaction.",
+          "Separate the issue from a missing-memo problem because the recovery path is different.",
+          "Follow the receiving platform's wrong-network recovery procedure if one is available."
+        ]
+      },
+      {
+        "if": "The transaction is not yet confirmed or cannot be found on the expected blockchain.",
+        "then": [
+          "Check the transaction status before assuming the memo or tag caused the problem.",
+          "Verify the asset, network, destination, and TXID in the relevant blockchain explorer.",
+          "Wait for the transaction state to become clear before taking another action."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A correct blockchain address may still be incomplete when the receiving platform also requires a memo or destination tag.",
+    "A confirmed transaction can reach a shared service address without being automatically credited to the intended customer account.",
+    "A wrong memo or destination tag can create the same attribution problem as leaving the field empty.",
+    "Memo and destination tag requirements depend on the receiving platform, so old screenshots or remembered deposit details should not be treated as current instructions.",
+    "A missing memo is different from sending funds on the wrong network and may require a different recovery process.",
+    "Never share a seed phrase, private key, or wallet backup with anyone claiming they can recover a missing-memo deposit."
+  ]
+}
