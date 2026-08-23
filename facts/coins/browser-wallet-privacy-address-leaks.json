@@ -1,0 +1,91 @@
+{
+  "slug": "browser-wallet-privacy-address-leaks",
+  "type": "article",
+  "title": "Browser Wallet Privacy: Can Your Crypto Addresses Leak Without a Transaction?",
+  "pageUrl": "https://etz-swap.com/blog/browser-wallet-privacy-address-leaks",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/browser-wallet-privacy-address-leaks-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+      "anchor": "block explorer privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/walletconnect-sessions-what-connect-wallet-really-grants",
+      "anchor": "WalletConnect sessions"
+    },
+    {
+      "url": "https://etz-swap.com/blog/browser-fingerprints-captchas-suspicious-device-flags-crypto-privacy",
+      "anchor": "browser fingerprinting and suspicious-device flags"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/no-javascript-crypto-swap",
+      "anchor": "No-JavaScript crypto swap"
+    }
+  ],
+  "keyQuestions": [
+    "Can a website see my crypto wallet address without me sending a transaction?",
+    "Can browser wallet extensions create privacy leaks before a transaction?",
+    "Can RPC traffic link several addresses to the same wallet environment?",
+    "Does disconnecting a dApp remove all wallet-related privacy exposure?",
+    "How is wallet-provider fingerprinting different from ordinary browser fingerprinting?",
+    "Can a VPN prevent browser wallet tracking?",
+    "How can I reduce browser-wallet exposure before a no-KYC crypto swap?"
+  ],
+  "quickSteps": [
+    "Separate wallet activity from identity-heavy browsing by using a dedicated browser profile or device role.",
+    "Divide crypto accounts by purpose so one wallet environment does not automatically connect every financial identity.",
+    "Grant account access only when the site genuinely needs it, and expose only the account required for that action.",
+    "Review connected sites, wallet permissions, and on-chain token approvals separately instead of assuming Disconnect removed everything.",
+    "Prefer a wallet-to-wallet or reduced-browser flow when direct wallet connection adds no practical value to the transaction."
+  ],
+  "issueRouting": {
+    "start": "What browser-wallet privacy exposure exists before the crypto transaction is sent?",
+    "branches": [
+      {
+        "if": "A website only needs to show information, a quote, or a deposit address",
+        "then": [
+          "Avoid connecting the browser wallet if account access is not required.",
+          "Use the service without exposing an unnecessary wallet provider relationship.",
+          "Prefer a wallet-to-wallet or reduced-browser flow when the task supports it."
+        ]
+      },
+      {
+        "if": "A website genuinely requires wallet connection",
+        "then": [
+          "Expose only the account required for the task when account-level selection is available.",
+          "Keep public, experimental, storage, and sensitive wallet roles separate.",
+          "Review the wallet permission state after the interaction ends."
+        ]
+      },
+      {
+        "if": "An old dApp connection or wallet permission may still exist",
+        "then": [
+          "Open the wallet's connected-sites or permissions interface.",
+          "Remove relationships that are no longer needed.",
+          "Review on-chain token approvals separately because disconnecting a site does not automatically revoke them."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A browser wallet can expose privacy-relevant metadata even when no transaction is sent.",
+    "Wallet-provider detection can add a crypto-specific signal to an ordinary browser fingerprint.",
+    "RPC or backend queries may reveal relationships between addresses that are not directly linked on-chain.",
+    "Old account permissions can create correlation between addresses across later visits if they remain available.",
+    "Shared third-party scripts can increase cross-site correlation risk when wallet identifiers become visible.",
+    "A VPN or Tor can improve network privacy but cannot automatically hide wallet-provider information or addresses disclosed through wallet permissions."
+  ]
+}
