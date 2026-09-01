@@ -1,0 +1,93 @@
+{
+  "slug": "btc-to-xmr-utxo-change-output",
+  "type": "article",
+  "title": "BTC to XMR and Bitcoin UTXOs: Coin Selection, Change Outputs, Fees, and Privacy",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-utxo-change-output",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-utxo-change-output-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin basics"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/swap-btc-to-xmr-without-kyc",
+      "anchor": "swap BTC to XMR without KYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/block-explorer-privacy-in-practice-what-your-ip-timing-wallet-lookups-and-shared-links-can-reveal",
+      "anchor": "block explorer privacy"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    }
+  ],
+  "keyQuestions": [
+    "What is a UTXO in a BTC to XMR swap?",
+    "Why can a BTC wallet use several inputs for one transaction?",
+    "Why can a Bitcoin transaction show two outputs?",
+    "Can many small UTXOs increase the Bitcoin network fee?",
+    "Can UTXO consolidation reveal links between BTC addresses?",
+    "Does receiving XMR hide the original Bitcoin deposit transaction?"
+  ],
+  "quickSteps": [
+    "Inspect the wallet preview and confirm the current BTC deposit address before signing.",
+    "Check how many UTXOs the wallet selected if the network fee looks unexpectedly high.",
+    "Treat change as a normal wallet-controlled output, but avoid unnecessary address reuse.",
+    "Avoid merging unrelated UTXOs only for convenience when preserving separation matters to you.",
+    "Verify the amount, fee, inputs, and destination one final time, then send only when the transaction matches the active route."
+  ],
+  "issueRouting": {
+    "start": "What should you check when your BTC to XMR deposit transaction shows unexpected inputs, outputs, or fees?",
+    "branches": [
+      {
+        "if": "The transaction uses several inputs and the fee looks higher than expected.",
+        "then": [
+          "Check how many UTXOs the wallet selected.",
+          "Compare the transaction size and proposed feerate before signing.",
+          "Use coin control only if you understand the fee and privacy trade-offs."
+        ]
+      },
+      {
+        "if": "The transaction shows a second output that you do not recognize.",
+        "then": [
+          "Verify the swap deposit address and amount first.",
+          "Check whether the wallet identifies the second output as change.",
+          "Do not assume two outputs mean bitcoin was sent to the wrong destination."
+        ]
+      },
+      {
+        "if": "You are considering consolidating UTXOs before the swap.",
+        "then": [
+          "Check whether the UTXOs came from contexts you intended to keep separate.",
+          "Consider the trade-off between future fee efficiency and visible input linkage.",
+          "Avoid unnecessary consolidation when preserving separation matters."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Combining several ordinary Bitcoin inputs can create visible relationships between UTXOs that were previously separate.",
+    "Repeated Bitcoin address reuse can make transaction history easier to cluster and follow.",
+    "A change output is normal, but it remains part of the public Bitcoin transaction graph.",
+    "Many small UTXOs can increase transaction weight and therefore increase the total fee at the same feerate.",
+    "Receiving XMR does not erase or hide the Bitcoin transaction that funded the swap."
+  ]
+}
