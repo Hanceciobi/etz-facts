@@ -1,0 +1,89 @@
+{
+  "slug": "btc-to-xmr-bitcoin-address-types-segwit-taproot",
+  "type": "article",
+  "title": "BTC to XMR and Bitcoin Address Types: Legacy, SegWit, Taproot, Fees, and Wallet Compatibility",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-bitcoin-address-types-segwit-taproot",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-bitcoin-address-types-segwit-taproot-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin (BTC)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "crypto swap XMR"
+    }
+  ],
+  "keyQuestions": [
+    "What Bitcoin address types matter before a BTC to XMR swap?",
+    "Can I send BTC from a Legacy address to a bc1q SegWit address?",
+    "What is the difference between Bitcoin addresses starting with 1, 3, bc1q, and bc1p?",
+    "Does using a SegWit address always reduce the Bitcoin network fee?",
+    "Can every Bitcoin wallet send BTC to a Taproot bc1p address?",
+    "Does Taproot make a BTC to XMR deposit transaction private?"
+  ],
+  "quickSteps": [
+    "Copy the exact Bitcoin deposit address from the active BTC to XMR order instead of reusing an old destination.",
+    "Identify whether the address begins with 1, 3, bc1q, or bc1p only as a compatibility clue, not as permission to modify it.",
+    "Verify that your sending wallet accepts the destination format before building or signing the transaction.",
+    "Review transaction weight, inputs, and the proposed network fee instead of assuming the address prefix alone determines cost.",
+    "Confirm the full destination and BTC amount one final time, then send only when the wallet preview matches the active order."
+  ],
+  "issueRouting": {
+    "start": "What should you check when the Bitcoin deposit address format looks unfamiliar before a BTC to XMR swap?",
+    "branches": [
+      {
+        "if": "The deposit address begins with 1, 3, bc1q, or bc1p and you are unsure what the prefix means.",
+        "then": [
+          "Identify the address format only as a compatibility clue.",
+          "Keep the full destination unchanged.",
+          "Verify that your wallet recognizes it as a valid Bitcoin mainnet address."
+        ]
+      },
+      {
+        "if": "Your wallet rejects the deposit address.",
+        "then": [
+          "Check whether the wallet supports the destination address format.",
+          "Update or switch to compatible Bitcoin wallet software if needed.",
+          "Do not manually edit the address or replace its prefix."
+        ]
+      },
+      {
+        "if": "The network fee looks higher than expected.",
+        "then": [
+          "Review the transaction inputs and total transaction weight.",
+          "Check the proposed feerate before signing.",
+          "Do not assume the destination address prefix alone caused the higher fee."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Manually changing a Bitcoin address prefix does not convert the destination into another compatible format.",
+    "A bc1q or bc1p address does not guarantee a lower transaction fee because input composition and transaction weight still matter.",
+    "Older Bitcoin wallet software may not support newer SegWit or Taproot destination formats.",
+    "Taproot can reduce disclosure in some spending constructions but does not hide ordinary Bitcoin transaction amounts, inputs, outputs, or graph relationships.",
+    "Reusing a modern SegWit or Taproot address still creates address-reuse privacy risks on the public Bitcoin blockchain."
+  ]
+}
