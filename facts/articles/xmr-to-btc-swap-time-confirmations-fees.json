@@ -1,0 +1,89 @@
+{
+  "slug": "xmr-to-btc-swap-time-confirmations-fees",
+  "type": "article",
+  "title": "How Long Does an XMR to BTC Swap Take? Confirmations, Fees, and Bitcoin Delivery",
+  "pageUrl": "https://etz-swap.com/blog/xmr-to-btc-swap-time-confirmations-fees",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xmr-to-btc-swap-time-confirmations-fees-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "crypto swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "crypto swap xmr"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin (BTC)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "swap route status"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "btc-to-xmr"
+    }
+  ],
+  "keyQuestions": [
+    "How long does an XMR to BTC swap take?",
+    "Which stages determine the total XMR to BTC swap time?",
+    "How many XMR confirmations are required before processing?",
+    "Which fees affect an XMR to BTC swap?",
+    "How can a sender prove that XMR was sent to the exchange deposit address?",
+    "When may ETZ-Swap support request a Monero transaction key?"
+  ],
+  "quickSteps": [
+    "Create a fresh order and copy its current XMR deposit address.",
+    "Enter a BTC address controlled by the intended recipient.",
+    "Confirm the XMR amount, minimum requirement, quote type, and displayed BTC result.",
+    "Make sure the Monero wallet is synchronized and review the complete deposit address before approving the transfer.",
+    "Save the order identifier, secret token, and XMR TXID privately, then follow the route status instead of sending a second payment while the first one is still confirming."
+  ],
+  "issueRouting": {
+    "start": "The XMR to BTC swap has not completed.",
+    "branches": [
+      {
+        "if": "The XMR deposit is pending or has not been detected.",
+        "then": [
+          "Confirm that the Monero wallet is synchronized.",
+          "Check the XMR TXID and its confirmation state.",
+          "Compare the deposit address and amount with the active order."
+        ]
+      },
+      {
+        "if": "The user says XMR was sent but the exchange cannot identify it.",
+        "then": [
+          "Collect the order identifier, XMR TXID, deposit address, amount, and sending time.",
+          "Contact ETZ-Swap through the official support channel.",
+          "Provide the transaction key only if support requests it for the disputed payment."
+        ]
+      },
+      {
+        "if": "The BTC payout was broadcast but remains pending.",
+        "then": [
+          "Check the Bitcoin payout TXID.",
+          "Confirm that the receiving wallet has detected the transaction.",
+          "Wait for the Bitcoin transaction to receive network confirmation."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A Monero TXID alone may not reveal the destination address or transferred amount to a third party.",
+    "A transaction key exposes information about one payment and should never be published publicly.",
+    "A mnemonic seed, private spend key, wallet password, or recovery phrase must never be shared with support.",
+    "A private view key is broader than a transaction key and should not be used as proof of one disputed payment.",
+    "XMR deposit confirmation and BTC payout confirmation are separate stages on different blockchains."
+  ]
+}
