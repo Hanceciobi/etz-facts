@@ -1,0 +1,85 @@
+{
+  "slug": "btc-to-xmr-lightning-on-chain-deposit",
+  "type": "article",
+  "title": "BTC to XMR: Can You Send Lightning Bitcoin to an On-Chain Deposit?",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-lightning-on-chain-deposit",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-lightning-on-chain-deposit-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "btc-to-xmr"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-available-balance-before-swap",
+      "anchor": "available balance before a swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/sent-on-wrong-network-recovery-realistic-steps",
+      "anchor": "sent on the wrong network"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "crypto swap xmr"
+    }
+  ],
+  "keyQuestions": [
+    "Can a Lightning wallet send to a normal Bitcoin address?",
+    "How do I know whether a BTC deposit is on-chain or Lightning?",
+    "Can Lightning BTC directly fund a BTC to XMR order?",
+    "What is the difference between a Lightning invoice and a Bitcoin address?",
+    "What should I check when a wallet offers a swap-out?",
+    "What should I do after using the wrong Bitcoin payment rail?"
+  ],
+  "quickSteps": [
+    "Identify the deposit rail by reading the network label and payment type on the active order.",
+    "Confirm the wallet's send mode and make sure it will create an on-chain Bitcoin transaction, not a Lightning payment.",
+    "Convert or withdraw Lightning funds on-chain first when the wallet cannot pay the requested address directly.",
+    "Create a fresh BTC to XMR order only after the required amount is spendable on-chain and the Monero address is verified.",
+    "Verify the destination, amount, fee, and on-chain TXID before treating the deposit as sent, and stop if any detail does not match."
+  ],
+  "issueRouting": {
+    "start": "A BTC to XMR order requests an on-chain Bitcoin deposit, but the user's BTC may be on Lightning.",
+    "branches": [
+      {
+        "if": "The wallet has enough spendable on-chain BTC.",
+        "then": [
+          "Select the wallet's on-chain Bitcoin account.",
+          "Confirm that the order requests the Bitcoin mainnet payment rail.",
+          "Review the destination and amount before sending."
+        ]
+      },
+      {
+        "if": "The balance is on Lightning and the wallet offers a swap-out.",
+        "then": [
+          "Review the conversion provider, fees, limits, output amount, and timing.",
+          "Move the funds to an on-chain wallet controlled by the user.",
+          "Wait until the resulting BTC is spendable before creating a fresh order."
+        ]
+      },
+      {
+        "if": "A payment was already attempted through the wrong rail.",
+        "then": [
+          "Determine whether the payment failed, created an on-chain TXID, or completed as a Lightning payment.",
+          "Collect the order ID, destination, amount, time, status, and payment identifier.",
+          "Contact the relevant service through its official channel and do not send a second payment."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A native Lightning payment does not create the on-chain transaction expected by an ordinary Bitcoin deposit address.",
+    "A combined BTC balance can hide how much is actually spendable on-chain.",
+    "A swap-out may deduct conversion and network fees from the amount that reaches the on-chain destination.",
+    "Scanning a QR code successfully does not prove that the wallet selected the correct payment rail.",
+    "A seed phrase, private key, wallet backup, password, or remote-access session must never be shared for payment recovery."
+  ]
+}
