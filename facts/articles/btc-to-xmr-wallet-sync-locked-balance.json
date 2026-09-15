@@ -1,0 +1,93 @@
+{
+  "slug": "btc-to-xmr-wallet-sync-locked-balance",
+  "type": "article",
+  "title": "BTC to XMR Swap Completed but Monero Is Not Showing: Wallet Sync, Confirmations, and Locked Balance",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-wallet-sync-locked-balance",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-wallet-sync-locked-balance-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-route-status-explained",
+      "anchor": "swap route status"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "crypto swap xmr"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "btc to xmr"
+    },
+    {
+      "url": "https://etz-swap.com/blog/monero-wallets-guide",
+      "anchor": "Monero wallet setup"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-confirmation-time",
+      "anchor": "swap confirmation time"
+    },
+    {
+      "url": "https://etz-swap.com/blog/what-happens-if-crypto-wallet-app-closes",
+      "anchor": "Wallet recovery after an app closes"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR exchange pair"
+    }
+  ],
+  "keyQuestions": [
+    "Why is the swap Completed while XMR is still absent?",
+    "How long until XMR is spendable?",
+    "Why can I see the incoming transaction but not use the amount?",
+    "Can I confirm my Monero balance by pasting the address into an explorer?",
+    "What does a wrong restore height look like?",
+    "Can support synchronize the wallet for me?"
+  ],
+  "quickSteps": [
+    "Capture the order number, payout TXID, amount, destination, and status time in a private note.",
+    "Locate the payout hash and determine whether it is waiting for a block or already mined.",
+    "Open the wallet and account that generated the destination, then let its scan pass the payout block.",
+    "Read total and available balances separately, allowing 10 confirmations when the output is visible but locked.",
+    "Request official support only when the checkpoints conflict, and provide case details without wallet-access secrets."
+  ],
+  "issueRouting": {
+    "start": "The BTC to XMR order is Completed, but the Monero wallet does not show a spendable payout.",
+    "branches": [
+      {
+        "if": "The order has no XMR payout TXID.",
+        "then": [
+          "Return to the order record.",
+          "Contact official exchange support.",
+          "Do not change wallet settings before a payout reference exists."
+        ]
+      },
+      {
+        "if": "The payout is mined, but the wallet has not scanned past its block.",
+        "then": [
+          "Open the wallet and account that generated the destination.",
+          "Use a reliable node and let synchronization continue.",
+          "Wait until the wallet scan height passes the payout block."
+        ]
+      },
+      {
+        "if": "The payout is visible, but the available balance remains lower.",
+        "then": [
+          "Check the confirmation counter.",
+          "Allow the output to reach 10 confirmations.",
+          "Do not rescan or send a second payment."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A Completed order status does not prove that the receiving wallet has scanned the payout block.",
+    "A synchronized application can still show zero when the wrong wallet or account is open.",
+    "A restore height set after the payout block can omit the incoming transaction.",
+    "Sending a second BTC payment creates another timeline and makes the original case harder to diagnose.",
+    "Recovery words, private keys, wallet files, passwords, and remote access are never required for support diagnostics."
+  ]
+}
