@@ -1,0 +1,97 @@
+{
+  "slug": "btc-to-xmr-rate-change-final-payout",
+  "type": "article",
+  "title": "Why BTC to XMR Rates Change: Quotes, Fees, and Final Payouts",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-rate-change-final-payout",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-rate-change-final-payout-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "crypto swap XMR"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route page"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin wallets"
+    },
+    {
+      "url": "https://etz-swap.com/blog/fixed-rate-crypto-swap",
+      "anchor": "fixed-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/floating-rate-crypto-swap",
+      "anchor": "floating-rate crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-quote-expired",
+      "anchor": "expired crypto swap quote"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/price-impact-vs-slippage-crypto-swap",
+      "anchor": "price impact versus slippage"
+    }
+  ],
+  "keyQuestions": [
+    "Why is my final XMR amount lower than the estimate?",
+    "Does the Bitcoin miner fee reduce the XMR payout?",
+    "Is a fixed BTC to XMR rate guaranteed in every situation?",
+    "When is a floating BTC/XMR rate calculated?",
+    "Why did my balance fall by more BTC than the order amount?",
+    "Can a market chart verify the payout rate?"
+  ],
+  "quickSteps": [
+    "Record the required BTC amount, rate mode, quote time, and estimated XMR payout.",
+    "Confirm that the Bitcoin wallet will not subtract its miner fee from the required deposit.",
+    "Verify the deposit-address output instead of using the transaction's total value.",
+    "Compare the payout with the pricing checkpoint promised by the order.",
+    "Stop and document the route if the facts do not match; contact official support and do not send a second payment."
+  ],
+  "issueRouting": {
+    "start": "Why does the final XMR payout differ from the BTC to XMR estimate?",
+    "branches": [
+      {
+        "if": "The credited BTC deposit differs from the amount requested by the order.",
+        "then": [
+          "Verify the exact output sent to the deposit address.",
+          "Check whether the wallet subtracted the Bitcoin miner fee from the recipient amount.",
+          "Separate the deposit output from any change returned to the sender."
+        ]
+      },
+      {
+        "if": "The credited BTC deposit matches, but the applied rate differs from the opening estimate.",
+        "then": [
+          "Confirm whether the order used a fixed or floating rate.",
+          "Compare the quote, broadcast, and confirmation times with the disclosed pricing checkpoint.",
+          "Check whether all fixed-rate timing and deposit conditions were met."
+        ]
+      },
+      {
+        "if": "The order shows an XMR payout, but the receiving wallet does not show spendable funds.",
+        "then": [
+          "Record the order ID and payout reference before changing wallet settings.",
+          "Check the wallet sync state, selected account, and connected node.",
+          "Verify whether the detected XMR output is still waiting to become spendable."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The total Bitcoin wallet balance reduction is not proof of the amount credited to the swap order.",
+    "Using send-max can cause the wallet to subtract the miner fee from the recipient output.",
+    "A fixed rate remains conditional on the order's stated amount, timing, and confirmation rules.",
+    "A public market chart cannot prove the rate applied by a specific BTC to XMR route.",
+    "Never share a seed phrase, private key, wallet backup, or remote-access credentials during a payout investigation."
+  ]
+}
