@@ -1,0 +1,129 @@
+{
+  "slug": "etz-swap-eidex-partnership",
+  "type": "article",
+  "title": "ETZ-Swap and EIDEX Partnership",
+  "pageUrl": "https://etz-swap.com/blog/etz-swap-eidex-partnership",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/etz-swap-eidex-partnership-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com",
+      "anchor": "ETZ-Swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-trocador-partnership-press-release",
+      "anchor": "Trocador"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-and-orangefren-partnership",
+      "anchor": "OrangeFren"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerodex-partnership-compare-xmr-swap-routes",
+      "anchor": "MoneroDEX"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-lizardswap-partnership-no-kyc-swap-users",
+      "anchor": "LizardSwap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-cyphergoat-partnership",
+      "anchor": "CypherGoat"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-changerella-partnership",
+      "anchor": "Changerella partnership"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-antikyc-io-partnership",
+      "anchor": "AntiKYC"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-monerica-partnership-monerica-directory",
+      "anchor": "Monerica directory"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-kycnotlist-partnership",
+      "anchor": "KYCnotlist"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-listed-in-top-no-kyc-catalog",
+      "anchor": "NOTOKYC catalog"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-wellcrypto-partnership-safer-swap-route-faster",
+      "anchor": "Wellcrypto"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-splitnow-partnership-multi-wallet-payouts",
+      "anchor": "SplitNOW"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-eigenwallet-partnership",
+      "anchor": "EigenWallet"
+    },
+    {
+      "url": "https://etz-swap.com/blog/zano-on-etz-swap-private-l1",
+      "anchor": "Zano integration with ETZ-Swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/etz-swap-zenx-partnership",
+      "anchor": "ZenX + ETZ partnership"
+    }
+  ],
+  "keyQuestions": [
+    "What is EIDEX and how does its cryptocurrency route aggregator work?",
+    "Which types of exchange sources does EIDEX compare?",
+    "How are live ETZ-Swap quotes displayed in EIDEX?",
+    "Does ETZ-Swap use its own reserves for routes shown by EIDEX?",
+    "Which limits and network details can EIDEX display for an ETZ-Swap route?",
+    "How does a user complete an exchange after selecting ETZ-Swap in EIDEX?"
+  ],
+  "quickSteps": [
+    "Enter the source asset and network, destination asset and network, and exchange amount on EIDEX.",
+    "Review the available routes by comparing the expected wallet payout and provider information.",
+    "Select ETZ-Swap when its quote and supported amount match the intended exchange.",
+    "Continue to ETZ-Swap and confirm the currencies, networks, amount, rate type, and destination address.",
+    "Send the deposit through the specified network and receive the exchanged asset at the destination wallet."
+  ],
+  "issueRouting": {
+    "start": "Which EIDEX route should the user select for a crypto exchange?",
+    "branches": [
+      {
+        "if": "An ETZ-Swap route is available and the amount is within its limits",
+        "then": [
+          "Compare the expected wallet payout with the other available routes",
+          "Verify the selected source and destination networks",
+          "Continue to ETZ-Swap and confirm the current exchange details"
+        ]
+      },
+      {
+        "if": "The entered amount is outside the ETZ-Swap minimum or maximum",
+        "then": [
+          "Review the limit displayed for the route",
+          "Adjust the amount when appropriate",
+          "Compare the routes available for the revised request"
+        ]
+      },
+      {
+        "if": "The selected asset is available on multiple blockchain networks",
+        "then": [
+          "Verify the source and destination networks separately",
+          "Match the wallet and deposit address to the selected networks",
+          "Choose the network-specific route that matches the intended transfer"
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A route quote applies to the selected asset, network, amount, and available reserves.",
+    "The sending network must match the network specified for the deposit route.",
+    "Minimum and maximum exchange amounts can differ between routes.",
+    "The current quote and destination details should be confirmed on ETZ-Swap before a deposit is sent.",
+    "EIDEX compares routes, while ETZ-Swap executes the selected ETZ-Swap exchange."
+  ]
+}
