@@ -1,0 +1,102 @@
+{
+  "slug": "usdt-to-xmr-erc20-eth-gas-fee",
+  "type": "article",
+  "title": "USDT to XMR: Why ERC-20 Transfers Need ETH for Gas",
+  "pageUrl": "https://etz-swap.com/blog/usdt-to-xmr-erc20-eth-gas-fee",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-to-xmr-erc20-eth-gas-fee-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-xmr-xmr-100",
+      "anchor": "USDT to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/usdt",
+      "anchor": "Tether (USDT)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-available-balance-before-swap",
+      "anchor": "available balance before a crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum"
+    },
+    {
+      "url": "https://etz-swap.com/blog/sent-on-wrong-network-recovery-realistic-steps",
+      "anchor": "sending on the wrong network"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT to SOL route"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-to-xmr-route-guide",
+      "anchor": "a broader stablecoin to XMR route guide"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero (XMR)"
+    }
+  ],
+  "keyQuestions": [
+    "Do I need ETH to send USDT?",
+    "Can the Ethereum gas fee be deducted from USDT?",
+    "How much ETH should I keep for a USDT transfer?",
+    "Can WETH pay the gas fee for ERC-20 USDT?",
+    "Can I send USDT on Tron to an Ethereum deposit address?",
+    "Why does my wallet say I have USDT but cannot send it?",
+    "Does Ethereum gas reduce the XMR payout?"
+  ],
+  "quickSteps": [
+    "Confirm that both the order and the sending wallet use Ethereum for the USDT transfer.",
+    "Separate the required USDT deposit from the native ETH balance needed for gas.",
+    "Fund the actual sending address with enough Ethereum-mainnet ETH for the current wallet estimate.",
+    "Review the recipient, token amount, network, and fee preview before signing.",
+    "Save the order reference and transaction hash, then verify the existing transfer before taking any further action."
+  ],
+  "issueRouting": {
+    "start": "The wallet cannot complete or the order does not yet reflect an ERC-20 USDT transfer.",
+    "branches": [
+      {
+        "if": "No transaction hash exists.",
+        "then": [
+          "Check the native ETH balance in the sending address.",
+          "Confirm that Ethereum mainnet is selected.",
+          "Review the wallet fee estimate before trying to send."
+        ]
+      },
+      {
+        "if": "A transaction hash exists but the transfer is pending.",
+        "then": [
+          "Track the transaction in a reputable Ethereum block explorer.",
+          "Do not send the deposit again while the first transfer is unresolved.",
+          "Use wallet-native fee controls only if you understand how they affect the pending transaction."
+        ]
+      },
+      {
+        "if": "The transaction is confirmed but the order has not updated.",
+        "then": [
+          "Compare the confirmed network, recipient address, token contract, and USDT amount with the order.",
+          "Allow for the service detection and confirmation process.",
+          "Share only the order identifier and transaction hash with support if further review is needed."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "ERC-20 USDT requires native ETH in the same sending account to pay Ethereum gas.",
+    "USDT on another network is not interchangeable with ERC-20 USDT just because the ticker is the same.",
+    "WETH or ETH held on a layer 2 does not normally replace native ETH required for an Ethereum-mainnet USDT transfer.",
+    "Sending less USDT because you expect the fee to be deducted from the token can create an underpayment.",
+    "Do not send a second deposit while the first transaction is pending or its status is unclear."
+  ]
+}
