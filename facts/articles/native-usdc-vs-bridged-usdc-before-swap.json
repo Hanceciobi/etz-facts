@@ -1,0 +1,102 @@
+{
+  "slug": "native-usdc-vs-bridged-usdc-before-swap",
+  "type": "article",
+  "title": "Native USDC vs Bridged USDC (USDC.e): What to Check Before a Crypto Swap",
+  "pageUrl": "https://etz-swap.com/blog/native-usdc-vs-bridged-usdc-before-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/native-usdc-vs-bridged-usdc-before-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/coins/usdc",
+      "anchor": "USDC crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/ai-token-explanations-before-crypto-swap",
+      "anchor": "verify the token contract before a crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-minimum-amount-guide",
+      "anchor": "minimum swap amount"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fee breakdown"
+    },
+    {
+      "url": "https://etz-swap.com/blog/stablecoin-to-xmr-route-guide",
+      "anchor": "stablecoin to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "XMR destination wallet"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-refund-address",
+      "anchor": "crypto swap refund address"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "check the deposit address before sending"
+    }
+  ],
+  "keyQuestions": [
+    "What is the difference between native USDC and bridged USDC?",
+    "How can I identify the exact USDC contract in my wallet?",
+    "Does USDC.e identify one universal bridged token?",
+    "Can I use bridged USDC in a crypto swap?",
+    "What should I do if the route accepts native USDC but I hold USDC.e?",
+    "What should I do after sending the wrong USDC version?"
+  ],
+  "quickSteps": [
+    "Open the wallet’s network view and identify the ledger that contains the spendable balance.",
+    "Reveal the full contract, establish whether the token is native or bridge-derived, and compare it with current official information.",
+    "Select only a route whose network and accepted version match the completed asset passport.",
+    "Recalculate the usable amount, reserve gas, and review the order minimum after any preliminary conversion.",
+    "Save the order details, check the deposit address before sending, and make one transfer from the verified balance."
+  ],
+  "issueRouting": {
+    "start": "Which USDC balance should I use for the selected crypto swap route?",
+    "branches": [
+      {
+        "if": "The wallet network does not match the route network",
+        "then": [
+          "Return to the wallet network selector.",
+          "Locate the USDC balance on the intended source blockchain.",
+          "Do not send until the wallet and route name the same network."
+        ]
+      },
+      {
+        "if": "The network matches but the USDC contract or version is unsupported or unclear",
+        "then": [
+          "Compare the wallet contract with current official information.",
+          "Confirm that the route accepts that exact token version.",
+          "If conversion is required, complete it before creating the order and inspect the resulting contract."
+        ]
+      },
+      {
+        "if": "The wrong USDC version has already been sent",
+        "then": [
+          "Stop after the first mistaken transfer and do not send another payment.",
+          "Record the order ID, transaction hash, network, token contract, amount, receiving address, and transfer time.",
+          "Contact verified support without sharing a seed phrase, private key, or remote wallet access."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A familiar ticker, logo, or displayed dollar value does not prove token identity.",
+    "Similar address formats across EVM-compatible networks do not make their assets interchangeable.",
+    "The USDC.e label alone does not prove that a particular route supports its contract.",
+    "A small unsupported deposit can still require manual investigation and may not be recoverable.",
+    "Converting between USDC versions can consume gas and reduce the spendable balance below the order minimum.",
+    "Manual recovery depends on infrastructure, access, policy, and cost; it is never guaranteed."
+  ]
+}
