@@ -1,0 +1,85 @@
+{
+  "slug": "btc-to-xmr-stuck-mempool-rbf-fee-bump",
+  "type": "article",
+  "title": "BTC to XMR Stuck in the Mempool: RBF, Fee Bumps, and What to Check",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-stuck-mempool-rbf-fee-bump",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-stuck-mempool-rbf-fee-bump-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/btc-to-xmr-utxo-change-output",
+      "anchor": "Bitcoin UTXOs, change outputs, and fees"
+    },
+    {
+      "url": "https://etz-swap.com/blog/can-crypto-transaction-be-cancelled",
+      "anchor": "whether a crypto transaction can be cancelled or reversed"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "swap Bitcoin"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "swap XMR"
+    }
+  ],
+  "keyQuestions": [
+    "Why is my BTC to XMR swap still pending?",
+    "Should I send BTC again if my first deposit has zero confirmations?",
+    "Can I speed up BTC after sending it?",
+    "Can I use RBF for a BTC to XMR deposit?",
+    "Why did my TXID change after increasing the fee?",
+    "My BTC is confirmed. Why am I still waiting?"
+  ],
+  "quickSteps": [
+    "Find the BTC TXID and establish whether the deposit is unbroadcast, unconfirmed, or already confirmed.",
+    "Inspect the unconfirmed transaction before acting, including its fee conditions and any fee-bump controls offered by the sending wallet.",
+    "Verify the deposit output before approving an RBF replacement, and record both transaction IDs if the TXID changes.",
+    "Keep the Bitcoin transaction and the swap order as separate checkpoints; do not send another ordinary deposit just because one of them is still waiting.",
+    "Move the diagnosis downstream after confirmation: first to the order, then to the XMR payout and wallet if the swap has already completed."
+  ],
+  "issueRouting": {
+    "start": "The BTC to XMR order appears to be stuck or pending.",
+    "branches": [
+      {
+        "if": "There is no usable BTC TXID",
+        "then": [
+          "Confirm whether the sending wallet actually created the Bitcoin transaction.",
+          "Check whether the wallet successfully broadcast the transaction.",
+          "Do not assume that a wallet error means a Bitcoin transaction exists."
+        ]
+      },
+      {
+        "if": "The BTC TXID exists but has zero confirmations",
+        "then": [
+          "Inspect the transaction status and current fee conditions.",
+          "Check whether the sending wallet offers an appropriate RBF or fee-bump function.",
+          "Do not create a second ordinary BTC deposit as a shortcut."
+        ]
+      },
+      {
+        "if": "The BTC transaction is already confirmed",
+        "then": [
+          "Stop treating the case as a Bitcoin mempool problem.",
+          "Compare the confirmed BTC payment with the current swap order status.",
+          "If the order is completed but XMR is not visible, move to XMR payout and wallet checks."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A pending Bitcoin transaction is not automatically a failed transaction.",
+    "Sending another ordinary BTC deposit can result in two separate payments if both transactions confirm.",
+    "Before approving an RBF replacement, verify that the intended BTC deposit output remains correct.",
+    "Keep the original and replacement TXIDs when a fee bump creates a new transaction ID.",
+    "Never provide a seed phrase or private key when requesting support for a delayed transaction."
+  ]
+}
