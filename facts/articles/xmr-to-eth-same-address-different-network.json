@@ -1,0 +1,90 @@
+{
+  "slug": "xmr-to-eth-same-address-different-network",
+  "type": "article",
+  "title": "XMR to ETH: Same 0x Address, Different Network — What Should You Check Before a Swap?",
+  "pageUrl": "https://etz-swap.com/blog/xmr-to-eth-same-address-different-network",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xmr-to-eth-same-address-different-network-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum (ETH)"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero (XMR)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/sent-on-wrong-network-recovery-realistic-steps",
+      "anchor": "wrong network crypto send"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Why is my Ethereum address the same on different networks?",
+    "If my 0x address is identical, does the network still matter?",
+    "Can I use my Base address for an XMR to ETH swap?",
+    "Why is my ETH not showing even though the destination address is correct?",
+    "Does switching networks create a new wallet address?",
+    "Is the 0x prefix enough to validate an ETH destination?",
+    "Can the same wallet have different ETH balances on different networks?"
+  ],
+  "quickSteps": [
+    "Identify the destination network required by the active XMR to ETH route before copying any wallet address.",
+    "Open the wallet you control and select the same network so the receiving context is clear.",
+    "Copy the complete 0x address directly from the wallet and verify the pasted destination instead of typing it manually.",
+    "Match the source asset, destination asset, network, address, amount, and order details before sending XMR.",
+    "Verify the network-specific transaction and wallet view first if the ETH payout is not visible, and do not create another transaction while the original state is unclear."
+  ],
+  "issueRouting": {
+    "start": "You are preparing or checking an XMR to ETH payout and the same 0x address appears on multiple EVM networks.",
+    "branches": [
+      {
+        "if": "The same 0x address appears on Ethereum and another EVM-compatible network.",
+        "then": [
+          "Identify the destination network required by the active XMR to ETH route.",
+          "Select that network in the receiving wallet and confirm that the wallet supports it.",
+          "Copy and verify the complete account address before sending XMR."
+        ]
+      },
+      {
+        "if": "The ETH payout exists but is not visible in the wallet.",
+        "then": [
+          "Check which network processed the payout transaction.",
+          "Inspect the transaction using the explorer for that specific network.",
+          "Switch or filter the receiving wallet to the same network and check the balance and history again."
+        ]
+      },
+      {
+        "if": "The receiving destination is a smart contract wallet or smart account.",
+        "then": [
+          "Check whether the wallet is deployed or supported on the destination network.",
+          "Do not assume that the same-looking address behaves identically across every EVM-compatible chain.",
+          "Confirm network-specific support before using the address for the XMR to ETH payout."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "An identical 0x address on two EVM-compatible networks does not make those networks interchangeable.",
+    "The 0x prefix and matching first or last characters are not enough to validate the destination network.",
+    "A valid payout can appear missing if the wallet is displaying a different network from the one that recorded the transaction.",
+    "Smart contract wallets may have network-specific deployment or support requirements even when the visible address looks familiar.",
+    "Do not create another XMR to ETH order or add transactions while the original payout network and transaction state are still unclear."
+  ]
+}
