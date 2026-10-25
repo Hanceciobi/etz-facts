@@ -1,0 +1,87 @@
+{
+  "slug": "usdt-to-sol-does-usdt-need-to-be-on-solana",
+  "type": "article",
+  "title": "USDT to SOL: Does Your USDT Need to Be on Solana First?",
+  "pageUrl": "https://etz-swap.com/blog/usdt-to-sol-does-usdt-need-to-be-on-solana",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/usdt-to-sol-does-usdt-need-to-be-on-solana-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/how-instant-crypto-exchange-works",
+      "anchor": "instant crypto exchange"
+    },
+    {
+      "url": "https://etz-swap.com/coins/usdt",
+      "anchor": "Tether (USDT)"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/usdt-eth-sol-sol-100",
+      "anchor": "USDT to SOL route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/usdt-to-xmr-erc20-eth-gas-fee",
+      "anchor": "ERC-20 USDT needs ETH for gas"
+    },
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "swap flow"
+    }
+  ],
+  "keyQuestions": [
+    "Can I exchange USDT on Ethereum for native SOL?",
+    "Does my USDT have to be on Solana before I can receive SOL?",
+    "Should I bridge USDT to Solana before swapping it?",
+    "Can I use Solana USDT when an order asks for Ethereum USDT?",
+    "Why does my wallet need ETH during a USDT to SOL swap?",
+    "Do I need SOL in my wallet before receiving native SOL?",
+    "What should I do if my USDT network does not match the order?"
+  ],
+  "quickSteps": [
+    "Open the USDT balance you plan to spend and identify the blockchain where that balance actually exists.",
+    "Compare that blockchain with the network requested for the deposit instead of choosing a source based on the SOL destination.",
+    "Open the correct Solana account in your receiving wallet and verify the address intended for native SOL.",
+    "Make sure the source wallet can create the USDT transaction, including the native fee asset required by its blockchain.",
+    "Stop before broadcasting anything when the source asset, source network, or receiving network does not match the order."
+  ],
+  "issueRouting": {
+    "start": "What should you do when your USDT network and SOL destination network are different?",
+    "branches": [
+      {
+        "if": "Your USDT is on Ethereum and the route accepts Ethereum USDT.",
+        "then": [
+          "Use the Ethereum-side deposit instructions from the current order.",
+          "Make sure the sending wallet has the native fee asset required to create the USDT transaction.",
+          "Verify the Solana receiving address separately before funding the order."
+        ]
+      },
+      {
+        "if": "Your USDT is on Solana but the order asks for Ethereum USDT.",
+        "then": [
+          "Do not send the Solana version of USDT to the requested deposit.",
+          "Choose a route that supports the USDT network you already hold or reposition the asset through a supported process.",
+          "Return to the order only after the source asset and source network match its requirements."
+        ]
+      },
+      {
+        "if": "You are unsure whether you need to bridge USDT before getting SOL.",
+        "then": [
+          "Check which USDT network the selected route accepts.",
+          "Do not add a bridge merely because the payout asset is native to Solana.",
+          "Use the direct route when it already accepts your current USDT network and pays native SOL."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "The USDT ticker alone does not identify the network where the balance exists.",
+    "USDT on Solana is not interchangeable with USDT on Ethereum when an order specifies a particular source network.",
+    "Bridging USDT before a USDT to SOL swap may add an unnecessary transaction when the route already accepts the network version you hold.",
+    "Ethereum-based USDT can require ETH for the outgoing network fee even when the final payout is SOL.",
+    "A multichain wallet can manage Ethereum and Solana accounts inside one app without making their addresses or balances interchangeable.",
+    "Do not send a small test payment to an incompatible deposit network expecting the service to reroute it automatically."
+  ]
+}
