@@ -1,0 +1,87 @@
+{
+  "slug": "btc-to-eth-native-btc-vs-wrapped-bitcoin",
+  "type": "article",
+  "title": "BTC to ETH: Native Bitcoin vs Wrapped Bitcoin — What Are You Actually Sending?",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-eth-native-btc-vs-wrapped-bitcoin",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-eth-native-btc-vs-wrapped-bitcoin-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin (BTC)"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum (ETH)"
+    },
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "swap flow"
+    }
+  ],
+  "keyQuestions": [
+    "Is WBTC the same as BTC?",
+    "Why can BTC and WBTC have almost the same dollar value?",
+    "How can I tell whether I own BTC or WBTC?",
+    "Can I send WBTC directly to a Bitcoin address?",
+    "Does WBTC always exist on Ethereum?",
+    "Do I have to convert BTC to WBTC before exchanging BTC for ETH?",
+    "What if the exchange asks for BTC but my wallet contains WBTC?"
+  ],
+  "quickSteps": [
+    "Identify the exact Bitcoin-related asset in your wallet instead of relying on its icon or market value.",
+    "Confirm the blockchain where that balance exists and determine whether it is a native coin or a token.",
+    "Match native BTC to the Bitcoin-side requirement of the BTC to ETH route before preparing any transfer.",
+    "Verify the ETH network and receiving wallet independently from the Bitcoin source side.",
+    "Stop if the asset identity or network does not match, and choose an explicit conversion path rather than testing an incompatible transfer."
+  ],
+  "issueRouting": {
+    "start": "What should you do if your wallet shows Bitcoin-related value but you are not sure whether it can fund a BTC to ETH swap?",
+    "branches": [
+      {
+        "if": "The wallet shows native BTC on the Bitcoin network.",
+        "then": [
+          "Confirm that the BTC to ETH route expects native BTC.",
+          "Verify the current Bitcoin-side deposit requirement before preparing the transfer.",
+          "Check the ETH payout network and receiving address separately."
+        ]
+      },
+      {
+        "if": "The wallet shows WBTC or another Bitcoin-linked token.",
+        "then": [
+          "Identify the exact network where the token exists.",
+          "Do not substitute it for a native BTC deposit unless the route explicitly supports that asset and network.",
+          "Use a supported conversion path if native BTC is required."
+        ]
+      },
+      {
+        "if": "The wallet interface does not make the asset or network clear.",
+        "then": [
+          "Open the asset details and check the ticker, network, and native-or-token status.",
+          "Do not rely on the wallet brand, Bitcoin logo, or fiat price to identify the asset.",
+          "Stop before sending until the asset identity matches the receiving requirement."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Similar market value does not make BTC and WBTC interchangeable at the blockchain level.",
+    "WBTC should not be sent to a native Bitcoin deposit as a normal token transfer.",
+    "WBTC is available on multiple networks, so the token name alone does not identify the settlement network.",
+    "A multichain wallet can display native BTC and wrapped Bitcoin in the same interface without combining them into one spendable balance.",
+    "Wrapping BTC is not automatically required before a BTC to ETH swap when the selected route accepts native BTC directly.",
+    "An incompatible test transfer is still an incompatible transfer, even when the amount is small."
+  ]
+}
