@@ -1,0 +1,82 @@
+{
+  "slug": "trx-to-xmr-bandwidth-vs-energy",
+  "type": "article",
+  "title": "TRX to XMR: Bandwidth vs Energy — What Does a TRX Transfer Actually Use?",
+  "pageUrl": "https://etz-swap.com/blog/trx-to-xmr-bandwidth-vs-energy",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/trx-to-xmr-bandwidth-vs-energy-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/coins/trx",
+      "anchor": "TRON (TRX)"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/trx-trx-xmr-xmr-300",
+      "anchor": "TRX to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero (XMR)"
+    },
+    {
+      "url": "https://etz-swap.com/how-it-works",
+      "anchor": "swap flow"
+    }
+  ],
+  "keyQuestions": [
+    "Why does my TRON wallet show both Bandwidth and Energy?",
+    "Which resource matters for a normal native TRX payment?",
+    "Does zero Energy mean I cannot send TRX?",
+    "Why did my previous TRC-20 transfer behave differently?",
+    "Can a TRX transaction still cost TRX when Bandwidth is low?",
+    "Should I leave a fixed amount of TRX behind for fees?",
+    "What should I do if the swap does not detect my TRX deposit?"
+  ],
+  "quickSteps": [
+    "Identify whether the wallet is creating a direct native TRX payment or an operation that executes contract logic.",
+    "Read the current transaction preview and resource result instead of relying on a remembered fee value.",
+    "Match the planned TRX deposit with the active order amount, current deposit address, and verified XMR destination.",
+    "Send the deposit once and save the TXID as the primary record of the transaction.",
+    "Follow the TXID and compare the on-chain result with the swap flow before changing the amount or sending again."
+  ],
+  "issueRouting": {
+    "start": "What should you check when Bandwidth or Energy looks confusing before or after a TRX to XMR deposit?",
+    "branches": [
+      {
+        "if": "The TRX transaction has not been broadcast and there is no TXID.",
+        "then": [
+          "Confirm that the wallet is preparing native TRX rather than a contract-based token.",
+          "Review the current Bandwidth, Energy, and transaction preview for the operation being created.",
+          "Check the amount, deposit address, and current resource cost before sending."
+        ]
+      },
+      {
+        "if": "A TXID exists but the swap has not detected the deposit yet.",
+        "then": [
+          "Check the transaction on the TRON network.",
+          "Verify the recorded destination, amount, and transaction status.",
+          "Compare the on-chain result with the active swap order before taking another action."
+        ]
+      },
+      {
+        "if": "The wallet balance looks sufficient but the full amount may not be sendable.",
+        "then": [
+          "Do not assume the displayed TRX balance equals the exact usable send amount.",
+          "Review the live transaction preview and current resource result.",
+          "Adjust the planned deposit only if the wallet shows that the transaction cannot be created as intended."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "Bandwidth and Energy serve different roles, so both resource meters should not be treated as mandatory requirements for every TRX transaction.",
+    "A previous TRC-20 transfer is not a reliable model for the resource behavior of a native TRX transfer.",
+    "A low Bandwidth reading does not automatically mean that the TRX transaction cannot be sent.",
+    "A fixed TRX fee reserve can become outdated because network parameters and account resource conditions can change.",
+    "If a TXID already exists, verify that transaction before creating a second deposit."
+  ]
+}
