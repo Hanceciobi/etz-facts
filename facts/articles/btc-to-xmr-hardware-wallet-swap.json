@@ -1,0 +1,87 @@
+{
+  "slug": "btc-to-xmr-hardware-wallet-swap",
+  "type": "article",
+  "title": "BTC to XMR From a Hardware Wallet: Do You Need to Connect It to the Swap Site?",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-hardware-wallet-swap",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-hardware-wallet-swap-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/coins/btc",
+      "anchor": "Bitcoin (BTC)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/btc-to-xmr-utxo-change-output",
+      "anchor": "Bitcoin UTXOs and change outputs"
+    },
+    {
+      "url": "https://etz-swap.com/blog/btc-to-xmr-monero-address-types",
+      "anchor": "Monero address types"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    }
+  ],
+  "keyQuestions": [
+    "Can I fund a BTC to XMR swap directly from a hardware wallet?",
+    "Does the swap website need access to my Ledger or Trezor?",
+    "Is connecting the hardware wallet to its own software the same as connecting it to the swap site?",
+    "Can the hardware wallet tell whether the deposit address belongs to the real exchange?",
+    "Should I move BTC to a hot wallet before swapping?",
+    "Does the hardware wallet change Bitcoin confirmation time?",
+    "Does the hardware wallet need to support XMR too?"
+  ],
+  "quickSteps": [
+    "Verify the active BTC to XMR route and prepare the Monero destination before you start moving any Bitcoin.",
+    "Treat the deposit address as a Bitcoin payment destination rather than assuming the swap site needs direct control of your hardware wallet.",
+    "Compare the transaction shown by the hardware device with the current order details before authorizing the BTC spend.",
+    "Refuse unexpected wallet connections, secret-key requests, or transaction details that you cannot explain from the order you created.",
+    "After broadcast, follow the Bitcoin transaction and order status instead of changing wallets or creating extra payments while the first deposit is still being processed."
+  ],
+  "issueRouting": {
+    "start": "You want to fund a BTC to XMR swap from a hardware wallet and are unsure how the wallet should interact with the swap.",
+    "branches": [
+      {
+        "if": "The order provides a normal Bitcoin deposit address",
+        "then": [
+          "Use your normal hardware-wallet setup to prepare the on-chain BTC payment.",
+          "Verify the current order details before signing.",
+          "Compare the destination and transaction details on the hardware device before authorizing the spend."
+        ]
+      },
+      {
+        "if": "The site unexpectedly asks for direct wallet access, secrets, or an unfamiliar connection",
+        "then": [
+          "Do not approve the request automatically.",
+          "Confirm whether the active order actually requires anything beyond a Bitcoin deposit.",
+          "Never reveal a recovery phrase, private key, or other secret to complete a normal deposit-address payment."
+        ]
+      },
+      {
+        "if": "The BTC transaction has already been broadcast",
+        "then": [
+          "Track the Bitcoin transaction and the active order status.",
+          "Do not reconnect the hardware wallet merely to wait for confirmations.",
+          "Avoid creating another payment while the first deposit is still being processed unless the order instructions specifically require it."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A hardware wallet can verify the transaction you authorize, but it cannot prove that the website or order that supplied the deposit address is legitimate.",
+    "Moving BTC through an unnecessary hot wallet can add another transaction, another fee, another address, and another opportunity for error.",
+    "A valid Bitcoin address can still belong to the wrong, expired, or fraudulent order.",
+    "The hardware wallet used for the BTC source does not need to be the same wallet that receives the XMR payout.",
+    "Using a hardware wallet does not give a Bitcoin transaction faster confirmation or a special network fee.",
+    "Unexpected requests for recovery phrases, private keys, or unrelated wallet permissions should not be treated as normal requirements for a deposit-address swap."
+  ]
+}
