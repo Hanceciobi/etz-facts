@@ -1,0 +1,87 @@
+{
+  "slug": "eth-to-xmr-from-exchange-withdrawal",
+  "type": "article",
+  "title": "ETH to XMR From an Exchange: Can You Send the Withdrawal Straight to the Swap?",
+  "pageUrl": "https://etz-swap.com/blog/eth-to-xmr-from-exchange-withdrawal",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/eth-to-xmr-from-exchange-withdrawal-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/eth-eth-xmr-xmr-0.125",
+      "anchor": "ETH to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum (ETH)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-address-check",
+      "anchor": "crypto swap address check"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero (XMR)"
+    }
+  ],
+  "keyQuestions": [
+    "Can I send ETH directly from a centralized exchange to a swap address?",
+    "Do I need to withdraw ETH to MetaMask or another wallet first?",
+    "Which network should I use when withdrawing ETH for an ETH to XMR swap?",
+    "Can an exchange withdrawal fee cause an underpayment?",
+    "What if the exchange withdrawal is still processing when the quote changes?",
+    "Can I reuse a saved ETH swap deposit address?",
+    "Is direct exchange withdrawal more private?"
+  ],
+  "quickSteps": [
+    "Verify the active ETH to XMR route and prepare the Monero receiving wallet before starting the exchange withdrawal.",
+    "Match the withdrawal network to the network required by the current order instead of relying on the shared 0x address format.",
+    "Check the final amount expected to reach the deposit address after the exchange applies its withdrawal fee.",
+    "Compare the current deposit address with the withdrawal destination immediately before confirming the payment.",
+    "Track the existing withdrawal through its real state before sending anything else if the exchange, blockchain, or swap order appears delayed."
+  ],
+  "issueRouting": {
+    "start": "You want to fund an ETH to XMR swap directly from a centralized exchange withdrawal.",
+    "branches": [
+      {
+        "if": "The exchange clearly shows the correct Ethereum network, destination, fee, and final received amount",
+        "then": [
+          "Compare the withdrawal network with the active swap order.",
+          "Verify that the final amount expected to arrive matches the intended deposit.",
+          "Confirm the current deposit address immediately before submitting the withdrawal."
+        ]
+      },
+      {
+        "if": "The exchange withdrawal details make the network, fee deduction, or final received amount unclear",
+        "then": [
+          "Do not rely on the ETH ticker or 0x address format alone.",
+          "Review the withdrawal preview and network selection again.",
+          "Consider withdrawing to a self-custody wallet first if that gives you clearer control over the final swap payment."
+        ]
+      },
+      {
+        "if": "The withdrawal is delayed or the swap quote changes before the ETH arrives",
+        "then": [
+          "Determine whether the withdrawal is still internal to the exchange, broadcast on Ethereum, pending, or confirmed.",
+          "Track the existing transaction hash when one is available.",
+          "Do not create another payment until the state of the first withdrawal is clear."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A valid 0x address does not prove that every EVM withdrawal network is acceptable for the active swap order.",
+    "An exchange withdrawal fee may reduce the amount that actually reaches the deposit address.",
+    "A withdrawal marked as processing by the exchange may not yet exist as an on-chain Ethereum transaction.",
+    "A saved deposit address from an older swap order should not be assumed to belong to the current order.",
+    "Direct withdrawal reduces transaction steps but gives the exchange more control over the timing and construction of the source payment.",
+    "Sending ETH directly from a centralized exchange does not erase the source-side records already held by that platform."
+  ]
+}
