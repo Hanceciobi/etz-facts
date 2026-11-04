@@ -1,0 +1,87 @@
+{
+  "slug": "xmr-to-eth-receiving-wallet-gas",
+  "type": "article",
+  "title": "XMR to ETH: Does the Receiving Wallet Need ETH Before the Swap?",
+  "pageUrl": "https://etz-swap.com/blog/xmr-to-eth-receiving-wallet-gas",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/xmr-to-eth-receiving-wallet-gas-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/exchange-pair/xmr-xmr-eth-eth-1",
+      "anchor": "XMR to ETH route"
+    },
+    {
+      "url": "https://etz-swap.com/coins/xmr",
+      "anchor": "Monero (XMR)"
+    },
+    {
+      "url": "https://etz-swap.com/coins/eth",
+      "anchor": "Ethereum (ETH)"
+    },
+    {
+      "url": "https://etz-swap.com/blog/wallet-to-wallet-crypto-swap",
+      "anchor": "wallet-to-wallet crypto swap"
+    },
+    {
+      "url": "https://etz-swap.com/blog/xmr-to-eth-same-address-different-network",
+      "anchor": "same 0x address, different network"
+    }
+  ],
+  "keyQuestions": [
+    "Can an empty Ethereum wallet receive ETH?",
+    "Does receiving ETH cost gas?",
+    "Can I use a zero-balance wallet for an XMR to ETH swap?",
+    "Do I need to activate a new Ethereum wallet first?",
+    "Who pays the gas when ETH is sent to my wallet?",
+    "Can I receive ETH but still be unable to send the entire balance?",
+    "Does the destination network still matter if the address looks correct?"
+  ],
+  "quickSteps": [
+    "Prepare an Ethereum wallet you control and display its current receiving address.",
+    "Verify the XMR to ETH route without treating a zero ETH balance as a requirement to fund the destination first.",
+    "Compare the receiving address and required network before sending the source-side Monero payment.",
+    "Let the incoming ETH transaction complete before evaluating what the wallet can spend afterward.",
+    "Keep enough received ETH available for future gas if you plan to send, swap, bridge, or use the funds on-chain."
+  ],
+  "issueRouting": {
+    "start": "The Ethereum receiving wallet is empty and you are unsure whether it needs ETH before an XMR to ETH payout.",
+    "branches": [
+      {
+        "if": "The wallet balance is zero but you control the address and the network matches the active order.",
+        "then": [
+          "Do not fund the wallet merely to activate it.",
+          "Use the verified receiving address for the payout.",
+          "Wait for the incoming ETH transaction to complete."
+        ]
+      },
+      {
+        "if": "The address looks correct but you are unsure whether the selected Ethereum network matches the order.",
+        "then": [
+          "Stop before sending the source-side XMR payment.",
+          "Verify the destination network separately from the 0x address format.",
+          "Use the network required by the active order."
+        ]
+      },
+      {
+        "if": "The ETH has arrived and you want to send, swap, bridge, or use it on-chain.",
+        "then": [
+          "Treat the next action as a new Ethereum transaction.",
+          "Check the expected gas requirement before choosing the outgoing amount.",
+          "Keep enough native ETH available to pay the transaction fee."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A zero ETH balance does not mean a normal self-custody Ethereum address cannot receive native ETH.",
+    "The sender pays the gas for a standard incoming ETH transfer; the recipient does not need ETH in advance merely to receive it.",
+    "A matching 0x address does not prove that the correct EVM network has been selected.",
+    "Receiving ETH and spending ETH are separate actions with separate gas requirements.",
+    "Trying to send the entire received ETH balance may fail because the outgoing transaction also needs native ETH for gas.",
+    "Smart-contract wallets and custodial platforms may have additional operational rules that differ from a standard externally owned Ethereum account."
+  ]
+}
