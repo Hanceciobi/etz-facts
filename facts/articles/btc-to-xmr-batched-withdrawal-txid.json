@@ -1,0 +1,125 @@
+
+{
+  "slug": "btc-to-xmr-batched-withdrawal-txid",
+  "type": "article",
+  "title": "BTC to XMR Exchange Withdrawal: How to Verify the TXID",
+  "pageUrl": "https://etz-swap.com/blog/btc-to-xmr-batched-withdrawal-txid",
+  "cover": "https://api.etz-swap.com/api/v1/content?path=blog/btc-to-xmr-batched-withdrawal-txid-cover.jpg",
+  "publisher": {
+    "name": "ETZ Swap",
+    "url": "https://etz-swap.com",
+    "logo": "https://api.etz-swap.com/api/v1/content?path=blog/logo.webp"
+  },
+  "friendlyUrls": [
+    {
+      "url": "https://etz-swap.com/blog/btc-to-xmr-utxo-change-output",
+      "anchor": "Bitcoin change outputs"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-xmr-xmr-0.125",
+      "anchor": "BTC to XMR route"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-fee-breakdown",
+      "anchor": "crypto swap fees"
+    },
+    {
+      "url": "https://etz-swap.com/blog/btc-to-xmr-stuck-mempool-rbf-fee-bump",
+      "anchor": "stuck BTC transaction"
+    },
+    {
+      "url": "https://etz-swap.com/blog/eth-to-xmr-from-exchange-withdrawal",
+      "anchor": "ETH to XMR exchange withdrawals"
+    },
+    {
+      "url": "https://etz-swap.com/blog/crypto-swap-wrong-amount-underpayment-overpayment",
+      "anchor": "underpayment or overpayment"
+    },
+    {
+      "url": "https://etz-swap.com/exchange-pair/btc-btc-eth-eth-0.125",
+      "anchor": "BTC to ETH route"
+    }
+  ],
+  "keyQuestions": [
+    "Why does my BTC to XMR exchange withdrawal show multiple Bitcoin outputs?",
+    "Can different Bitcoin withdrawals share the same TXID?",
+    "How do I identify my swap deposit among the outputs of a batched Bitcoin transaction?",
+    "Why is the Bitcoin network fee different from the exchange withdrawal fee?",
+    "What should I do if the Bitcoin transaction is confirmed but my BTC to XMR swap still shows waiting?",
+    "Can a batched withdrawal result in an underpayment of my swap order?"
+  ],
+  "quickSteps": [
+    "Open the active BTC to XMR order and copy its exact Bitcoin deposit address.",
+    "Obtain the on-chain TXID from the sending exchange rather than relying on an internal withdrawal reference.",
+    "Locate the output paying that address and record its amount and index if available.",
+    "Check confirmations and compare the actual received amount with the swap order's requirements.",
+    "Contact the appropriate official support channel if the records disagree, and do not send a second deposit until the issue is clarified."
+  ],
+  "issueRouting": {
+    "start": "A user withdraws Bitcoin from an exchange to fund a BTC to XMR swap and needs to verify the deposit within a transaction containing multiple outputs.",
+    "branches": [
+      {
+        "if": "The exchange withdrawal has no on-chain TXID or only shows an internal withdrawal reference.",
+        "then": [
+          "Check the exchange withdrawal history for the broadcast status.",
+          "Look for a field labeled TXID, Transaction Hash, or View on Blockchain.",
+          "Contact the sending exchange through its official support channel if the withdrawal remains delayed.",
+          "Do not submit another withdrawal before establishing whether the original transaction was broadcast."
+        ]
+      },
+      {
+        "if": "The Bitcoin TXID exists but the transaction contains multiple unfamiliar outputs.",
+        "then": [
+          "Open the transaction in a Bitcoin block explorer.",
+          "Compare the full output addresses with the deposit address assigned to the active BTC to XMR order.",
+          "Identify the matching output and record its amount and output index.",
+          "Ignore the transaction's combined output value when determining the amount sent to the swap address."
+        ]
+      },
+      {
+        "if": "The correct deposit output exists but the transaction is still unconfirmed.",
+        "then": [
+          "Check the transaction's current confirmation status.",
+          "Distinguish normal Bitcoin confirmation waiting from an exchange withdrawal that has not been broadcast.",
+          "Avoid sending another BTC deposit solely because the transaction is pending.",
+          "Follow the appropriate transaction-status procedure if the confirmation delay persists."
+        ]
+      },
+      {
+        "if": "The matching Bitcoin output is confirmed but the swap order still shows waiting.",
+        "then": [
+          "Verify that the output pays the exact BTC deposit address from the active order.",
+          "Compare the received amount with the order's required amount and minimum.",
+          "Check whether the swap service's required confirmation threshold has been reached.",
+          "Contact official swap support with the order ID, TXID, output index, amount, and confirmation status."
+        ]
+      },
+      {
+        "if": "The amount received at the swap deposit address is lower than the amount required by the order.",
+        "then": [
+          "Compare the original exchange withdrawal request with the actual Bitcoin output amount.",
+          "Check whether the exchange deducted its withdrawal fee from the requested amount.",
+          "Follow the swap service's stated procedure for underpayment.",
+          "Do not assume that an additional transfer to the same address will automatically correct the order."
+        ]
+      },
+      {
+        "if": "The same Bitcoin deposit address appears in more than one output of a single transaction.",
+        "then": [
+          "Record each matching output index and its corresponding BTC amount.",
+          "Determine whether the combined outputs match the expected deposit amount.",
+          "Do not assume that the swap processor automatically combines separate outputs into one order credit.",
+          "Request reconciliation from official support if the order status does not match the blockchain records."
+        ]
+      }
+    ]
+  },
+  "riskNotes": [
+    "A Bitcoin TXID identifies the entire transaction, not an individual withdrawal output. Different customer withdrawals can share the same TXID.",
+    "The combined transaction value shown by a block explorer does not represent the amount received by a specific BTC to XMR deposit address.",
+    "The network fee displayed by a Bitcoin explorer applies to the entire transaction and should not be confused with the exchange's individual withdrawal fee.",
+    "A completed exchange withdrawal status does not necessarily prove that the transaction has been broadcast or confirmed on the Bitcoin network.",
+    "An exchange may deduct its withdrawal fee from the requested amount, leaving the actual BTC deposit below the swap order's requirements.",
+    "Bitcoin batching does not erase public blockchain records or an exchange's internal account history. Receiving XMR does not guarantee anonymity for an earlier Bitcoin withdrawal."
+  ]
+}
